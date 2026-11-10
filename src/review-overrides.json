@@ -1,0 +1,230 @@
+{
+  "joram-arrow": {
+    "eventGroup": "event:joram-arrow"
+  },
+  "jezebel-agents": {
+    "eventGroup": "event:joram-arrow"
+  },
+  "zimri": {
+    "eventGroup": "event:joram-arrow"
+  },
+  "saul-narrator": {
+    "eventGroup": "event:saul-narrator"
+  },
+  "saul-claim": {
+    "eventGroup": "event:saul-narrator"
+  },
+  "abimelech-final": {
+    "eventGroup": "event:abimelech-final"
+  },
+  "abimelech-place": {
+    "eventGroup": "event:abimelech-final"
+  },
+  "hilkiah-find": {
+    "eventGroup": "event:hilkiah-find"
+  },
+  "shaphan-read": {
+    "eventGroup": "event:hilkiah-find"
+  },
+  "josiah:book-of-law": {
+    "eventGroup": "event:hilkiah-find"
+  },
+  "huldah:book-of-law": {
+    "eventGroup": "event:hilkiah-find"
+  },
+  "huldah-husband": {
+    "eventGroup": "event:hilkiah-find"
+  },
+  "naaman-river": {
+    "eventGroup": "event:naaman-river"
+  },
+  "elisha:naaman": {
+    "eventGroup": "event:naaman-river"
+  },
+  "naaman-servant": {
+    "eventGroup": "event:naaman-river"
+  },
+  "anoint-jehu": {
+    "eventGroup": "event:anoint-jehu"
+  },
+  "jehu:anointed": {
+    "eventGroup": "event:anoint-jehu"
+  },
+  "jehu:not-judah": {
+    "eventGroup": "event:anoint-jehu"
+  },
+  "rahab-line": {
+    "eventGroup": "event:rahab-line",
+    "contrasts": {
+      "Two": "Two links run from Obed to David, not from Rahab.",
+      "Three": "Three links run from Boaz to David; starting at Rahab adds one.",
+      "Five": "Matthew’s displayed sequence has four links; this count would insert an additional link."
+    }
+  },
+  "boaz:david-relation": {
+    "eventGroup": "event:rahab-line"
+  },
+  "ruth:boaz-david": {
+    "eventGroup": "event:rahab-line"
+  },
+  "amaziah-amos": {
+    "eventGroup": "event:amaziah-amos",
+    "knowledgePointId": "fact:amaziah-amos"
+  },
+  "amos-occupation": {
+    "eventGroup": "event:amaziah-amos"
+  },
+  "amos": {
+    "eventGroup": "event:amaziah-amos",
+    "knowledgePointId": "fact:amaziah-amos"
+  },
+  "obadiah-hide": {
+    "eventGroup": "event:obadiah-hide"
+  },
+  "obadiah": {
+    "eventGroup": "event:obadiah-hide"
+  },
+  "herod-james": {
+    "eventGroup": "event:herod-james"
+  },
+  "peter-rhoda": {
+    "eventGroup": "event:herod-james"
+  },
+  "hosea-egypt": {
+    "eventGroup": "event:hosea-egypt",
+    "contrasts": {
+      "Judah's king Ahaz": "Hosea 11:1 explicitly names Israel; it does not identify this son as Ahaz.",
+      "The prophet's son Jezreel": "Jezreel is a child named in Hosea 1:4; Hosea 11:1 speaks of Israel’s earlier childhood.",
+      "The priest Joshua": "Joshua is the high priest in Haggai 1:1, not the subject identified in Hosea 11:1."
+    }
+  },
+  "hosea": {
+    "eventGroup": "event:hosea-egypt",
+    "contrasts": {
+      "Jeremiah": "Matthew 2:17–18 uses Jeremiah for the lament at Ramah, not the son called out of Egypt.",
+      "Isaiah": "The son-out-of-Egypt wording matches Hosea 11:1, which names Israel.",
+      "Micah": "Matthew 2:5–6 uses Micah’s Bethlehem ruler passage; the Egypt saying comes from Hosea."
+    }
+  },
+  "athaliah-rescuer": {
+    "eventGroup": "event:athaliah-rescuer"
+  },
+  "jehoiada:joash": {
+    "eventGroup": "event:athaliah-rescuer"
+  },
+  "hezekiah:isaiah-sennacherib": {
+    "eventGroup": "event:hezekiah:isaiah-sennacherib"
+  },
+  "trio": {
+    "eventGroup": "event:hezekiah:isaiah-sennacherib"
+  },
+  "felix-successor": {
+    "eventGroup": "event:felix-successor"
+  },
+  "felix:paul-prison": {
+    "eventGroup": "event:felix-successor"
+  },
+  "gallio-achaia": {
+    "eventGroup": "event:gallio-achaia",
+    "knowledgePointId": "fact:gallio-achaia"
+  },
+  "gallio:corinth": {
+    "eventGroup": "event:gallio-achaia",
+    "knowledgePointId": "fact:gallio-achaia"
+  },
+  "ezekiel-river": {
+    "eventGroup": "event:ezekiel-river"
+  },
+  "ezekiel-father": {
+    "eventGroup": "event:ezekiel-river"
+  },
+  "zeph-king": {
+    "eventGroup": "event:zeph-king"
+  },
+  "zeph-father": {
+    "eventGroup": "event:zeph-king"
+  },
+  "ephesians-messenger": {
+    "eventGroup": "event:ephesians-messenger"
+  },
+  "ephesians-shield": {
+    "eventGroup": "event:ephesians-messenger"
+  },
+  "azariah-joash": {
+    "contrasts": {
+      "Zechariah son of Berechiah": "The prophet is identified with Berechiah and Iddo in Zechariah 1:1; the temple-court victim is explicitly Jehoiada’s son.",
+      "Zechariah son of Jeroboam": "This king of Israel was killed by Shallum (2 Kings 15:8–10), not stoned at Joash’s command.",
+      "Zechariah father of John": "Luke 1:5–13 places this priest in the account of John’s birth; the victim in Chronicles is a different priestly son."
+    }
+  },
+  "josiah-chronicles": {
+    "contrasts": {
+      "Megiddo": "This is the battlefield context (2 Chronicles 35:22), before the servants brought the wounded king to Jerusalem.",
+      "Riblah": "This is where Zedekiah was judged (2 Kings 25:6–7), not where Chronicles says Josiah died.",
+      "Lachish": "Amaziah fled here and was killed (2 Kings 14:19); that is a different king’s death."
+    }
+  },
+  "stephen-amos": {
+    "contrasts": {
+      "Hosea": "The tabernacle and star imagery in Acts 7 corresponds to Amos 5:25–27; Hosea 11:1 instead supplies Matthew’s son-out-of-Egypt saying.",
+      "Isaiah": "Isaiah is quoted later in the same speech (Acts 7:48–50); it is not the source of the earlier Moloch passage.",
+      "Ezekiel": "The wording of the cited Moloch passage corresponds to Amos, not Ezekiel; similar idolatry themes do not establish the quotation’s source."
+    }
+  },
+  "rahab:jericho-matthew-hebrews": {
+    "contrasts": {
+      "Ruth": "Matthew names Ruth as Obed’s mother; Joshua and Hebrews name Rahab in the spy episode.",
+      "Tamar": "Matthew 1:3 identifies Tamar with Perez and Zerah; she is not the woman named in Joshua 2.",
+      "Bathsheba": "Matthew 1:6 refers to Uriah’s wife in the line of Solomon; she is not the spy-sheltering woman in Joshua."
+    }
+  },
+  "flight": {
+    "contrasts": {
+      "Gath, Nob, Adullam, Keilah": "This reverses the first two cited scenes: Nob precedes Gath in 1 Samuel 21.",
+      "Nob, Adullam, Gath, Keilah": "Adullam follows the Gath episode; 1 Samuel 22:1 says David departed from there.",
+      "Adullam, Nob, Gath, Keilah": "The Adullam scene follows both Nob and Gath, rather than beginning this sequence."
+    }
+  },
+  "satan-census": {
+    "contrasts": {
+      "2 Samuel": "This parallel account opens with Jehovah’s anger moving David, rather than naming Satan.",
+      "1 Kings": "The specified contrast is between 1 Chronicles 21:1 and 2 Samuel 24:1.",
+      "2 Chronicles": "The passage naming Satan is in 1 Chronicles 21, not 2 Chronicles."
+    }
+  },
+  "house-prayer": {
+    "contrasts": {
+      "Jeremiah": "Jeremiah 7:11 supplies the den-of-robbers part, not the house-of-prayer clause.",
+      "Malachi": "The cited house-of-prayer clause is in Isaiah 56:7, not Malachi.",
+      "Zechariah": "The cited house-of-prayer clause is in Isaiah 56:7, not Zechariah."
+    }
+  },
+  "overlap": {
+    "contrasts": {
+      "Isaiah": "Isaiah 1:1 explicitly lists Hezekiah among the kings.",
+      "Micah": "Micah 1:1 explicitly lists Hezekiah among the kings.",
+      "Hosea": "Hosea 1:1 explicitly lists Hezekiah among the kings."
+    }
+  },
+  "conclusion": {
+    "contrasts": {
+      "Two": "Two links connect David to Rehoboam, but the question starts with Jesse.",
+      "Four": "The supplied sequence has four people but three links.",
+      "Five": "Five links would require two additional steps not in the supplied chain."
+    }
+  },
+  "elisha-wrong": {
+    "contrasts": {
+      "A borrowed iron axe head floating": "This is the Elisha episode in 2 Kings 6:5–7.",
+      "Naaman washing in the Jordan": "Elisha sent the washing instructions in 2 Kings 5:10.",
+      "A widow filling borrowed vessels with oil": "Elisha directed the widow in 2 Kings 4:1–7."
+    }
+  },
+  "jonah-nineveh": {
+    "contrasts": {
+      "Nahum the Elkoshite": "Nahum 1:1 names Nineveh as its subject, but 2 Kings 14:25 names Jonah son of Amittai.",
+      "Amos of Tekoa": "Amos 1:1 dates his words during Jeroboam’s reign; the Nineveh commission names Jonah.",
+      "Hosea son of Beeri": "Hosea 1:1 also includes Jeroboam’s reign; the commission in Jonah 1 is not addressed to Hosea."
+    }
+  }
+}

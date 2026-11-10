@@ -1,0 +1,3977 @@
+[
+  {
+    "id": "ot|Adam|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Adam|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Adam|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Eve|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Eve|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Eve|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Cain|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Cain|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Cain|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Abel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Abel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Abel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Seth|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Seth|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Seth|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Enoch|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Enoch|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Enoch|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Methuselah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Methuselah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Methuselah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Noah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Noah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Noah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Abraham|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Abraham|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Abraham|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Sarah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Sarah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Sarah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Hagar|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Hagar|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Hagar|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ishmael|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ishmael|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ishmael|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Isaac|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Isaac|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Isaac|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Rebekah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Rebekah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Rebekah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Esau|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Esau|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Esau|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jacob (Israel)|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jacob (Israel)|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jacob (Israel)|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Joseph|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Joseph|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Joseph|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Moses|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Moses|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Moses|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Aaron|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Aaron|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Aaron|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Miriam|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Miriam|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Miriam|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Joshua|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Joshua|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Joshua|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Rahab|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Rahab|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Rahab|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Deborah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Deborah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Deborah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Gideon|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Gideon|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Gideon|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jephthah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jephthah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jephthah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Manoah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Manoah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Manoah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Samson|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Samson|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Samson|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Naomi|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Naomi|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Naomi|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ruth|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ruth|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ruth|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Boaz|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Boaz|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Boaz|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Elkanah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Elkanah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Elkanah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Hannah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Hannah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Hannah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Eli|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Eli|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Eli|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Samuel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Samuel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Samuel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Saul|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Saul|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Saul|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jonathan|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jonathan|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jonathan|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|David|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|David|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|David|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Abigail|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Abigail|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Abigail|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Nabal|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Nabal|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Nabal|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Abner|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Abner|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Abner|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ish-bosheth|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ish-bosheth|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ish-bosheth|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Mephibosheth|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Mephibosheth|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Mephibosheth|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Uriah the Hittite|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Uriah the Hittite|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Uriah the Hittite|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Joab|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Joab|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Joab|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ahithophel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ahithophel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ahithophel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Hushai|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Hushai|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Hushai|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Barzillai|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Barzillai|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Barzillai|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Adonijah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Adonijah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Adonijah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Solomon|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Solomon|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Solomon|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Rehoboam|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Rehoboam|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Rehoboam|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Elijah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Elijah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Elijah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Elisha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Elisha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Elisha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ahab|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ahab|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ahab|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jezebel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jezebel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jezebel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Naaman|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Naaman|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Naaman|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Gehazi|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Gehazi|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Gehazi|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Hazael|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Hazael|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Hazael|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jehu|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jehu|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jehu|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Athaliah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Athaliah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Athaliah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jehoiada|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jehoiada|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jehoiada|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Joash|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Joash|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Joash|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Hezekiah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Hezekiah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Hezekiah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Sennacherib|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Sennacherib|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Sennacherib|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Rabshakeh|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Rabshakeh|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Rabshakeh|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Shalmaneser|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Shalmaneser|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Shalmaneser|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Huldah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Huldah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Huldah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Josiah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Josiah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Josiah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Baruch|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Baruch|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Baruch|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ebed-melech|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ebed-melech|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ebed-melech|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Nebuchadnezzar|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Nebuchadnezzar|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Nebuchadnezzar|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Daniel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Daniel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Daniel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Shadrach|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Shadrach|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Shadrach|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Meshach|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Meshach|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Meshach|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Abednego|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Abednego|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Abednego|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Esther|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Esther|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Esther|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Mordecai|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Mordecai|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Mordecai|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ezra|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ezra|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ezra|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Nehemiah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Nehemiah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Nehemiah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Noadiah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Noadiah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Noadiah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Zerubbabel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Zerubbabel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Zerubbabel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Job|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Job|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Job|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Zechariah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Zechariah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Zechariah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Elizabeth|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Elizabeth|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Elizabeth|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|John the Baptist|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|John the Baptist|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|John the Baptist|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Mary|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Mary|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Mary|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Joseph|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Joseph|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Joseph|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Jesus Christ|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Jesus Christ|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Jesus Christ|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Peter|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Peter|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Peter|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Andrew|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Andrew|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Andrew|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|James son of Zebedee|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|James son of Zebedee|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|James son of Zebedee|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|John son of Zebedee|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|John son of Zebedee|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|John son of Zebedee|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Matthew|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Matthew|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Matthew|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Thomas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Thomas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Thomas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Judas Iscariot|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Judas Iscariot|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Judas Iscariot|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Mary Magdalene|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Mary Magdalene|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Mary Magdalene|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Martha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Martha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Martha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Mary of Bethany|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Mary of Bethany|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Mary of Bethany|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Lazarus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Lazarus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Lazarus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Zacchaeus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Zacchaeus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Zacchaeus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Stephen|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Stephen|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Stephen|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Paul|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Paul|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Paul|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Barnabas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Barnabas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Barnabas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Timothy|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Timothy|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Timothy|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Priscilla|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Priscilla|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Priscilla|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Aquila|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Aquila|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Aquila|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Apollos|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Apollos|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Apollos|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Lydia|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Lydia|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Lydia|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Cornelius|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Cornelius|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Cornelius|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Pontius Pilate|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Pontius Pilate|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Pontius Pilate|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Anna|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Anna|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Anna|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Japheth|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Japheth|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Japheth|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Shem|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Shem|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Shem|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ham|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ham|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ham|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Gomer|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Gomer|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Gomer|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Javan|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Javan|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Javan|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Cush|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Cush|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Cush|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Nimrod|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Nimrod|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Nimrod|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Terah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Terah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Terah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Haran|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Haran|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Haran|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Lot|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Lot|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Lot|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Melchizedek|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Melchizedek|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Melchizedek|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Nahor|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Nahor|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Nahor|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Bethuel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Bethuel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Bethuel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Laban|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Laban|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Laban|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Leah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Leah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Leah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Rachel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Rachel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Rachel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Bilhah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Bilhah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Bilhah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Zilpah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Zilpah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Zilpah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Judah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Judah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Judah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Tamar (Judah's daughter-in-law)|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Tamar (Judah's daughter-in-law)|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Tamar (Judah's daughter-in-law)|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Dinah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Dinah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Dinah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Reuben|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Reuben|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Reuben|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jethro|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jethro|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jethro|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Zipporah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Zipporah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Zipporah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Korah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Korah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Korah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Dathan|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Dathan|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Dathan|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Abiram|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Abiram|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Abiram|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Balaam|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Balaam|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Balaam|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Balak|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Balak|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Balak|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Phinehas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Phinehas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Phinehas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Caleb|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Caleb|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Caleb|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Achan|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Achan|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Achan|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Othniel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Othniel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Othniel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ehud|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ehud|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ehud|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Shamgar|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Shamgar|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Shamgar|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Barak|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Barak|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Barak|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Sisera|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Sisera|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Sisera|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jael|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jael|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jael|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Abimelech|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Abimelech|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Abimelech|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Tola|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Tola|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Tola|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jair|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jair|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jair|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ibzan|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ibzan|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ibzan|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Elon|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Elon|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Elon|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Abdon|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Abdon|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Abdon|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Delilah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Delilah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Delilah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Goliath|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Goliath|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Goliath|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Hophni|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Hophni|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Hophni|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Phinehas son of Eli|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Phinehas son of Eli|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Phinehas son of Eli|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ichabod|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ichabod|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ichabod|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Bathsheba|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Bathsheba|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Bathsheba|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Nathan the prophet|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Nathan the prophet|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Nathan the prophet|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Absalom|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Absalom|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Absalom|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Amnon|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Amnon|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Amnon|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Tamar daughter of David|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Tamar daughter of David|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Tamar daughter of David|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Micaiah son of Imlah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Micaiah son of Imlah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Micaiah son of Imlah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Isaiah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Isaiah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Isaiah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Jeremiah|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Jeremiah|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Jeremiah|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ezekiel|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ezekiel|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ezekiel|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Ahasuerus/Xerxes|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Ahasuerus/Xerxes|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Ahasuerus/Xerxes|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Vashti|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Vashti|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Vashti|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Haman|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Haman|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Haman|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Hammedatha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Hammedatha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Hammedatha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Parshandatha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Parshandatha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Parshandatha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Dalphon|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Dalphon|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Dalphon|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Aspatha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Aspatha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Aspatha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Poratha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Poratha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Poratha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Adalia|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Adalia|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Adalia|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Aridatha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Aridatha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Aridatha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Parmashta|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Parmashta|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Parmashta|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Arisai|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Arisai|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Arisai|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Aridai|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Aridai|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Aridai|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "ot|Vaizatha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "ot|Vaizatha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "ot|Vaizatha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Herod the Great|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Herod the Great|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Herod the Great|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Nicodemus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Nicodemus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Nicodemus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Joseph of Arimathea|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Joseph of Arimathea|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Joseph of Arimathea|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Jairus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Jairus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Jairus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Bartimaeus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Bartimaeus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Bartimaeus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Joanna|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Joanna|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Joanna|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Susanna|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Susanna|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Susanna|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Cleopas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Cleopas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Cleopas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Matthias|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Matthias|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Matthias|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Joseph Barsabbas Justus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Joseph Barsabbas Justus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Joseph Barsabbas Justus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Ananias of Damascus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Ananias of Damascus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Ananias of Damascus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Tabitha/Dorcas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Tabitha/Dorcas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Tabitha/Dorcas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Agabus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Agabus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Agabus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Sergius Paulus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Sergius Paulus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Sergius Paulus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Elymas/Bar-Jesus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Elymas/Bar-Jesus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Elymas/Bar-Jesus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Silas/Silvanus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Silas/Silvanus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Silas/Silvanus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Luke|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Luke|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Luke|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Mark/John Mark|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Mark/John Mark|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Mark/John Mark|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Jason|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Jason|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Jason|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Crispus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Crispus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Crispus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Eutychus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Eutychus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Eutychus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Philip the Evangelist|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Philip the Evangelist|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Philip the Evangelist|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Felix|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Felix|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Felix|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Drusilla|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Drusilla|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Drusilla|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Festus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Festus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Festus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Agrippa II|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Agrippa II|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Agrippa II|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Bernice|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Bernice|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Bernice|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Phoebe|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Phoebe|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Phoebe|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Epaenetus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Epaenetus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Epaenetus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Mary of Romans 16|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Mary of Romans 16|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Mary of Romans 16|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Andronicus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Andronicus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Andronicus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Junia|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Junia|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Junia|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Ampliatus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Ampliatus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Ampliatus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Urbanus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Urbanus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Urbanus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Stachys|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Stachys|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Stachys|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Apelles|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Apelles|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Apelles|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Herodion|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Herodion|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Herodion|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Tryphena|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Tryphena|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Tryphena|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Tryphosa|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Tryphosa|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Tryphosa|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Persis|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Persis|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Persis|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Rufus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Rufus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Rufus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Asyncritus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Asyncritus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Asyncritus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Phlegon|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Phlegon|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Phlegon|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Hermes|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Hermes|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Hermes|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Patrobas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Patrobas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Patrobas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Hermas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Hermas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Hermas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Philologus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Philologus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Philologus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Julia|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Julia|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Julia|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Nereus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Nereus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Nereus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Olympas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Olympas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Olympas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Tertius|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Tertius|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Tertius|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Gaius|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Gaius|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Gaius|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Erastus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Erastus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Erastus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Quartus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Quartus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Quartus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Sosthenes|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Sosthenes|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Sosthenes|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Chloe|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Chloe|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Chloe|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Stephanas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Stephanas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Stephanas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Fortunatus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Fortunatus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Fortunatus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Achaicus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Achaicus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Achaicus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Titus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Titus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Titus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Epaphroditus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Epaphroditus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Epaphroditus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Euodia|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Euodia|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Euodia|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Syntyche|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Syntyche|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Syntyche|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Clement|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Clement|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Clement|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Epaphras|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Epaphras|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Epaphras|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Tychicus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Tychicus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Tychicus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Onesimus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Onesimus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Onesimus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Aristarchus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Aristarchus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Aristarchus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Demas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Demas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Demas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Nympha|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Nympha|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Nympha|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Archippus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Archippus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Archippus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Philemon|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Philemon|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Philemon|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Apphia|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Apphia|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Apphia|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Lois|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Lois|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Lois|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Eunice|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Eunice|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Eunice|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Onesiphorus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Onesiphorus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Onesiphorus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Carpus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Carpus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Carpus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Eubulus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Eubulus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Eubulus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Pudens|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Pudens|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Pudens|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Linus|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Linus|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Linus|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Claudia|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Claudia|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Claudia|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Zenas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Zenas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Zenas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  },
+  {
+    "id": "nt|Artemas|story",
+    "status": "withheld-generator",
+    "reason": "Random name alternatives, broad references and sometimes shared descriptions need per-item editorial repair; original study record retained."
+  },
+  {
+    "id": "nt|Artemas|kids",
+    "status": "withheld-generator",
+    "reason": "Children-list and unknown-descendant alternatives are weak or ambiguous; no padding of quiz sessions."
+  },
+  {
+    "id": "nt|Artemas|book",
+    "status": "withheld-generator",
+    "reason": "Broad overlapping book ranges do not establish one uniquely correct alternative."
+  }
+]

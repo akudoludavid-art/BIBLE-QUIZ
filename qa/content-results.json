@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": 1507,
+  "hazardFixtures": 30,
+  "reviewedQuestions": 289,
+  "sourceSha256": "602445e22c280a682ac4c489117ead179271f5ee50a78ee4531b249c71e7ce99",
+  "originalSha256": "d11a66a5c5980dbaff0a8279e7b6337895783e4d6189ee12c75dcdf8e913deff",
+  "limitations": "Fixtures assert implemented safeguards and recorded answers; they do not constitute independent theological or historical review."
+}

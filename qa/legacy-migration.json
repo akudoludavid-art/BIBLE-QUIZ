@@ -1,0 +1,470 @@
+[
+  {
+    "id": "F|samuel:anoints-kings",
+    "status": "repaired-retained",
+    "target": "F|samuel:anoints-kings",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|nathan:ewe-lamb",
+    "status": "repaired-retained",
+    "target": "F|nathan:ewe-lamb",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|elisha:naaman",
+    "status": "repaired-retained",
+    "target": "F|elisha:naaman",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|hezekiah:isaiah-sennacherib",
+    "status": "repaired-retained",
+    "target": "F|hezekiah:isaiah-sennacherib",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|josiah:book-of-law",
+    "status": "repaired-retained",
+    "target": "F|josiah:book-of-law",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|isaiah:call-uzziah",
+    "status": "repaired-retained",
+    "target": "F|isaiah:call-uzziah",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|jehoiakim:scroll",
+    "status": "repaired-retained",
+    "target": "F|jehoiakim:scroll",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|uzziah:leprosy",
+    "status": "repaired-retained",
+    "target": "F|uzziah:leprosy",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|jehu:anointed",
+    "status": "repaired-retained",
+    "target": "F|jehu:anointed",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|deborah:palm-tree",
+    "status": "repaired-retained",
+    "target": "F|deborah:palm-tree",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|gideon:three-hundred",
+    "status": "repaired-retained",
+    "target": "F|gideon:three-hundred",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|abiathar:nob",
+    "status": "repaired-retained",
+    "target": "F|abiathar:nob",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|jehoiada:joash",
+    "status": "repaired-retained",
+    "target": "F|jehoiada:joash",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|caiaphas:trial",
+    "status": "repaired-retained",
+    "target": "F|caiaphas:trial",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|huldah:book-of-law",
+    "status": "repaired-retained",
+    "target": "F|huldah:book-of-law",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|ruth:boaz-david",
+    "status": "repaired-retained",
+    "target": "F|ruth:boaz-david",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|rahab:jericho-matthew-hebrews",
+    "status": "repaired-retained",
+    "target": "F|rahab:jericho-matthew-hebrews",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|thomas:absent",
+    "status": "repaired-retained",
+    "target": "F|thomas:absent",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|james:zebedee-executed",
+    "status": "consolidated",
+    "target": "bible-q-herod-james",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|antipas:john-baptist",
+    "status": "repaired-retained",
+    "target": "F|antipas:john-baptist",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|agrippa2:paul",
+    "status": "repaired-retained",
+    "target": "F|agrippa2:paul",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|felix:paul-prison",
+    "status": "repaired-retained",
+    "target": "F|felix:paul-prison",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|gallio:corinth",
+    "status": "repaired-retained",
+    "target": "F|gallio:corinth",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|silas:philippi",
+    "status": "repaired-retained",
+    "target": "F|silas:philippi",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|titus:crete",
+    "status": "repaired-retained",
+    "target": "F|titus:crete",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|timothy:circumcised",
+    "status": "repaired-retained",
+    "target": "F|timothy:circumcised",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|onesimus:philemon",
+    "status": "consolidated",
+    "target": "bible-q-onesimus-return",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|ananias:damascus",
+    "status": "repaired-retained",
+    "target": "F|ananias:damascus",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|isaiah:voice-john",
+    "status": "repaired-retained",
+    "target": "F|isaiah:voice-john",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|micah:bethlehem",
+    "status": "repaired-retained",
+    "target": "F|micah:bethlehem",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|jonah:sign",
+    "status": "repaired-retained",
+    "target": "F|jonah:sign",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|david:throne-promise",
+    "status": "repaired-retained",
+    "target": "F|david:throne-promise",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|samuel-solomon:non-contemporaries",
+    "status": "withheld",
+    "target": null,
+    "reason": "The could-not-have-met claim requires chronological proof beyond an unqualified narrative inference."
+  },
+  {
+    "id": "F|jehu:not-judah",
+    "status": "repaired-retained",
+    "target": "F|jehu:not-judah",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|judah-early-kings:order",
+    "status": "repaired-retained",
+    "target": "F|judah-early-kings:order",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|judah-middle-kings:order",
+    "status": "repaired-retained",
+    "target": "F|judah-middle-kings:order",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|boaz:david-relation",
+    "status": "repaired-retained",
+    "target": "F|boaz:david-relation",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|samuel:obey-sacrifice",
+    "status": "repaired-retained",
+    "target": "F|samuel:obey-sacrifice",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|ruth:whither-thou-goest",
+    "status": "repaired-retained",
+    "target": "F|ruth:whither-thou-goest",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|ahasuerus:jewish-defense",
+    "status": "repaired-retained",
+    "target": "F|ahasuerus:jewish-defense",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|nebuchadnezzar:jehoiachin",
+    "status": "repaired-retained",
+    "target": "F|nebuchadnezzar:jehoiachin",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "F|ezra:reads-law",
+    "status": "repaired-retained",
+    "target": "F|ezra:reads-law",
+    "reason": "Source-qualified wording, reviewed alternatives and explicit references."
+  },
+  {
+    "id": "A|markfam",
+    "status": "repaired-retained",
+    "target": "A|markfam",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|amos",
+    "status": "repaired-retained",
+    "target": "A|amos",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|nathan",
+    "status": "consolidated",
+    "target": "F|nathan:ewe-lamb",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|adonijah",
+    "status": "repaired-retained",
+    "target": "A|adonijah",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|nicodemus",
+    "status": "consolidated",
+    "target": "bible-q-john-nicodemus",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|herod",
+    "status": "withheld",
+    "target": null,
+    "reason": "Agrippa I historical identification needs a separately documented historical source; James identity and imprisonment remain covered by source-qualified items."
+  },
+  {
+    "id": "A|zech",
+    "status": "consolidated",
+    "target": "bible-q-azariah-joash",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|judas",
+    "status": "repaired-retained",
+    "target": "A|judas",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|hosea",
+    "status": "repaired-retained",
+    "target": "A|hosea",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|sheba",
+    "status": "repaired-retained",
+    "target": "A|sheba",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|manasseh",
+    "status": "consolidated",
+    "target": "bible-q-manasseh-return",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|overlap",
+    "status": "repaired-retained",
+    "target": "A|overlap",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|rahab",
+    "status": "consolidated",
+    "target": "bible-q-rahab-line",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|carmel",
+    "status": "repaired-retained",
+    "target": "A|carmel",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|jehoiada",
+    "status": "repaired-retained",
+    "target": "A|jehoiada",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|mephi",
+    "status": "repaired-retained",
+    "target": "A|mephi",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|obadiah",
+    "status": "repaired-retained",
+    "target": "A|obadiah",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|dothan",
+    "status": "consolidated",
+    "target": "bible-q-dothan-servant",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|flight",
+    "status": "repaired-retained",
+    "target": "A|flight",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|pisidia",
+    "status": "consolidated",
+    "target": "bible-q-paul-antioch",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|conclusion",
+    "status": "repaired-retained",
+    "target": "A|conclusion",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|elisha-wrong",
+    "status": "repaired-retained",
+    "target": "A|elisha-wrong",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|zimri",
+    "status": "repaired-retained",
+    "target": "A|zimri",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|thess",
+    "status": "repaired-retained",
+    "target": "A|thess",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|satan-census",
+    "status": "repaired-retained",
+    "target": "A|satan-census",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|amos-stephen",
+    "status": "consolidated",
+    "target": "bible-q-stephen-amos",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|jehu-sent",
+    "status": "consolidated",
+    "target": "bible-q-anoint-jehu",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|simon-joppa",
+    "status": "consolidated",
+    "target": "bible-q-acts-tanner",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|jonah-nineveh",
+    "status": "repaired-retained",
+    "target": "A|jonah-nineveh",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|trio",
+    "status": "repaired-retained",
+    "target": "A|trio",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|cherith",
+    "status": "consolidated",
+    "target": "bible-q-cherith-ravens",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|elah",
+    "status": "repaired-retained",
+    "target": "A|elah",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|azotus",
+    "status": "repaired-retained",
+    "target": "A|azotus",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|matthias",
+    "status": "repaired-retained",
+    "target": "A|matthias",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|nehemiah",
+    "status": "consolidated",
+    "target": "bible-q-nehemiah-job",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  },
+  {
+    "id": "A|house-prayer",
+    "status": "repaired-retained",
+    "target": "A|house-prayer",
+    "reason": "Duplicate knowledge point consolidated or wording/identity repaired; original retained in backup."
+  }
+]

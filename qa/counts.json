@@ -1,0 +1,530 @@
+{
+  "total": 289,
+  "distinctKnowledgePoints": 287,
+  "levels": {
+    "advanced": 136,
+    "intermediate": 110,
+    "mastery": 15,
+    "beginner": 28
+  },
+  "origin": {
+    "new": 214,
+    "legacy-repaired": 75
+  },
+  "testament": {
+    "OT": 186,
+    "CROSS": 12,
+    "NT": 91
+  },
+  "categories": {
+    "Royal deaths": 12,
+    "Wars and battles": 6,
+    "Textual nuance": 10,
+    "Kings and succession": 15,
+    "Geography": 30,
+    "Same-name identities": 10,
+    "Exile and restoration": 9,
+    "Place names": 5,
+    "Obscure people": 17,
+    "Priesthood": 11,
+    "Prophets": 23,
+    "Scriptural connections": 22,
+    "Genealogy": 21,
+    "Offices and roles": 8,
+    "Early church": 23,
+    "Primeval history": 2,
+    "Patriarchs": 2,
+    "Exodus and wilderness": 4,
+    "Tabernacle and temple": 6,
+    "Law and offerings": 4,
+    "Festivals": 2,
+    "Law and ethics": 7,
+    "Law and inheritance": 3,
+    "Law and kingship": 1,
+    "Conquest": 3,
+    "Tribal territories": 1,
+    "Judges": 3,
+    "Family and customs": 4,
+    "Early monarchy": 2,
+    "Wisdom and poetry": 11,
+    "Gospels": 5,
+    "Literary imagery": 3,
+    "Chronology": 4
+  },
+  "books": {
+    "Genesis": {
+      "total": 10,
+      "levels": {
+        "intermediate": 4,
+        "advanced": 3,
+        "beginner": 3
+      }
+    },
+    "Exodus": {
+      "total": 7,
+      "levels": {
+        "intermediate": 3,
+        "beginner": 1,
+        "advanced": 3
+      }
+    },
+    "Leviticus": {
+      "total": 8,
+      "levels": {
+        "intermediate": 6,
+        "advanced": 1,
+        "beginner": 1
+      }
+    },
+    "Numbers": {
+      "total": 5,
+      "levels": {
+        "intermediate": 2,
+        "advanced": 2,
+        "beginner": 1
+      }
+    },
+    "Deuteronomy": {
+      "total": 3,
+      "levels": {
+        "advanced": 1,
+        "intermediate": 1,
+        "beginner": 1
+      }
+    },
+    "Joshua": {
+      "total": 7,
+      "levels": {
+        "advanced": 2,
+        "beginner": 1,
+        "intermediate": 3,
+        "mastery": 1
+      }
+    },
+    "Judges": {
+      "total": 11,
+      "levels": {
+        "advanced": 4,
+        "intermediate": 6,
+        "beginner": 1
+      }
+    },
+    "Ruth": {
+      "total": 6,
+      "levels": {
+        "intermediate": 4,
+        "advanced": 1,
+        "mastery": 1
+      }
+    },
+    "1 Samuel": {
+      "total": 11,
+      "levels": {
+        "intermediate": 6,
+        "advanced": 2,
+        "beginner": 2,
+        "mastery": 1
+      }
+    },
+    "2 Samuel": {
+      "total": 12,
+      "levels": {
+        "advanced": 8,
+        "intermediate": 3,
+        "mastery": 1
+      }
+    },
+    "1 Kings": {
+      "total": 17,
+      "levels": {
+        "advanced": 13,
+        "beginner": 1,
+        "intermediate": 1,
+        "mastery": 2
+      }
+    },
+    "2 Kings": {
+      "total": 28,
+      "levels": {
+        "advanced": 19,
+        "intermediate": 6,
+        "beginner": 1,
+        "mastery": 2
+      }
+    },
+    "1 Chronicles": {
+      "total": 4,
+      "levels": {
+        "intermediate": 3,
+        "mastery": 1
+      }
+    },
+    "2 Chronicles": {
+      "total": 7,
+      "levels": {
+        "mastery": 3,
+        "advanced": 4
+      }
+    },
+    "Ezra": {
+      "total": 3,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 2
+      }
+    },
+    "Nehemiah": {
+      "total": 4,
+      "levels": {
+        "intermediate": 3,
+        "advanced": 1
+      }
+    },
+    "Esther": {
+      "total": 4,
+      "levels": {
+        "advanced": 3,
+        "intermediate": 1
+      }
+    },
+    "Job": {
+      "total": 3,
+      "levels": {
+        "beginner": 1,
+        "advanced": 2
+      }
+    },
+    "Psalms": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 1
+      }
+    },
+    "Proverbs": {
+      "total": 2,
+      "levels": {
+        "advanced": 1,
+        "intermediate": 1
+      }
+    },
+    "Ecclesiastes": {
+      "total": 2,
+      "levels": {
+        "beginner": 2
+      }
+    },
+    "Song of Solomon": {
+      "total": 2,
+      "levels": {
+        "advanced": 1,
+        "intermediate": 1
+      }
+    },
+    "Isaiah": {
+      "total": 6,
+      "levels": {
+        "intermediate": 2,
+        "advanced": 2,
+        "mastery": 2
+      }
+    },
+    "Jeremiah": {
+      "total": 6,
+      "levels": {
+        "advanced": 3,
+        "intermediate": 1,
+        "mastery": 2
+      }
+    },
+    "Lamentations": {
+      "total": 2,
+      "levels": {
+        "beginner": 1,
+        "intermediate": 1
+      }
+    },
+    "Ezekiel": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 1
+      }
+    },
+    "Daniel": {
+      "total": 2,
+      "levels": {
+        "intermediate": 2
+      }
+    },
+    "Hosea": {
+      "total": 4,
+      "levels": {
+        "mastery": 3,
+        "intermediate": 1
+      }
+    },
+    "Joel": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 1
+      }
+    },
+    "Amos": {
+      "total": 4,
+      "levels": {
+        "advanced": 3,
+        "mastery": 1
+      }
+    },
+    "Obadiah": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 1
+      }
+    },
+    "Jonah": {
+      "total": 4,
+      "levels": {
+        "beginner": 1,
+        "intermediate": 2,
+        "mastery": 1
+      }
+    },
+    "Micah": {
+      "total": 4,
+      "levels": {
+        "advanced": 2,
+        "beginner": 1,
+        "mastery": 1
+      }
+    },
+    "Nahum": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 1
+      }
+    },
+    "Habakkuk": {
+      "total": 2,
+      "levels": {
+        "intermediate": 2
+      }
+    },
+    "Zephaniah": {
+      "total": 2,
+      "levels": {
+        "advanced": 2
+      }
+    },
+    "Haggai": {
+      "total": 2,
+      "levels": {
+        "advanced": 1,
+        "intermediate": 1
+      }
+    },
+    "Zechariah": {
+      "total": 2,
+      "levels": {
+        "advanced": 1,
+        "intermediate": 1
+      }
+    },
+    "Malachi": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "beginner": 1
+      }
+    },
+    "Matthew": {
+      "total": 15,
+      "levels": {
+        "mastery": 5,
+        "beginner": 1,
+        "advanced": 7,
+        "intermediate": 2
+      }
+    },
+    "Mark": {
+      "total": 3,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 2
+      }
+    },
+    "Luke": {
+      "total": 5,
+      "levels": {
+        "advanced": 3,
+        "intermediate": 2
+      }
+    },
+    "John": {
+      "total": 6,
+      "levels": {
+        "beginner": 2,
+        "intermediate": 3,
+        "advanced": 1
+      }
+    },
+    "Acts": {
+      "total": 26,
+      "levels": {
+        "mastery": 1,
+        "intermediate": 10,
+        "advanced": 14,
+        "beginner": 1
+      }
+    },
+    "Romans": {
+      "total": 3,
+      "levels": {
+        "advanced": 2,
+        "intermediate": 1
+      }
+    },
+    "1 Corinthians": {
+      "total": 2,
+      "levels": {
+        "intermediate": 2
+      }
+    },
+    "2 Corinthians": {
+      "total": 2,
+      "levels": {
+        "advanced": 2
+      }
+    },
+    "Galatians": {
+      "total": 2,
+      "levels": {
+        "advanced": 2
+      }
+    },
+    "Ephesians": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "beginner": 1
+      }
+    },
+    "Philippians": {
+      "total": 2,
+      "levels": {
+        "intermediate": 2
+      }
+    },
+    "Colossians": {
+      "total": 2,
+      "levels": {
+        "advanced": 1,
+        "beginner": 1
+      }
+    },
+    "1 Thessalonians": {
+      "total": 1,
+      "levels": {
+        "advanced": 1
+      }
+    },
+    "2 Thessalonians": {
+      "total": 1,
+      "levels": {
+        "intermediate": 1
+      }
+    },
+    "1 Timothy": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 1
+      }
+    },
+    "2 Timothy": {
+      "total": 2,
+      "levels": {
+        "advanced": 2
+      }
+    },
+    "Titus": {
+      "total": 3,
+      "levels": {
+        "advanced": 2,
+        "intermediate": 1
+      }
+    },
+    "Philemon": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 1
+      }
+    },
+    "Hebrews": {
+      "total": 4,
+      "levels": {
+        "advanced": 2,
+        "intermediate": 1,
+        "mastery": 1
+      }
+    },
+    "James": {
+      "total": 2,
+      "levels": {
+        "intermediate": 2
+      }
+    },
+    "1 Peter": {
+      "total": 2,
+      "levels": {
+        "advanced": 2
+      }
+    },
+    "2 Peter": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "advanced": 1
+      }
+    },
+    "1 John": {
+      "total": 2,
+      "levels": {
+        "intermediate": 1,
+        "beginner": 1
+      }
+    },
+    "2 John": {
+      "total": 2,
+      "levels": {
+        "intermediate": 2
+      }
+    },
+    "3 John": {
+      "total": 2,
+      "levels": {
+        "advanced": 1,
+        "intermediate": 1
+      }
+    },
+    "Jude": {
+      "total": 2,
+      "levels": {
+        "advanced": 2
+      }
+    },
+    "Revelation": {
+      "total": 5,
+      "levels": {
+        "beginner": 1,
+        "intermediate": 2,
+        "advanced": 2
+      }
+    }
+  }
+}

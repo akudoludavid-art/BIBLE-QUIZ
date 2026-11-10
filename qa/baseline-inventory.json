@@ -1,0 +1,126 @@
+{
+  "counts": {
+    "SCRIPTURES": 115,
+    "PARABLES": 20,
+    "MIRACLES": 20,
+    "DATA": 265,
+    "FACT_ROWS": 42,
+    "AB": 36
+  },
+  "storageKeys": [
+    "bibleMemo_v1",
+    "bibleCustomScriptures_v1",
+    "bibleQuizRotation_v2"
+  ],
+  "errors": [],
+  "runs": [
+    {
+      "mode": "ot",
+      "count": 20,
+      "ids": [
+        "ot|Moses|story",
+        "A|azotus",
+        "ot|Uriah the Hittite|story",
+        "A|nathan",
+        "ot|Haman|story",
+        "A|amos",
+        "ot|Jael|story",
+        "F|nebuchadnezzar:jehoiachin",
+        "F|micah:bethlehem",
+        "F|josiah:book-of-law",
+        "F|uzziah:leprosy",
+        "ot|Jonathan|story",
+        "F|huldah:book-of-law",
+        "F|jehoiakim:scroll",
+        "A|nehemiah",
+        "A|adonijah",
+        "A|house-prayer",
+        "F|ezra:reads-law",
+        "ot|Nehemiah|story",
+        "ot|Aspatha|story"
+      ],
+      "scopeLeaks": [
+        "Nathan",
+        "Amos",
+        "Adonijah"
+      ]
+    },
+    {
+      "mode": "nt",
+      "count": 17,
+      "ids": [
+        "A|nathan",
+        "F|micah:bethlehem",
+        "nt|John the Baptist|story",
+        "A|nehemiah",
+        "A|matthias",
+        "A|elah",
+        "nt|Lois|story",
+        "A|adonijah",
+        "nt|Herodion|story",
+        "F|felix:paul-prison",
+        "F|titus:crete",
+        "F|gallio:corinth",
+        "A|markfam",
+        "nt|Phoebe|story",
+        "F|rahab:jericho-matthew-hebrews",
+        "nt|Joanna|story",
+        "nt|Hermes|story"
+      ],
+      "scopeLeaks": [
+        "Nathan",
+        "Adonijah"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "count": 17,
+      "ids": [
+        "A|nicodemus",
+        "nt|Drusilla|story",
+        "F|boaz:david-relation",
+        "F|silas:philippi",
+        "F|jehu:anointed",
+        "ot|Haran|story",
+        "A|markfam",
+        "A|nehemiah",
+        "F|gallio:corinth",
+        "F|judah-middle-kings:order",
+        "A|matthias",
+        "F|jehoiada:joash",
+        "nt|Lydia|story",
+        "F|ruth:boaz-david",
+        "nt|John the Baptist|story",
+        "A|elah",
+        "A|cherith"
+      ],
+      "scopeLeaks": []
+    },
+    {
+      "mode": "hard",
+      "count": 19,
+      "ids": [
+        "A|chBoazSolomontrue",
+        "F|rahab:jericho-matthew-hebrews",
+        "A|simon-joppa",
+        "A|flight",
+        "A|jehoiada",
+        "A|carmel",
+        "A|gfAmon",
+        "A|gfMoses",
+        "A|chObedDavidtrue",
+        "A|btw13",
+        "A|jonah-nineveh",
+        "A|hosea",
+        "A|rahab",
+        "A|pisidia",
+        "A|btw3",
+        "A|notOmri",
+        "A|chIsaacPerezfalse",
+        "A|btw2",
+        "F|samuel-solomon:non-contemporaries"
+      ],
+      "scopeLeaks": []
+    }
+  ]
+}

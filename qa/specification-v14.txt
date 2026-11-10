@@ -1,0 +1,1104 @@
+BIBLE MASTERY — ULTIMATE CODEX IMPLEMENTATION MASTER PROMPT
+Version: 14 | Deep Biblical Knowledge Expansion, Intelligent Question Engine and Full Preservation
+SOURCE OF TRUTH: The user's actual latest working Bible_Mastery_Quiz_v13_Simplified_Memorisation.html (or the actual later file provided at execution time).
+
+================================================================================
+0. MANDATE — READ THIS BEFORE DOING ANYTHING
+================================================================================
+
+You are Codex acting as a senior software architect, front-end engineer, educational measurement designer, data modeler, QA engineer, and exceptionally careful biblical-content editor. Upgrade the PROVIDED application IN PLACE, preserving its existing visual identity, architecture where appropriate, and all currently working functionality. This is a demanding implementation assignment, not a request to rewrite the app from scratch, change the product concept, or provide a speculative feature list.
+
+YOUR CORE OBJECTIVE:
+Transform the current Bible Mastery quiz into an unusually comprehensive, trustworthy, deep, and cleverly constructed Bible-knowledge learning application. Retain the original easy questions and modes while substantially expanding across ALL 66 canonical Protestant Bible books, people, family lines, regions and places, territories, political history, kings and their deaths, assassinations, rulers, wars, prophecies, law, priesthood, offerings, religion, Jewish history, Jesus' ministry, and the early church. The objective is genuinely difficult, factual, beautifully worded, evidence-supported questions—not misleading riddles, arbitrary obscurity, rote paraphrases, or impressive-looking but unverified content.
+
+NON-NEGOTIABLE PRODUCT DECISIONS ALREADY MADE WITH THE USER:
+- DO NOT introduce a separate Challenge Mode, Study Mode, examination product, unnecessary navigation tab, dashboard, forum, login, or backend.
+- Keep the original Bible Character Challenge and its Old Testament, New Testament, Mixed Bible, and Hard Mode choices recognizable. Improve the underlying bank and behavior rather than throwing the original question experience away.
+- Keep the existing Scripture Session (KJV), parables, miracles, Scripture Bank, Character Study List, and Scripture Memorisation features working.
+- Preserve the simplified three-option Scripture Memorisation menu: My Memorisation; Scripture Library; Progress & Backup.
+- Preserve user-added, edited, and deleted custom scriptures; active and paused lists; long-passage collapsing; continuous switching between scriptures; saved unfinished exercises; review scheduling; and back-up/restore. Do not reset or corrupt saved user content.
+- Existing valid questions remain available and repeat over time. A question must NEVER be permanently eliminated merely because it was previously displayed or answered.
+- Avoid immediate, excessive or patterned repetition. Correct questions recur; missed questions recur a little sooner; previously unseen questions are not starved. Questions and answer order should be reshuffled in future appearances.
+- Select questions with balanced, diversity-aware randomness. Do not serve twenty near-identical questions on a single subtopic merely due to naïve random sampling.
+- The wrong answers must be plausible, same-domain, close in gender where established, role, generation, history, context, place, and narrative. The questions must be WELL ASKED, precise, clear, defensible, and not ambiguous.
+- Heavily expand the DIFFICULT bank, especially Advanced and Mastery. Preserve a strong Beginner / Intermediate foundation.
+- Retain a single-file, browser-openable, offline HTML deliverable. Do NOT convert to React or require a cloud service unless the user separately requests that change.
+- Never assert that something has been implemented or verified unless it actually has been implemented or verified.
+
+Do not ask the user to make routine technical decisions that can be made competently from the source. Make the most reliable implementation choices, document any necessary assumptions, and proceed in verifiable stages. Work on the real files and run tests. Any uncompleted target must be reported explicitly rather than silently simulated.
+
+================================================================================
+1. BASELINE AUDIT — UNDERSTAND THE CURRENT APP BEFORE ALTERING IT
+================================================================================
+
+Inspect the provided HTML in full, including all inline CSS, SVG symbols, script blocks, data arrays, localStorage keys, event handlers, and possible competing implementations. Establish an inventory and a working baseline before any changes.
+
+In the inspected v13 revision, useful landmarks include:
+- SCRIPTURES: approximately 115 built-in KJV Scripture Bank entries.
+- PARABLES: approximately 20.
+- MIRACLES: approximately 20.
+- DATA: approximately 110 character records with fields resembling t, n, kids, book, story.
+- FACT_ROWS: approximately 42 authored structured knowledge entries.
+- AB: approximately 36 additional authored question records.
+- A character-question generator that currently creates story, children, and reference prompts.
+- A Rotation engine using the key bibleQuizRotation_v2.
+- A second question-architecture layer with audit(), hardSet(), normalSet(), authored bank, and relational generators.
+- A twenty-question default session, four familiar main mode buttons, and a quiz timer.
+- Memorisation storage keys resembling bibleMemo_v1 and bibleCustomScriptures_v1.
+- A deliberately simplified My Memorisation / Scripture Library / Progress & Backup navigation.
+
+These numbers are AUDIT STARTING POINTS, not hard-coded assumptions: recompute from the actual provided file. If a newer source differs, prefer the source and report the differences.
+
+Investigate specifically:
+1. Whether multiple start handlers or script layers overwrite each other.
+2. Whether generated questions have stable identities, consistent references, and good distractors.
+3. Whether a given question is truly drawn via the rotation engine or bypasses it in Hard Mode.
+4. Whether some old generated question types are extremely weak (e.g. “Where can the story of X be found?” or huge children-list choices).
+5. Whether some existing questions contain factual errors, imprecise verb choices, misleading family relationships or weak references.
+6. Whether some impossible or contradictory events can be produced by generic relation generators.
+7. Whether all old question records can be safely migrated without changing what the user sees unnecessarily.
+8. Whether the existing study list or scripture navigation creates XSS risk through dynamic innerHTML.
+9. Whether local storage and backup formats are versioned, recoverable, non-destructive and compatible with older versions.
+10. Whether the single file works both with file:// and when hosted as a static page, without runtime internet.
+
+Generate a machine-readable baseline inventory and a concise before/after change log. Save a backup of the original source. Preserve original design tokens, illustrations, palette, familiar interactions and component spacing unless a small adaptation is essential.
+
+================================================================================
+2. BIBLICAL AUTHORITY, CONTENT TRUST, CANON, COPYRIGHT AND PROVENANCE
+================================================================================
+
+Use the Protestant 66-book canon because that matches the current application's KJV-oriented structure. Do not quietly add the Deuterocanon/Apocrypha as if it were already part of that scope. Do not erase the user's existing preferred wording or force a different translation onto pasted scriptures.
+
+SOURCE AUTHORITY ORDER:
+A. Canonical biblical passage itself, in a reliably identified translation, as the PRIMARY evidence for scriptural claims.
+B. Parallel biblical passages, used to reconcile accounts and expose distinctions.
+C. Licensed, curated biblical proper-name, geospatial, lexical and versification datasets as discovery/indexing aids.
+D. Credible reference scholarship for genuinely uncertain archaeological sites, chronology, translations, or historical reconstructions; mark such claims as scholarship, not explicitly stated Bible facts.
+E. AI-generated summaries ONLY as discovery leads to be independently checked; never as sole proof.
+
+Recommended research/reference sources (verify their current license and terms before downloading or bundling):
+- World English Bible 66-book edition, public domain: https://ebible.org/engwebp/copyright.htm and https://www.ebible.org/find/details.php?id=engwebp . The WEB is a freely reusable modern translation. If the actual text is modified, do not misrepresent it as an unchanged WEB edition; respect the WEB trademark conditions. Do not silently replace the existing KJV text.
+- World English Bible British 66-book edition, public domain: https://www.ebible.org/Scriptures/details.php?id=engwebpb . Use only if it improves the verified source process and maintain source edition consistency.
+- STEPBible Data (CC BY 4.0): https://github.com/STEPBible/STEPBible-Data . Particularly TIPNR proper-name/entity distinctions, family data, biblical references, name forms, and TVTMS versification. Provide required attribution. WARNING: some descriptions are AI-generated; these must NOT be treated as verified evidence without checking passages.
+- OpenBible Bible-Geocoding-Data (CC BY 4.0, with separate OpenStreetMap and image licensing requirements): https://github.com/openbibleinfo/Bible-Geocoding-Data and https://www.openbible.info/geo/ . Use to discover ancient places, alternative candidates and confidence levels; do not equate uncertain proposed modern coordinates with biblical certainty. Credit the dataset appropriately.
+- Open Scriptures Hebrew Bible: https://github.com/openscriptures/morphhb . Follow its CC BY 4.0 obligations where any data is reused; original-language data can aid name interpretation but should not compel an overconfident English answer.
+- CrossWire KJV module documentation: https://wiki.crosswire.org/CrossWire_KJV . Respect module and distribution terms; do not assume any particular dataset or markup is unrestricted merely because ancient Scripture is old.
+- On KJV rights, note the important jurisdiction distinction: KJV is public-domain in the United States but has Crown/authorized-edition rules in the United Kingdom. Consult the applicable rights before distributing substantial new KJV text: https://guides.library.yale.edu/newtestament/kjv . Prefer verified references and licensed/public-domain alternatives over pasting huge unlicensed passages into an app.
+
+VERY IMPORTANT:
+- Do not ingest copyrighted modern Bible translations wholesale unless licensing permits it. User-pasted passages belong to the user's private stored data; preserve the pasted wording exactly and do not upload it to external systems.
+- Research and source download can occur at BUILD TIME if available, but the final HTML must not require internet, accounts, external servers, paid APIs, or runtime model calls for the quiz to function.
+- The app's quiz answers should primarily cite exact book/chapter/verse ranges. Store authoritative book IDs, chapter/verse references, source edition, editorial verification status, and evidence notes.
+- Avoid invented quotations, invented quotations attributed to historical figures, and unsubstantiated claims of who lived in the same decade.
+- Where biblical names, historical dates, tribal territories, ancient sites, verses, or implied genealogies differ across texts or interpretations, explicitly constrain the question's wording, identify the tradition/source, or omit the question pending verification.
+- Questions must NOT depend on unsupported modern archaeological coordinates, speculative identifications, scholarly guesses, or disputed chronologies presented as settled Bible facts.
+- No fake citations: every linked reference must be a real passage verified to support the precise answer claim. A book-level reference is sometimes acceptable for summary information, but higher-level and contested questions require precise verses.
+
+Create an embedded “Sources & Attributions” section only if needed for licenses. Keep it unobtrusive, not a new top-level quiz tab. Keep the full source ledger in a developer-side QA artifact.
+
+================================================================================
+3. BUILD A BIBLICAL KNOWLEDGE GRAPH, NOT A RANDOM FACT COLLECTION
+================================================================================
+
+Structure the research in verified, interconnected data records. Preserve and migrate existing records into it. Implement data schemas in self-contained JS or build-time JSON source files compiled into the final HTML. Stable IDs must be semantic and cannot change when a display label changes.
+
+ENTITY TYPES — AT MINIMUM:
+(1) person; (2) place/settlement; (3) territory/region; (4) polity/kingdom/empire; (5) ruler/reign; (6) office/role; (7) event; (8) battle/siege; (9) death; (10) law/command; (11) offering/sacrifice; (12) festival/holy day; (13) priestly/temple system; (14) covenant; (15) prophecy/quotation; (16) genealogy/kinship relationship; (17) route/journey; (18) biblical book and passage; (19) historical period; (20) alternate name/alias.
+
+PERSON RECORD, RECOMMENDED FIELDS:
+- id: stable unique e.g. person:israel:jehoram-son-ahab
+- canonicalName; displayName; searchableAliases; languageNameForms; sameNameDisambiguation
+- biblicalSexOrGenderAsEstablished: male/female/unspecified (not inferred from a modern name alone)
+- identifyingTitles; tribe; household; dynasty; roles; status
+- fatherIds; motherIds; spouseIds; siblingIds; childIds; otherRelationshipEdges
+- originPlaceIds; livedAtPlaceIds; journeyIds; territorialOrPoliticalAssociations
+- timelineLinks: reigns/events, not default absolute dates; uncertainty flags
+- primaryPassages; parallelPassages; explicitness/interpretiveStatus
+- deathEventId, if recorded; otherwise 'not stated' rather than an invented death
+- dataSources; verificationStatus; editorialNotes; alternateInterpretations if needed.
+
+PLACE RECORD:
+- stable ID, canonical biblical name, alternative historical names, disputed/duplicate-name tags
+- type: city, town, village, region, hill, mountain, river, valley, wilderness, gate, road, sea, district, province, territory, etc.
+- relationships: located within named region at a given period, tribal inheritance, kingdom control, associated events and people
+- historical names and which periods use them; 'also called' backed by verses
+- modern identification if supported; location confidence (explicit, widely accepted, tentative, contested, unknown)
+- optional coordinates and mapping rights; never infer a modern spot from a shared name alone
+- explicit textual reference(s) and source provenance.
+
+POLITY / RULER / DYNASTY:
+- reigning person ID; government/kingdom; capital(s), where supported
+- father or predecessor, predecessor relation: inherited, usurped, appointed, elected, conquered, or unknown
+- successor and succession type, co-regency/contested succession, reign duration/source verses
+- contemporaries from BOTH northern Israel and Judah when demonstrably supported
+- associations with prophets, invasions, treaties, rebellions, reforms, idol worship, cult centers, foreign kingdoms
+- major turning points, death and aftermath, territorial overlap and changing control
+- chronological period with source basis and uncertainty.
+
+EVENT GRAPH:
+- event ID; eventType; people involved with explicit roles; geographic setting; narrative book/verses; causes where explicitly recorded; outcome; timelineBefore/After; narrative parallels; evidence status
+- role semantics matter: perpetrator, orderedBy, instigatedBy, executedBy, victim, eyewitness, claimant, reporter, predecessor, successor, participant, commander, witness, prophet, rescuer, etc.
+- NEVER collapse “ordered,” “personally killed,” “conspired,” “fought,” “claimed,” and “was present” into the same relationship.
+
+DEATH EVENT:
+- who died; manner (battle casualty, execution, murder, suicide, illness, accidental, natural/unrecorded, supernatural judgment narrated, unknown)
+- killer(s) where explicitly stated; military unit where applicable; who ordered or provoked the death; someone who claimed responsibility (different from verified perpetrator)
+- place, battle, reign, dynasty, time anchors, burial place, successor, political consequences, prophecy link
+- parallel textual accounts and whether the narrator versus another character makes the claim
+- textExplicitness: explicit / report-by-character / inference / disputed / not-recorded.
+
+ENTITY IDENTITY / ALIAS RULES:
+- Two textual names for the SAME person must resolve to one identity. Two DIFFERENT people sharing a written name MUST have separate IDs and disambiguation attributes.
+- Examples requiring special review: Joram/Jehoram of Israel vs Jehoram of Judah; Ahaziah of Israel vs Ahaziah of Judah; Zechariah the prophet vs Zechariah the murdered priest vs Zechariah the father of John; several Ananias figures; multiple Herods; many Jameses, Judas figures and Marys; Saul king of Israel vs Saul/Paul the apostle.
+- “Israel” may refer to Jacob, the people, or a political kingdom; “Judah” may denote a person, tribe, southern kingdom or territory. Choose one based on context.
+- “Laish” can denote a place or a person. Place names reused in multiple regions must not be assumed identical.
+- Keep both cross-book aliases and translation-specific spelling variants as separately sourced metadata.
+- Distinguish a former place name from a neighboring place, and a historically changed administrative region from a modern country.
+
+TEMPORAL RULES:
+- Implement partial-order chronological links: before, after, contemporaneous, within-reign, narrated-after, succeeded, and duration.
+- Many biblical chronologies are not precisely datable; encode range or text-order certainty rather than manufacturing BCE dates.
+- Distinguish events taking place during the same reign from individuals who could plausibly have lived around the same time. “Could have met” is harder to prove than “the passage places both in the same event.”
+- When chronology involves co-regencies, overlapping kingdoms, alternate calendar systems, or disputed historical reconstructions, prefer explicit narrative sequence or a clearly specified source framework.
+- Genealogical lists may telescope or omit generations; avoid asserting precise biological gaps from stylized genealogies unless the passage explicitly supports them.
+
+Build validators on these records BEFORE using them to generate questions.
+
+================================================================================
+4. COVERAGE REQUIREMENTS — EXHAUSTIVE IN SCOPE, NOT FABRICATED IN DETAIL
+================================================================================
+
+Vastly broaden question depth over the entire 66-book canon. The following categories and subcategories form a MANDATORY COVERAGE TAXONOMY. Each entry should link to verified knowledge points and real passage evidence; overlap is expected. No category should be reduced to one or two token questions if enough verified source material exists.
+
+A. PRIMEVAL HISTORY, PATRIARCHS & ANCIENT HOUSEHOLDS
+- Adam, Eve, Cain, Abel, Seth, Noah, his descendants, genealogical branches, Babel, nations
+- Abraham's calling, movements, family network, descendants through several women, Lot and his family
+- Isaac, Esau and Jacob; changing names; birthrights, migrations and relationship intricacies
+- Joseph, sibling relationships, Egyptian events and office, deaths and burials, tribes and family lines
+- unnamed and rarely named servants, officials, interpreters, daughters-in-law, wives, nephews and cousins
+- covenant events and geographic movements (e.g. Shechem, Bethel/Luz, Hebron/Kiriath-arba, Beer-sheba).
+
+B. EXODUS, WILDERNESS, ENTRY AND TORAH
+- Moses, Aaron, Miriam, Jethro, Levite lines, Pharaoh's household, Egyptian geography
+- plagues, Exodus chronology as narrated, specific wilderness encampments, rebellions, leaders and consequences
+- tabernacle design and materials, ark, altar, priestly garments, censers, washings, firstborn rules
+- census, tribes, spies, spies' reports, inheritances east and west of the Jordan
+- Judges' and Joshua's contexts, conquest accounts, city names and site identities
+- Mosaic law, Passover, Sabbath, purification, Nazarites/Nazirites, festivals, Jubilee, release laws, vows and oaths.
+
+C. SACRIFICES, PRIESTHOOD & TEMPLE
+- burnt offering, grain/meal offering, peace/fellowship offering, purification/sin and guilt/trespass offerings
+- what each involved, who presented it, where, procedural distinctions and limits under textual law
+- forbidden acts and who committed them; priests and their lineage, high priests, sons and successors
+- Nadab and Abihu; Korah; Uzzah; Eli's house; Abiathar vs Zadok; temple and sanctuary administration
+- Passover, Pentecost/Weeks, Tabernacles/Booths, Day of Atonement, new moons and appointed feasts
+- Solomon's temple, reforms and desecrations, captivity, rebuilding, and New Testament temple settings
+- differences between explicit Mosaic law, prophetic criticism of empty ritual, and later gospel/epistle usage.
+
+D. TRIBAL TERRITORIES, BIBLICAL GEOGRAPHY & NAME HISTORY
+- inheritance boundaries, tribal cities and pasturelands, Levitical cities, cities of refuge
+- river crossings, valleys, passes, wilderness routes, hill country, springs, mountains, plains and coastal zones
+- Jericho, Ai, Gibeon, Gilgal, Shiloh, Shechem, Bethel, Hebron, Jerusalem, Jezreel, Ramoth-gilead and less familiar settlements
+- renamed/re-used names: Luz/Bethel, Kiriath-arba/Hebron, Jebus/Jerusalem within biblical context, Laish/Dan and others ONLY if well sourced
+- one name used for more than one ancient place; same place with alternative spellings
+- geography connected with births, prophetic meetings, battles, royal courts, exile, burial, apostolic voyages
+- avoid conflating biblical territories with modern political borders or speculative archaeological identifications.
+
+E. JUDGES & EARLY MONARCHY
+- Othniel, Ehud, Shamgar, Deborah, Barak, Jael, Gideon, Abimelech, Jephthah, Samson, Samuel and lesser-known judges
+- kinships, origin places, tribes, opponents, battles, weapons, vows, victories, defeats and deaths
+- Saul's rise, family, commanders, house, wars, conflict with David, kingship transitions and narrative of his death
+- David's family, migrations, wars, officials, household crises, allies and rivals, coups and genealogies
+- Solomon's wisdom, administration, building, diplomacy, family, opposition, fall of the united monarchy.
+
+F. DIVIDED KINGDOMS: ISRAEL, JUDAH & ROYAL SUCCESSION
+- Each north and south ruler: parentage, dynasty, capital, reign length where stated, predecessor, successor
+- usurpations, plots, assassinations, royal children, queen mothers, regencies, rival dynasties
+- Omri and house of Ahab; Baasha, Zimri, Tibni, Jehu, Jeroboams and later northern rulers
+- the Judah line from Rehoboam through captivity, including Athaliah and Joash, reforming and nonreforming kings
+- priests and prophets acting during reigns; simultaneous or adjoining reigns from explicitly sourced passages
+- wives, siblings, servants, military officers and lesser-known family members
+- exact differences between kings of Israel and kings of Judah sharing names.
+
+G. DEATHS, ASSASSINATIONS, KILLERS, VICTIMS & CONSEQUENCES
+- detailed circumstances of deaths of kings, judges, prophets, rulers, military leaders, prominent and obscure people
+- who killed whom; how the death occurred; who ordered it; who advised or joined the conspiracy
+- kings who died in war, after illness, through servant conspiracies or unusual incidents
+- responsible agent vs claimed agent; witnesses and narrative differences
+- people executed by orders of kings; deaths during Jehu's revolution; Elijah/Elisha-era violent episodes
+- judicial executions, civil conflicts, family murders, betrayals, wrongful deaths, deaths of royal sons
+- location of death, location of burial, prophetic warnings and political succession
+- examples requiring precision: Saul (1 Sam 31 vs 2 Sam 1 claimant); Ahab (1 Kgs 22); Joram of Israel and Ahaziah of Judah and Jezebel (2 Kgs 9); Amon (2 Kgs 21:23–26); Joash of Judah (2 Kgs 12:20–21); Absalom (2 Sam 18); Ish-bosheth (2 Sam 4); Eglon (Judg 3); Sisera (Judg 4); Abimelech (Judg 9).
+- explicit distinction between death circumstances RECORDED and the much wider pool for whom the Bible does not record a cause of death.
+
+H. WARS, BATTLES, SIEGES & POLITICAL GEOGRAPHY
+- commanders, belligerents, rulers during battles, military routes and locations
+- campaigns in Joshua, Judges, Samuel, Kings, Chronicles, Daniel, Esther and relevant prophets
+- Egypt, Philistia, Moab, Ammon, Edom, Aram/Syria, Assyria, Babylon, Persia and other powers
+- siege of Samaria, Jerusalem's invasions, alliances, tribute, exile and post-exile reforms
+- details that differentiate two similar battles or two similarly named commanders
+- battle results vs narrative reports vs prophetic predictions; deaths and succession afterward.
+
+I. PROPHETS, CHRONOLOGY, PROPHECY & QUOTATIONS
+- major/minor prophets, prophets serving overlapping reigns, villages, messages, recipients and enemies
+- prophetic warnings, symbolic acts, social background, references to foreign nations
+- different prophets with same or similar names; prophets as writers vs narrative figures
+- identifying origin of an OT quotation in a Gospel, Acts, an Epistle or Revelation
+- distinguish original OT context from NT application, citation variants and typological readings
+- avoid asserting a prophecy's historically disputed fulfillment as unequivocal fact if that is not explicitly settled in the passage.
+
+J. EXILE, RETURN & RESTORATION
+- Samaria's fall, deportations and rulers, Babylonian exile, Jerusalem's fall
+- administrators, governors, eunuchs, exiles, royal captives and surprising minor figures
+- Daniel, Shadrach/Meshach/Abednego, Esther, Mordecai, Ezra, Nehemiah, Zerubbabel, Jeshua, Haggai, Zechariah and others
+- Persian rulers and decrees, religious reforms, temple and wall rebuilding
+- chronological distinctions between the stages of captivity and return.
+
+K. WISDOM, POETRY & WRITINGS
+- Job's speakers, arguments and setting where Scripture supports them, Psalms and superscriptions
+- Proverbs, Ecclesiastes, Song of Songs; people, speeches, authorship-attribution qualified by text
+- recognition of verse contexts, themes and speakers rather than random citation guessing
+- passages echoed in other books.
+
+L. GOSPELS — PEOPLE, PLACES, JESUS' MINISTRY
+- genealogies and family lines, births and early journeys, geography of Galilee, Judea, Samaria, Decapolis
+- rulers and governors: distinguish Herod the Great, Herod Antipas, Agrippa I/II and others
+- disciples, same-name apostles, relatives, women who supported ministry, witnesses and minor characters
+- parables, miracles, unnamed vs named persons, unique Gospel details, locations and sequence
+- regional visits, customs, festivals, trial participants, different rulers and offices
+- resurrection narratives, witness accounts, exact narrative phrasing and parallel Gospel distinctions.
+
+M. ACTS, EARLY CHURCH, APOSTOLIC JOURNEYS & LETTERS
+- Pentecost, church leaders, persecutors, deaths, judgments, councils, conversions and baptisms
+- Stephen, Philip, Cornelius, Peter, Paul, Barnabas, Silas, John Mark, Timothy, Titus, Aquila, Priscilla, Apollos, Lydia, Eutychus and obscure companions
+- origin cities, route order, ports, islands, regions, synagogues, Roman provinces and offices
+- governors, proconsuls, tetrarchs, centurions and judges, exact interactions with Paul
+- letters and recipients, quotations from the Hebrew Scriptures, church locations and epistle context.
+
+N. GENEALOGICAL SURPRISES / FAMILY & RELATIONSHIP REASONING
+- obscure daughters, mothers, sisters, wives, siblings, mothers-in-law, royal daughters, relatives
+- cross-book genealogical references; details behind major events
+- distinguish literal recorded father/son from telescoped genealogical lineage (“son of” can be broader)
+- relative paths with precisely verified distance, maternal vs paternal, brother-in-law and in-law relationships
+- genealogical aliases and shared-name traps; source-specific lineage caveats.
+
+O. HIDDEN STORIES, SURPRISE APPEARANCES & UNUSUAL CONNECTIONS
+- a person mentioned in only one or two verses, but connected to a well-known historical period or household
+- minor messengers, guards, commanders, priestly relatives, foreign visitors, servants, singers, scribes, female figures and officials
+- unexpected inter-book references; people mentioned in both genealogies and narrative history
+- obscure incidents that still have unambiguous, checkable scriptural evidence
+- connections should be interesting for a reason, not merely obscure for obscurity's sake.
+
+P. CANON, LITERARY SETTING & TEXTUAL NUANCE
+- author/narrator/speaker identity where stated or distinguishable; not speculative authorship
+- parallel narratives in Samuel/Kings/Chronicles and Gospels; differences in perspective
+- question framing around statements made by narrators vs claims spoken by characters
+- translations, verse numbering and cross-Testament wording handled with source/version labels.
+
+COVERAGE MATRIX:
+Build a coverage tracker for every canonical book. At minimum track total verified distinct knowledge points, approved questions by difficulty, subjects, question types, and source verification. Include often-neglected books such as Obadiah, Nahum, Habakkuk, Haggai, 2 and 3 John, Philemon and Jude. Larger biblical books may legitimately yield more entries; representation should be broad, not artificially equal. Track OT vs NT within their topical scopes and cross-Testament entries separately.
+
+================================================================================
+5. QUESTION BANK SCALE AND DIFFICULTY MIX
+================================================================================
+
+TARGET: 2,000 substantively DISTINCT, independently verifiable, well-edited question items over the full expansion. Treat as a carefully phased quality target, not a requirement to fabricate 2,000 lines at once.
+
+PROPOSED TARGET BREAKDOWN:
+- Beginner: 200 / 10%
+- Intermediate: 400 / 20%
+- Advanced: 700 / 35%
+- Mastery: 700 / 35%
+- Combined Advanced+Mastery: 1,400 / 70%
+
+Mark each question with difficulty and a documented rationale, e.g. familiarity, specificity, knowledge hops, similarity of alternatives, cross-references, obscurity, textual nuance. Difficulty is not simply “many words” or “unusual name.” Some obscure one-verse details may be Advanced, while a multi-book question is not automatically Mastery if the answer is obvious.
+
+LEVEL GUIDE:
+BEGINNER (1): Familiar people, major events, straightforward and well-contextualized names and places. Reasonable same-category distractors; do not use silly unrelated options.
+INTERMEDIATE (2): Relationships, contexts, locations, familiar reigns, ministry events, one or two independent associations.
+ADVANCED (3): Less familiar people, geographical naming, political distinctions, multiple similar rulers, specific wars, law and offering details, source context, neighboring historical periods.
+MASTERY (4): Strongly similar options; requires discriminating people sharing names, nested families, precise passage contrasts, geo-chronological combinations, multiple verified narrative clues or parallel books. Dense but clear, no forced trick wording.
+
+The current app may label depth 1–5. Create an explicit mapping or migration; do not silently confuse old depth with new user-facing difficulty. Preserve original mode behavior. At minimum the existing Hard Mode MUST draw predominantly Advanced and Mastery entries, and should not sneak in weak children-list / book-location questions just to reach a target count. OT, NT and Mixed should expose a sensible variety of difficulties, with a compact difficulty selector ONLY if it can be added without duplicate mode tabs or crowding the interface. Hard Mode can be an advanced/mastery preset. If limited pool, transparently state what is available rather than mislabeling easy questions as mastery.
+
+CONTENT PRODUCTION PHASES:
+- Phase A: migrate and repair ALL existing valid questions and generators, along with audited original knowledge points.
+- Phase B: construct 200–500 truly verified, varied authored/graph-derived additions and prove the engine works and regression tests pass.
+- Phase C: extend to 1,000 with coverage and editorial QA.
+- Phase D: extend to 2,000, with a complete provenance and duplication report.
+
+A correct honest partial increment is preferable to claiming 2,000 unverified questions. Implement usable features immediately and persist progress in the actual source/repository. Never replace a requested deliverable with only a report or prompt. If work is divided due to context/tool limits, finish and test the largest responsible increment possible, document exact counts and remaining packs, and leave an actionable continuation plan. Avoid fake placeholder pack files, unreviewed AI-generated filler, or duplicate entries for count inflation.
+
+================================================================================
+6. AUTHORING STANDARD — A QUESTION MUST BE WELL ASKED
+================================================================================
+
+Apply ALL rules to every existing and new item. Use the user's explicit “well asked” requirement as a release gate, not an aspiration.
+
+1. Write natural, literate, concise English. Use a complete question with correct syntax, spelling, punctuation and natural verb choice.
+2. Identify the intended person, dynasty, period, place or source context when ambiguity might otherwise exist.
+3. Provide enough distinction to make the question FAIR without inserting the answer into the stem.
+4. Specify whether the question is “according to 2 Kings”, “in Matthew's account”, “as described in Acts”, etc. whenever multiple accounts differ.
+5. In multiple-choice, exactly ONE distinct option must satisfy EVERY stated condition. If there are multiple correct answers, rewrite the question or use an explicitly multi-select question type only if already intentionally supported and tested. Preserve standard four-choice MC by default.
+6. Correct option and distractors should be the same semantic type and a similar level of description.
+7. No “all of the above,” “none of the above,” absurd nonsense, or obviously wrong era/category fillers unless genuinely required by a specifically verified question.
+8. Never expose the answer through unusual capitalization, length, grammatical agreement, singular/plural mismatch, specificity, reference formatting, or “one answer is much longer” cues.
+9. For statements by biblical characters, distinguish who SPOKE them from who RECORDED them, and who they addressed.
+10. Use careful causality: “was killed by,” “ordered the killing of,” “was implicated in,” “claimed to have killed,” “died after being wounded by,” “was executed by” do not mean the same thing.
+11. Do not use “never”, “only”, “first”, “last”, “every”, “none”, or “the first to” without full canonical verification.
+12. When questions require exact quotations, verify the exact translation and preserve orthography; otherwise paraphrase accurately, avoiding misquotation marks.
+13. “Where did it happen?” is not interchangeable with “where was this person buried?”
+14. A king's origin or kingdom is not necessarily identical to the city where he died, was wounded, fled, or was buried.
+15. A narrative's sequence is not always a precise historical chronology across multiple books.
+16. For ancient places, use the period-appropriate place name and where relevant distinguish identical names or uncertain modern sites.
+17. Avoid requiring invented names for people whom the Bible leaves unnamed. “The unnamed archer” is not a named historical individual.
+18. Do not misrepresent inference, tradition or later folklore as an explicit biblical statement.
+19. Avoid irrelevant theological polemics. Test what the text records, not unqualified denominational interpretation.
+20. If three same-type plausible distractors cannot be found, revise the question, its degree of specificity, or the distractor pool rather than insert poor options.
+
+ILLUSTRATIVE BAD→GOOD REWRITES (VERIFY IN THE TARGET EDITION):
+BAD: “Who killed Jehoram?”  GOOD: “Who shot Joram (Jehoram), the son of Ahab and king of Israel, when Jehu met him near Jezreel?” (2 Kings 9:21–24).
+BAD: “Who killed Ahab?”  GOOD: “Which king of Israel was wounded in battle by an unnamed archer despite disguising himself at Ramoth-gilead?” (1 Kings 22:29–35). Never claim Scripture names the archer.
+BAD: “How did Saul die?” with incompatible options and unqualified alternate claims. GOOD: “According to the narrative in 1 Samuel 31:3–5, what did Saul do after being wounded by archers?” Explain separately the Amalekite's testimony in 2 Samuel 1:6–10.
+BAD: “What was Bethel called?” GOOD: “What earlier name does Genesis 28:19 give for the place Jacob named Bethel?” Correct: Luz.
+BAD: “What does Luke say about X?” with no identifiable passage. GOOD: cite scene/context without giving answer away.
+BAD: “Who is described by this story? [a long biography copied verbatim from the character study list]” GOOD: an original, precisely sourced clue with a focused discriminating detail, avoiding answer leakage and generic story templates.
+BAD: “Which children or descendants are specifically associated with this character in this quiz?” with giant comma-separated answer lists. GOOD: a precise relationship question such as which named son succeeded the father; or an exact documented mother-child connection.
+
+QUESTIONS WITH NEGATION: “Which of these was NOT...” only when meaningful and verified. Mark NOT visibly/accessibly; prefer positive questions unless the negative contrast is the actual skill being tested. Never make the right answer conspicuously unlike all other options.
+
+================================================================================
+7. INTELLIGENT DISTRACTOR SELECTION — A MAJOR HARD REQUIREMENT
+================================================================================
+
+The current generic/random near() and distractors() approach is insufficient for the proposed difficult bank. Introduce a structured candidate scorer with entity type, verified properties, and difficulty-aware similarity. For each authored item, permit a hand-curated, independently checked set of options; for generated items, derive candidates from graph constraints.
+
+CHARACTER DISTRACTOR RULES:
+- If the answer is a clearly male biblical character, prioritize three male character distractors. If clearly female, prioritize female distractors. Do not infer sex from ambiguous names; where not established, seek other meaningful similarity rather than force gender.
+- Match relevant role: king with king, priest with priest, prophet with prophet, military officer with officer, ruler with ruler, mother with mother, servant with servant, apostle with apostle.
+- Match related timeline: same reign, overlapping period, neighboring generation, immediate predecessor/successor, related dynasty.
+- Match narrative relationship: same battle, household, chapter, political crisis, traveling party, royal court, prophetic mission, civil conflict, or geographic territory.
+- Match ancestry or dynasty where useful: relatives, spouses, siblings, in-laws, heirs; but do NOT accidentally offer an alternate name for the same person as a separate wrong answer.
+- Match name pitfalls: legitimate near-identical names of distinct people (e.g. multiple Herods, Ananias, Joram/Jehoram, James, Judas, Zechariah) with enough qualifiers to be unambiguous when displayed.
+
+PLACE DISTRACTOR RULES:
+- Cities against cities, mountains against mountains, regions against regions, alt-place names against genuine alt-place names.
+- Prefer places in the same travel corridor, tribal region, neighboring territory or historical setting, not random distant places.
+- Never use two names of the SAME location as one correct and one incorrect unless the stem specifically asks for exact historical wording/period and the distinction is defensible.
+
+OTHER TYPES:
+- Battle questions: comparable battles, contemporaneous political entities, nearby sites, plausible commanders.
+- Sacrifice questions: distinct genuine offerings or legal procedures with the same legal vocabulary, not obviously unrelated narratives.
+- King questions: same kingdom / nearby reign / similar events, with correctly disambiguated Israel vs Judah.
+- Chronology questions: alternative sequences using the SAME actual entities, with plausible reversals; independently validate the true order.
+- Cross-Testament questions: prophets or books plausibly quoted nearby, not three arbitrary people.
+- Relationship questions: comparable relationship distances (uncle/grandfather/father-in-law etc.) with all alternatives well-formed.
+- Ruler-death questions: alternatives with similar manner/circumstances, but one exact person, place, action or scripture distinction makes the difference.
+
+CANDIDATE SCORING (GUIDELINE, NOT A LICENSE TO INVENT):
++ high similarity for identical type/office
++ high similarity for direct same-era / same-reign links
++ high similarity for shared place/kingdom / same narrative event
++ moderate similarity for same dynasty / family / first-name overlap
++ moderate similarity for comparable known cause-of-death or source book
+- reject if identical entity under an alias
+- reject if candidate is also correct under the literal wording
+- reject if candidate relies on uncertain/unsupported attributes
+- reject if visibly implausible, spoiler-like, duplicate, or wrong grammatical type
+- reject if all distractors differ wildly in length or detail from the answer
+
+Enforce MINIMUM QUALITY: each of the three distractors should have at least one genuine relatedness link; Advanced/Mastery should aim for 2–3 meaningful links per distractor whenever the database permits it. A scoring algorithm is not a substitute for proof: verify the question and all four candidates separately.
+
+DO NOT use runtime AI to dynamically invent distractors. Ship a reviewed static/derived bank and deterministic, fact-anchored template generator. For generated questions, retain a source record and sufficient proof metadata. Support curated override when necessary.
+
+Implement a semantic correctness check: a candidate's alias, equivalence, role, same-name ambiguity or another valid event must not make the supposedly wrong answer defensible. If no valid set of exactly three wrong answers exists, exclude that item and report why.
+
+================================================================================
+8. QUESTION FORMAT, DATA CONTRACT AND EXPLANATION DEPTH
+================================================================================
+
+Default remains four-option multiple-choice for the Bible Character Quiz, with existing keyboard controls, immediate feedback, answer styling, next-button flow, score, progress and timer. DO NOT force an all-new game type. Keep memorisation learning modes separate and intact.
+
+RECOMMENDED QUESTION DATA CONTRACT (illustration; adapt to current codebase):
+{
+  "id": "bible-q-jehu-joram-jezreel-001",
+  "knowledgePointId": "event:jehu-revolt:joram-death:actor",
+  "equivalenceGroup": "jehu-revolt-joram-death-actor",
+  "stem": "Who shot Joram, son of Ahab and king of Israel, near Jezreel?",
+  "correctOptionId": "person:jehu-son-jehoshaphat",
+  "options": [
+    {"id":"person:jehu-son-jehoshaphat","label":"Jehu"},
+    {"id":"person:...","label":"..."},
+    {"id":"person:...","label":"..."},
+    {"id":"person:...","label":"..."}
+  ],
+  "primaryCategory": "Royal deaths and succession",
+  "secondaryCategories": ["Kings and dynasties","Geography","Wars"],
+  "testamentScope": "OT",
+  "bookCoverage": ["2 Kings"],
+  "difficulty": "advanced",
+  "factsUsed": ["death:joram-israel", "event:jehu-revolt"],
+  "references": ["2 Kings 9:21-26"],
+  "explanation": "Jehu shot Joram with a bow, and instructed Bidkar concerning the body near Naboth's field.",
+  "whyDistractorsAreWrong": {"person:...":"This person's role differs according to [verified verse]."},
+  "provenance": {"edition":"KJV or WEB, clearly recorded", "proofStatus":"verified"},
+  "editorialStatus": "approved",
+  "questionType": "single-choice"
+}
+
+The example is a schema demonstration; do NOT ship ellipses or fake IDs as actual content. All shipped question records must contain four distinct, complete, verified choices and one uniquely valid answer.
+
+EVERY APPROVED QUESTION MUST STORE:
+- stable question ID and one stable fact/knowledge-point ID
+- source reference(s) and any parallel sources necessary
+- mode scope and canonical book coverage
+- primary topic plus optional secondary tags
+- difficulty and editorial verification flag
+- exactly four options, all same-domain and unique entities / answer meanings
+- correct answer ID, not string-position index
+- a useful explanation that describes why the correct option is supported
+- on Advanced/Mastery, concise notes explaining why confusing alternatives are wrong
+- context warnings when identity, text version, chronology or geographical identification are ambiguous
+- an equivalence group to prevent fact-paraphrase spam within a single session.
+
+Show explanations immediately AFTER the user selects an answer (preserve original current feedback behavior). For harder questions, an unobtrusive “Why?” or “See references” expansion can reveal concise distractor-by-distractor contrasts; do not bury the user under paragraphs after every basic question. Display sources in readable form. Avoid converting safe text into unsanitized HTML.
+
+Make user-facing question copy original, substantial and editorially varied. Do not manufacture meaningless extra questions by rotating phrasing, reversing subject/object or moving a clause. One knowledge point may support a few DIFFERENT valid tests (actor, place, sequence, connection), each with distinct evidence demands; suppress same-point recurrences inside a session.
+
+================================================================================
+9. BALANCED BUT RANDOM ORDER — ROBUST REPEATABLE QUESTION ROTATION
+================================================================================
+
+The user has specifically selected BALANCED, RANDOMLY ORDERED questions. The app must satisfy both diversity AND real recurrence.
+
+ALGORITHM REQUIREMENTS:
+1. Determine the eligible pool for the chosen existing mode, scope, difficulty filter (if present), and source-verification status.
+2. Count available categories, periods, books, and approved equivalence groups.
+3. Compute flexible quotas/targets so one category cannot dominate when broad coverage is available. Do NOT make rigid quotas that make small/scoped banks fail.
+4. Prioritize meaningful category coverage, different knowledge points, varied eras and varied answer types.
+5. Within that selection, use weighted random sampling WITHOUT replacement for each question ID / equivalence group inside that session.
+6. Weight by question history: unseen gets a boost; previously missed gets a measured boost after some spacing; recently seen gets a reduction; frequently shown gets a modest reduction; old correct questions always remain eligible.
+7. Avoid questions from the same narrowly defined event or same fact-equivalence group appearing together, except in an intentional rare case with substantively different required reasoning.
+8. Allow all eligible questions to return on later sessions. Never set a one-way `used=true` and permanently exclude them.
+9. Shuffle final question order after constructing a balanced session. Shuffle options per display using unbiased Fisher-Yates with a testable RNG injection.
+10. Store only lightweight per-question attempt statistics and last-seen metadata; retain stability across app releases and correct migration of old history.
+11. Show a session with fewer questions only if verified eligible inventory genuinely cannot meet the requested length; do not use bad items to pad it. Clearly state actual question count.
+12. When any category lacks eligible verified items, relax quota fairly rather than break the quiz.
+
+SUGGESTED SELECTION WEIGHTS (TUNABLE, DOCUMENTED):
+- Unseen: high initial priority, but not exclusive.
+- Previously wrong: moderate uplift adjusted for time since exposure.
+- Previously correct: normal priority, increases gradually with elapsed sessions.
+- Seen within last 1–2 completed sessions: strong cooldown, unless the valid pool is small.
+- Seen repeatedly recently: additional gentle reduction, not permanent suppression.
+- A recently asked question may recur on a future session; do not promise it can never recur.
+
+Track e.g. {attempts,correct,incorrect,lastSeenSession,lastSeenAt,lastAnsweredCorrectly,streak,interval,category}. Use an explicit schema version and preserve existing localStorage; do not overwrite unrelated memorisation-state keys.
+
+EXAMPLE — ADVANCED 20-QUESTION SESSION (illustrative only):
+- 3 people/obscure characters
+- 3 geography and place identities
+- 3 kings/dynasties/deaths
+- 2 wars and military history
+- 2 chronology/succession
+- 2 kinships and genealogy
+- 2 laws/sacrifices/priesthood
+- 2 prophecies/context
+- 1 OT–NT scriptural connection
+Shuffle their presentation order. In subsequent sessions, rotate proportions and subtopics. Multi-tag entries should not be double-counted as two separate questions.
+
+HARD MODE:
+- Must have meaningful Advanced/Mastery concentration, not random easy question templates.
+- At least several different primary domains should occur whenever the actual eligible pool permits.
+- No repeated cloned intro such as “Which king...” fifteen times in a row if other formats exist.
+- Use graded difficulty: some items difficult due to identity, others due to timeline, geography, legal detail, obscure appearances, OT/NT textual source, or multi-reference deduction.
+
+SESSIONS & QUESTION COUNT:
+- Keep current 20-question default, timer and score behavior.
+- If adding optional 10 / 20 / 50 / Endless session lengths, do so only if trivial to integrate cleanly; long-term requested feature is secondary to actual content and robustness. Endless must still rotate and not leak memory.
+- Ensure `Play Again` draws a new balanced set instead of a monotonically repeated static sequence.
+- If user stops mid-quiz, only questions actually displayed count as exposure; never treat unseen preselected/inflight questions as seen. Answered status must be logged separately from merely displayed status.
+
+DISTRIBUTION ACCEPTANCE TESTS:
+- Test with deterministic seeds and e.g. 10,000 simulated sessions over synthetic pools of varied sizes. Validate no duplication within a session, no starvation of previously answered items, category fairness subject to availability, proper cooldown relaxation, stable IDs and repetition after cycles.
+- Check that one question can appear across separated sessions AND that different correct-answer positions are possible when repeated.
+- Check that tiny pools don't cause infinite loops, broken pages or repeated same-ID questions within one session.
+- Check distributions in real OT, NT, Mixed and Hard pools rather than asserting category balance without measurement.
+
+================================================================================
+10. CONTENT VALIDATION PIPELINE — DO NOT TRUST A PLAUSIBLE-SOUNDING FACT
+================================================================================
+
+Build both machine-checkable lint and human-editor-review artifacts.
+
+STATIC VERIFICATION FOR EVERY QUESTION:
+[A] Schema required fields present; no placeholder; stable unique ID.
+[B] Source book name normalized to the canonical 66-book list; chapter and verse syntactically valid and, where a licensed verse-index is available, exist in that source edition.
+[C] At least one actual supporting passage and correct contextual interpretation.
+[D] Evidence for correct answer and WHY each distractor is wrong for the exact stem.
+[E] Precisely 4 unique meaningful options; correct answer exactly once.
+[F] Names/aliases resolve; no identical entity appears twice under variant spellings.
+[G] Gender alignment where applicable and established; role and temporal similarity checks for distractors.
+[H] The wording identifies kingdom/ruler/period where a shared name could confuse.
+[I] No accidental second correct answer under synonymous wording, multiple accounts, or verse variation.
+[J] No unsupported chronological assumptions, modern place guesses, or unverified private tradition.
+[K] No erroneous grandparent/lineage computations; test both forward and reverse relationships.
+[L] No duplicates or close paraphrases under one equivalence group within same session; index exact and semantic overlaps.
+[M] Answer length/wording clues flagged; short/long mismatch isn't an automatic failure but needs review.
+[N] Difficulty level and subject classification appropriate.
+[O] No verbatim excessive unlicensed copyrighted text; passages/quotes have edition and rights basis.
+[P] Explanation and wrong-option explanations are grammatically correct and genuinely informative.
+[Q] Renderer safe with Unicode, curly apostrophes, en dashes, Hebrew/Greek forms, user input and quotes.
+
+EDITORIAL REVIEW CATEGORIES:
+- approved: direct textual support and unambiguous
+- conditionally approved: explicit source-edition or account qualification required
+- needs revision: answer true but wording/distractors/refs deficient
+- ambiguous/contested: withhold from default quiz until resolved
+- rejected: unsupported, fabricated, misleading, or substantively duplicate.
+
+NEVER let `questionPassedTechnicalAudit` imply that scriptural truth was checked. Structural validation is different from factual verification.
+
+Build a `question-ledger` with:
+question ID | category | level | testament | fact ID | reference(s) | text evidence summary | distractor reasons | source | verification status | issue notes.
+
+Any content taken from external dataset must have appropriate source license attribution and version/source date in the ledger.
+
+================================================================================
+11. BIBLICAL EDGE-CASE TEST FIXTURES — CHECK THE ENGINE AGAINST THESE
+================================================================================
+
+Use the following as editorial QA CASES, not as an instruction to blindly copy every formulation. Verify the passages in the edition selected.
+
+01. Joram (Jehoram) son of Ahab, Israel, was shot by Jehu; Joram/Jeho(r)am king of Judah is a different person. (2 Kings 9; 2 Kings 8.)
+02. Jehu personally shot Joram; he ordered action against Ahaziah and Jezebel; distinguish his role from the agents who physically carried out every killing. (2 Kings 9:21–37; 2 Chronicles 22:7–9.)
+03. Ahab was wounded by an unnamed archer in battle. Do not invent a named shooter. (1 Kings 22:29–35.)
+04. Saul fell on his sword in the narrator's account; an Amalekite later claimed he had killed him. Preserve narrator/claim distinction. (1 Samuel 31:3–5; 2 Samuel 1:6–10.)
+05. King Amon's servants killed him, conspirators were then killed by people of the land, and his son Josiah was made king. (2 Kings 21:23–26.)
+06. Ebed-melech acted to rescue Jeremiah from a cistern; distinguish hostile officials in the same passage. (Jeremiah 38:1–13.)
+07. The old name Luz is associated with Bethel, while Laish/Dan and Jebus/Jerusalem are separate naming examples with their own textual nuances. (Genesis 28:19; Judges 18:29; Judges 19:10.)
+08. The son of Jehoiada named Zechariah was killed at Joash's command; distinguish other Zechariahs. (2 Chronicles 24:20–22.)
+09. Different Herods appear in Jesus' early life, John the Baptist's death, Acts 12 and Paul's hearings. Exact titles and identity matter. (Matthew 2; Mark 6; Acts 12; Acts 25–26.)
+10. Amos confronted by Amaziah at Bethel, in the context of Jeroboam II; distinguish Amos from contemporaries. (Amos 7:10–17.)
+11. Jehoiada the priest and Joash: direction of rescue and later death must not be confused with Zechariah's death. (2 Kings 11; 2 Chronicles 22–24.)
+12. Stephen quotes Amos in Acts, not just whichever prophet wrote similar warnings. (Acts 7:42–43; Amos 5:25–27.)
+13. Matthew applies Hosea's words about God's son and Egypt to Jesus. Differentiate original OT context and NT application. (Matthew 2:15; Hosea 11:1.)
+14. Rahab → Boaz → Obed → Jesse → David as presented in Matthew 1 and Ruth 4: distinguish grandfather/great-grandfather from further ancestors, and be careful about genealogical telescoping. (Matthew 1:5–6; Ruth 4:17–22.)
+15. The same NAME in the same historical cluster must not collapse two kings into one. Check both Ahaziah and Jehoram repetitions. (1–2 Kings; 2 Chronicles.)
+16. Book of the Law found under Josiah, Huldah consulted, Hilkiah high priest, Shaphan the scribe; questions should separate discoverer, reader, messenger, prophetess and king. (2 Kings 22.)
+17. Abner, Joab, Asahel, Ish-bosheth, Baanah and Rechab have interconnected but different roles in the succession/conflict narrative. (2 Samuel 2–4.)
+18. Peter's imprisonment under Agrippa I and James son of Zebedee's execution; don't mistake different James figures. (Acts 12.)
+19. Antioch in Pisidia vs Antioch in Syria: don't conflate Paul and Barnabas's route with their sending community. (Acts 13–14.)
+20. Elisha at Dothan vs events at Carmel under Elijah; cross-book parallel character traps must be explicitly checked. (1 Kings 18; 2 Kings 6.)
+21. Elijah, Elisha, Gehazi, Hazael, Naaman and the Jordan; a character may command a healing ritual rather than physically enact it. (2 Kings 5–8.)
+22. Athaliah's rule in Judah disrupts simplistic male-king-only succession chains. (2 Kings 11; 2 Chronicles 22–23.)
+23. Chronology of Jerusalem's fall, Jehoiachin's captivity and Zedekiah's reign must follow explicitly cited accounts, not generalized “the exile.” (2 Kings 24–25; Jeremiah 39 and 52.)
+24. KJV verses can contain different wording, names or punctuation from WEB. Never present WEB wording as an exact KJV quotation or vice versa.
+25. Do not infer a person's death method from tradition where Scripture leaves it unstated; withheld question preferred over a fabricated answer.
+26. Ambiguous maps: a plausible place modern coordinate or an ancient region name is not necessarily an established archaeological location. If uncertain, formulate question on textual location only or mark it as debated and exclude from objective single-choice.
+27. “Who was killed by Saul?” is not the same as “Whose killing did Saul order?” or “Who died in a battle commanded by Saul?” Check causative agency.
+28. “Which prophet could not overlap?” requires rigorous historical evidence; unsupported assumptions based only on when a book was written are insufficient.
+29. Similar name of father does NOT establish family relation; use ID-specific evidence.
+30. For a negative question, prove all other alternatives are true under the exact stated conditions; verify the one negative with explicit evidence.
+
+Create at least one automated test / editorial fixture for each hazard class above. Add further edge cases discovered during the source audit.
+
+================================================================================
+12. KEEP SCRIPTURE MEMORISATION COMPLETELY SAFE AND WORKING
+================================================================================
+
+This quiz expansion MUST NOT damage the independently functioning Scripture Memorisation system.
+
+REQUIRED MEMORISATION REGRESSION:
+- Add a totally new scripture by pasting any length of passage from the user's Bible.
+- Preserve pasted text and formatting as stored, including multiline input and Unicode.
+- Edit a custom scripture's text and/or reference with the current confirmation semantics.
+- Delete a custom passage with confirmation, without deleting other records.
+- Add a passage to the active memorisation list; see all active passages.
+- Remove/pause it from active memorisation without deleting the saved scripture or its learning progress.
+- Resume a paused passage and continue learning where left off.
+- Switch to any other active passage during learning or review; switch back; restore the correct step and unfinished input.
+- Long passages collapse automatically with accessible expand/collapse behavior and remain fully viewable.
+- Review due scriptures, completion states, scheduling, history and memorisation progress behave normally.
+- The simplified three-option menu and filters continue working.
+- Backup exports user passages, state and quiz rotation; restore works from older backup schema(s) and current one without silently losing data.
+- Future quiz-specific keys are namespaced and do not overwrite bibleMemo_v1 or bibleCustomScriptures_v1.
+- A bad new question pack or corrupt quiz-history key must not make the memorisation app inaccessible.
+
+Before modifying storage, write explicit migrations and tests. Treat user content as HIGH PRIORITY; protect it with non-destructive migrations and compatible backups. LocalStorage quota failures should be handled politely and should never falsely show “Saved” if save fails. Do not install telemetry or sync content remotely.
+
+================================================================================
+13. UI / UX — MORE DEPTH INSIDE, NOT MORE TABS OUTSIDE
+================================================================================
+
+Preserve the existing recognizable illustrated dark navy/gold look, typographic hierarchy, responsive cards, simple mobile navigation, and core layout. Aim for clarity, beautiful spacing and responsive usability. Do not introduce an overwhelming configuration panel.
+
+MAIN PAGE:
+- Continue showing Old Testament, New Testament, Mixed Bible and Hard Mode.
+- If needed, add ONE compact “Difficulty” control, without duplicating existing categories. Hard Mode should remain a readily understood difficult preset.
+- Clear number of questions and available verified bank count if useful; never fake coverage metrics.
+- Explain rules in one sentence at most; no instructional wall of text.
+
+QUESTION SCREEN:
+- Readable stem and four accessible answers; options vertically aligned with consistent padding.
+- Question number, total, timer, score, progress indicator remain.
+- Keyboard options 1–4, A–D, Enter-to-next preserved where present; input-focused keyboard behavior must not hijack typing.
+- Visual correct/wrong state plus descriptive text for colorblind users; adequate contrast and reduced-motion support.
+- Immediate concise answer explanation + source reference.
+- Optional compact expansion for more detailed reason why other choices are wrong, particularly on Advanced/Mastery.
+- Do not leak a correct answer before selection via tooltips, hidden accessible labels, CSS or DOM content discoverable by simple screen reader navigation.
+- No huge new tab system, leaderboard, paywall, account creation, challenges, achievements clutter, or community feature.
+
+RESULT SCREEN:
+- Preserve score, elapsed time, play again, home.
+- If adding a tiny category-strength summary, compute it from real answers and hide statistically unreliable claims where categories have only 1 question. This is optional, not a new dashboard.
+- Returning to home and starting new sessions should not mutate memorisation progress.
+
+REFINEMENT:
+- Test at narrow mobile widths (320px, 360px, 390px) and desktop 1280px+.
+- Long answer options and historical full names must wrap nicely and not be clipped.
+- Use semantic buttons and labels. Keep touch targets comfortably sized.
+- Preserve current performance and offline render speed; avoid multi-megabyte images and giant initial DOM lists.
+
+================================================================================
+14. ENGINEERING ARCHITECTURE AND PERFORMANCE
+================================================================================
+
+Prefer clear, reusable modules during build/development even if final artifact is inlined in one .html file. Separate conceptual layers:
+1. canonical book/verse model;
+2. verified person/place/polity/event data packs;
+3. authored question bank;
+4. rule-based verified question templates;
+5. ID and alias resolver;
+6. semantic/reference validation;
+7. distractor validator/ranker;
+8. adaptive rotation/distribution;
+9. session state and scoring;
+10. persistent history and migrations;
+11. rendering and accessibility;
+12. backup and restore.
+
+Avoid brittle global wrappers that override one another. In the inspected v13, a later script currently takes the earlier `start()` result and replaces it via `hardSet()/normalSet()`. Consolidate start flow so there is ONE authoritative question pipeline. Do not accidentally maintain multiple competing quiz generators with inconsistent scoring or rotation.
+
+DATA PACK LOADING:
+- Prefer offline-embedded verified data in final HTML. Build-time JSON packs are fine.
+- Validate pack versions, unique IDs, book ids, fact references, and bibliography before compile.
+- Do not run arbitrary code from data files or treat source text as HTML.
+- Ensure efficient indexing (Maps by person/place/event, grouping by era, category, identity).
+- Keep the app usable if one optional pack is missing/invalid: report it, skip bad pack, preserve safe verified stock.
+- Keep source data auditable, e.g. `src/data/questions/` and `src/data/entities/` in repository when available, plus a self-contained compiled HTML.
+- Avoid reliance on React, npm runtime, browser extensions or APIs for the user. Development dependencies may be used for testing/build.
+
+SECURITY:
+- Sanitize or text-render all dynamic data; especially the user's pasted Bible passages and externally sourced descriptions. Never inject arbitrary user text via innerHTML.
+- No remote scripture upload, account access, logging of private content, or hidden network calls.
+- Support ordinary file:// Chrome use when possible; do not require service workers or IndexedDB-only features.
+- Retain existing local-only privacy boundaries.
+
+================================================================================
+15. TESTING — AUTOMATED AND MANUAL, NO UNVERIFIED CLAIMS
+================================================================================
+
+Implement actual tests, not just comments saying “tested.” Use whichever tools exist: Node-based validation tests, Playwright browser interactions, seeded simulation and DOM/security checks. If browser automation is unavailable, say so and run the available tests. Do not forge screenshots or success logs.
+
+MANDATORY TEST AREAS:
+
+A. ORIGINAL APP REGRESSION
+- All four main mode selection buttons work.
+- Main quiz can start, answer, show explanation, advance, finish, restart, stop, return home.
+- Character Study List opens and returns.
+- Scripture Session KJV modes, Browse Scripture Bank, parables and miracles still work.
+- Scripture Memorisation 3-tab architecture and all flows in Section 12 pass.
+
+B. QUESTION CONTENT VALIDITY
+- Every authored and generated question ID unique.
+- Each has four distinct, populated choices, precisely one correct answer, at least one reference and meaningful explanation.
+- Reject duplicate aliases and second-correct-answer traps.
+- Filter conflicting/uncertain data; audit logs list exclusions with reasons.
+- Review every generated family relation and chronological order using explicit graph edges.
+- Check category taxonomy across the 66 books. Count actual approved records vs target.
+- Check 30+ known hazard fixtures in Section 11.
+
+C. DISTRACTOR QUALITY
+- A male king question doesn't produce female prophetess/random female relative fillers.
+- A female ruler/prophetess question should normally have plausible same-gender and same-role distractors when such candidates exist.
+- A geographical answer has geographical peers of appropriate type and era.
+- A sacrifice offering has actual offering alternatives.
+- Distinct people with same name remain distinct with helpful qualifiers.
+- No same-entity aliases as both right and wrong options.
+- No obviously length-signaled correct answer where avoidable.
+
+D. DISTRIBUTION
+- At least 10,000 simulated selections using seeded RNG and synthetic full/partial pools.
+- No same question ID within a 20-question session, except no session should claim 20 when fewer eligible items exist.
+- No permanent suppression: every approved item remains eligible after being answered.
+- Missed-item weighting works without instant forced repetition.
+- Fair broad coverage when pool supports it; category weighting and final order shuffle pass.
+- Answer positions A, B, C, D vary over repeated presentations and are not fixed.
+- Cross-book/cross-category diversity and equivalence-group suppression pass.
+- Repeated session generation does not stall or leak significant memory.
+
+E. STORAGE / BACKUPS
+- Old quiz rotation localStorage migrates or is safely preserved.
+- v11/v12/v13 memorisation backups or current supported backups restore where possible.
+- No localStorage clearing as part of a migration.
+- Corrupt quiz history does not corrupt scripture data.
+- Saved question history persists through reload.
+- Editing custom scripture does not modify unrelated question references.
+
+F. OFFLINE / MULTI-DEVICE & ACCESSIBILITY
+- Final HTML opens directly in Chrome without internet and without a server.
+- Mobile/desktop responsive layout; long names and answers readable.
+- No console errors and no uncaught exceptions in tested flows.
+- Keyboard and touch navigation work, focus visible, reduced motion respected.
+- Performance: fast quiz startup, smooth answering, acceptable single HTML size; report size and any tradeoff.
+- Explicitly note that browser-local progress is per-browser and backups are necessary to transfer content between devices.
+
+G. USER VISIBLE CONTENT REVIEW
+- Manually inspect several dozen question stems per difficulty, not only unit-test structure.
+- Spot-check at least 100 newly approved questions across the taxonomy for actual source-supported claims if volume permits; increase review size proportionally for later packs.
+- Include references and evidence notes for any corrected legacy questions.
+- No obviously unbiblical or incoherent question in a manually sampled run.
+- Show actual generated browser screenshots only if screenshots were truly taken.
+
+================================================================================
+16. EXECUTION PLAN — DO THE WORK, DON'T STOP AT PLANNING
+================================================================================
+
+PERFORM THIS SEQUENCE:
+
+PHASE 0: CLONE & INVENTORY
+- Copy latest provided source as a safeguarded backup.
+- Enumerate and count all existing data and question generation paths.
+- Run baseline syntax, functional and storage tests where possible; note failures.
+- Produce baseline inventory with current features and localStorage schema.
+
+PHASE 1: UNIFY AND HARDEN QUESTION ENGINE
+- Refactor all competing question-generator/start layers into a single content+selection pipeline.
+- Add stable IDs, schema adapters for old question records, alias resolution and categorized knowledge IDs.
+- Keep legacy valid questions present, repair only proven errors, and log all changes.
+- Improve reference validation and remove generic/poor distractors.
+- Implement robust unbiased random order and persistent repetition logic.
+- Verify 20-question main mode flows are still fully functional.
+
+PHASE 2: BUILD VERIFIED CONTENT INFRASTRUCTURE
+- Add 66-book reference registry, event/person/place/ruler models, source ledger and QC tools.
+- Ingest appropriately licensed evidence sources at build time IF available.
+- No silent trust in machine-generated descriptions or speculative maps.
+- Implement source evidence and entity-relational validation.
+
+PHASE 3: SUBSTANTIVE CONTENT EXPANSION
+- Expand Beginner and Intermediate while preserving original knowledge points.
+- Give more space and editorial attention to Advanced and Mastery.
+- Build rich coverage packs: royalty, deaths, political transition, chronology, geography, renamed places, battles, law and sacrifices, prophecy, genealogy, obscure people, OT-NT references and the New Testament's political/social context.
+- Balance books, periods, people types and question structures.
+- Review wording and option precision; exclude items that cannot be verified.
+- Progress honestly toward targets 200/400/700/700 with actual counts, not fabricated totals.
+
+PHASE 4: EXPERIENCE & INTEGRATION
+- Retain same simple home/quiz/result structure.
+- Connect categories and difficulty metadata to actual selection, not mock controls.
+- Preserve illustrated styling and responsive presentation.
+- Ensure explanations remain concise and useful, with additional detail available where appropriate.
+- Preserve all scripture memorisation UX, saved draft behavior and data.
+
+PHASE 5: QUALITY GATES & RELEASE
+- Run static lint, dynamic/seeded selection tests, legacy regression, mobile/desktop browser interactions, source validation, backup migration tests and security tests.
+- Fix encountered issues, rerun tests, log exact command/result counts.
+- Deliver a standalone `Bible_Mastery_Quiz_v14_Ultra.html` that works when opened in Chrome offline.
+- Deliver a `Bible_Mastery_v14_Implementation_Report.md` including exact total approved items by level, subject, testament/book, source records, rejected/rewritten questions, code changes, storage compatibility, test results, source attribution/licensing, known limitations and work still outstanding.
+- Provide a `Bible_Mastery_v14_Source_Ledger.csv` (or JSON) and `Bible_Mastery_v14_Coverage_Report.md`, if practical. These are development auditing artifacts; don't clutter the user-facing application with them.
+- If the source is a repository, include full tested implementation and build/test instructions, but still produce a working offline HTML deliverable.
+
+RELEASE GATES:
+- No destruction of user memorisation data or custom verses.
+- No separate Challenge Mode.
+- No arbitrary general-knowledge trivia unrelated to the biblical canon.
+- No invalid answer sets, no unverified historical assertions presented as certainties.
+- Legacy questions preserved unless explicitly corrected/withdrawn with a logged reason.
+- Hard questions demonstrably broader and more difficult than before.
+- Answer options demonstrably better aligned and more plausible.
+- Question rotation genuinely balanced and recurrent.
+- App remains a self-contained, tested, Chrome-openable HTML.
+
+================================================================================
+17. EXACT REPORTING REQUIREMENTS
+================================================================================
+
+Your final message to the user MUST report factual results, not marketing claims:
+
+1. Name and link the actual created HTML file.
+2. Describe the major changes in a concise summary.
+3. State actual approved, distinct question counts by difficulty and legacy/new origin.
+4. State which 66-book coverage areas are well populated and which remain thin; don't claim exhaustive coverage if not achieved.
+5. State how question repetition, option shuffling, and balanced selection were implemented and tested.
+6. State whether source verification and editorial QA passed, how many questions were rejected or modified, and what still needs manual review.
+7. State whether memorisation data keys and backup restoration were preserved.
+8. State exact tests run; distinguish PASS, FAIL, NOT RUN.
+9. Explain that final app is offline/local-only and custom scriptures remain browser-local unless exported.
+10. If you couldn't reach 2,000 rigorously checked questions, give actual count and an executable continuation plan. NEVER label a data pack “2,000 questions” when it contains fewer or many paraphrased repeats.
+
+================================================================================
+18. FINAL INSTRUCTION — QUALITY ABOVE COUNT, ACCURACY ABOVE SHOWMANSHIP
+================================================================================
+
+Implement thoughtfully and comprehensively. The user is seeking a serious Bible knowledge system with unusually deep, well-distributed, contextually tricky and scripturally credible questions. The heart of this application is the correctness and intelligence of its question bank, NOT a bigger menu or a flashy UI redesign.
+
+Every difficult question should make the user think, “These answers are all plausible, but the actual biblical evidence points to exactly one.” Every answer should teach something real. Every biblical era, book, role and geography should have an appropriate place. Previously encountered questions should return intelligently over time. The legacy system and the user's hard-earned memorisation content MUST remain safe.
+
+Begin by inspecting the provided v13 (or latest) file. Proceed through implementation; do not stop at advice. Deliver the real working artifact and truthful verification report.
+
+
+================================================================================
+19. 66-BOOK COVERAGE ATLAS — GENERATION AND RESEARCH ROADMAP
+================================================================================
+
+For this edition, every one of the following canonical books must appear in the coverage dashboard and research queue. The prompts after each book are SEEDS FOR VERIFIED INVESTIGATION, not pre-approved quiz assertions. Source passages must be checked before any fact or answer is shipped. Prioritize exact people/place/event links over merely extracting one famous verse per book.
+
+OLD TESTAMENT — LAW / PENTATEUCH
+01 GENESIS: Creation and primeval genealogy (1–11); patriarchs and origin geography (12–36); Esau/Jacob household and Edom; Judah/Tamar; Joseph/Egypt and brothers (37–50); naming and burial places; ancestry, sources of intertribal kinship.
+02 EXODUS: Moses' origins and family (1–6); Pharaoh and plague chronology (7–12); route geography, Red Sea, manna, Amalek (13–18); covenant and Decalogue (19–24); tabernacle and priesthood (25–31, 35–40); golden calf and intermediary roles (32–34).
+03 LEVITICUS: Offerings and procedures (1–7); Aaronic consecration/Nadab and Abihu (8–10); clean/unclean regulations (11–15); Day of Atonement (16); holiness and ethics (17–22); appointed festivals (23); sanctuary (24); sabbatical/Jubilee/vows (25–27). Prefer precise wording and source references.
+04 NUMBERS: Census/tribes (1–4, 26); camp and Levites (5–10); wilderness rebellions and leadership (11–17); Aaron's rod and duties; Balaam/Balak (22–24); Moabite enticement (25); inheritance and Zelophehad's daughters (27, 36); journeys/boundaries/cities (33–35).
+05 DEUTERONOMY: Moses' speeches, geography east of Jordan, historical retrospection (1–4); covenant law/Shema (5–11); sacrificial centralization, welfare, kings, priests, prophets (12–26); blessings/curses (27–30); Moses' succession, song and death (31–34).
+
+OLD TESTAMENT — HISTORY AND ROYAL NARRATIVE
+06 JOSHUA: Jordan crossing and memorials (1–5); Jericho/Ai/Gibeon (6–10); wars, alliances and opponents (11–12); tribal boundary allocations and city lists (13–21); Transjordan controversy (22); covenant renewal (23–24). Beware duplicated towns and uncertain modern locations.
+07 JUDGES: Judges, tribes, invasions and oppressors (1–16); Deborah/Jael/Sisera and battle landscape (4–5); Gideon and Abimelech (6–9); Jephthah and household details (10–12); Samson's family/death (13–16); Micah's idol and migration to Dan (17–18); Gibeah and civil war (19–21).
+08 RUTH: Moabite identity, relationship to Naomi, Boaz and nearer kinsman, Bethlehem, harvest custom, city-gate procedure, genealogy to David (1–4).
+09 1 SAMUEL: Samuel's birth/Eli household and deaths (1–4); ark route and Philistine geography (4–7); Saul's anointing, family and military career (8–15); David/Saul/Jonathan/Abigail/Doeg/Ahimelech/Abiathar (16–30); Saul's last battle and death narrative (31).
+10 2 SAMUEL: Amalekite claim about Saul (1); David's wars and leadership (2–10); Uriah/Bathsheba/Nathan (11–12); Amnon/Tamar/Absalom/Joab (13–19); Sheba uprising (20); royal records, Gibeonites and warriors (21–23); census and narrative distinctions (24).
+11 1 KINGS: Solomon and contested succession (1–11); division, Jeroboam/Rehoboam, competing kingdoms and prophets (12–16); Elijah/Ahab/Jezebel/Obadiah/Elisha's call (17–19); war of Ahab with Aram, Naboth, Ahab's death (20–22).
+12 2 KINGS: Elijah/Elisha, Naaman, Jehoram, Joram/Ahaziah/Jehu revolution (1–10); Athaliah/Jehoiada/Joash (11–12); northern dynasties, assassinations (13–17); Hezekiah/Sennacherib (18–20); Manasseh/Amon/Josiah (21–23); final Judah kings and Babylonian exile (24–25).
+13 1 CHRONICLES: Genealogies, identical-name ambiguity (1–9); Saul's end (10); David's commanders and alliances (11–12); Levite/priest/singer roles, ark, organization, temple planning and succession (13–29). Compare Samuel carefully.
+14 2 CHRONICLES: Solomon/temple (1–9); kingdom of Judah, reforms, priests and royal kin (10–28); Hezekiah's Passover (29–32); Manasseh's captivity/restoration account, Josiah and fall of Jerusalem (33–36). Compare with Kings rather than flattening differences.
+15 EZRA: Cyrus decree and return, Zerubbabel, temple rebuilding, prophetic assistance, Persian rules, Ezra's family/mission and reform (1–10).
+16 NEHEMIAH: Persian court and cupbearer, royal permissions, wall gates, opponents, workers and family records, law reading, reform, towns (1–13).
+17 ESTHER: Persian court ranks, Ahasuerus, Vashti, Esther, Mordecai, Haman, eunuchs, decrees, lots, kinship, legal agency and chronological steps (1–10).
+
+OLD TESTAMENT — POETRY / WISDOM
+18 JOB: Job's place, family, friends, cycles of speeches, Elihu, the whirlwind, outcome and caution about assuming all speakers are endorsed (1–42).
+19 PSALMS: Named historical settings in superscriptions, attributed speakers, geography, allusions to kingship, migration, sanctuary, enemies and NT citations across 150 Psalms. Do not misstate uncertain authorship as directly evidenced biography.
+20 PROVERBS: Named speakers/sources in 1–31, Solomon and Agur/Lemuel, relationships, wise/foolish contrasts, specific contextual proverbs. Avoid generic moral-opinion tests.
+21 ECCLESIASTES: Narrator and discourse context, time and seasons, observations, references (1–12). Distinguish literary persona and scholarly authorship positions.
+22 SONG OF SOLOMON: Named figures, geography, literary voices and imagery (1–8). Avoid assigning speaker/gender if translation or section labels are disputed.
+
+OLD TESTAMENT — MAJOR PROPHETS
+23 ISAIAH: Calling in Uzziah's year (6); rulers of Judah and regional threats (7–12); nations, Assyria and Babylon, Hezekiah/Sennacherib (36–39); named people and places; texts later quoted in Gospels/Acts/Epistles (40–66).
+24 JEREMIAH: Josiah/Jehoiakim/Zedekiah chronology, named scribes, officials, hostile priests, Ebed-melech, siege, cistern, scroll, exile, return, relevant prophecies (1–52).
+25 LAMENTATIONS: Jerusalem's destruction and literary personifications (1–5). Test poetic context and prophetic setting without falsely asserting an unnamed narrator as explicit fact.
+26 EZEKIEL: Place of exile, visions, dates as given, symbolic actions, named nations, death of wife as sign, temple vision, territorial descriptions (1–48).
+27 DANIEL: Exile and foreign rulers, officials, identity/name changes, fiery furnace, writing on wall, lions' den, dreams and visions, Persian and Babylonian court distinctions (1–12).
+
+OLD TESTAMENT — THE TWELVE
+28 HOSEA: Hosea's family/sign names, named rulers and historical setting, pronouncements and later Matthew citation (1–14).
+29 JOEL: Judah and locust imagery, priestly summons, Day of the LORD, Spirit prophecy cited in Acts 2 (1–3 in KJV chapter scheme).
+30 AMOS: Shepherd/fig-tending background, neighboring nations, Amaziah the priest at Bethel, Jeroboam II, justice and Acts 7's quotation (1–9).
+31 OBADIAH: Edom and related geography, relations with Judah, source-specific narrative claims; do not inflate a one-chapter book through paraphrases (Obadiah 1).
+32 JONAH: Jonah's commissions, Joppa, Tarshish, fish, Nineveh, plants and conversation, links with Jesus' sign and 2 Kings 14:25 where relevant (1–4).
+33 MICAH: Judah and Israel during named kings, Bethlehem oracle, moral requirements, regional imagery, Matthew citation (1–7).
+34 NAHUM: Nineveh, Assyrian setting, named places, geographical imagery and literary contexts (1–3); avoid overstating precise historical dates from the text alone.
+35 HABAKKUK: Dialogue, Chaldeans, vision, “just shall live by faith,” NT citations, closing prayer (1–3).
+36 ZEPHANIAH: Genealogy, Josiah-era setting, Judah and nations, restoration references (1–3).
+37 HAGGAI: Darius-era dates, Zerubbabel and Joshua the high priest, temple rebuilding, context with Ezra and Zechariah (1–2).
+38 ZECHARIAH: Persian-period visionary material, historical names, temple and high priest, prophetic images cited in Gospels (1–14), disputed interpretations flagged.
+39 MALACHI: Priests, sacrifices, tithes, covenant and prophetic messenger language cited in NT (1–4 in KJV chapter scheme).
+
+NEW TESTAMENT — GOSPELS AND HISTORY
+40 MATTHEW: Genealogy, kings/Herods, journeys, early prophecies, Sermon on Mount, parables, disciples, Temple, trial and resurrection; original OT contexts (1–28).
+41 MARK: Unique narrative details and shorter/more immediate accounts, figures in Galilee/Jerusalem, Jesus' actions, trial and burial (1–16). Mark 16 textual history must not yield unqualified manuscript claims.
+42 LUKE: Genealogical and birth narratives, rulers/priesthood, women, Galilean/Samaritan travel, parables, Emmaus, resurrection, linked accounts with Acts (1–24).
+43 JOHN: signs, towns, feasts, Nicodemus, Samaritan woman, Lazarus family, disciples, arrest and trial, women at resurrection and source-specific speech (1–21).
+44 ACTS: Hellenistic/Roman geography, Pentecost, Stephen, Philip, Peter, Herods, Paul, missionary journeys, church geography, governors and route sequence (1–28). Separate Antioch in Pisidia from Syrian Antioch; city/province distinctions.
+
+NEW TESTAMENT — PAULINE AND OTHER EPISTLES
+45 ROMANS: Recipients, greetings and named associates, OT citations, Abraham/David/Israel arguments, ethical teaching, historical setting (1–16). Avoid unsupported dating certainty.
+46 1 CORINTHIANS: Corinth and named people, disputes, Lord's supper, gifts, resurrection, OT examples and customs (1–16).
+47 2 CORINTHIANS: Paul and companions, journeys, collections, apostleship, specific contextual contrasts and named references (1–13).
+48 GALATIANS: Relationship to Abraham, law/faith discussion, Paul's interactions with Peter and others, allegory and source OT background (1–6).
+49 EPHESIANS: Gentile/Jew relationships, imagery of temple and armor, household instructions, named closing messenger (1–6).
+50 PHILIPPIANS: Philippian background in Acts, Epaphroditus and Timothy, imprisonment context, greetings (1–4).
+51 COLOSSIANS: Colossae and Laodicea, named associates, relationship to Philemon, instructions and letter circulation (1–4).
+52 1 THESSALONIANS: Thessalonica and named coworkers, missionary background, context of waiting and labor (1–5).
+53 2 THESSALONIANS: Named recipients and themes, work and community discipline, discernment (1–3).
+54 1 TIMOTHY: Timothy, Ephesus, roles, elders, widows, named figures, church order (1–6); distinguish from Acts narrative details.
+55 2 TIMOTHY: Named coworkers, places, departures, imprisonment context, Scripture instruction, pastoral requests (1–4).
+56 TITUS: Crete, elders, named coworkers, household and church practices, routes in closing (1–3).
+57 PHILEMON: Philemon, Onesimus, Archippus, Apphia, mutual relationships and ethical/legal nuances (one chapter); do not add unsourced biographical details.
+58 HEBREWS: Priesthood, Melchizedek, tabernacle, sacrificial differences, cited OT passages, examples of faith (1–13); don't ascribe a settled named author without evidence.
+59 JAMES: Faith/works, law, tongue, prayer, Abraham, Rahab and Elijah, speaker context (1–5).
+60 1 PETER: Addressees' regions, exiles, elders, named Silvanus and Mark, quotations, ethical themes (1–5).
+61 2 PETER: Eyewitness claims, prophetic speech, Noah/Lot/Balaam examples, Paul's letters (1–3).
+62 1 JOHN: Literary themes, children, love, light, witnesses, confession, person/place minimalism; don't invent a biography to inflate questions (1–5).
+63 2 JOHN: The elect lady and her children, themes and greeting; avoid overconfident identification of the lady (one chapter).
+64 3 JOHN: Gaius, Diotrephes, Demetrius, hospitality and named figures (one chapter).
+65 JUDE: Jude, Michael and Satan dispute reference, Cain/Balaam/Korah, Enoch quotation, historical/interpretive source distinctions (one chapter).
+66 REVELATION: Seven churches and locations, John and Patmos, signs, people and nations, OT imagery, visions and source-specific sequence, letters in chapters 2–3, interpretive caution for contested symbols (1–22).
+
+Apply the same verification and high-quality distractor rule to books with relatively little narrative data. A one-chapter epistle should not be forced to produce 50 redundant questions. Diverse canonical coverage is measured by strong distinct facts, not equal quotas.
+
+================================================================================
+20. ROYAL DEATHS, VIOLENCE AND SUCCESSION — DETAILED RESEARCH LEDGER
+================================================================================
+
+The user specifically prioritizes how rulers died and whom they killed or ordered killed. Create a dedicated evidence ledger that separates PERSON / DEATH / ORDERED KILLINGS / ASSASSINATIONS / SUCCESSION. Below is a targeted RESEARCH CHECKLIST of major and less familiar accounts; it is not an exhaustive claim about every individual in Scripture.
+
+EARLY / JUDGES / UNITED MONARCHY
+- Eglon: Ehud and chamber account (Judges 3:15–30).
+- Sisera: Jael and tent episode, with Judges 4 and 5 read distinctly.
+- Abimelech son of Gideon: tower at Thebez, millstone, request to armorbearer (Judges 9:50–57); distinguish cause and final act.
+- Jephthah's daughter: text and interpretive disputes (Judges 11); exclude one-answer speculative death assertions without a clearly stated interpretive framework.
+- Samson: building collapse involving Philistine lords and himself (Judges 16:23–31).
+- Eli and sons: battle, ark and Eli's fatal fall (1 Samuel 4); each person different death circumstances.
+- Agag and Saul/Samuel: execution and disobedience context (1 Samuel 15); distinguish king's actions from prophet's.
+- Doeg and priests of Nob: Saul's order vs Doeg's acts (1 Samuel 22).
+- Nabal: description of illness/death and Abigail's earlier intervention (1 Samuel 25); no invented medical diagnosis.
+- Saul and sons: Gilboa, archers, sword, aftermath, 1 Samuel/2 Samuel claim distinction.
+- Abner: Joab and Asahel-related revenge (2 Samuel 2–3); actor and victim precise.
+- Ish-bosheth: sons of Rimmon, David's response (2 Samuel 4).
+- Uriah: David's orders transmitted through Joab vs frontline battle death (2 Samuel 11).
+- Amnon: Absalom's servants acting at his order (2 Samuel 13).
+- Absalom: mule/oak/Joab and men, David's reaction (2 Samuel 18); don't confuse entanglement with who finally killed him.
+- Adonijah: Solomon/Benaiah/Abishag political context (1 Kings 1–2).
+- Joab: altar sanctuary episode and Benaiah under Solomon's orders (1 Kings 2).
+
+DIVIDED KINGDOMS / FOREIGN RULERS
+- Jeroboam/Nadab/Baasha/Elah/Zimri/Omri/Tibni: coups, military locations and succession in 1 Kings 14–16; do not conflate the reigns or who was personally killed.
+- Ahab: battle at Ramoth-gilead and unnamed archer; burial vs where wounded (1 Kings 22).
+- Ahaziah of Israel: roof fall and consultation of Baal-zebub, not the similarly named king of Judah (2 Kings 1).
+- Joram of Israel, Ahaziah of Judah, Jezebel: Jehu uprising with separate perpetrator, pursuit and location fields (2 Kings 9; 2 Chronicles 22).
+- Ahab's descendants and Jehu's officers: distinguish ordered mass killing and direct actions from the narrative (2 Kings 10).
+- Athaliah: killed after Jehoiada's coup and coronation of Joash (2 Kings 11; 2 Chronicles 23).
+- Zechariah son of Jeroboam II and Shallum, Menahem's reign and violence, Pekahiah/Pekah, Hoshea: see 2 Kings 15–17. The person named Shallum may occur in multiple contexts.
+- Joash of Judah: conspiracy by servants and successor Amaziah (2 Kings 12:20–21; 2 Chronicles 24). Distinguish Joash of Israel.
+- Amaziah of Judah: conspiracy, flight, death in Lachish (2 Kings 14:17–21; 2 Chronicles 25).
+- Amon of Judah: servants' conspiracy, popular response and Josiah (2 Kings 21:23–26; 2 Chronicles 33).
+- Josiah: Megiddo and Pharaoh Neco, compare 2 Kings 23:29–30 with 2 Chronicles 35:20–24 carefully; distinguish battlefield encounter, wounds and place of death.
+- Zedekiah: sons killed before his eyes, blinding and deportation; do not claim his own death method is directly recorded in the same event (2 Kings 25; Jeremiah 39, 52).
+- Gedaliah son of Ahikam: Ishmael son of Nethaniah and assassination at Mizpah (2 Kings 25:22–26; Jeremiah 40–41).
+- Foreign ruler cases in Isaiah, Daniel, Esther and Acts: research actual textual agency, reported outcome, role and geography before authoring. Do not import extra-biblical death stories as Scripture facts.
+
+NEW TESTAMENT
+- John the Baptist: Herod Antipas as ordering authority, Herodias and daughter as narrative instigators, executioner as killer (Mark 6; Matthew 14).
+- James son of Zebedee: executed by Herod Agrippa I (Acts 12:1–2); distinguish from James of Alphaeus and James the Lord's brother.
+- Stephen: stoning after council and witness to Saul (Acts 7); distinguishes killing action from Saul's participation/approval.
+- Ananias and Sapphira: separate deaths and chronological stages (Acts 5); do not call Peter their physical killer.
+- Herod Agrippa I: narrative of death (Acts 12:20–23); do not confuse Agrippa II.
+- Judas Iscariot: account in Matthew 27 vs references in Acts 1, with textual distinctions presented fairly.
+- Jesus: arrest, trials before different authorities, crucifixion agents, burial, resurrection witnesses; distinguish roles and gospel narrative perspectives. Avoid culturally inflammatory/collective blame statements.
+- Persecutions in Acts and Paul's own dangers: distinguish who plotted, who ordered, who was accused and what outcome Scripture ACTUALLY reports.
+
+For any death-ledger question, record a directed event triple, e.g. Actor—[personally_killed/ordered_killing/arranged_killing/claimed_killing/wounded]→Victim, with passage proof and context. Make generated options reflect the correct role. Never turn “ordered” into “personally killed” simply to construct a trickier item.
+
+================================================================================
+21. QUESTION TEMPLATE LIBRARY — VARIETY WITHOUT MECHANICAL REPETITION
+================================================================================
+
+Produce and carefully review templates that draw only from verified relations. Examples below deliberately vary the cognitive task. Do not ship their placeholders; compile them only for complete facts.
+
+PERSON / ROLES
+T01. “Which [role] serving during [documented reign] [specific documented action] at [place]?”
+T02. “Which [same-name] is the individual who [distinctive event], rather than [another event]?”
+T03. “Which person belonged to [household] AND [participated in event], according to [book]?”
+T04. “Who was sent by [figure] to [recipient], and what was the purpose of the mission?” If answer asks one person, keep the purpose in stem, not two independent requests.
+T05. “Which woman linked to [specific family] played [documented role] during [event]?”
+T06. “Among these contemporaries, who held the office of [specific role] in [period]?” Only with verified contemporaneity.
+
+DEATHS / SUCCESSION
+T07. “Which king was assassinated by [agent/agents] and succeeded by [documented heir]?”
+T08. “Who PERSONALLY killed [victim], according to [exact narrative], rather than merely ordering it?”
+T09. “Who gave the order that led to the execution of [victim]?”
+T10. “What happened to [king] after [battle event]?” With four comparable outcomes, not unrelated events.
+T11. “In which location did [ruler] die after the conflict at [other named site]?” Use precise movement and location sources.
+T12. “Which ruler of [kingdom] reigned between [predecessor] and [successor]?” Avoid ambiguous co-regencies unless stated.
+T13. “Who succeeded the ruler associated with [reign + event]?”
+T14. “Which king is associated with [two distinct death/reign clues] and NOT [same-name person]?” Rephrase to single correct target, no accidental answer in stem.
+
+GEOGRAPHY / TERRITORIES
+T15. “Which former name does [specific passage] identify for [city]?”
+T16. “Which city was located in the territory of [tribe] and associated with [documented event]?”
+T17. “At which place did [person] meet [person] after leaving [verifiable prior stop]?”
+T18. “Which route is correctly ordered from [source narrative]?”
+T19. “Which of these similarly named places is the one identified in [chapter]?” Qualify place identities.
+T20. “Which territory belonged to [ruler/polity] during [specified reign]?” Restrict historical context.
+
+CHRONOLOGY / CONNECTIONS
+T21. “Which event occurred before [event B] but after [event A] in the narrative of [book]?”
+T22. “Which of these pairs are expressly placed in the same [meeting/battle/reign]?”
+T23. “Which sequence correctly orders [four named rulers] as recorded in [passage]?”
+T24. “Which earlier prophet's words are explicitly cited in [NT context]?”
+T25. “Which Old Testament setting originally contains [short, licensed and verified quoted phrase] cited in [NT book]?”
+
+LAW / PRIESTHOOD / TEMPLE
+T26. “Which offering did [specific law] require in [precise circumstance]?”
+T27. “Which priestly role had the duty of [explicit ritual action] under [passage]?”
+T28. “Which action distinguished [festival/ritual] from [three closely related rituals]?”
+T29. “Which king/official [violated/implemented] [specific command] according to [passage]?”
+T30. “Who was [named priest/Levite] connected to [temple event]?”
+
+GENEALOGIES / MINOR FIGURES
+T31. “What was [verified ancestor] to [descendant] in the recorded line [source]?” Be wary of telescoping.
+T32. “Which woman was the mother of [name] and was present in [documented event]?”
+T33. “Which scarcely mentioned [rank/role] took [action] during the reign of [king]?”
+T34. “Which of these [same-name individuals] belonged to [particular genealogy/household]?”
+T35. “Which character is mentioned in [passage A] in connection with [fact] and again in [passage B] in connection with [different fact]?” Confirm entity identity carefully.
+
+NEGATIVE / PARALLEL TEXT
+T36. “Which of these three facts applies to [person] EXCEPT [one plausible false claim]?” Recast as four alternatives with one correct negative; verify all 4.
+T37. “Which detail is included in [source A] but not in [source B]?” Full textual comparison required; do not equate omission with denial.
+T38. “Which statement accurately distinguishes [similar events in different books]?”
+T39. “Which report is a claim made by [narrative character] rather than the narrator's own description?”
+T40. “Which person/place/role makes the following combination historically consistent according to [source range]?”
+
+TEMPLATE USE RULE: For every template, write tests ensuring exactly one valid answer, source-backed fields, meaningful distractors, no repeated same-stem feel, and a readable final natural-language question. Reserve many Advanced/Mastery items for hand-curated, carefully worded questions; do not force all difficult content through mechanical templates.
+
+================================================================================
+22. EDITORIAL GRADING RUBRIC AND CONTENT QUALITY GATES
+================================================================================
+
+Rate each candidate BEFORE approval, with an auditable rubric. Automated scoring may assist but never replace actual biblical editorial verification.
+
+SUGGESTED 100-POINT RUBRIC:
+- SCRIPTURAL CORRECTNESS + EVIDENCE (0–30): explicit verifiable passage support, source handling, no unsourced claim.
+- ANSWER UNIQUENESS (0–20): all four choices judged individually; exactly one valid under precise wording; identity variants handled.
+- DISTRACTOR CREDIBILITY (0–15): same-domain, time/role/context proximity, no answer cues.
+- WORDING QUALITY (0–15): natural, clear, precise, concise; no muddled double negatives.
+- KNOWLEDGE VALUE / NOVELTY (0–10): genuinely distinct biblical fact or relationship; not bloated restatement.
+- REFERENCE + EXPLANATION (0–10): explanatory precision and correct source citations.
+
+Mandatory rejection conditions regardless of score:
+- false or unverified central claim; nonexistent scripture reference; more than one correct answer;
+- same identity twice under alternate labels; obvious gender/category/grammar giveaway;
+- material timeline/place inference presented as explicit text; copied copyrighted content without permission;
+- weak or meaningless distractors for any Advanced/Mastery item; a stem that identifies the key directly;
+- self-contradictory historical role (killed vs ordered vs merely witnessed).
+
+Approval target: ≥90 for Advanced/Mastery and ≥85 for Beginner/Intermediate, plus zero mandatory-rejection conditions. These are INTERNAL editorial process targets, not fabricated mathematical proof of correctness. Produce a spot-review list of the lowest-rated APPROVED items for manual checking. Never auto-approve solely because a model assigns a high score.
+
+Deduplication:
+- semantic group ID ties variants to the same factual target;
+- entity-specific key prevents unhelpful “who?” paraphrases of one event;
+- exact comparison after normalizing apostrophes, punctuation, case, and alias equivalence;
+- keep a few genuinely distinct relationships emerging from one event but prevent them appearing together repeatedly;
+- report both raw question records and distinct knowledge points so volume is transparent.
+
+================================================================================
+23. PRACTICAL CODEX WORK SESSION STRATEGY
+================================================================================
+
+This is a large research-and-engineering assignment, so execute in meaningful tested increments. Each run should LEAVE WORKING CODE, not just an ambitious plan. If time or token budget constrains the current run, do not fabricate completion and do not abandon the work. Complete the highest-value implemented portion; save it; provide a precise continuation prompt that names exact files/functions/modules and remaining count. The ultimate 2,000-question milestone may require multiple editorial passes.
+
+Recommended precedence if work must be curtailed:
+(1) preserve app/user data and fix engine integrity;
+(2) factual validation and accurate identity graph;
+(3) intelligent distractors and balanced rotation;
+(4) deep royal-death/geography/chronology/kinship/OT-NT bank with verified references;
+(5) expand other books, law/priesthood/obscure people;
+(6) editorial breadth and size toward 2,000;
+(7) optional polish. NEVER prioritize optional fancy UI over reliable verified questions.
+
+Milestone acceptance should contain examples actually sampled from the rendered app at each level and the source-backed explanation for the hardest examples. All review and source work must comply with data licensing requirements. Keep question authoring build-time/offline; do not embed private API keys or require a remote LLM at runtime.
+
+This prompt is an execution contract. Inspect the real latest source and begin building the improved app. The user expects a functioning offline HTML deliverable, careful scriptural accuracy, strong old-question preservation, substantial difficult-content expansion, intelligently rotating questions, and truthful results.
+
+END OF BIBLE MASTERY ULTIMATE CODEX MASTER PROMPT

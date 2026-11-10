@@ -1,0 +1,8 @@
+const vm=require('vm'),fs=require('fs'),assert=require('assert/strict');let store=new Map(),failKey=null,alerts=[];
+const sandbox={localStorage:{getItem:k=>store.get(k)??null,setItem:(k,v)=>{if(k===failKey)throw Error('quota');store.set(k,v)},removeItem:k=>store.delete(k)},alert:m=>alerts.push(m)};vm.createContext(sandbox);vm.runInContext(fs.readFileSync('src/storage.js','utf8')+';globalThis.api=Storage14',sandbox);let checks=0;const ok=(v)=>{assert(v);checks++};
+const S=sandbox.api;store.set('memo','old');failKey='custom';ok(!S.commit({memo:'new',custom:'large'}));ok(store.get('memo')==='old');ok(alerts.length===1);failKey=null;
+const r={box:-1,cs:0,ls:0,bl:1};let existing=[{id:'U|one',book:'John',verse:'3:16',text:'original'}];let old={v:2,memo:{items:{'U|one':r}},custom:[{id:'U|one',book:'John',verse:'3:16',text:'different'}]};let merged=S.mergeBackup(old,{items:{'U|one':{...r,ls:3}}},existing);ok(merged.custom.length===2);ok(merged.memo.items['U|one'].ls===3);ok(merged.custom.some(x=>x.text==='original'));ok(merged.custom.some(x=>x.text==='different'));
+const again=S.mergeBackup(old,merged.memo,merged.custom);ok(again.custom.length===2);
+for(const version of [1,2,3]){const x=S.mergeBackup({v:version,memo:{items:{built:r}}},{items:{keep:r}},existing);ok(Object.keys(x.memo.items).length===2);ok(x.custom.length===1);}
+assert.throws(()=>S.safeParse('{"__proto__":{"polluted":true}}'));checks++;assert.throws(()=>S.mergeBackup({memo:{items:{bad:{box:'bad'}}}},{items:{}},[]));checks++;
+fs.writeFileSync('qa/storage-results.json',JSON.stringify({status:'PASS',checks}));console.log('PASS',checks,'storage assertions');

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "scope": "Initial evidence graph; not the complete v14 ontology",
+  "entities": [
+    {"id":"person:jehu-son-jehoshaphat","type":"person","label":"Jehu","gender":"male","roles":["king of Israel"],"references":["2 Kings 9:2-3"]},
+    {"id":"person:joram-son-ahab","type":"person","label":"Joram of Israel","aliases":["Jehoram son of Ahab"],"gender":"male","references":["2 Kings 9:21-24"]},
+    {"id":"person:jehoram-son-jehoshaphat","type":"person","label":"Jehoram of Judah","gender":"male","references":["2 Kings 8:16"]},
+    {"id":"person:jezebel","type":"person","label":"Jezebel","gender":"female","references":["2 Kings 9:30-33"]},
+    {"id":"group:jezebel-eunuchs","type":"group","label":"Eunuchs at Jezebel's window","references":["2 Kings 9:32-33"]},
+    {"id":"person:saul-king","type":"person","label":"Saul king of Israel","references":["1 Samuel 31:3-5"]},
+    {"id":"person:amalekite-reporter","type":"person","label":"Amalekite reporting to David","references":["2 Samuel 1:6-10"]},
+    {"id":"person:rahab","type":"person","label":"Rahab","references":["Matthew 1:5"]},
+    {"id":"person:boaz","type":"person","label":"Boaz","references":["Ruth 4:21"]},
+    {"id":"person:obed","type":"person","label":"Obed","references":["Ruth 4:21-22"]},
+    {"id":"person:jesse","type":"person","label":"Jesse","references":["Ruth 4:22"]},
+    {"id":"person:david","type":"person","label":"David","references":["Ruth 4:22"]},
+    {"id":"place:bethel-genesis28","type":"place","label":"Bethel","aliases":["Luz"],"references":["Genesis 28:19"]},
+    {"id":"place:dan-judges18","type":"place","label":"Dan","aliases":["Laish"],"references":["Judges 18:29"]},
+    {"id":"ruler:hezekiah","type":"ruler","label":"Hezekiah","references":["2 Kings 20:21"]},
+    {"id":"ruler:manasseh","type":"ruler","label":"Manasseh","references":["2 Kings 21:18"]},
+    {"id":"ruler:amon","type":"ruler","label":"Amon","references":["2 Kings 21:26"]},
+    {"id":"ruler:josiah","type":"ruler","label":"Josiah","references":["2 Kings 21:26"]}
+  ],
+  "edges": [
+    {"from":"person:jehu-son-jehoshaphat","relation":"personally_shot","to":"person:joram-son-ahab","reference":"2 Kings 9:24","explicitness":"explicit"},
+    {"from":"person:jehu-son-jehoshaphat","relation":"ordered_throwing_down","to":"person:jezebel","reference":"2 Kings 9:32-33","explicitness":"explicit"},
+    {"from":"group:jezebel-eunuchs","relation":"threw_down","to":"person:jezebel","reference":"2 Kings 9:32-33","explicitness":"explicit"},
+    {"from":"person:saul-king","relation":"fell_on_own_sword","to":"person:saul-king","reference":"1 Samuel 31:4","explicitness":"narrator"},
+    {"from":"person:amalekite-reporter","relation":"claimed_killing","to":"person:saul-king","reference":"2 Samuel 1:10","explicitness":"report-by-character"},
+    {"from":"person:rahab","relation":"recorded_parent","to":"person:boaz","reference":"Matthew 1:5","explicitness":"written-genealogy"},
+    {"from":"person:boaz","relation":"recorded_parent","to":"person:obed","reference":"Ruth 4:21","explicitness":"written-genealogy"},
+    {"from":"person:obed","relation":"recorded_parent","to":"person:jesse","reference":"Ruth 4:22","explicitness":"written-genealogy"},
+    {"from":"person:jesse","relation":"recorded_parent","to":"person:david","reference":"Ruth 4:22","explicitness":"written-genealogy"},
+    {"from":"ruler:hezekiah","relation":"succeeded_by","to":"ruler:manasseh","reference":"2 Kings 20:21","explicitness":"explicit"},
+    {"from":"ruler:manasseh","relation":"succeeded_by","to":"ruler:amon","reference":"2 Kings 21:18","explicitness":"explicit"},
+    {"from":"ruler:amon","relation":"succeeded_by","to":"ruler:josiah","reference":"2 Kings 21:26","explicitness":"explicit"}
+  ]
+}
