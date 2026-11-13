@@ -1,0 +1,13 @@
+import {it,expect} from 'vitest';
+import {content} from '../../src/data/content';
+import {history,seen} from '../../src/domain/questions/selection';
+import {legacyExposure,type SelectionStrategy} from '../../src/domain/future-contracts/exposure';
+import {select} from '../../src/domain/questions/selection';
+import {makeLibrary,activeIds,dueIds,filterLibrary,initialFilters,referenceOptions,contextOptions} from '../../src/domain/memorisation/library';
+import {initialRecord} from '../../src/domain/memorisation/scheduler';
+import {seededRandom} from '../../src/domain/questions/random';
+import {MemoryStore} from '../../src/lib/persistence/port';
+it('missing exposure is unknown; aggregate mapping fabricates no events',()=>{const h=history();expect(legacyExposure(h,'absent')).toEqual({kind:'unknown'});seen(h,content.questions[0],100);expect(legacyExposure(h,content.questions[0].id).kind).toBe('legacy-aggregate');const strategy:SelectionStrategy={select};expect(strategy.select(content.questions,20,h,seededRandom(1))).toHaveLength(20);});
+it('retains Unicode custom text and independent active/due status',()=>{const text='  '+content.scriptures[0].text+'\n— αβγ\n ';const library=makeLibrary([{id:'U|test',book:'Genesis',verse:'1:1',text}]);expect(library.at(-1)?.text).toBe(text);const state={items:{'U|test':initialRecord(100),'John|3:16':{...initialRecord(100),active:false}}};expect(activeIds(state,library)).toEqual(['U|test']);expect(dueIds(state,library,1000)).toEqual([]);expect(filterLibrary(library,state,{...initialFilters(),source:'My additions'})).toHaveLength(1);});
+it('source reference and context choices remain distinct and include correct answer',()=>{for(const it of content.memorisation.library){const refs=referenceOptions(it,content.memorisation.library,seededRandom(1));expect(new Set(refs).size).toBe(4);expect(refs).toContain(it.ref);expect(contextOptions(it,seededRandom(1))).toContain(it.book);}});
+it('persistence port does not require browser globals',()=>{const store=new MemoryStore();store.setItem('key','value');expect(store.getItem('key')).toBe('value');store.removeItem('key');expect(store.getItem('key')).toBeNull();});

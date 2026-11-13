@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "sha256": {
+    "src/data/content.ts": "ac1b604bde591ac2a138a3667ff242398439844237bb5ca9774802fc834a07d4",
+    "docs/evidence/phase1/extraction-ledger.json": "28d28efe1639a90ceea00aad4023f44baaeaf338dea182b644c9c9ba12be11d2",
+    "docs/evidence/phase1/reconciliation.json": "545f6781edbe92bbab7d30ce3c4e7bb6cba8cef08cb5ee437bbacd3dc67670bf"
+  }
+}

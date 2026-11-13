@@ -1,10 +1,12 @@
 # Migration status
 
-2026-11-13, migration/react19-preservation. Baseline commit 2b28404.
-Gate 0 PASS: read entire governing spec; recovered actual Git state; both HTMLs preserved with hashes;
-comprehensive AST/content/storage/feature maps; executed tests, screenshots and source-derived fixtures.
-Direct file:// limited by browser policy; current HTTP evidence and limitations documented.
-Gate 1 NOT RUN. Gates 2–7 NOT RUN. Release NO-GO for React; existing v14 remains available.
-Next: strict typed pure extraction from the archived v14 with source reconciliation and deterministic tests.
-Do not regenerate old qa reports or run historical content expansion. Never edit legacy/original.
-See MIGRATION_PROGRESS.md for the next exact command and Git backup checkpoints.
+2026-11-13, branch migration/react19-preservation. Baseline2b28404, preserved checkpoint ef422a4.
+Gate0 PASS: comprehensive inventories, untouched checksummed originals, browser evidence and limitations.
+Gate1 PASS: exact typed extraction; no active collection exceptions;25 passing Vitest tests with
+source-oracle main selection, Scripture rotation/generation, memo text/learning/scheduling parity.
+Strict typecheck, lint, clean npm ci, idempotent extraction and archive verification pass.
+Gate2 NEXT / NOT RUN. Gates3–7 NOT RUN. React release NO-GO until all required gates pass.
+Original offline v14 remains usable and recoverable.
+Next: Phase2 React19 components, complete all47 source-confirmed feature rows using extracted domain.
+Do not advance to PWA/backend/new modes/content expansion or claim an app from a typed core alone.
+See MIGRATION_PROGRESS.md and PHASE_1_REPORT.md for exact next step, files and commands.

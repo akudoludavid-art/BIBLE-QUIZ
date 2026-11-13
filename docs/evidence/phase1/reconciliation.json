@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "source": {
+    "questions": 289,
+    "characters": 265,
+    "scriptures": 115,
+    "parables": 20,
+    "miracles": 20,
+    "compoundPassages": 6,
+    "memoLibrary": 121,
+    "templateUnits": 425,
+    "graphEntities": 18,
+    "graphEdges": 12,
+    "legacyMappings": 14,
+    "ntBooks": 27,
+    "memoTopics": 16
+  },
+  "target": {
+    "questions": 289,
+    "characters": 265,
+    "scriptures": 115,
+    "parables": 20,
+    "miracles": 20,
+    "compoundPassages": 6,
+    "memoLibrary": 121,
+    "templateUnits": 425,
+    "graphEntities": 18,
+    "graphEdges": 12,
+    "legacyMappings": 14,
+    "ntBooks": 27,
+    "memoTopics": 16
+  },
+  "exceptions": [],
+  "contentEqualsBrowserCapture": true
+}

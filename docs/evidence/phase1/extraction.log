@@ -1,0 +1,25 @@
+
+> bible-mastery@0.1.0 extract
+> node scripts/extract-legacy.cjs
+
+PASS both immutable archive hashes
+PASS exact extraction {
+  questions: 289,
+  characters: 265,
+  scriptures: 115,
+  parables: 20,
+  miracles: 20,
+  compoundPassages: 6,
+  memoLibrary: 121,
+  templateUnits: 425,
+  graphEntities: 18,
+  graphEdges: 12,
+  legacyMappings: 14,
+  ntBooks: 27,
+  memoTopics: 16
+}
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

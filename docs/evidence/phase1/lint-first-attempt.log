@@ -1,0 +1,28 @@
+
+> bible-mastery@0.1.0 lint
+> eslint src/domain src/data src/lib tests/unit
+
+
+Oops! Something went wrong! :(
+
+ESLint: 10.14.0
+
+You are linting "src/data", but all of the files matching the glob pattern "src/data" are ignored.
+
+If you don't want to lint these files, remove the pattern "src/data" from the list of arguments passed to ESLint.
+
+If you do want to lint these files, explicitly list one or more of the files from this glob that you'd like to lint to see more details about why they are ignored.
+
+  * If the file is ignored because of a matching ignore pattern, check global ignores in your config file.
+    https://eslint.org/docs/latest/use/configure/ignore
+
+  * If the file is ignored because no matching configuration was supplied, check file patterns in your config file.
+    https://eslint.org/docs/latest/use/configure/configuration-files#specify-files-with-arbitrary-extensions
+
+  * If the file is ignored because it is located outside of the base path, change the location of your config file to be in a parent directory.
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

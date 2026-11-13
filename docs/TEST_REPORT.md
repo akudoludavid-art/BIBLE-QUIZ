@@ -25,3 +25,19 @@ Baseline functions and views were audited. T01 is PARTIAL (HTTP unchanged legacy
 T02–T28 and X01–X15 for migrated React are NOT RUN. Legacy test results are not React acceptance.
 No package.json existed at Phase 0: npm ci/typecheck/lint/test/build/preview NOT RUN, legitimately awaiting Phase 1/2.
 Independent biblical editorial verification and assistive-technology device testing NOT RUN.
+
+## Phase 1 executed checks
+
+In /workspace/BIBLE-QUIZ,2026-11-13: npm ci(exit0); npm run extract(exit0), repeated with
+byte-identical content/ledger/count outputs; npm run typecheck(exit0); npm run lint(exit0);
+npm run test(exit0:25 Vitest cases,0 failures); npm run verify:archive(exit0).
+Artifacts: docs/evidence/phase1/{npm-ci,typecheck,lint,unit,extraction}.log,
+unit-results.json,reconciliation.json,extraction-ledger.json,idempotence.json.
+Nested parity checks:1000 seeded main sessions,400 rotation rounds,425 generated units,
+484 text-comparison inputs,484 blank selections,121 cumulative plans,105 grade states and
+source-oracle learning transitions. These are deterministic program comparisons, not new
+independent biblical review. Global React tests T02–T28 still NOT RUN.
+Initial TS7 dependency-tree conflict was resolved with TS6.0.3 compatible with ESLint tooling;
+initial lint errored on an intentionally ignored generated-only directory; lint command fixed.
+Extraction attempted before dependencies were available and then passed after installation.
+No force install or suppressing of type errors. Original active question/data bytes unchanged.
