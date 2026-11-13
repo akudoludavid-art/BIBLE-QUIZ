@@ -1,0 +1,84 @@
+{
+  "v": 3,
+  "memo": {
+    "items": {
+      "John|3:16": {
+        "cs": 0,
+        "ls": 1,
+        "bl": 1,
+        "fl": 0,
+        "box": -1,
+        "due": 0,
+        "diff": 0,
+        "lapses": 0,
+        "tn": 0,
+        "ts": 0,
+        "tb": 0,
+        "up": 0,
+        "added": 1794565631092,
+        "active": true,
+        "draft": {
+          "key": "0:1:blank:1",
+          "blankIndices": [
+            24,
+            14,
+            3,
+            15,
+            20
+          ],
+          "values": [
+            "unfinished",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    }
+  },
+  "rot": null,
+  "quizHistory": {
+    "version": 14,
+    "session": 4,
+    "items": {
+      "A|mephi": {
+        "attempts": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "exposures": 1,
+        "streak": 0,
+        "lastSeenSession": 1,
+        "lastSeenAt": 1794565629726
+      },
+      "bible-q-jude-triad": {
+        "attempts": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "exposures": 1,
+        "streak": 0,
+        "lastSeenSession": 2,
+        "lastSeenAt": 1794565629956
+      },
+      "F|timothy:circumcised": {
+        "attempts": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "exposures": 1,
+        "streak": 0,
+        "lastSeenSession": 3,
+        "lastSeenAt": 1794565630110
+      },
+      "bible-q-mark-executioner": {
+        "attempts": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "exposures": 1,
+        "streak": 0,
+        "lastSeenSession": 4,
+        "lastSeenAt": 1794565630276
+      }
+    }
+  },
+  "custom": []
+}

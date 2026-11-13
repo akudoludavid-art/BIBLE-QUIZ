@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/bm-baseline/tests/content.py", line 5, in <module>
+    p=Path('.');bank=json.load(open('src/bank.json'));by={q['id']:q for q in bank};ledger=json.load(open('Bible_Mastery_v14_Source_Ledger.json'));checks=0
+                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Bible_Mastery_v14_Source_Ledger.json'

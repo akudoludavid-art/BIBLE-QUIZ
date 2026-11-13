@@ -1,0 +1,45 @@
+{
+  "checks": 60992,
+  "selections": 20200,
+  "report": {
+    "ot": {
+      "pool": 186,
+      "seen": 186,
+      "sessions": 2500,
+      "minimumCategories": 20,
+      "maxCategory": 1,
+      "adjacentRepeatRate": 0.00846
+    },
+    "nt": {
+      "pool": 91,
+      "seen": 91,
+      "sessions": 2500,
+      "minimumCategories": 15,
+      "maxCategory": 2,
+      "adjacentRepeatRate": 0.14432
+    },
+    "mixed": {
+      "pool": 289,
+      "seen": 289,
+      "sessions": 2500,
+      "minimumCategories": 20,
+      "maxCategory": 1,
+      "adjacentRepeatRate": 0.00408
+    },
+    "hard": {
+      "pool": 151,
+      "seen": 151,
+      "sessions": 2500,
+      "minimumCategories": 20,
+      "maxCategory": 1,
+      "adjacentRepeatRate": 0.02012
+    }
+  },
+  "answerPositions": [
+    3,
+    1,
+    0,
+    2
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 10,
+  "errors": [],
+  "offline": "Cold document bootstrap via local request interception; not a file:// permission test."
+}

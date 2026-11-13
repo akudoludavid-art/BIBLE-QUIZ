@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "S|Genesis|1:1|book",
+    "q": "“In the beginning God created the heaven and the earth.”\n\nWhich book is this KJV passage from?",
+    "ans": "Genesis",
+    "opts": [
+      "Mark",
+      "Genesis",
+      "John",
+      "Psalms"
+    ],
+    "exp": "Genesis 1:1 (KJV): “In the beginning God created the heaven and the earth.”"
+  },
+  {
+    "id": "S|Genesis|1:1|ref",
+    "q": "Which reference matches this KJV passage?\n\n“In the beginning God created the heaven and the earth.”",
+    "ans": "Genesis 1:1",
+    "opts": [
+      "Genesis 1:1",
+      "Titus 2:11",
+      "John 11:25",
+      "Jonah 2:9"
+    ],
+    "exp": "Genesis 1:1 (KJV): “In the beginning God created the heaven and the earth.”"
+  },
+  {
+    "id": "S|Genesis|1:1|fill",
+    "q": "Complete the KJV wording:\n\n“In the beginning God created the heaven …”",
+    "ans": "and the earth.",
+    "opts": [
+      "which strengtheneth me.",
+      "am the LORD.",
+      "and the earth.",
+      "not hurt me."
+    ],
+    "exp": "Genesis 1:1 (KJV): “In the beginning God created the heaven and the earth.”"
+  },
+  {
+    "id": "S|Genesis|50:20|book",
+    "q": "“But as for you, ye thought evil against me; but God meant it unto good.”\n\nWhich book is this KJV passage from?",
+    "ans": "Genesis",
+    "opts": [
+      "Matthew",
+      "Genesis",
+      "Galatians",
+      "2 Kings"
+    ],
+    "exp": "Genesis 50:20 (KJV): “But as for you, ye thought evil against me; but God meant it unto good.”"
+  },
+  {
+    "id": "S|Genesis|50:20|ref",
+    "q": "Which reference matches this KJV passage?\n\n“But as for you, ye thought evil against me; but God meant it unto good.”",
+    "ans": "Genesis 50:20",
+    "opts": [
+      "Numbers 6:24",
+      "Psalms 46:1",
+      "Genesis 50:20",
+      "1 Corinthians 10:13"
+    ],
+    "exp": "Genesis 50:20 (KJV): “But as for you, ye thought evil against me; but God meant it unto good.”"
+  },
+  {
+    "id": "S|Genesis|50:20|fill",
+    "q": "Complete the KJV wording:\n\n“But as for you, ye thought evil against me; but …”",
+    "ans": "God meant it unto good.",
+    "opts": [
+      "God meant it unto good.",
+      "and your daughters shall prophesy.",
+      "to forgive us our sins.",
+      "the presence of his glory."
+    ],
+    "exp": "Genesis 50:20 (KJV): “But as for you, ye thought evil against me; but God meant it unto good.”"
+  },
+  {
+    "id": "S|Exodus|14:14|book",
+    "q": "“The LORD shall fight for you, and ye shall hold your peace.”\n\nWhich book is this KJV passage from?",
+    "ans": "Exodus",
+    "opts": [
+      "Exodus",
+      "1 Kings",
+      "1 Timothy",
+      "Colossians"
+    ],
+    "exp": "Exodus 14:14 (KJV): “The LORD shall fight for you, and ye shall hold your peace.”"
+  },
+  {
+    "id": "S|Exodus|14:14|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The LORD shall fight for you, and ye shall hold your peace.”",
+    "ans": "Exodus 14:14",
+    "opts": [
+      "3 John 1:4",
+      "Exodus 14:14",
+      "Joel 2:28",
+      "John 14:6"
+    ],
+    "exp": "Exodus 14:14 (KJV): “The LORD shall fight for you, and ye shall hold your peace.”"
+  },
+  {
+    "id": "S|Exodus|14:14|fill",
+    "q": "Complete the KJV wording:\n\n“The LORD shall fight for you, and ye …”",
+    "ans": "shall hold your peace.",
+    "opts": [
+      "shall hold your peace.",
+      "come in to him.",
+      "day upon the earth:",
+      "to all men liberally."
+    ],
+    "exp": "Exodus 14:14 (KJV): “The LORD shall fight for you, and ye shall hold your peace.”"
+  },
+  {
+    "id": "S|Exodus|20:3|book",
+    "q": "“Thou shalt have no other gods before me.”\n\nWhich book is this KJV passage from?",
+    "ans": "Exodus",
+    "opts": [
+      "Romans",
+      "Exodus",
+      "Deuteronomy",
+      "Nahum"
+    ],
+    "exp": "Exodus 20:3 (KJV): “Thou shalt have no other gods before me.”"
+  },
+  {
+    "id": "S|Exodus|20:3|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Thou shalt have no other gods before me.”",
+    "ans": "Exodus 20:3",
+    "opts": [
+      "Exodus 20:3",
+      "Hosea 4:6",
+      "Ephesians 2:8",
+      "Ephesians 6:11"
+    ],
+    "exp": "Exodus 20:3 (KJV): “Thou shalt have no other gods before me.”"
+  },
+  {
+    "id": "S|Exodus|20:3|fill",
+    "q": "Complete the KJV wording:\n\n“Thou shalt have no other …”",
+    "ans": "gods before me.",
+    "opts": [
+      "walk in truth.",
+      "gods before me.",
+      "and the last.",
+      "hear from heaven."
+    ],
+    "exp": "Exodus 20:3 (KJV): “Thou shalt have no other gods before me.”"
+  },
+  {
+    "id": "S|Leviticus|19:18|book",
+    "q": "“Thou shalt love thy neighbour as thyself: I am the LORD.”\n\nWhich book is this KJV passage from?",
+    "ans": "Leviticus",
+    "opts": [
+      "Matthew",
+      "Lamentations",
+      "Mark",
+      "Leviticus"
+    ],
+    "exp": "Leviticus 19:18 (KJV): “Thou shalt love thy neighbour as thyself: I am the LORD.”"
+  },
+  {
+    "id": "S|Leviticus|19:18|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Thou shalt love thy neighbour as thyself: I am the LORD.”",
+    "ans": "Leviticus 19:18",
+    "opts": [
+      "2 Chronicles 7:14",
+      "Leviticus 19:18",
+      "Jeremiah 33:3",
+      "Hebrews 11:1"
+    ],
+    "exp": "Leviticus 19:18 (KJV): “Thou shalt love thy neighbour as thyself: I am the LORD.”"
+  },
+  {
+    "id": "S|Leviticus|19:18|fill",
+    "q": "Complete the KJV wording:\n\n“Thou shalt love thy neighbour as thyself: …”",
+    "ans": "I am the LORD.",
+    "opts": [
+      "example of the believers.",
+      "shall make you free.",
+      "made known unto God.",
+      "I am the LORD."
+    ],
+    "exp": "Leviticus 19:18 (KJV): “Thou shalt love thy neighbour as thyself: I am the LORD.”"
+  },
+  {
+    "id": "S|Numbers|6:24|book",
+    "q": "“The LORD bless thee, and keep thee:”\n\nWhich book is this KJV passage from?",
+    "ans": "Numbers",
+    "opts": [
+      "John",
+      "Jeremiah",
+      "Numbers",
+      "Lamentations"
+    ],
+    "exp": "Numbers 6:24 (KJV): “The LORD bless thee, and keep thee:”"
+  },
+  {
+    "id": "S|Numbers|6:24|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The LORD bless thee, and keep thee:”",
+    "ans": "Numbers 6:24",
+    "opts": [
+      "Lamentations 3:22-23",
+      "Galatians 5:22-23",
+      "Numbers 6:24",
+      "Joel 2:28"
+    ],
+    "exp": "Numbers 6:24 (KJV): “The LORD bless thee, and keep thee:”"
+  },
+  {
+    "id": "S|Numbers|6:24|fill",
+    "q": "Complete the KJV wording:\n\n“The LORD bless thee, and …”",
+    "ans": "keep thee:",
+    "opts": [
+      "keep thee:",
+      "all men,",
+      "be hid.",
+      "thy house."
+    ],
+    "exp": "Numbers 6:24 (KJV): “The LORD bless thee, and keep thee:”"
+  },
+  {
+    "id": "S|Deuteronomy|6:5|book",
+    "q": "“And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.”\n\nWhich book is this KJV passage from?",
+    "ans": "Deuteronomy",
+    "opts": [
+      "Deuteronomy",
+      "Matthew",
+      "Ezekiel",
+      "Hosea"
+    ],
+    "exp": "Deuteronomy 6:5 (KJV): “And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.”"
+  },
+  {
+    "id": "S|Deuteronomy|6:5|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.”",
+    "ans": "Deuteronomy 6:5",
+    "opts": [
+      "Deuteronomy 6:5",
+      "1 Chronicles 16:11",
+      "Hebrews 13:8",
+      "Romans 10:9"
+    ],
+    "exp": "Deuteronomy 6:5 (KJV): “And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.”"
+  },
+  {
+    "id": "S|Deuteronomy|6:5|fill",
+    "q": "Complete the KJV wording:\n\n“And thou shalt love the LORD thy God with all thine heart, and with all …”",
+    "ans": "thy soul, and with all thy might.",
+    "opts": [
+      "things are possible to him that believeth.",
+      "abide under the shadow of the Almighty.",
+      "thy soul, and with all thy might.",
+      "to teach in Israel statutes and judgments."
+    ],
+    "exp": "Deuteronomy 6:5 (KJV): “And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.”"
+  },
+  {
+    "id": "S|Deuteronomy|8:3|book",
+    "q": "“Man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live.”\n\nWhich book is this KJV passage from?",
+    "ans": "Deuteronomy",
+    "opts": [
+      "1 Corinthians",
+      "Ecclesiastes",
+      "Numbers",
+      "Deuteronomy"
+    ],
+    "exp": "Deuteronomy 8:3 (KJV): “Man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live.”"
+  },
+  {
+    "id": "S|Deuteronomy|8:3|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live.”",
+    "ans": "Deuteronomy 8:3",
+    "opts": [
+      "John 8:32",
+      "Deuteronomy 8:3",
+      "Ecclesiastes 12:13",
+      "Ephesians 6:11"
+    ],
+    "exp": "Deuteronomy 8:3 (KJV): “Man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live.”"
+  },
+  {
+    "id": "S|Deuteronomy|8:3|fill",
+    "q": "Complete the KJV wording:\n\n“Man doth not live by bread only, but by every word that proceedeth out of the …”",
+    "ans": "mouth of the LORD doth man live.",
+    "opts": [
+      "mouth of the LORD doth man live.",
+      "to the Lord, and not unto men;",
+      "my people, and thy God my God:",
+      "God is with thee whithersoever thou goest."
+    ],
+    "exp": "Deuteronomy 8:3 (KJV): “Man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live.”"
+  },
+  {
+    "id": "S|Joshua|1:9|book",
+    "q": "“Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.”\n\nWhich book is this KJV passage from?",
+    "ans": "Joshua",
+    "opts": [
+      "James",
+      "Colossians",
+      "Hebrews",
+      "Joshua"
+    ],
+    "exp": "Joshua 1:9 (KJV): “Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.”"
+  },
+  {
+    "id": "S|Joshua|1:9|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.”",
+    "ans": "Joshua 1:9",
+    "opts": [
+      "Revelation 3:20",
+      "Colossians 3:23",
+      "1 Corinthians 6:19",
+      "Joshua 1:9"
+    ],
+    "exp": "Joshua 1:9 (KJV): “Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.”"
+  },
+  {
+    "id": "S|Joshua|1:9|fill",
+    "q": "Complete the KJV wording:\n\n“Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the …”",
+    "ans": "LORD thy God is with thee whithersoever thou goest.",
+    "opts": [
+      "LORD thy God is with thee whithersoever thou goest.",
+      "trouble; and he knoweth them that trust in him.",
+      "is my rock, and my fortress, and my deliverer;",
+      "beginning and the end, the first and the last."
+    ],
+    "exp": "Joshua 1:9 (KJV): “Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.”"
+  },
+  {
+    "id": "S|Judges|21:25|book",
+    "q": "“In those days there was no king in Israel: every man did that which was right in his own eyes.”\n\nWhich book is this KJV passage from?",
+    "ans": "Judges",
+    "opts": [
+      "Job",
+      "1 Samuel",
+      "James",
+      "Judges"
+    ],
+    "exp": "Judges 21:25 (KJV): “In those days there was no king in Israel: every man did that which was right in his own eyes.”"
+  },
+  {
+    "id": "S|Judges|21:25|ref",
+    "q": "Which reference matches this KJV passage?\n\n“In those days there was no king in Israel: every man did that which was right in his own eyes.”",
+    "ans": "Judges 21:25",
+    "opts": [
+      "Ephesians 2:8",
+      "Judges 21:25",
+      "2 Corinthians 5:17",
+      "Proverbs 18:21"
+    ],
+    "exp": "Judges 21:25 (KJV): “In those days there was no king in Israel: every man did that which was right in his own eyes.”"
+  },
+  {
+    "id": "S|Judges|21:25|fill",
+    "q": "Complete the KJV wording:\n\n“In those days there was no king in Israel: every man did that which …”",
+    "ans": "was right in his own eyes.",
+    "opts": [
+      "God, and the Word was God.",
+      "that we walk after his commandments.",
+      "was right in his own eyes.",
+      "sons and your daughters shall prophesy."
+    ],
+    "exp": "Judges 21:25 (KJV): “In those days there was no king in Israel: every man did that which was right in his own eyes.”"
+  },
+  {
+    "id": "S|Ruth|1:16|book",
+    "q": "“Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:”\n\nWhich book is this KJV passage from?",
+    "ans": "Ruth",
+    "opts": [
+      "Jude",
+      "Daniel",
+      "Ruth",
+      "Romans"
+    ],
+    "exp": "Ruth 1:16 (KJV): “Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:”"
+  },
+  {
+    "id": "S|Ruth|1:16|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:”",
+    "ans": "Ruth 1:16",
+    "opts": [
+      "Romans 12:2",
+      "2 Samuel 22:2",
+      "Luke 6:31",
+      "Ruth 1:16"
+    ],
+    "exp": "Ruth 1:16 (KJV): “Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:”"
+  },
+  {
+    "id": "S|Ruth|1:16|fill",
+    "q": "Complete the KJV wording:\n\n“Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be …”",
+    "ans": "my people, and thy God my God:",
+    "opts": [
+      "my people, and thy God my God:",
+      "face... then will I hear from heaven.",
+      "For with God nothing shall be impossible.",
+      "to teach in Israel statutes and judgments."
+    ],
+    "exp": "Ruth 1:16 (KJV): “Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:”"
+  },
+  {
+    "id": "S|1 Samuel|16:7|book",
+    "q": "“For man looketh on the outward appearance, but the LORD looketh on the heart.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Samuel",
+    "opts": [
+      "1 Samuel",
+      "Jeremiah",
+      "2 Samuel",
+      "Song of Solomon"
+    ],
+    "exp": "1 Samuel 16:7 (KJV): “For man looketh on the outward appearance, but the LORD looketh on the heart.”"
+  },
+  {
+    "id": "S|1 Samuel|16:7|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For man looketh on the outward appearance, but the LORD looketh on the heart.”",
+    "ans": "1 Samuel 16:7",
+    "opts": [
+      "2 Kings 6:16",
+      "1 Samuel 16:7",
+      "Revelation 22:13",
+      "Jeremiah 17:9"
+    ],
+    "exp": "1 Samuel 16:7 (KJV): “For man looketh on the outward appearance, but the LORD looketh on the heart.”"
+  },
+  {
+    "id": "S|1 Samuel|16:7|fill",
+    "q": "Complete the KJV wording:\n\n“For man looketh on the outward appearance, but the LORD …”",
+    "ans": "looketh on the heart.",
+    "opts": [
+      "over thee with joy.",
+      "light unto my path.",
+      "looketh on the heart.",
+      "the burning fiery furnace."
+    ],
+    "exp": "1 Samuel 16:7 (KJV): “For man looketh on the outward appearance, but the LORD looketh on the heart.”"
+  },
+  {
+    "id": "S|1 Samuel|17:47|book",
+    "q": "“The battle is the LORD'S, and he will give you into our hands.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Samuel",
+    "opts": [
+      "2 Timothy",
+      "Ruth",
+      "1 Samuel",
+      "2 Corinthians"
+    ],
+    "exp": "1 Samuel 17:47 (KJV): “The battle is the LORD'S, and he will give you into our hands.”"
+  },
+  {
+    "id": "S|1 Samuel|17:47|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The battle is the LORD'S, and he will give you into our hands.”",
+    "ans": "1 Samuel 17:47",
+    "opts": [
+      "Matthew 28:19",
+      "1 Corinthians 13:13",
+      "Jeremiah 17:9",
+      "1 Samuel 17:47"
+    ],
+    "exp": "1 Samuel 17:47 (KJV): “The battle is the LORD'S, and he will give you into our hands.”"
+  },
+  {
+    "id": "S|1 Samuel|17:47|fill",
+    "q": "Complete the KJV wording:\n\n“The battle is the LORD'S, and he will give …”",
+    "ans": "you into our hands.",
+    "opts": [
+      "name of the LORD.",
+      "you into our hands.",
+      "upon all the heathen.",
+      "of these is charity."
+    ],
+    "exp": "1 Samuel 17:47 (KJV): “The battle is the LORD'S, and he will give you into our hands.”"
+  },
+  {
+    "id": "S|2 Samuel|22:2|book",
+    "q": "“The LORD is my rock, and my fortress, and my deliverer;”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Samuel",
+    "opts": [
+      "2 Samuel",
+      "Ephesians",
+      "Proverbs",
+      "Philippians"
+    ],
+    "exp": "2 Samuel 22:2 (KJV): “The LORD is my rock, and my fortress, and my deliverer;”"
+  },
+  {
+    "id": "S|2 Samuel|22:2|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The LORD is my rock, and my fortress, and my deliverer;”",
+    "ans": "2 Samuel 22:2",
+    "opts": [
+      "1 Thessalonians 5:17",
+      "Exodus 20:3",
+      "Psalms 91:1",
+      "2 Samuel 22:2"
+    ],
+    "exp": "2 Samuel 22:2 (KJV): “The LORD is my rock, and my fortress, and my deliverer;”"
+  },
+  {
+    "id": "S|2 Samuel|22:2|fill",
+    "q": "Complete the KJV wording:\n\n“The LORD is my rock, and my …”",
+    "ans": "fortress, and my deliverer;",
+    "opts": [
+      "goodness, faith, Meekness, temperance.",
+      "I put within you.",
+      "the Word was God.",
+      "fortress, and my deliverer;"
+    ],
+    "exp": "2 Samuel 22:2 (KJV): “The LORD is my rock, and my fortress, and my deliverer;”"
+  },
+  {
+    "id": "S|1 Kings|18:21|book",
+    "q": "“How long halt ye between two opinions? if the LORD be God, follow him: but if Baal, then follow him.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Kings",
+    "opts": [
+      "1 Kings",
+      "Acts",
+      "Psalms",
+      "Galatians"
+    ],
+    "exp": "1 Kings 18:21 (KJV): “How long halt ye between two opinions? if the LORD be God, follow him: but if Baal, then follow him.”"
+  },
+  {
+    "id": "S|1 Kings|18:21|ref",
+    "q": "Which reference matches this KJV passage?\n\n“How long halt ye between two opinions? if the LORD be God, follow him: but if Baal, then follow him.”",
+    "ans": "1 Kings 18:21",
+    "opts": [
+      "Numbers 6:24",
+      "1 Thessalonians 5:17",
+      "1 Samuel 16:7",
+      "1 Kings 18:21"
+    ],
+    "exp": "1 Kings 18:21 (KJV): “How long halt ye between two opinions? if the LORD be God, follow him: but if Baal, then follow him.”"
+  },
+  {
+    "id": "S|1 Kings|18:21|fill",
+    "q": "Complete the KJV wording:\n\n“How long halt ye between two opinions? if the LORD be God, follow him: …”",
+    "ans": "but if Baal, then follow him.",
+    "opts": [
+      "tempted above that ye are able.",
+      "is in you in Christ Jesus.",
+      "but if Baal, then follow him.",
+      "LORD, which made heaven and earth."
+    ],
+    "exp": "1 Kings 18:21 (KJV): “How long halt ye between two opinions? if the LORD be God, follow him: but if Baal, then follow him.”"
+  },
+  {
+    "id": "S|2 Kings|6:16|book",
+    "q": "“Fear not: for they that be with us are more than they that be with them.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Kings",
+    "opts": [
+      "Hebrews",
+      "Daniel",
+      "Galatians",
+      "2 Kings"
+    ],
+    "exp": "2 Kings 6:16 (KJV): “Fear not: for they that be with us are more than they that be with them.”"
+  },
+  {
+    "id": "S|2 Kings|6:16|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Fear not: for they that be with us are more than they that be with them.”",
+    "ans": "2 Kings 6:16",
+    "opts": [
+      "Psalms 23:1",
+      "2 Kings 6:16",
+      "1 John 1:9",
+      "Ezra 7:10"
+    ],
+    "exp": "2 Kings 6:16 (KJV): “Fear not: for they that be with us are more than they that be with them.”"
+  },
+  {
+    "id": "S|2 Kings|6:16|fill",
+    "q": "Complete the KJV wording:\n\n“Fear not: for they that be with us are more than …”",
+    "ans": "they that be with them.",
+    "opts": [
+      "and the Word was God.",
+      "salvation; whom shall I fear?",
+      "they that be with them.",
+      "to forgive us our sins."
+    ],
+    "exp": "2 Kings 6:16 (KJV): “Fear not: for they that be with us are more than they that be with them.”"
+  },
+  {
+    "id": "S|1 Chronicles|16:11|book",
+    "q": "“Seek the LORD and his strength, seek his face continually.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Chronicles",
+    "opts": [
+      "Judges",
+      "Matthew",
+      "Hosea",
+      "1 Chronicles"
+    ],
+    "exp": "1 Chronicles 16:11 (KJV): “Seek the LORD and his strength, seek his face continually.”"
+  },
+  {
+    "id": "S|1 Chronicles|16:11|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Seek the LORD and his strength, seek his face continually.”",
+    "ans": "1 Chronicles 16:11",
+    "opts": [
+      "Joshua 1:9",
+      "1 Corinthians 10:13",
+      "1 Chronicles 16:11",
+      "Amos 3:3"
+    ],
+    "exp": "1 Chronicles 16:11 (KJV): “Seek the LORD and his strength, seek his face continually.”"
+  },
+  {
+    "id": "S|1 Chronicles|16:11|fill",
+    "q": "Complete the KJV wording:\n\n“Seek the LORD and his strength, seek …”",
+    "ans": "his face continually.",
+    "opts": [
+      "by his faith.",
+      "then follow him.",
+      "his face continually.",
+      "his own eyes."
+    ],
+    "exp": "1 Chronicles 16:11 (KJV): “Seek the LORD and his strength, seek his face continually.”"
+  },
+  {
+    "id": "S|2 Chronicles|7:14|book",
+    "q": "“If my people, which are called by my name, shall humble themselves, and pray, and seek my face... then will I hear from heaven.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Chronicles",
+    "opts": [
+      "1 Thessalonians",
+      "Acts",
+      "2 Samuel",
+      "2 Chronicles"
+    ],
+    "exp": "2 Chronicles 7:14 (KJV): “If my people, which are called by my name, shall humble themselves, and pray, and seek my face... then will I hear from heaven.”"
+  },
+  {
+    "id": "S|2 Chronicles|7:14|ref",
+    "q": "Which reference matches this KJV passage?\n\n“If my people, which are called by my name, shall humble themselves, and pray, and seek my face... then will I hear from heaven.”",
+    "ans": "2 Chronicles 7:14",
+    "opts": [
+      "Esther 4:14",
+      "3 John 1:4",
+      "Luke 6:31",
+      "2 Chronicles 7:14"
+    ],
+    "exp": "2 Chronicles 7:14 (KJV): “If my people, which are called by my name, shall humble themselves, and pray, and seek my face... then will I hear from heaven.”"
+  },
+  {
+    "id": "S|2 Chronicles|7:14|fill",
+    "q": "Complete the KJV wording:\n\n“If my people, which are called by my name, shall humble themselves, and pray, and seek my …”",
+    "ans": "face... then will I hear from heaven.",
+    "opts": [
+      "him: but if Baal, then follow him.",
+      "are my ways higher than your ways.",
+      "face... then will I hear from heaven.",
+      "he knoweth them that trust in him."
+    ],
+    "exp": "2 Chronicles 7:14 (KJV): “If my people, which are called by my name, shall humble themselves, and pray, and seek my face... then will I hear from heaven.”"
+  },
+  {
+    "id": "S|Ezra|7:10|book",
+    "q": "“For Ezra had prepared his heart to seek the law of the LORD, and to do it, and to teach in Israel statutes and judgments.”\n\nWhich book is this KJV passage from?",
+    "ans": "Ezra",
+    "opts": [
+      "Ezra",
+      "Psalms",
+      "1 Corinthians",
+      "Mark"
+    ],
+    "exp": "Ezra 7:10 (KJV): “For Ezra had prepared his heart to seek the law of the LORD, and to do it, and to teach in Israel statutes and judgments.”"
+  },
+  {
+    "id": "S|Ezra|7:10|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For Ezra had prepared his heart to seek the law of the LORD, and to do it, and to teach in Israel statutes and judgments.”",
+    "ans": "Ezra 7:10",
+    "opts": [
+      "Ezra 7:10",
+      "Ruth 1:16",
+      "James 1:5",
+      "2 Samuel 22:2"
+    ],
+    "exp": "Ezra 7:10 (KJV): “For Ezra had prepared his heart to seek the law of the LORD, and to do it, and to teach in Israel statutes and judgments.”"
+  },
+  {
+    "id": "S|Ezra|7:10|fill",
+    "q": "Complete the KJV wording:\n\n“For Ezra had prepared his heart to seek the law of the LORD, and to do it, and …”",
+    "ans": "to teach in Israel statutes and judgments.",
+    "opts": [
+      "to teach in Israel statutes and judgments.",
+      "for good to them that love God.",
+      "him: but if Baal, then follow him.",
+      "thou shalt be saved, and thy house."
+    ],
+    "exp": "Ezra 7:10 (KJV): “For Ezra had prepared his heart to seek the law of the LORD, and to do it, and to teach in Israel statutes and judgments.”"
+  },
+  {
+    "id": "S|Nehemiah|8:10|book",
+    "q": "“The joy of the LORD is your strength.”\n\nWhich book is this KJV passage from?",
+    "ans": "Nehemiah",
+    "opts": [
+      "2 Timothy",
+      "Job",
+      "1 Samuel",
+      "Nehemiah"
+    ],
+    "exp": "Nehemiah 8:10 (KJV): “The joy of the LORD is your strength.”"
+  },
+  {
+    "id": "S|Nehemiah|8:10|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The joy of the LORD is your strength.”",
+    "ans": "Nehemiah 8:10",
+    "opts": [
+      "Nehemiah 8:10",
+      "Amos 3:3",
+      "Psalms 91:1",
+      "Hebrews 11:1"
+    ],
+    "exp": "Nehemiah 8:10 (KJV): “The joy of the LORD is your strength.”"
+  },
+  {
+    "id": "S|Nehemiah|8:10|fill",
+    "q": "Complete the KJV wording:\n\n“The joy of the LORD …”",
+    "ans": "is your strength.",
+    "opts": [
+      "perfect in weakness.",
+      "glory of God;",
+      "is your strength.",
+      "shall he live:"
+    ],
+    "exp": "Nehemiah 8:10 (KJV): “The joy of the LORD is your strength.”"
+  },
+  {
+    "id": "S|Esther|4:14|book",
+    "q": "“And who knoweth whether thou art come to the kingdom for such a time as this?”\n\nWhich book is this KJV passage from?",
+    "ans": "Esther",
+    "opts": [
+      "Acts",
+      "John",
+      "Galatians",
+      "Esther"
+    ],
+    "exp": "Esther 4:14 (KJV): “And who knoweth whether thou art come to the kingdom for such a time as this?”"
+  },
+  {
+    "id": "S|Esther|4:14|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And who knoweth whether thou art come to the kingdom for such a time as this?”",
+    "ans": "Esther 4:14",
+    "opts": [
+      "Esther 4:14",
+      "Ecclesiastes 3:1",
+      "1 John 1:9",
+      "Jude 1:24"
+    ],
+    "exp": "Esther 4:14 (KJV): “And who knoweth whether thou art come to the kingdom for such a time as this?”"
+  },
+  {
+    "id": "S|Esther|4:14|fill",
+    "q": "Complete the KJV wording:\n\n“And who knoweth whether thou art come to the kingdom for …”",
+    "ans": "such a time as this?",
+    "opts": [
+      "work, neither should he eat.",
+      "such a time as this?",
+      "is made perfect in weakness.",
+      "of the glory of God;"
+    ],
+    "exp": "Esther 4:14 (KJV): “And who knoweth whether thou art come to the kingdom for such a time as this?”"
+  },
+  {
+    "id": "S|Job|19:25|book",
+    "q": "“For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth:”\n\nWhich book is this KJV passage from?",
+    "ans": "Job",
+    "opts": [
+      "Job",
+      "1 John",
+      "Daniel",
+      "Luke"
+    ],
+    "exp": "Job 19:25 (KJV): “For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth:”"
+  },
+  {
+    "id": "S|Job|19:25|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth:”",
+    "ans": "Job 19:25",
+    "opts": [
+      "Matthew 28:19",
+      "Job 19:25",
+      "Habakkuk 2:4",
+      "Proverbs 18:21"
+    ],
+    "exp": "Job 19:25 (KJV): “For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth:”"
+  },
+  {
+    "id": "S|Job|19:25|fill",
+    "q": "Complete the KJV wording:\n\n“For I know that my redeemer liveth, and that he shall stand at …”",
+    "ans": "the latter day upon the earth:",
+    "opts": [
+      "on an hill cannot be hid.",
+      "and a light unto my path.",
+      "not God; for God is love.",
+      "the latter day upon the earth:"
+    ],
+    "exp": "Job 19:25 (KJV): “For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth:”"
+  },
+  {
+    "id": "S|Job|1:21|book",
+    "q": "“The LORD gave, and the LORD hath taken away; blessed be the name of the LORD.”\n\nWhich book is this KJV passage from?",
+    "ans": "Job",
+    "opts": [
+      "1 Peter",
+      "Job",
+      "Revelation",
+      "Titus"
+    ],
+    "exp": "Job 1:21 (KJV): “The LORD gave, and the LORD hath taken away; blessed be the name of the LORD.”"
+  },
+  {
+    "id": "S|Job|1:21|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The LORD gave, and the LORD hath taken away; blessed be the name of the LORD.”",
+    "ans": "Job 1:21",
+    "opts": [
+      "Psalms 121:1-2",
+      "Leviticus 19:18",
+      "Job 1:21",
+      "Hebrews 11:1"
+    ],
+    "exp": "Job 1:21 (KJV): “The LORD gave, and the LORD hath taken away; blessed be the name of the LORD.”"
+  },
+  {
+    "id": "S|Job|1:21|fill",
+    "q": "Complete the KJV wording:\n\n“The LORD gave, and the LORD hath taken away; blessed be …”",
+    "ans": "the name of the LORD.",
+    "opts": [
+      "shall eat the fruit thereof.",
+      "our peace was upon him.",
+      "giveth to all men liberally.",
+      "the name of the LORD."
+    ],
+    "exp": "Job 1:21 (KJV): “The LORD gave, and the LORD hath taken away; blessed be the name of the LORD.”"
+  },
+  {
+    "id": "S|Psalms|23:1|book",
+    "q": "“The LORD is my shepherd; I shall not want.”\n\nWhich book is this KJV passage from?",
+    "ans": "Psalms",
+    "opts": [
+      "Psalms",
+      "Proverbs",
+      "1 Chronicles",
+      "2 Timothy"
+    ],
+    "exp": "Psalms 23:1 (KJV): “The LORD is my shepherd; I shall not want.”"
+  },
+  {
+    "id": "S|Psalms|23:1|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The LORD is my shepherd; I shall not want.”",
+    "ans": "Psalms 23:1",
+    "opts": [
+      "Psalms 23:1",
+      "1 John 4:8",
+      "Matthew 28:19",
+      "1 Samuel 17:47"
+    ],
+    "exp": "Psalms 23:1 (KJV): “The LORD is my shepherd; I shall not want.”"
+  },
+  {
+    "id": "S|Psalms|23:1|fill",
+    "q": "Complete the KJV wording:\n\n“The LORD is my shepherd; I …”",
+    "ans": "shall not want.",
+    "opts": [
+      "LORD of hosts.",
+      "perfect in weakness.",
+      "shall not want.",
+      "of your mind."
+    ],
+    "exp": "Psalms 23:1 (KJV): “The LORD is my shepherd; I shall not want.”"
+  },
+  {
+    "id": "S|Psalms|27:1|book",
+    "q": "“The LORD is my light and my salvation; whom shall I fear?”\n\nWhich book is this KJV passage from?",
+    "ans": "Psalms",
+    "opts": [
+      "2 Kings",
+      "Proverbs",
+      "Ecclesiastes",
+      "Psalms"
+    ],
+    "exp": "Psalms 27:1 (KJV): “The LORD is my light and my salvation; whom shall I fear?”"
+  },
+  {
+    "id": "S|Psalms|27:1|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The LORD is my light and my salvation; whom shall I fear?”",
+    "ans": "Psalms 27:1",
+    "opts": [
+      "Matthew 6:33",
+      "Psalms 27:1",
+      "Jeremiah 33:3",
+      "Jeremiah 29:11"
+    ],
+    "exp": "Psalms 27:1 (KJV): “The LORD is my light and my salvation; whom shall I fear?”"
+  },
+  {
+    "id": "S|Psalms|27:1|fill",
+    "q": "Complete the KJV wording:\n\n“The LORD is my light and my salvation; …”",
+    "ans": "whom shall I fear?",
+    "opts": [
+      "whom shall I fear?",
+      "I am the LORD.",
+      "goodness, faith, Meekness, temperance.",
+      "and not unto men;"
+    ],
+    "exp": "Psalms 27:1 (KJV): “The LORD is my light and my salvation; whom shall I fear?”"
+  },
+  {
+    "id": "S|Psalms|46:1|book",
+    "q": "“God is our refuge and strength, a very present help in trouble.”\n\nWhich book is this KJV passage from?",
+    "ans": "Psalms",
+    "opts": [
+      "Exodus",
+      "Matthew",
+      "Jeremiah",
+      "Psalms"
+    ],
+    "exp": "Psalms 46:1 (KJV): “God is our refuge and strength, a very present help in trouble.”"
+  },
+  {
+    "id": "S|Psalms|46:1|ref",
+    "q": "Which reference matches this KJV passage?\n\n“God is our refuge and strength, a very present help in trouble.”",
+    "ans": "Psalms 46:1",
+    "opts": [
+      "Mark 8:36",
+      "Jude 1:24",
+      "Luke 1:37",
+      "Psalms 46:1"
+    ],
+    "exp": "Psalms 46:1 (KJV): “God is our refuge and strength, a very present help in trouble.”"
+  },
+  {
+    "id": "S|Psalms|46:1|fill",
+    "q": "Complete the KJV wording:\n\n“God is our refuge and strength, a very …”",
+    "ans": "present help in trouble.",
+    "opts": [
+      "of these is charity.",
+      "and not of evil.",
+      "present help in trouble.",
+      "but have everlasting life."
+    ],
+    "exp": "Psalms 46:1 (KJV): “God is our refuge and strength, a very present help in trouble.”"
+  },
+  {
+    "id": "S|Psalms|91:1|book",
+    "q": "“He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.”\n\nWhich book is this KJV passage from?",
+    "ans": "Psalms",
+    "opts": [
+      "Acts",
+      "Exodus",
+      "Psalms",
+      "2 Chronicles"
+    ],
+    "exp": "Psalms 91:1 (KJV): “He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.”"
+  },
+  {
+    "id": "S|Psalms|91:1|ref",
+    "q": "Which reference matches this KJV passage?\n\n“He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.”",
+    "ans": "Psalms 91:1",
+    "opts": [
+      "Malachi 3:10",
+      "Jonah 2:9",
+      "Hebrews 13:8",
+      "Psalms 91:1"
+    ],
+    "exp": "Psalms 91:1 (KJV): “He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.”"
+  },
+  {
+    "id": "S|Psalms|91:1|fill",
+    "q": "Complete the KJV wording:\n\n“He that dwelleth in the secret place of the most High shall abide …”",
+    "ans": "under the shadow of the Almighty.",
+    "opts": [
+      "not work, neither should he eat.",
+      "good to them that love God.",
+      "under the shadow of the Almighty.",
+      "sons and your daughters shall prophesy."
+    ],
+    "exp": "Psalms 91:1 (KJV): “He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.”"
+  },
+  {
+    "id": "S|Psalms|119:105|book",
+    "q": "“Thy word is a lamp unto my feet, and a light unto my path.”\n\nWhich book is this KJV passage from?",
+    "ans": "Psalms",
+    "opts": [
+      "3 John",
+      "Psalms",
+      "Haggai",
+      "Hosea"
+    ],
+    "exp": "Psalms 119:105 (KJV): “Thy word is a lamp unto my feet, and a light unto my path.”"
+  },
+  {
+    "id": "S|Psalms|119:105|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Thy word is a lamp unto my feet, and a light unto my path.”",
+    "ans": "Psalms 119:105",
+    "opts": [
+      "Psalms 119:105",
+      "Colossians 3:23",
+      "Lamentations 3:22-23",
+      "Revelation 21:4"
+    ],
+    "exp": "Psalms 119:105 (KJV): “Thy word is a lamp unto my feet, and a light unto my path.”"
+  },
+  {
+    "id": "S|Psalms|119:105|fill",
+    "q": "Complete the KJV wording:\n\n“Thy word is a lamp unto my feet, and a …”",
+    "ans": "light unto my path.",
+    "opts": [
+      "light unto my path.",
+      "LORD is your strength.",
+      "but have everlasting life.",
+      "be upon his shoulder."
+    ],
+    "exp": "Psalms 119:105 (KJV): “Thy word is a lamp unto my feet, and a light unto my path.”"
+  },
+  {
+    "id": "S|Psalms|121:1-2|book",
+    "q": "“I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth.”\n\nWhich book is this KJV passage from?",
+    "ans": "Psalms",
+    "opts": [
+      "Psalms",
+      "Nehemiah",
+      "1 Samuel",
+      "1 Thessalonians"
+    ],
+    "exp": "Psalms 121:1-2 (KJV): “I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth.”"
+  },
+  {
+    "id": "S|Psalms|121:1-2|ref",
+    "q": "Which reference matches this KJV passage?\n\n“I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth.”",
+    "ans": "Psalms 121:1-2",
+    "opts": [
+      "Malachi 3:10",
+      "2 Kings 6:16",
+      "Lamentations 3:22-23",
+      "Psalms 121:1-2"
+    ],
+    "exp": "Psalms 121:1-2 (KJV): “I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth.”"
+  },
+  {
+    "id": "S|Psalms|121:1-2|fill",
+    "q": "Complete the KJV wording:\n\n“I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from …”",
+    "ans": "the LORD, which made heaven and earth.",
+    "opts": [
+      "with God, and the Word was God.",
+      "the LORD, which made heaven and earth.",
+      "he were dead, yet shall he live:",
+      "my strength is made perfect in weakness."
+    ],
+    "exp": "Psalms 121:1-2 (KJV): “I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth.”"
+  },
+  {
+    "id": "S|Proverbs|3:5-6|book",
+    "q": "“Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”\n\nWhich book is this KJV passage from?",
+    "ans": "Proverbs",
+    "opts": [
+      "Isaiah",
+      "Daniel",
+      "Proverbs",
+      "Amos"
+    ],
+    "exp": "Proverbs 3:5-6 (KJV): “Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”"
+  },
+  {
+    "id": "S|Proverbs|3:5-6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”",
+    "ans": "Proverbs 3:5-6",
+    "opts": [
+      "Proverbs 3:5-6",
+      "Luke 19:10",
+      "Numbers 6:24",
+      "Joshua 1:9"
+    ],
+    "exp": "Proverbs 3:5-6 (KJV): “Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”"
+  },
+  {
+    "id": "S|Proverbs|3:5-6|fill",
+    "q": "Complete the KJV wording:\n\n“Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways …”",
+    "ans": "acknowledge him, and he shall direct thy paths.",
+    "opts": [
+      "stand at the latter day upon the earth:",
+      "acknowledge him, and he shall direct thy paths.",
+      "and to teach in Israel statutes and judgments.",
+      "The just shall live by his faith."
+    ],
+    "exp": "Proverbs 3:5-6 (KJV): “Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”"
+  },
+  {
+    "id": "S|Proverbs|18:21|book",
+    "q": "“Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof.”\n\nWhich book is this KJV passage from?",
+    "ans": "Proverbs",
+    "opts": [
+      "Proverbs",
+      "Exodus",
+      "Ezra",
+      "2 Chronicles"
+    ],
+    "exp": "Proverbs 18:21 (KJV): “Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof.”"
+  },
+  {
+    "id": "S|Proverbs|18:21|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof.”",
+    "ans": "Proverbs 18:21",
+    "opts": [
+      "John 11:25",
+      "Proverbs 18:21",
+      "Obadiah 1:15",
+      "Psalms 121:1-2"
+    ],
+    "exp": "Proverbs 18:21 (KJV): “Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof.”"
+  },
+  {
+    "id": "S|Proverbs|18:21|fill",
+    "q": "Complete the KJV wording:\n\n“Death and life are in the power of the tongue: and they that love …”",
+    "ans": "it shall eat the fruit thereof.",
+    "opts": [
+      "the evidence of things not seen.",
+      "the LORD looketh on the heart.",
+      "world, and lose his own soul?",
+      "it shall eat the fruit thereof."
+    ],
+    "exp": "Proverbs 18:21 (KJV): “Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof.”"
+  },
+  {
+    "id": "S|Proverbs|22:6|book",
+    "q": "“Train up a child in the way he should go: and when he is old, he will not depart from it.”\n\nWhich book is this KJV passage from?",
+    "ans": "Proverbs",
+    "opts": [
+      "1 John",
+      "Proverbs",
+      "Joshua",
+      "3 John"
+    ],
+    "exp": "Proverbs 22:6 (KJV): “Train up a child in the way he should go: and when he is old, he will not depart from it.”"
+  },
+  {
+    "id": "S|Proverbs|22:6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Train up a child in the way he should go: and when he is old, he will not depart from it.”",
+    "ans": "Proverbs 22:6",
+    "opts": [
+      "Proverbs 22:6",
+      "Haggai 1:5",
+      "Deuteronomy 8:3",
+      "Psalms 91:1"
+    ],
+    "exp": "Proverbs 22:6 (KJV): “Train up a child in the way he should go: and when he is old, he will not depart from it.”"
+  },
+  {
+    "id": "S|Proverbs|22:6|fill",
+    "q": "Complete the KJV wording:\n\n“Train up a child in the way he should go: and when he is old, …”",
+    "ans": "he will not depart from it.",
+    "opts": [
+      "of our peace was upon him.",
+      "desperately wicked: who can know it?",
+      "he will not depart from it.",
+      "is the whole duty of man."
+    ],
+    "exp": "Proverbs 22:6 (KJV): “Train up a child in the way he should go: and when he is old, he will not depart from it.”"
+  },
+  {
+    "id": "S|Ecclesiastes|3:1|book",
+    "q": "“To every thing there is a season, and a time to every purpose under the heaven:”\n\nWhich book is this KJV passage from?",
+    "ans": "Ecclesiastes",
+    "opts": [
+      "Job",
+      "Galatians",
+      "Ecclesiastes",
+      "2 Peter"
+    ],
+    "exp": "Ecclesiastes 3:1 (KJV): “To every thing there is a season, and a time to every purpose under the heaven:”"
+  },
+  {
+    "id": "S|Ecclesiastes|3:1|ref",
+    "q": "Which reference matches this KJV passage?\n\n“To every thing there is a season, and a time to every purpose under the heaven:”",
+    "ans": "Ecclesiastes 3:1",
+    "opts": [
+      "1 Corinthians 6:19",
+      "2 Thessalonians 3:10",
+      "Psalms 46:1",
+      "Ecclesiastes 3:1"
+    ],
+    "exp": "Ecclesiastes 3:1 (KJV): “To every thing there is a season, and a time to every purpose under the heaven:”"
+  },
+  {
+    "id": "S|Ecclesiastes|3:1|fill",
+    "q": "Complete the KJV wording:\n\n“To every thing there is a season, and a time to …”",
+    "ans": "every purpose under the heaven:",
+    "opts": [
+      "every purpose under the heaven:",
+      "the shadow of the Almighty.",
+      "the name of the LORD.",
+      "truth shall make you free."
+    ],
+    "exp": "Ecclesiastes 3:1 (KJV): “To every thing there is a season, and a time to every purpose under the heaven:”"
+  },
+  {
+    "id": "S|Ecclesiastes|12:13|book",
+    "q": "“Fear God, and keep his commandments: for this is the whole duty of man.”\n\nWhich book is this KJV passage from?",
+    "ans": "Ecclesiastes",
+    "opts": [
+      "Jude",
+      "Ecclesiastes",
+      "2 Corinthians",
+      "1 Corinthians"
+    ],
+    "exp": "Ecclesiastes 12:13 (KJV): “Fear God, and keep his commandments: for this is the whole duty of man.”"
+  },
+  {
+    "id": "S|Ecclesiastes|12:13|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Fear God, and keep his commandments: for this is the whole duty of man.”",
+    "ans": "Ecclesiastes 12:13",
+    "opts": [
+      "Esther 4:14",
+      "Ecclesiastes 12:13",
+      "Nehemiah 8:10",
+      "Philippians 4:6"
+    ],
+    "exp": "Ecclesiastes 12:13 (KJV): “Fear God, and keep his commandments: for this is the whole duty of man.”"
+  },
+  {
+    "id": "S|Ecclesiastes|12:13|fill",
+    "q": "Complete the KJV wording:\n\n“Fear God, and keep his commandments: for this is the …”",
+    "ans": "whole duty of man.",
+    "opts": [
+      "goodness, faith, Meekness, temperance.",
+      "which thou knowest not.",
+      "wiles of the devil.",
+      "whole duty of man."
+    ],
+    "exp": "Ecclesiastes 12:13 (KJV): “Fear God, and keep his commandments: for this is the whole duty of man.”"
+  },
+  {
+    "id": "S|Song of Solomon|8:7|book",
+    "q": "“Many waters cannot quench love, neither can the floods drown it:”\n\nWhich book is this KJV passage from?",
+    "ans": "Song of Solomon",
+    "opts": [
+      "Malachi",
+      "Song of Solomon",
+      "Matthew",
+      "1 Timothy"
+    ],
+    "exp": "Song of Solomon 8:7 (KJV): “Many waters cannot quench love, neither can the floods drown it:”"
+  },
+  {
+    "id": "S|Song of Solomon|8:7|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Many waters cannot quench love, neither can the floods drown it:”",
+    "ans": "Song of Solomon 8:7",
+    "opts": [
+      "2 John 1:6",
+      "2 Thessalonians 3:10",
+      "Song of Solomon 8:7",
+      "Luke 6:31"
+    ],
+    "exp": "Song of Solomon 8:7 (KJV): “Many waters cannot quench love, neither can the floods drown it:”"
+  },
+  {
+    "id": "S|Song of Solomon|8:7|fill",
+    "q": "Complete the KJV wording:\n\n“Many waters cannot quench love, neither can …”",
+    "ans": "the floods drown it:",
+    "opts": [
+      "shadow of the Almighty.",
+      "that trust in him.",
+      "the floods drown it:",
+      "over thee with joy."
+    ],
+    "exp": "Song of Solomon 8:7 (KJV): “Many waters cannot quench love, neither can the floods drown it:”"
+  },
+  {
+    "id": "S|Isaiah|9:6|book",
+    "q": "“For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder.”\n\nWhich book is this KJV passage from?",
+    "ans": "Isaiah",
+    "opts": [
+      "Isaiah",
+      "Psalms",
+      "Ephesians",
+      "Genesis"
+    ],
+    "exp": "Isaiah 9:6 (KJV): “For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder.”"
+  },
+  {
+    "id": "S|Isaiah|9:6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder.”",
+    "ans": "Isaiah 9:6",
+    "opts": [
+      "Esther 4:14",
+      "Luke 1:37",
+      "John 8:32",
+      "Isaiah 9:6"
+    ],
+    "exp": "Isaiah 9:6 (KJV): “For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder.”"
+  },
+  {
+    "id": "S|Isaiah|9:6|fill",
+    "q": "Complete the KJV wording:\n\n“For unto us a child is born, unto us a son is given: and the …”",
+    "ans": "government shall be upon his shoulder.",
+    "opts": [
+      "government shall be upon his shoulder.",
+      "was right in his own eyes.",
+      "not God; for God is love.",
+      "is with thee whithersoever thou goest."
+    ],
+    "exp": "Isaiah 9:6 (KJV): “For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder.”"
+  },
+  {
+    "id": "S|Isaiah|40:31|book",
+    "q": "“But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles.”\n\nWhich book is this KJV passage from?",
+    "ans": "Isaiah",
+    "opts": [
+      "2 Chronicles",
+      "Isaiah",
+      "1 Samuel",
+      "Acts"
+    ],
+    "exp": "Isaiah 40:31 (KJV): “But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles.”"
+  },
+  {
+    "id": "S|Isaiah|40:31|ref",
+    "q": "Which reference matches this KJV passage?\n\n“But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles.”",
+    "ans": "Isaiah 40:31",
+    "opts": [
+      "John 3:16",
+      "Colossians 3:23",
+      "Psalms 46:1",
+      "Isaiah 40:31"
+    ],
+    "exp": "Isaiah 40:31 (KJV): “But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles.”"
+  },
+  {
+    "id": "S|Isaiah|40:31|fill",
+    "q": "Complete the KJV wording:\n\n“But they that wait upon the LORD shall renew their strength; they shall …”",
+    "ans": "mount up with wings as eagles.",
+    "opts": [
+      "mount up with wings as eagles.",
+      "more death, neither sorrow, nor crying.",
+      "and a light unto my path.",
+      "not work, neither should he eat."
+    ],
+    "exp": "Isaiah 40:31 (KJV): “But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles.”"
+  },
+  {
+    "id": "S|Isaiah|53:5|book",
+    "q": "“But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him.”\n\nWhich book is this KJV passage from?",
+    "ans": "Isaiah",
+    "opts": [
+      "Proverbs",
+      "Psalms",
+      "Isaiah",
+      "Ruth"
+    ],
+    "exp": "Isaiah 53:5 (KJV): “But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him.”"
+  },
+  {
+    "id": "S|Isaiah|53:5|ref",
+    "q": "Which reference matches this KJV passage?\n\n“But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him.”",
+    "ans": "Isaiah 53:5",
+    "opts": [
+      "Isaiah 53:5",
+      "Ezra 7:10",
+      "Revelation 21:4",
+      "Jeremiah 33:3"
+    ],
+    "exp": "Isaiah 53:5 (KJV): “But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him.”"
+  },
+  {
+    "id": "S|Isaiah|53:5|fill",
+    "q": "Complete the KJV wording:\n\n“But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement …”",
+    "ans": "of our peace was upon him.",
+    "opts": [
+      "that they have not hurt me.",
+      "created the heaven and the earth.",
+      "of the LORD is your strength.",
+      "of our peace was upon him."
+    ],
+    "exp": "Isaiah 53:5 (KJV): “But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him.”"
+  },
+  {
+    "id": "S|Isaiah|55:8-9|book",
+    "q": "“For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than the earth, so are my ways higher than your ways.”\n\nWhich book is this KJV passage from?",
+    "ans": "Isaiah",
+    "opts": [
+      "Nahum",
+      "Ecclesiastes",
+      "Acts",
+      "Isaiah"
+    ],
+    "exp": "Isaiah 55:8-9 (KJV): “For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than the earth, so are my ways higher than your ways.”"
+  },
+  {
+    "id": "S|Isaiah|55:8-9|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than the earth, so are my ways higher than your ways.”",
+    "ans": "Isaiah 55:8-9",
+    "opts": [
+      "Isaiah 55:8-9",
+      "Acts 1:8",
+      "Psalms 27:1",
+      "2 Chronicles 7:14"
+    ],
+    "exp": "Isaiah 55:8-9 (KJV): “For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than the earth, so are my ways higher than your ways.”"
+  },
+  {
+    "id": "S|Isaiah|55:8-9|fill",
+    "q": "Complete the KJV wording:\n\n“For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than …”",
+    "ans": "the earth, so are my ways higher than your ways.",
+    "opts": [
+      "the word, and not hearers only, deceiving your own selves.",
+      "thy youth; but be thou an example of the believers.",
+      "the earth, so are my ways higher than your ways.",
+      "is able to deliver us from the burning fiery furnace."
+    ],
+    "exp": "Isaiah 55:8-9 (KJV): “For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than the earth, so are my ways higher than your ways.”"
+  },
+  {
+    "id": "S|Jeremiah|17:9|book",
+    "q": "“The heart is deceitful above all things, and desperately wicked: who can know it?”\n\nWhich book is this KJV passage from?",
+    "ans": "Jeremiah",
+    "opts": [
+      "Philippians",
+      "1 John",
+      "2 Timothy",
+      "Jeremiah"
+    ],
+    "exp": "Jeremiah 17:9 (KJV): “The heart is deceitful above all things, and desperately wicked: who can know it?”"
+  },
+  {
+    "id": "S|Jeremiah|17:9|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The heart is deceitful above all things, and desperately wicked: who can know it?”",
+    "ans": "Jeremiah 17:9",
+    "opts": [
+      "2 Timothy 2:15",
+      "2 Chronicles 7:14",
+      "Acts 1:8",
+      "Jeremiah 17:9"
+    ],
+    "exp": "Jeremiah 17:9 (KJV): “The heart is deceitful above all things, and desperately wicked: who can know it?”"
+  },
+  {
+    "id": "S|Jeremiah|17:9|fill",
+    "q": "Complete the KJV wording:\n\n“The heart is deceitful above all things, and desperately wicked: …”",
+    "ans": "who can know it?",
+    "opts": [
+      "for lack of knowledge.",
+      "who can know it?",
+      "thou shalt be saved.",
+      "LORD is your strength."
+    ],
+    "exp": "Jeremiah 17:9 (KJV): “The heart is deceitful above all things, and desperately wicked: who can know it?”"
+  },
+  {
+    "id": "S|Jeremiah|29:11|book",
+    "q": "“For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil.”\n\nWhich book is this KJV passage from?",
+    "ans": "Jeremiah",
+    "opts": [
+      "1 Chronicles",
+      "James",
+      "Jeremiah",
+      "Hosea"
+    ],
+    "exp": "Jeremiah 29:11 (KJV): “For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil.”"
+  },
+  {
+    "id": "S|Jeremiah|29:11|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil.”",
+    "ans": "Jeremiah 29:11",
+    "opts": [
+      "1 Peter 5:7",
+      "Genesis 50:20",
+      "Galatians 5:22-23",
+      "Jeremiah 29:11"
+    ],
+    "exp": "Jeremiah 29:11 (KJV): “For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil.”"
+  },
+  {
+    "id": "S|Jeremiah|29:11|fill",
+    "q": "Complete the KJV wording:\n\n“For I know the thoughts that I think toward you, saith the LORD, thoughts …”",
+    "ans": "of peace, and not of evil.",
+    "opts": [
+      "are possible to him that believeth.",
+      "shalt be saved, and thy house.",
+      "of peace, and not of evil.",
+      "Son, and of the Holy Ghost:"
+    ],
+    "exp": "Jeremiah 29:11 (KJV): “For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil.”"
+  },
+  {
+    "id": "S|Jeremiah|33:3|book",
+    "q": "“Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.”\n\nWhich book is this KJV passage from?",
+    "ans": "Jeremiah",
+    "opts": [
+      "Matthew",
+      "Jeremiah",
+      "2 Corinthians",
+      "Ephesians"
+    ],
+    "exp": "Jeremiah 33:3 (KJV): “Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.”"
+  },
+  {
+    "id": "S|Jeremiah|33:3|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.”",
+    "ans": "Jeremiah 33:3",
+    "opts": [
+      "1 Thessalonians 5:17",
+      "Revelation 22:13",
+      "1 John 4:8",
+      "Jeremiah 33:3"
+    ],
+    "exp": "Jeremiah 33:3 (KJV): “Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.”"
+  },
+  {
+    "id": "S|Jeremiah|33:3|fill",
+    "q": "Complete the KJV wording:\n\n“Call unto me, and I will answer thee, and shew thee great and …”",
+    "ans": "mighty things, which thou knowest not.",
+    "opts": [
+      "shalt be saved, and thy house.",
+      "and ye shall hold your peace.",
+      "hearers only, deceiving your own selves.",
+      "mighty things, which thou knowest not."
+    ],
+    "exp": "Jeremiah 33:3 (KJV): “Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.”"
+  },
+  {
+    "id": "S|Lamentations|3:22-23|book",
+    "q": "“It is of the LORD'S mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.”\n\nWhich book is this KJV passage from?",
+    "ans": "Lamentations",
+    "opts": [
+      "Ezekiel",
+      "Lamentations",
+      "Isaiah",
+      "Jeremiah"
+    ],
+    "exp": "Lamentations 3:22-23 (KJV): “It is of the LORD'S mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.”"
+  },
+  {
+    "id": "S|Lamentations|3:22-23|ref",
+    "q": "Which reference matches this KJV passage?\n\n“It is of the LORD'S mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.”",
+    "ans": "Lamentations 3:22-23",
+    "opts": [
+      "Romans 8:28",
+      "Jeremiah 33:3",
+      "Lamentations 3:22-23",
+      "Luke 6:31"
+    ],
+    "exp": "Lamentations 3:22-23 (KJV): “It is of the LORD'S mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.”"
+  },
+  {
+    "id": "S|Lamentations|3:22-23|fill",
+    "q": "Complete the KJV wording:\n\n“It is of the LORD'S mercies that we are not consumed, because his compassions fail not. They are …”",
+    "ans": "new every morning: great is thy faithfulness.",
+    "opts": [
+      "peace, longsuffering, gentleness, goodness, faith, Meekness, temperance.",
+      "new every morning: great is thy faithfulness.",
+      "thy soul, and with all thy might.",
+      "bringeth salvation hath appeared to all men,"
+    ],
+    "exp": "Lamentations 3:22-23 (KJV): “It is of the LORD'S mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.”"
+  },
+  {
+    "id": "S|Ezekiel|36:26|book",
+    "q": "“A new heart also will I give you, and a new spirit will I put within you.”\n\nWhich book is this KJV passage from?",
+    "ans": "Ezekiel",
+    "opts": [
+      "Hebrews",
+      "Nahum",
+      "Ezekiel",
+      "Isaiah"
+    ],
+    "exp": "Ezekiel 36:26 (KJV): “A new heart also will I give you, and a new spirit will I put within you.”"
+  },
+  {
+    "id": "S|Ezekiel|36:26|ref",
+    "q": "Which reference matches this KJV passage?\n\n“A new heart also will I give you, and a new spirit will I put within you.”",
+    "ans": "Ezekiel 36:26",
+    "opts": [
+      "Luke 19:10",
+      "Genesis 1:1",
+      "Ezekiel 36:26",
+      "Job 1:21"
+    ],
+    "exp": "Ezekiel 36:26 (KJV): “A new heart also will I give you, and a new spirit will I put within you.”"
+  },
+  {
+    "id": "S|Ezekiel|36:26|fill",
+    "q": "Complete the KJV wording:\n\n“A new heart also will I give you, and a new spirit …”",
+    "ans": "will I put within you.",
+    "opts": [
+      "the LORD doth man live.",
+      "will I put within you.",
+      "morning: great is thy faithfulness.",
+      "old things are passed away."
+    ],
+    "exp": "Ezekiel 36:26 (KJV): “A new heart also will I give you, and a new spirit will I put within you.”"
+  },
+  {
+    "id": "S|Ezekiel|18:20|book",
+    "q": "“The soul that sinneth, it shall die.”\n\nWhich book is this KJV passage from?",
+    "ans": "Ezekiel",
+    "opts": [
+      "Job",
+      "Ezekiel",
+      "1 Corinthians",
+      "Jude"
+    ],
+    "exp": "Ezekiel 18:20 (KJV): “The soul that sinneth, it shall die.”"
+  },
+  {
+    "id": "S|Ezekiel|18:20|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The soul that sinneth, it shall die.”",
+    "ans": "Ezekiel 18:20",
+    "opts": [
+      "Philippians 4:6",
+      "John 8:32",
+      "Ezekiel 18:20",
+      "2 Corinthians 5:17"
+    ],
+    "exp": "Ezekiel 18:20 (KJV): “The soul that sinneth, it shall die.”"
+  },
+  {
+    "id": "S|Ezekiel|18:20|fill",
+    "q": "Complete the KJV wording:\n\n“The soul that sinneth, it …”",
+    "ans": "shall die.",
+    "opts": [
+      "upon him.",
+      "was God.",
+      "shall die.",
+      "man live."
+    ],
+    "exp": "Ezekiel 18:20 (KJV): “The soul that sinneth, it shall die.”"
+  },
+  {
+    "id": "S|Daniel|3:17|book",
+    "q": "“Our God whom we serve is able to deliver us from the burning fiery furnace.”\n\nWhich book is this KJV passage from?",
+    "ans": "Daniel",
+    "opts": [
+      "Zephaniah",
+      "Acts",
+      "Job",
+      "Daniel"
+    ],
+    "exp": "Daniel 3:17 (KJV): “Our God whom we serve is able to deliver us from the burning fiery furnace.”"
+  },
+  {
+    "id": "S|Daniel|3:17|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Our God whom we serve is able to deliver us from the burning fiery furnace.”",
+    "ans": "Daniel 3:17",
+    "opts": [
+      "Romans 3:23",
+      "Hebrews 4:12",
+      "Daniel 3:17",
+      "2 Corinthians 5:17"
+    ],
+    "exp": "Daniel 3:17 (KJV): “Our God whom we serve is able to deliver us from the burning fiery furnace.”"
+  },
+  {
+    "id": "S|Daniel|3:17|fill",
+    "q": "Complete the KJV wording:\n\n“Our God whom we serve is able to deliver us …”",
+    "ans": "from the burning fiery furnace.",
+    "opts": [
+      "from the burning fiery furnace.",
+      "whereby we must be saved.",
+      "salvation; whom shall I fear?",
+      "for he careth for you."
+    ],
+    "exp": "Daniel 3:17 (KJV): “Our God whom we serve is able to deliver us from the burning fiery furnace.”"
+  },
+  {
+    "id": "S|Daniel|6:22|book",
+    "q": "“My God hath sent his angel, and hath shut the lions' mouths, that they have not hurt me.”\n\nWhich book is this KJV passage from?",
+    "ans": "Daniel",
+    "opts": [
+      "Titus",
+      "Galatians",
+      "1 Corinthians",
+      "Daniel"
+    ],
+    "exp": "Daniel 6:22 (KJV): “My God hath sent his angel, and hath shut the lions' mouths, that they have not hurt me.”"
+  },
+  {
+    "id": "S|Daniel|6:22|ref",
+    "q": "Which reference matches this KJV passage?\n\n“My God hath sent his angel, and hath shut the lions' mouths, that they have not hurt me.”",
+    "ans": "Daniel 6:22",
+    "opts": [
+      "Daniel 6:22",
+      "Acts 1:8",
+      "Genesis 50:20",
+      "Habakkuk 2:4"
+    ],
+    "exp": "Daniel 6:22 (KJV): “My God hath sent his angel, and hath shut the lions' mouths, that they have not hurt me.”"
+  },
+  {
+    "id": "S|Daniel|6:22|fill",
+    "q": "Complete the KJV wording:\n\n“My God hath sent his angel, and hath shut the lions' mouths, …”",
+    "ans": "that they have not hurt me.",
+    "opts": [
+      "the greatest of these is charity.",
+      "with God nothing shall be impossible.",
+      "do ye also to them likewise.",
+      "that they have not hurt me."
+    ],
+    "exp": "Daniel 6:22 (KJV): “My God hath sent his angel, and hath shut the lions' mouths, that they have not hurt me.”"
+  },
+  {
+    "id": "S|Hosea|4:6|book",
+    "q": "“My people are destroyed for lack of knowledge.”\n\nWhich book is this KJV passage from?",
+    "ans": "Hosea",
+    "opts": [
+      "Hosea",
+      "Revelation",
+      "Proverbs",
+      "1 Corinthians"
+    ],
+    "exp": "Hosea 4:6 (KJV): “My people are destroyed for lack of knowledge.”"
+  },
+  {
+    "id": "S|Hosea|4:6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“My people are destroyed for lack of knowledge.”",
+    "ans": "Hosea 4:6",
+    "opts": [
+      "1 Timothy 4:12",
+      "Job 1:21",
+      "Isaiah 53:5",
+      "Hosea 4:6"
+    ],
+    "exp": "Hosea 4:6 (KJV): “My people are destroyed for lack of knowledge.”"
+  },
+  {
+    "id": "S|Hosea|4:6|fill",
+    "q": "Complete the KJV wording:\n\n“My people are destroyed for …”",
+    "ans": "lack of knowledge.",
+    "opts": [
+      "daughters shall prophesy.",
+      "the Holy Ghost:",
+      "lack of knowledge.",
+      "the fruit thereof."
+    ],
+    "exp": "Hosea 4:6 (KJV): “My people are destroyed for lack of knowledge.”"
+  },
+  {
+    "id": "S|Joel|2:28|book",
+    "q": "“I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy.”\n\nWhich book is this KJV passage from?",
+    "ans": "Joel",
+    "opts": [
+      "Philippians",
+      "John",
+      "Joel",
+      "Galatians"
+    ],
+    "exp": "Joel 2:28 (KJV): “I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy.”"
+  },
+  {
+    "id": "S|Joel|2:28|ref",
+    "q": "Which reference matches this KJV passage?\n\n“I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy.”",
+    "ans": "Joel 2:28",
+    "opts": [
+      "Romans 3:23",
+      "Ecclesiastes 3:1",
+      "Numbers 6:24",
+      "Joel 2:28"
+    ],
+    "exp": "Joel 2:28 (KJV): “I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy.”"
+  },
+  {
+    "id": "S|Joel|2:28|fill",
+    "q": "Complete the KJV wording:\n\n“I will pour out my spirit upon all flesh; and your sons …”",
+    "ans": "and your daughters shall prophesy.",
+    "opts": [
+      "will not depart from it.",
+      "and your daughters shall prophesy.",
+      "in you in Christ Jesus.",
+      "he shall direct thy paths."
+    ],
+    "exp": "Joel 2:28 (KJV): “I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy.”"
+  },
+  {
+    "id": "S|Amos|3:3|book",
+    "q": "“Can two walk together, except they be agreed?”\n\nWhich book is this KJV passage from?",
+    "ans": "Amos",
+    "opts": [
+      "Deuteronomy",
+      "Malachi",
+      "Amos",
+      "Psalms"
+    ],
+    "exp": "Amos 3:3 (KJV): “Can two walk together, except they be agreed?”"
+  },
+  {
+    "id": "S|Amos|3:3|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Can two walk together, except they be agreed?”",
+    "ans": "Amos 3:3",
+    "opts": [
+      "Amos 3:3",
+      "Jonah 2:9",
+      "2 Thessalonians 3:10",
+      "Philemon 1:6"
+    ],
+    "exp": "Amos 3:3 (KJV): “Can two walk together, except they be agreed?”"
+  },
+  {
+    "id": "S|Amos|3:3|fill",
+    "q": "Complete the KJV wording:\n\n“Can two walk together, except …”",
+    "ans": "they be agreed?",
+    "opts": [
+      "glory of God;",
+      "statutes and judgments.",
+      "and the earth.",
+      "they be agreed?"
+    ],
+    "exp": "Amos 3:3 (KJV): “Can two walk together, except they be agreed?”"
+  },
+  {
+    "id": "S|Obadiah|1:15|book",
+    "q": "“For the day of the LORD is near upon all the heathen.”\n\nWhich book is this KJV passage from?",
+    "ans": "Obadiah",
+    "opts": [
+      "1 Timothy",
+      "Isaiah",
+      "1 Corinthians",
+      "Obadiah"
+    ],
+    "exp": "Obadiah 1:15 (KJV): “For the day of the LORD is near upon all the heathen.”"
+  },
+  {
+    "id": "S|Obadiah|1:15|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For the day of the LORD is near upon all the heathen.”",
+    "ans": "Obadiah 1:15",
+    "opts": [
+      "Colossians 3:23",
+      "Obadiah 1:15",
+      "Lamentations 3:22-23",
+      "Daniel 6:22"
+    ],
+    "exp": "Obadiah 1:15 (KJV): “For the day of the LORD is near upon all the heathen.”"
+  },
+  {
+    "id": "S|Obadiah|1:15|fill",
+    "q": "Complete the KJV wording:\n\n“For the day of the LORD is near …”",
+    "ans": "upon all the heathen.",
+    "opts": [
+      "LORD is your strength.",
+      "we must be saved.",
+      "upon all the heathen.",
+      "presence of his glory."
+    ],
+    "exp": "Obadiah 1:15 (KJV): “For the day of the LORD is near upon all the heathen.”"
+  },
+  {
+    "id": "S|Jonah|2:9|book",
+    "q": "“Salvation is of the LORD.”\n\nWhich book is this KJV passage from?",
+    "ans": "Jonah",
+    "opts": [
+      "Mark",
+      "Nehemiah",
+      "Deuteronomy",
+      "Jonah"
+    ],
+    "exp": "Jonah 2:9 (KJV): “Salvation is of the LORD.”"
+  },
+  {
+    "id": "S|Jonah|2:9|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Salvation is of the LORD.”",
+    "ans": "Jonah 2:9",
+    "opts": [
+      "Jonah 2:9",
+      "Deuteronomy 8:3",
+      "Genesis 50:20",
+      "2 Timothy 1:7"
+    ],
+    "exp": "Jonah 2:9 (KJV): “Salvation is of the LORD.”"
+  },
+  {
+    "id": "S|Jonah|2:9|fill",
+    "q": "Complete the KJV wording:\n\n“Salvation is of …”",
+    "ans": "the LORD.",
+    "opts": [
+      "the LORD.",
+      "upon him.",
+      "unto you.",
+      "be saved."
+    ],
+    "exp": "Jonah 2:9 (KJV): “Salvation is of the LORD.”"
+  },
+  {
+    "id": "S|Micah|6:8|book",
+    "q": "“What doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?”\n\nWhich book is this KJV passage from?",
+    "ans": "Micah",
+    "opts": [
+      "Micah",
+      "John",
+      "2 Kings",
+      "James"
+    ],
+    "exp": "Micah 6:8 (KJV): “What doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?”"
+  },
+  {
+    "id": "S|Micah|6:8|ref",
+    "q": "Which reference matches this KJV passage?\n\n“What doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?”",
+    "ans": "Micah 6:8",
+    "opts": [
+      "Joel 2:28",
+      "2 Timothy 3:16",
+      "Micah 6:8",
+      "1 Samuel 17:47"
+    ],
+    "exp": "Micah 6:8 (KJV): “What doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?”"
+  },
+  {
+    "id": "S|Micah|6:8|fill",
+    "q": "Complete the KJV wording:\n\n“What doth the LORD require of thee, but to do justly, and to love mercy, …”",
+    "ans": "and to walk humbly with thy God?",
+    "opts": [
+      "and to walk humbly with thy God?",
+      "and my salvation; whom shall I fear?",
+      "which was right in his own eyes.",
+      "the LORD, which made heaven and earth."
+    ],
+    "exp": "Micah 6:8 (KJV): “What doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?”"
+  },
+  {
+    "id": "S|Nahum|1:7|book",
+    "q": "“The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.”\n\nWhich book is this KJV passage from?",
+    "ans": "Nahum",
+    "opts": [
+      "Revelation",
+      "John",
+      "Hebrews",
+      "Nahum"
+    ],
+    "exp": "Nahum 1:7 (KJV): “The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.”"
+  },
+  {
+    "id": "S|Nahum|1:7|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.”",
+    "ans": "Nahum 1:7",
+    "opts": [
+      "Revelation 21:4",
+      "Proverbs 22:6",
+      "Nahum 1:7",
+      "2 Samuel 22:2"
+    ],
+    "exp": "Nahum 1:7 (KJV): “The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.”"
+  },
+  {
+    "id": "S|Nahum|1:7|fill",
+    "q": "Complete the KJV wording:\n\n“The LORD is good, a strong hold in the day of trouble; and he …”",
+    "ans": "knoweth them that trust in him.",
+    "opts": [
+      "knoweth them that trust in him.",
+      "short of the glory of God;",
+      "my salvation; whom shall I fear?",
+      "and my fortress, and my deliverer;"
+    ],
+    "exp": "Nahum 1:7 (KJV): “The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.”"
+  },
+  {
+    "id": "S|Habakkuk|2:4|book",
+    "q": "“The just shall live by his faith.”\n\nWhich book is this KJV passage from?",
+    "ans": "Habakkuk",
+    "opts": [
+      "Song of Solomon",
+      "Habakkuk",
+      "1 Corinthians",
+      "Matthew"
+    ],
+    "exp": "Habakkuk 2:4 (KJV): “The just shall live by his faith.”"
+  },
+  {
+    "id": "S|Habakkuk|2:4|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The just shall live by his faith.”",
+    "ans": "Habakkuk 2:4",
+    "opts": [
+      "Habakkuk 2:4",
+      "Job 1:21",
+      "Galatians 2:20",
+      "2 Corinthians 12:9"
+    ],
+    "exp": "Habakkuk 2:4 (KJV): “The just shall live by his faith.”"
+  },
+  {
+    "id": "S|Habakkuk|2:4|fill",
+    "q": "Complete the KJV wording:\n\n“The just shall live by …”",
+    "ans": "his faith.",
+    "opts": [
+      "man live.",
+      "hurt me.",
+      "his faith.",
+      "the earth:"
+    ],
+    "exp": "Habakkuk 2:4 (KJV): “The just shall live by his faith.”"
+  },
+  {
+    "id": "S|Zephaniah|3:17|book",
+    "q": "“The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy.”\n\nWhich book is this KJV passage from?",
+    "ans": "Zephaniah",
+    "opts": [
+      "Zephaniah",
+      "2 Samuel",
+      "Lamentations",
+      "Ezekiel"
+    ],
+    "exp": "Zephaniah 3:17 (KJV): “The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy.”"
+  },
+  {
+    "id": "S|Zephaniah|3:17|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy.”",
+    "ans": "Zephaniah 3:17",
+    "opts": [
+      "John 8:32",
+      "Matthew 5:14",
+      "Genesis 50:20",
+      "Zephaniah 3:17"
+    ],
+    "exp": "Zephaniah 3:17 (KJV): “The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy.”"
+  },
+  {
+    "id": "S|Zephaniah|3:17|fill",
+    "q": "Complete the KJV wording:\n\n“The LORD thy God in the midst of thee is mighty; he will save, he …”",
+    "ans": "will rejoice over thee with joy.",
+    "opts": [
+      "a very present help in trouble.",
+      "government shall be upon his shoulder.",
+      "but God meant it unto good.",
+      "will rejoice over thee with joy."
+    ],
+    "exp": "Zephaniah 3:17 (KJV): “The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy.”"
+  },
+  {
+    "id": "S|Haggai|1:5|book",
+    "q": "“Now therefore thus saith the LORD of hosts; Consider your ways.”\n\nWhich book is this KJV passage from?",
+    "ans": "Haggai",
+    "opts": [
+      "Haggai",
+      "Hebrews",
+      "1 Samuel",
+      "Jeremiah"
+    ],
+    "exp": "Haggai 1:5 (KJV): “Now therefore thus saith the LORD of hosts; Consider your ways.”"
+  },
+  {
+    "id": "S|Haggai|1:5|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Now therefore thus saith the LORD of hosts; Consider your ways.”",
+    "ans": "Haggai 1:5",
+    "opts": [
+      "James 1:5",
+      "Haggai 1:5",
+      "1 Peter 5:7",
+      "Galatians 2:20"
+    ],
+    "exp": "Haggai 1:5 (KJV): “Now therefore thus saith the LORD of hosts; Consider your ways.”"
+  },
+  {
+    "id": "S|Haggai|1:5|fill",
+    "q": "Complete the KJV wording:\n\n“Now therefore thus saith the LORD of …”",
+    "ans": "hosts; Consider your ways.",
+    "opts": [
+      "hosts; Consider your ways.",
+      "you in Christ Jesus.",
+      "and not unto men;",
+      "neither should he eat."
+    ],
+    "exp": "Haggai 1:5 (KJV): “Now therefore thus saith the LORD of hosts; Consider your ways.”"
+  },
+  {
+    "id": "S|Zechariah|4:6|book",
+    "q": "“Not by might, nor by power, but by my spirit, saith the LORD of hosts.”\n\nWhich book is this KJV passage from?",
+    "ans": "Zechariah",
+    "opts": [
+      "Judges",
+      "2 Timothy",
+      "Zechariah",
+      "Revelation"
+    ],
+    "exp": "Zechariah 4:6 (KJV): “Not by might, nor by power, but by my spirit, saith the LORD of hosts.”"
+  },
+  {
+    "id": "S|Zechariah|4:6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Not by might, nor by power, but by my spirit, saith the LORD of hosts.”",
+    "ans": "Zechariah 4:6",
+    "opts": [
+      "2 Chronicles 7:14",
+      "Song of Solomon 8:7",
+      "Nahum 1:7",
+      "Zechariah 4:6"
+    ],
+    "exp": "Zechariah 4:6 (KJV): “Not by might, nor by power, but by my spirit, saith the LORD of hosts.”"
+  },
+  {
+    "id": "S|Zechariah|4:6|fill",
+    "q": "Complete the KJV wording:\n\n“Not by might, nor by power, but by my spirit, …”",
+    "ans": "saith the LORD of hosts.",
+    "opts": [
+      "very present help in trouble.",
+      "they have not hurt me.",
+      "saith the LORD of hosts.",
+      "a light unto my path."
+    ],
+    "exp": "Zechariah 4:6 (KJV): “Not by might, nor by power, but by my spirit, saith the LORD of hosts.”"
+  },
+  {
+    "id": "S|Malachi|3:10|book",
+    "q": "“Bring ye all the tithes into the storehouse... and prove me now herewith, saith the LORD of hosts.”\n\nWhich book is this KJV passage from?",
+    "ans": "Malachi",
+    "opts": [
+      "Malachi",
+      "James",
+      "Ephesians",
+      "Amos"
+    ],
+    "exp": "Malachi 3:10 (KJV): “Bring ye all the tithes into the storehouse... and prove me now herewith, saith the LORD of hosts.”"
+  },
+  {
+    "id": "S|Malachi|3:10|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Bring ye all the tithes into the storehouse... and prove me now herewith, saith the LORD of hosts.”",
+    "ans": "Malachi 3:10",
+    "opts": [
+      "2 Timothy 2:15",
+      "Malachi 3:10",
+      "John 8:32",
+      "1 John 1:9"
+    ],
+    "exp": "Malachi 3:10 (KJV): “Bring ye all the tithes into the storehouse... and prove me now herewith, saith the LORD of hosts.”"
+  },
+  {
+    "id": "S|Malachi|3:10|fill",
+    "q": "Complete the KJV wording:\n\n“Bring ye all the tithes into the storehouse... and prove me now …”",
+    "ans": "herewith, saith the LORD of hosts.",
+    "opts": [
+      "spirit will I put within you.",
+      "shalt be saved, and thy house.",
+      "that needeth not to be ashamed.",
+      "herewith, saith the LORD of hosts."
+    ],
+    "exp": "Malachi 3:10 (KJV): “Bring ye all the tithes into the storehouse... and prove me now herewith, saith the LORD of hosts.”"
+  },
+  {
+    "id": "S|Matthew|5:14|book",
+    "q": "“Ye are the light of the world. A city that is set on an hill cannot be hid.”\n\nWhich book is this KJV passage from?",
+    "ans": "Matthew",
+    "opts": [
+      "2 Thessalonians",
+      "Matthew",
+      "Hebrews",
+      "Philippians"
+    ],
+    "exp": "Matthew 5:14 (KJV): “Ye are the light of the world. A city that is set on an hill cannot be hid.”"
+  },
+  {
+    "id": "S|Matthew|5:14|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Ye are the light of the world. A city that is set on an hill cannot be hid.”",
+    "ans": "Matthew 5:14",
+    "opts": [
+      "Ezekiel 36:26",
+      "Matthew 5:14",
+      "Galatians 2:20",
+      "2 Chronicles 7:14"
+    ],
+    "exp": "Matthew 5:14 (KJV): “Ye are the light of the world. A city that is set on an hill cannot be hid.”"
+  },
+  {
+    "id": "S|Matthew|5:14|fill",
+    "q": "Complete the KJV wording:\n\n“Ye are the light of the world. A city that is set …”",
+    "ans": "on an hill cannot be hid.",
+    "opts": [
+      "before the presence of his glory.",
+      "on an hill cannot be hid.",
+      "things through Christ which strengtheneth me.",
+      "us from the burning fiery furnace."
+    ],
+    "exp": "Matthew 5:14 (KJV): “Ye are the light of the world. A city that is set on an hill cannot be hid.”"
+  },
+  {
+    "id": "S|Matthew|6:33|book",
+    "q": "“But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.”\n\nWhich book is this KJV passage from?",
+    "ans": "Matthew",
+    "opts": [
+      "Lamentations",
+      "Psalms",
+      "2 Thessalonians",
+      "Matthew"
+    ],
+    "exp": "Matthew 6:33 (KJV): “But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.”"
+  },
+  {
+    "id": "S|Matthew|6:33|ref",
+    "q": "Which reference matches this KJV passage?\n\n“But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.”",
+    "ans": "Matthew 6:33",
+    "opts": [
+      "Genesis 50:20",
+      "John 3:16",
+      "2 Kings 6:16",
+      "Matthew 6:33"
+    ],
+    "exp": "Matthew 6:33 (KJV): “But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.”"
+  },
+  {
+    "id": "S|Matthew|6:33|fill",
+    "q": "Complete the KJV wording:\n\n“But seek ye first the kingdom of God, and his righteousness; and all these …”",
+    "ans": "things shall be added unto you.",
+    "opts": [
+      "than they that be with them.",
+      "just to forgive us our sins.",
+      "things shall be added unto you.",
+      "requests be made known unto God."
+    ],
+    "exp": "Matthew 6:33 (KJV): “But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.”"
+  },
+  {
+    "id": "S|Matthew|11:28|book",
+    "q": "“Come unto me, all ye that labour and are heavy laden, and I will give you rest.”\n\nWhich book is this KJV passage from?",
+    "ans": "Matthew",
+    "opts": [
+      "1 Timothy",
+      "Matthew",
+      "1 John",
+      "James"
+    ],
+    "exp": "Matthew 11:28 (KJV): “Come unto me, all ye that labour and are heavy laden, and I will give you rest.”"
+  },
+  {
+    "id": "S|Matthew|11:28|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Come unto me, all ye that labour and are heavy laden, and I will give you rest.”",
+    "ans": "Matthew 11:28",
+    "opts": [
+      "Matthew 11:28",
+      "Luke 19:10",
+      "1 Peter 5:7",
+      "John 11:25"
+    ],
+    "exp": "Matthew 11:28 (KJV): “Come unto me, all ye that labour and are heavy laden, and I will give you rest.”"
+  },
+  {
+    "id": "S|Matthew|11:28|fill",
+    "q": "Complete the KJV wording:\n\n“Come unto me, all ye that labour and are heavy laden, and …”",
+    "ans": "I will give you rest.",
+    "opts": [
+      "is made perfect in weakness.",
+      "be made known unto God.",
+      "I will give you rest.",
+      "right in his own eyes."
+    ],
+    "exp": "Matthew 11:28 (KJV): “Come unto me, all ye that labour and are heavy laden, and I will give you rest.”"
+  },
+  {
+    "id": "S|Matthew|28:19|book",
+    "q": "“Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:”\n\nWhich book is this KJV passage from?",
+    "ans": "Matthew",
+    "opts": [
+      "Daniel",
+      "John",
+      "Isaiah",
+      "Matthew"
+    ],
+    "exp": "Matthew 28:19 (KJV): “Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:”"
+  },
+  {
+    "id": "S|Matthew|28:19|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:”",
+    "ans": "Matthew 28:19",
+    "opts": [
+      "1 Chronicles 16:11",
+      "2 Corinthians 12:9",
+      "Matthew 28:19",
+      "John 11:25"
+    ],
+    "exp": "Matthew 28:19 (KJV): “Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:”"
+  },
+  {
+    "id": "S|Matthew|28:19|fill",
+    "q": "Complete the KJV wording:\n\n“Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of …”",
+    "ans": "the Son, and of the Holy Ghost:",
+    "opts": [
+      "the Son, and of the Holy Ghost:",
+      "him: but if Baal, then follow him.",
+      "and his strength, seek his face continually.",
+      "for good to them that love God."
+    ],
+    "exp": "Matthew 28:19 (KJV): “Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:”"
+  },
+  {
+    "id": "S|Mark|8:36|book",
+    "q": "“For what shall it profit a man, if he shall gain the whole world, and lose his own soul?”\n\nWhich book is this KJV passage from?",
+    "ans": "Mark",
+    "opts": [
+      "3 John",
+      "Genesis",
+      "Mark",
+      "Matthew"
+    ],
+    "exp": "Mark 8:36 (KJV): “For what shall it profit a man, if he shall gain the whole world, and lose his own soul?”"
+  },
+  {
+    "id": "S|Mark|8:36|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For what shall it profit a man, if he shall gain the whole world, and lose his own soul?”",
+    "ans": "Mark 8:36",
+    "opts": [
+      "Exodus 20:3",
+      "Mark 8:36",
+      "Jeremiah 33:3",
+      "1 Chronicles 16:11"
+    ],
+    "exp": "Mark 8:36 (KJV): “For what shall it profit a man, if he shall gain the whole world, and lose his own soul?”"
+  },
+  {
+    "id": "S|Mark|8:36|fill",
+    "q": "Complete the KJV wording:\n\n“For what shall it profit a man, if he shall gain the whole …”",
+    "ans": "world, and lose his own soul?",
+    "opts": [
+      "are destroyed for lack of knowledge.",
+      "of the LORD is your strength.",
+      "not God; for God is love.",
+      "world, and lose his own soul?"
+    ],
+    "exp": "Mark 8:36 (KJV): “For what shall it profit a man, if he shall gain the whole world, and lose his own soul?”"
+  },
+  {
+    "id": "S|Mark|9:23|book",
+    "q": "“If thou canst believe, all things are possible to him that believeth.”\n\nWhich book is this KJV passage from?",
+    "ans": "Mark",
+    "opts": [
+      "Ephesians",
+      "1 Samuel",
+      "Romans",
+      "Mark"
+    ],
+    "exp": "Mark 9:23 (KJV): “If thou canst believe, all things are possible to him that believeth.”"
+  },
+  {
+    "id": "S|Mark|9:23|ref",
+    "q": "Which reference matches this KJV passage?\n\n“If thou canst believe, all things are possible to him that believeth.”",
+    "ans": "Mark 9:23",
+    "opts": [
+      "Song of Solomon 8:7",
+      "1 Thessalonians 5:17",
+      "2 Corinthians 5:17",
+      "Mark 9:23"
+    ],
+    "exp": "Mark 9:23 (KJV): “If thou canst believe, all things are possible to him that believeth.”"
+  },
+  {
+    "id": "S|Mark|9:23|fill",
+    "q": "Complete the KJV wording:\n\n“If thou canst believe, all things are possible …”",
+    "ans": "to him that believeth.",
+    "opts": [
+      "to him that believeth.",
+      "light unto my path.",
+      "thou shalt be saved.",
+      "yet shall he live:"
+    ],
+    "exp": "Mark 9:23 (KJV): “If thou canst believe, all things are possible to him that believeth.”"
+  },
+  {
+    "id": "S|Luke|1:37|book",
+    "q": "“For with God nothing shall be impossible.”\n\nWhich book is this KJV passage from?",
+    "ans": "Luke",
+    "opts": [
+      "Genesis",
+      "Proverbs",
+      "1 Corinthians",
+      "Luke"
+    ],
+    "exp": "Luke 1:37 (KJV): “For with God nothing shall be impossible.”"
+  },
+  {
+    "id": "S|Luke|1:37|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For with God nothing shall be impossible.”",
+    "ans": "Luke 1:37",
+    "opts": [
+      "Isaiah 53:5",
+      "John 3:16",
+      "1 Corinthians 6:19",
+      "Luke 1:37"
+    ],
+    "exp": "Luke 1:37 (KJV): “For with God nothing shall be impossible.”"
+  },
+  {
+    "id": "S|Luke|1:37|fill",
+    "q": "Complete the KJV wording:\n\n“For with God nothing shall …”",
+    "ans": "be impossible.",
+    "opts": [
+      "be agreed?",
+      "be impossible.",
+      "upon him.",
+      "the earth:"
+    ],
+    "exp": "Luke 1:37 (KJV): “For with God nothing shall be impossible.”"
+  },
+  {
+    "id": "S|Luke|6:31|book",
+    "q": "“And as ye would that men should do to you, do ye also to them likewise.”\n\nWhich book is this KJV passage from?",
+    "ans": "Luke",
+    "opts": [
+      "Luke",
+      "Micah",
+      "Matthew",
+      "Haggai"
+    ],
+    "exp": "Luke 6:31 (KJV): “And as ye would that men should do to you, do ye also to them likewise.”"
+  },
+  {
+    "id": "S|Luke|6:31|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And as ye would that men should do to you, do ye also to them likewise.”",
+    "ans": "Luke 6:31",
+    "opts": [
+      "James 1:5",
+      "Luke 6:31",
+      "Revelation 22:13",
+      "John 14:6"
+    ],
+    "exp": "Luke 6:31 (KJV): “And as ye would that men should do to you, do ye also to them likewise.”"
+  },
+  {
+    "id": "S|Luke|6:31|fill",
+    "q": "Complete the KJV wording:\n\n“And as ye would that men should do to you, do …”",
+    "ans": "ye also to them likewise.",
+    "opts": [
+      "no other gods before me.",
+      "ye also to them likewise.",
+      "give you into our hands.",
+      "shepherd; I shall not want."
+    ],
+    "exp": "Luke 6:31 (KJV): “And as ye would that men should do to you, do ye also to them likewise.”"
+  },
+  {
+    "id": "S|Luke|19:10|book",
+    "q": "“For the Son of man is come to seek and to save that which was lost.”\n\nWhich book is this KJV passage from?",
+    "ans": "Luke",
+    "opts": [
+      "Luke",
+      "Zechariah",
+      "Esther",
+      "2 John"
+    ],
+    "exp": "Luke 19:10 (KJV): “For the Son of man is come to seek and to save that which was lost.”"
+  },
+  {
+    "id": "S|Luke|19:10|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For the Son of man is come to seek and to save that which was lost.”",
+    "ans": "Luke 19:10",
+    "opts": [
+      "Luke 19:10",
+      "Isaiah 53:5",
+      "2 John 1:6",
+      "Jude 1:24"
+    ],
+    "exp": "Luke 19:10 (KJV): “For the Son of man is come to seek and to save that which was lost.”"
+  },
+  {
+    "id": "S|Luke|19:10|fill",
+    "q": "Complete the KJV wording:\n\n“For the Son of man is come to seek and to …”",
+    "ans": "save that which was lost.",
+    "opts": [
+      "is made perfect in weakness.",
+      "Pray without ceasing.",
+      "save that which was lost.",
+      "whereby we must be saved."
+    ],
+    "exp": "Luke 19:10 (KJV): “For the Son of man is come to seek and to save that which was lost.”"
+  },
+  {
+    "id": "S|John|1:1|book",
+    "q": "“In the beginning was the Word, and the Word was with God, and the Word was God.”\n\nWhich book is this KJV passage from?",
+    "ans": "John",
+    "opts": [
+      "Joel",
+      "Hebrews",
+      "Genesis",
+      "John"
+    ],
+    "exp": "John 1:1 (KJV): “In the beginning was the Word, and the Word was with God, and the Word was God.”"
+  },
+  {
+    "id": "S|John|1:1|ref",
+    "q": "Which reference matches this KJV passage?\n\n“In the beginning was the Word, and the Word was with God, and the Word was God.”",
+    "ans": "John 1:1",
+    "opts": [
+      "Song of Solomon 8:7",
+      "John 1:1",
+      "Obadiah 1:15",
+      "Joshua 1:9"
+    ],
+    "exp": "John 1:1 (KJV): “In the beginning was the Word, and the Word was with God, and the Word was God.”"
+  },
+  {
+    "id": "S|John|1:1|fill",
+    "q": "Complete the KJV wording:\n\n“In the beginning was the Word, and the Word was with God, …”",
+    "ans": "and the Word was God.",
+    "opts": [
+      "the first and the last.",
+      "up with wings as eagles.",
+      "and the Word was God.",
+      "things, which thou knowest not."
+    ],
+    "exp": "John 1:1 (KJV): “In the beginning was the Word, and the Word was with God, and the Word was God.”"
+  },
+  {
+    "id": "S|John|3:16|book",
+    "q": "“For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”\n\nWhich book is this KJV passage from?",
+    "ans": "John",
+    "opts": [
+      "Ecclesiastes",
+      "John",
+      "Job",
+      "Galatians"
+    ],
+    "exp": "John 3:16 (KJV): “For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”"
+  },
+  {
+    "id": "S|John|3:16|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”",
+    "ans": "John 3:16",
+    "opts": [
+      "Deuteronomy 6:5",
+      "Ezekiel 18:20",
+      "John 3:16",
+      "Joel 2:28"
+    ],
+    "exp": "John 3:16 (KJV): “For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”"
+  },
+  {
+    "id": "S|John|3:16|fill",
+    "q": "Complete the KJV wording:\n\n“For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him …”",
+    "ans": "should not perish, but have everlasting life.",
+    "opts": [
+      "Pray without ceasing.",
+      "should not perish, but have everlasting life.",
+      "faultless before the presence of his glory.",
+      "the Holy Ghost which is in you?"
+    ],
+    "exp": "John 3:16 (KJV): “For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”"
+  },
+  {
+    "id": "S|John|8:32|book",
+    "q": "“And ye shall know the truth, and the truth shall make you free.”\n\nWhich book is this KJV passage from?",
+    "ans": "John",
+    "opts": [
+      "Hebrews",
+      "Jude",
+      "Numbers",
+      "John"
+    ],
+    "exp": "John 8:32 (KJV): “And ye shall know the truth, and the truth shall make you free.”"
+  },
+  {
+    "id": "S|John|8:32|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And ye shall know the truth, and the truth shall make you free.”",
+    "ans": "John 8:32",
+    "opts": [
+      "Proverbs 18:21",
+      "John 8:32",
+      "Philippians 4:6",
+      "Galatians 5:22-23"
+    ],
+    "exp": "John 8:32 (KJV): “And ye shall know the truth, and the truth shall make you free.”"
+  },
+  {
+    "id": "S|John|8:32|fill",
+    "q": "Complete the KJV wording:\n\n“And ye shall know the truth, and the truth …”",
+    "ans": "shall make you free.",
+    "opts": [
+      "not depart from it.",
+      "shall make you free.",
+      "made known unto God.",
+      "looketh on the heart."
+    ],
+    "exp": "John 8:32 (KJV): “And ye shall know the truth, and the truth shall make you free.”"
+  },
+  {
+    "id": "S|John|11:25|book",
+    "q": "“I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:”\n\nWhich book is this KJV passage from?",
+    "ans": "John",
+    "opts": [
+      "1 Peter",
+      "Nahum",
+      "Ezra",
+      "John"
+    ],
+    "exp": "John 11:25 (KJV): “I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:”"
+  },
+  {
+    "id": "S|John|11:25|ref",
+    "q": "Which reference matches this KJV passage?\n\n“I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:”",
+    "ans": "John 11:25",
+    "opts": [
+      "Obadiah 1:15",
+      "Judges 21:25",
+      "John 11:25",
+      "Isaiah 53:5"
+    ],
+    "exp": "John 11:25 (KJV): “I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:”"
+  },
+  {
+    "id": "S|John|11:25|fill",
+    "q": "Complete the KJV wording:\n\n“I am the resurrection, and the life: he that believeth in me, though he …”",
+    "ans": "were dead, yet shall he live:",
+    "opts": [
+      "Salvation is of the LORD.",
+      "I will come in to him.",
+      "end, the first and the last.",
+      "were dead, yet shall he live:"
+    ],
+    "exp": "John 11:25 (KJV): “I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:”"
+  },
+  {
+    "id": "S|John|14:6|book",
+    "q": "“I am the way, the truth, and the life: no man cometh unto the Father, but by me.”\n\nWhich book is this KJV passage from?",
+    "ans": "John",
+    "opts": [
+      "2 Samuel",
+      "John",
+      "1 Corinthians",
+      "1 Kings"
+    ],
+    "exp": "John 14:6 (KJV): “I am the way, the truth, and the life: no man cometh unto the Father, but by me.”"
+  },
+  {
+    "id": "S|John|14:6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“I am the way, the truth, and the life: no man cometh unto the Father, but by me.”",
+    "ans": "John 14:6",
+    "opts": [
+      "2 John 1:6",
+      "John 14:6",
+      "Acts 4:12",
+      "1 Corinthians 6:19"
+    ],
+    "exp": "John 14:6 (KJV): “I am the way, the truth, and the life: no man cometh unto the Father, but by me.”"
+  },
+  {
+    "id": "S|John|14:6|fill",
+    "q": "Complete the KJV wording:\n\n“I am the way, the truth, and the life: no man cometh …”",
+    "ans": "unto the Father, but by me.",
+    "opts": [
+      "will rejoice over thee with joy.",
+      "good to them that love God.",
+      "just shall live by his faith.",
+      "unto the Father, but by me."
+    ],
+    "exp": "John 14:6 (KJV): “I am the way, the truth, and the life: no man cometh unto the Father, but by me.”"
+  },
+  {
+    "id": "S|Acts|1:8|book",
+    "q": "“But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me.”\n\nWhich book is this KJV passage from?",
+    "ans": "Acts",
+    "opts": [
+      "Acts",
+      "1 Samuel",
+      "Matthew",
+      "Ruth"
+    ],
+    "exp": "Acts 1:8 (KJV): “But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me.”"
+  },
+  {
+    "id": "S|Acts|1:8|ref",
+    "q": "Which reference matches this KJV passage?\n\n“But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me.”",
+    "ans": "Acts 1:8",
+    "opts": [
+      "Romans 10:9",
+      "Acts 1:8",
+      "Jeremiah 33:3",
+      "Obadiah 1:15"
+    ],
+    "exp": "Acts 1:8 (KJV): “But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me.”"
+  },
+  {
+    "id": "S|Acts|1:8|fill",
+    "q": "Complete the KJV wording:\n\n“But ye shall receive power, after that the Holy Ghost is come upon you: and …”",
+    "ans": "ye shall be witnesses unto me.",
+    "opts": [
+      "us from the burning fiery furnace.",
+      "that they have not hurt me.",
+      "desperately wicked: who can know it?",
+      "ye shall be witnesses unto me."
+    ],
+    "exp": "Acts 1:8 (KJV): “But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me.”"
+  },
+  {
+    "id": "S|Acts|4:12|book",
+    "q": "“Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.”\n\nWhich book is this KJV passage from?",
+    "ans": "Acts",
+    "opts": [
+      "Philippians",
+      "Acts",
+      "Isaiah",
+      "Zechariah"
+    ],
+    "exp": "Acts 4:12 (KJV): “Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.”"
+  },
+  {
+    "id": "S|Acts|4:12|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.”",
+    "ans": "Acts 4:12",
+    "opts": [
+      "Matthew 11:28",
+      "Nehemiah 8:10",
+      "Acts 4:12",
+      "2 Corinthians 12:9"
+    ],
+    "exp": "Acts 4:12 (KJV): “Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.”"
+  },
+  {
+    "id": "S|Acts|4:12|fill",
+    "q": "Complete the KJV wording:\n\n“Neither is there salvation in any other: for there is none other name under heaven given …”",
+    "ans": "among men, whereby we must be saved.",
+    "opts": [
+      "to teach in Israel statutes and judgments.",
+      "which was right in his own eyes.",
+      "kingdom for such a time as this?",
+      "among men, whereby we must be saved."
+    ],
+    "exp": "Acts 4:12 (KJV): “Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.”"
+  },
+  {
+    "id": "S|Acts|16:31|book",
+    "q": "“Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house.”\n\nWhich book is this KJV passage from?",
+    "ans": "Acts",
+    "opts": [
+      "Romans",
+      "James",
+      "Acts",
+      "Proverbs"
+    ],
+    "exp": "Acts 16:31 (KJV): “Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house.”"
+  },
+  {
+    "id": "S|Acts|16:31|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house.”",
+    "ans": "Acts 16:31",
+    "opts": [
+      "Acts 16:31",
+      "Psalms 121:1-2",
+      "Jeremiah 17:9",
+      "Ecclesiastes 12:13"
+    ],
+    "exp": "Acts 16:31 (KJV): “Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house.”"
+  },
+  {
+    "id": "S|Acts|16:31|fill",
+    "q": "Complete the KJV wording:\n\n“Believe on the Lord Jesus Christ, and thou shalt be …”",
+    "ans": "saved, and thy house.",
+    "opts": [
+      "saved, and thy house.",
+      "meant it unto good.",
+      "shadow of the Almighty.",
+      "walk after his commandments."
+    ],
+    "exp": "Acts 16:31 (KJV): “Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house.”"
+  },
+  {
+    "id": "S|Romans|3:23|book",
+    "q": "“For all have sinned, and come short of the glory of God;”\n\nWhich book is this KJV passage from?",
+    "ans": "Romans",
+    "opts": [
+      "Romans",
+      "Jeremiah",
+      "Ecclesiastes",
+      "Obadiah"
+    ],
+    "exp": "Romans 3:23 (KJV): “For all have sinned, and come short of the glory of God;”"
+  },
+  {
+    "id": "S|Romans|3:23|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For all have sinned, and come short of the glory of God;”",
+    "ans": "Romans 3:23",
+    "opts": [
+      "2 Samuel 22:2",
+      "1 Corinthians 13:13",
+      "Lamentations 3:22-23",
+      "Romans 3:23"
+    ],
+    "exp": "Romans 3:23 (KJV): “For all have sinned, and come short of the glory of God;”"
+  },
+  {
+    "id": "S|Romans|3:23|fill",
+    "q": "Complete the KJV wording:\n\n“For all have sinned, and come short of …”",
+    "ans": "the glory of God;",
+    "opts": [
+      "the glory of God;",
+      "be witnesses unto me.",
+      "of things not seen.",
+      "hill cannot be hid."
+    ],
+    "exp": "Romans 3:23 (KJV): “For all have sinned, and come short of the glory of God;”"
+  },
+  {
+    "id": "S|Romans|8:28|book",
+    "q": "“And we know that all things work together for good to them that love God.”\n\nWhich book is this KJV passage from?",
+    "ans": "Romans",
+    "opts": [
+      "Hebrews",
+      "Acts",
+      "Romans",
+      "1 Corinthians"
+    ],
+    "exp": "Romans 8:28 (KJV): “And we know that all things work together for good to them that love God.”"
+  },
+  {
+    "id": "S|Romans|8:28|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And we know that all things work together for good to them that love God.”",
+    "ans": "Romans 8:28",
+    "opts": [
+      "Romans 8:28",
+      "1 Corinthians 13:13",
+      "Nahum 1:7",
+      "Isaiah 53:5"
+    ],
+    "exp": "Romans 8:28 (KJV): “And we know that all things work together for good to them that love God.”"
+  },
+  {
+    "id": "S|Romans|8:28|fill",
+    "q": "Complete the KJV wording:\n\n“And we know that all things work together for good …”",
+    "ans": "to them that love God.",
+    "opts": [
+      "the presence of his glory.",
+      "and your daughters shall prophesy.",
+      "saith the LORD of hosts.",
+      "to them that love God."
+    ],
+    "exp": "Romans 8:28 (KJV): “And we know that all things work together for good to them that love God.”"
+  },
+  {
+    "id": "S|Romans|10:9|book",
+    "q": "“If thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.”\n\nWhich book is this KJV passage from?",
+    "ans": "Romans",
+    "opts": [
+      "Mark",
+      "Psalms",
+      "2 Corinthians",
+      "Romans"
+    ],
+    "exp": "Romans 10:9 (KJV): “If thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.”"
+  },
+  {
+    "id": "S|Romans|10:9|ref",
+    "q": "Which reference matches this KJV passage?\n\n“If thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.”",
+    "ans": "Romans 10:9",
+    "opts": [
+      "Habakkuk 2:4",
+      "Romans 10:9",
+      "2 Thessalonians 3:10",
+      "Leviticus 19:18"
+    ],
+    "exp": "Romans 10:9 (KJV): “If thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.”"
+  },
+  {
+    "id": "S|Romans|10:9|fill",
+    "q": "Complete the KJV wording:\n\n“If thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised …”",
+    "ans": "him from the dead, thou shalt be saved.",
+    "opts": [
+      "is set on an hill cannot be hid.",
+      "as to the Lord, and not unto men;",
+      "him from the dead, thou shalt be saved.",
+      "not knoweth not God; for God is love."
+    ],
+    "exp": "Romans 10:9 (KJV): “If thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.”"
+  },
+  {
+    "id": "S|Romans|12:2|book",
+    "q": "“And be not conformed to this world: but be ye transformed by the renewing of your mind.”\n\nWhich book is this KJV passage from?",
+    "ans": "Romans",
+    "opts": [
+      "Nahum",
+      "2 Timothy",
+      "Romans",
+      "Hosea"
+    ],
+    "exp": "Romans 12:2 (KJV): “And be not conformed to this world: but be ye transformed by the renewing of your mind.”"
+  },
+  {
+    "id": "S|Romans|12:2|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And be not conformed to this world: but be ye transformed by the renewing of your mind.”",
+    "ans": "Romans 12:2",
+    "opts": [
+      "Romans 12:2",
+      "Malachi 3:10",
+      "Deuteronomy 8:3",
+      "Acts 4:12"
+    ],
+    "exp": "Romans 12:2 (KJV): “And be not conformed to this world: but be ye transformed by the renewing of your mind.”"
+  },
+  {
+    "id": "S|Romans|12:2|fill",
+    "q": "Complete the KJV wording:\n\n“And be not conformed to this world: but be ye transformed by …”",
+    "ans": "the renewing of your mind.",
+    "opts": [
+      "God; for God is love.",
+      "and lose his own soul?",
+      "will not depart from it.",
+      "the renewing of your mind."
+    ],
+    "exp": "Romans 12:2 (KJV): “And be not conformed to this world: but be ye transformed by the renewing of your mind.”"
+  },
+  {
+    "id": "S|1 Corinthians|6:19|book",
+    "q": "“Know ye not that your body is the temple of the Holy Ghost which is in you?”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Corinthians",
+    "opts": [
+      "Genesis",
+      "Luke",
+      "1 Corinthians",
+      "John"
+    ],
+    "exp": "1 Corinthians 6:19 (KJV): “Know ye not that your body is the temple of the Holy Ghost which is in you?”"
+  },
+  {
+    "id": "S|1 Corinthians|6:19|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Know ye not that your body is the temple of the Holy Ghost which is in you?”",
+    "ans": "1 Corinthians 6:19",
+    "opts": [
+      "1 Corinthians 6:19",
+      "Jeremiah 33:3",
+      "Esther 4:14",
+      "Psalms 27:1"
+    ],
+    "exp": "1 Corinthians 6:19 (KJV): “Know ye not that your body is the temple of the Holy Ghost which is in you?”"
+  },
+  {
+    "id": "S|1 Corinthians|6:19|fill",
+    "q": "Complete the KJV wording:\n\n“Know ye not that your body is the temple of the Holy …”",
+    "ans": "Ghost which is in you?",
+    "opts": [
+      "give you into our hands.",
+      "needeth not to be ashamed.",
+      "Ghost which is in you?",
+      "dead, thou shalt be saved."
+    ],
+    "exp": "1 Corinthians 6:19 (KJV): “Know ye not that your body is the temple of the Holy Ghost which is in you?”"
+  },
+  {
+    "id": "S|1 Corinthians|10:13|book",
+    "q": "“God is faithful, who will not suffer you to be tempted above that ye are able.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Corinthians",
+    "opts": [
+      "1 Corinthians",
+      "Ecclesiastes",
+      "Daniel",
+      "Isaiah"
+    ],
+    "exp": "1 Corinthians 10:13 (KJV): “God is faithful, who will not suffer you to be tempted above that ye are able.”"
+  },
+  {
+    "id": "S|1 Corinthians|10:13|ref",
+    "q": "Which reference matches this KJV passage?\n\n“God is faithful, who will not suffer you to be tempted above that ye are able.”",
+    "ans": "1 Corinthians 10:13",
+    "opts": [
+      "Hebrews 11:1",
+      "John 14:6",
+      "Philippians 4:6",
+      "1 Corinthians 10:13"
+    ],
+    "exp": "1 Corinthians 10:13 (KJV): “God is faithful, who will not suffer you to be tempted above that ye are able.”"
+  },
+  {
+    "id": "S|1 Corinthians|10:13|fill",
+    "q": "Complete the KJV wording:\n\n“God is faithful, who will not suffer you to be tempted …”",
+    "ans": "above that ye are able.",
+    "opts": [
+      "latter day upon the earth:",
+      "things, which thou knowest not.",
+      "above that ye are able.",
+      "be saved, and thy house."
+    ],
+    "exp": "1 Corinthians 10:13 (KJV): “God is faithful, who will not suffer you to be tempted above that ye are able.”"
+  },
+  {
+    "id": "S|1 Corinthians|13:13|book",
+    "q": "“And now abideth faith, hope, charity, these three; but the greatest of these is charity.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Corinthians",
+    "opts": [
+      "1 Samuel",
+      "Jeremiah",
+      "Amos",
+      "1 Corinthians"
+    ],
+    "exp": "1 Corinthians 13:13 (KJV): “And now abideth faith, hope, charity, these three; but the greatest of these is charity.”"
+  },
+  {
+    "id": "S|1 Corinthians|13:13|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And now abideth faith, hope, charity, these three; but the greatest of these is charity.”",
+    "ans": "1 Corinthians 13:13",
+    "opts": [
+      "Judges 21:25",
+      "Philippians 4:6",
+      "1 Corinthians 13:13",
+      "Mark 8:36"
+    ],
+    "exp": "1 Corinthians 13:13 (KJV): “And now abideth faith, hope, charity, these three; but the greatest of these is charity.”"
+  },
+  {
+    "id": "S|1 Corinthians|13:13|fill",
+    "q": "Complete the KJV wording:\n\n“And now abideth faith, hope, charity, these three; but the …”",
+    "ans": "greatest of these is charity.",
+    "opts": [
+      "and of a sound mind.",
+      "ye also to them likewise.",
+      "work, neither should he eat.",
+      "greatest of these is charity."
+    ],
+    "exp": "1 Corinthians 13:13 (KJV): “And now abideth faith, hope, charity, these three; but the greatest of these is charity.”"
+  },
+  {
+    "id": "S|2 Corinthians|5:17|book",
+    "q": "“Therefore if any man be in Christ, he is a new creature: old things are passed away.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Corinthians",
+    "opts": [
+      "2 Corinthians",
+      "Deuteronomy",
+      "Hosea",
+      "Judges"
+    ],
+    "exp": "2 Corinthians 5:17 (KJV): “Therefore if any man be in Christ, he is a new creature: old things are passed away.”"
+  },
+  {
+    "id": "S|2 Corinthians|5:17|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Therefore if any man be in Christ, he is a new creature: old things are passed away.”",
+    "ans": "2 Corinthians 5:17",
+    "opts": [
+      "2 Corinthians 5:17",
+      "Psalms 46:1",
+      "1 Samuel 17:47",
+      "1 Peter 5:7"
+    ],
+    "exp": "2 Corinthians 5:17 (KJV): “Therefore if any man be in Christ, he is a new creature: old things are passed away.”"
+  },
+  {
+    "id": "S|2 Corinthians|5:17|fill",
+    "q": "Complete the KJV wording:\n\n“Therefore if any man be in Christ, he is a new creature: …”",
+    "ans": "old things are passed away.",
+    "opts": [
+      "old things are passed away.",
+      "will come in to him.",
+      "very present help in trouble.",
+      "LORD looketh on the heart."
+    ],
+    "exp": "2 Corinthians 5:17 (KJV): “Therefore if any man be in Christ, he is a new creature: old things are passed away.”"
+  },
+  {
+    "id": "S|2 Corinthians|12:9|book",
+    "q": "“My grace is sufficient for thee: for my strength is made perfect in weakness.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Corinthians",
+    "opts": [
+      "Nahum",
+      "2 Corinthians",
+      "Psalms",
+      "Matthew"
+    ],
+    "exp": "2 Corinthians 12:9 (KJV): “My grace is sufficient for thee: for my strength is made perfect in weakness.”"
+  },
+  {
+    "id": "S|2 Corinthians|12:9|ref",
+    "q": "Which reference matches this KJV passage?\n\n“My grace is sufficient for thee: for my strength is made perfect in weakness.”",
+    "ans": "2 Corinthians 12:9",
+    "opts": [
+      "2 Corinthians 12:9",
+      "Micah 6:8",
+      "Ruth 1:16",
+      "Genesis 50:20"
+    ],
+    "exp": "2 Corinthians 12:9 (KJV): “My grace is sufficient for thee: for my strength is made perfect in weakness.”"
+  },
+  {
+    "id": "S|2 Corinthians|12:9|fill",
+    "q": "Complete the KJV wording:\n\n“My grace is sufficient for thee: for my strength is …”",
+    "ans": "made perfect in weakness.",
+    "opts": [
+      "wiles of the devil.",
+      "neither should he eat.",
+      "made perfect in weakness.",
+      "them that love God."
+    ],
+    "exp": "2 Corinthians 12:9 (KJV): “My grace is sufficient for thee: for my strength is made perfect in weakness.”"
+  },
+  {
+    "id": "S|Galatians|2:20|book",
+    "q": "“I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me.”\n\nWhich book is this KJV passage from?",
+    "ans": "Galatians",
+    "opts": [
+      "2 Thessalonians",
+      "Malachi",
+      "Galatians",
+      "Leviticus"
+    ],
+    "exp": "Galatians 2:20 (KJV): “I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me.”"
+  },
+  {
+    "id": "S|Galatians|2:20|ref",
+    "q": "Which reference matches this KJV passage?\n\n“I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me.”",
+    "ans": "Galatians 2:20",
+    "opts": [
+      "2 Timothy 2:15",
+      "Deuteronomy 8:3",
+      "Galatians 2:20",
+      "2 Peter 3:9"
+    ],
+    "exp": "Galatians 2:20 (KJV): “I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me.”"
+  },
+  {
+    "id": "S|Galatians|2:20|fill",
+    "q": "Complete the KJV wording:\n\n“I am crucified with Christ: nevertheless I live; yet not I, …”",
+    "ans": "but Christ liveth in me.",
+    "opts": [
+      "the whole duty of man.",
+      "but Christ liveth in me.",
+      "sharper than any twoedged sword.",
+      "is made perfect in weakness."
+    ],
+    "exp": "Galatians 2:20 (KJV): “I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me.”"
+  },
+  {
+    "id": "S|Galatians|5:22-23|book",
+    "q": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance.”\n\nWhich book is this KJV passage from?",
+    "ans": "Galatians",
+    "opts": [
+      "Psalms",
+      "Galatians",
+      "2 John",
+      "Hebrews"
+    ],
+    "exp": "Galatians 5:22-23 (KJV): “But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance.”"
+  },
+  {
+    "id": "S|Galatians|5:22-23|ref",
+    "q": "Which reference matches this KJV passage?\n\n“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance.”",
+    "ans": "Galatians 5:22-23",
+    "opts": [
+      "Esther 4:14",
+      "1 Thessalonians 5:17",
+      "Galatians 5:22-23",
+      "James 1:5"
+    ],
+    "exp": "Galatians 5:22-23 (KJV): “But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance.”"
+  },
+  {
+    "id": "S|Galatians|5:22-23|fill",
+    "q": "Complete the KJV wording:\n\n“But the fruit of the Spirit is love, joy, peace, longsuffering, …”",
+    "ans": "gentleness, goodness, faith, Meekness, temperance.",
+    "opts": [
+      "he shall direct thy paths.",
+      "the LORD doth man live.",
+      "Ghost which is in you?",
+      "gentleness, goodness, faith, Meekness, temperance."
+    ],
+    "exp": "Galatians 5:22-23 (KJV): “But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance.”"
+  },
+  {
+    "id": "S|Ephesians|2:8|book",
+    "q": "“For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:”\n\nWhich book is this KJV passage from?",
+    "ans": "Ephesians",
+    "opts": [
+      "Titus",
+      "Romans",
+      "Ephesians",
+      "Proverbs"
+    ],
+    "exp": "Ephesians 2:8 (KJV): “For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:”"
+  },
+  {
+    "id": "S|Ephesians|2:8|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:”",
+    "ans": "Ephesians 2:8",
+    "opts": [
+      "Philippians 4:13",
+      "1 Samuel 17:47",
+      "Romans 12:2",
+      "Ephesians 2:8"
+    ],
+    "exp": "Ephesians 2:8 (KJV): “For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:”"
+  },
+  {
+    "id": "S|Ephesians|2:8|fill",
+    "q": "Complete the KJV wording:\n\n“For by grace are ye saved through faith; and that not of yourselves: …”",
+    "ans": "it is the gift of God:",
+    "opts": [
+      "it is the gift of God:",
+      "the latter day upon the earth:",
+      "spirit, saith the LORD of hosts.",
+      "Salvation is of the LORD."
+    ],
+    "exp": "Ephesians 2:8 (KJV): “For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:”"
+  },
+  {
+    "id": "S|Ephesians|6:11|book",
+    "q": "“Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.”\n\nWhich book is this KJV passage from?",
+    "ans": "Ephesians",
+    "opts": [
+      "Galatians",
+      "Proverbs",
+      "Ephesians",
+      "Psalms"
+    ],
+    "exp": "Ephesians 6:11 (KJV): “Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.”"
+  },
+  {
+    "id": "S|Ephesians|6:11|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.”",
+    "ans": "Ephesians 6:11",
+    "opts": [
+      "Hebrews 13:8",
+      "Nahum 1:7",
+      "3 John 1:4",
+      "Ephesians 6:11"
+    ],
+    "exp": "Ephesians 6:11 (KJV): “Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.”"
+  },
+  {
+    "id": "S|Ephesians|6:11|fill",
+    "q": "Complete the KJV wording:\n\n“Put on the whole armour of God, that ye may be able to stand …”",
+    "ans": "against the wiles of the devil.",
+    "opts": [
+      "men, whereby we must be saved.",
+      "requests be made known unto God.",
+      "against the wiles of the devil.",
+      "the LORD looketh on the heart."
+    ],
+    "exp": "Ephesians 6:11 (KJV): “Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.”"
+  },
+  {
+    "id": "S|Philippians|4:6|book",
+    "q": "“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.”\n\nWhich book is this KJV passage from?",
+    "ans": "Philippians",
+    "opts": [
+      "Acts",
+      "Philippians",
+      "1 Thessalonians",
+      "Daniel"
+    ],
+    "exp": "Philippians 4:6 (KJV): “Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.”"
+  },
+  {
+    "id": "S|Philippians|4:6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.”",
+    "ans": "Philippians 4:6",
+    "opts": [
+      "2 Samuel 22:2",
+      "Acts 16:31",
+      "Acts 1:8",
+      "Philippians 4:6"
+    ],
+    "exp": "Philippians 4:6 (KJV): “Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.”"
+  },
+  {
+    "id": "S|Philippians|4:6|fill",
+    "q": "Complete the KJV wording:\n\n“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let …”",
+    "ans": "your requests be made known unto God.",
+    "opts": [
+      "mouths, that they have not hurt me.",
+      "your requests be made known unto God.",
+      "mouth of the LORD doth man live.",
+      "hear that my children walk in truth."
+    ],
+    "exp": "Philippians 4:6 (KJV): “Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.”"
+  },
+  {
+    "id": "S|Philippians|4:13|book",
+    "q": "“I can do all things through Christ which strengtheneth me.”\n\nWhich book is this KJV passage from?",
+    "ans": "Philippians",
+    "opts": [
+      "Luke",
+      "Philippians",
+      "Revelation",
+      "Ezra"
+    ],
+    "exp": "Philippians 4:13 (KJV): “I can do all things through Christ which strengtheneth me.”"
+  },
+  {
+    "id": "S|Philippians|4:13|ref",
+    "q": "Which reference matches this KJV passage?\n\n“I can do all things through Christ which strengtheneth me.”",
+    "ans": "Philippians 4:13",
+    "opts": [
+      "Romans 12:2",
+      "Philippians 4:13",
+      "Jeremiah 29:11",
+      "Proverbs 22:6"
+    ],
+    "exp": "Philippians 4:13 (KJV): “I can do all things through Christ which strengtheneth me.”"
+  },
+  {
+    "id": "S|Philippians|4:13|fill",
+    "q": "Complete the KJV wording:\n\n“I can do all things through Christ …”",
+    "ans": "which strengtheneth me.",
+    "opts": [
+      "of his glory.",
+      "which strengtheneth me.",
+      "but by me.",
+      "heaven and earth."
+    ],
+    "exp": "Philippians 4:13 (KJV): “I can do all things through Christ which strengtheneth me.”"
+  },
+  {
+    "id": "S|Colossians|3:23|book",
+    "q": "“And whatsoever ye do, do it heartily, as to the Lord, and not unto men;”\n\nWhich book is this KJV passage from?",
+    "ans": "Colossians",
+    "opts": [
+      "Psalms",
+      "Colossians",
+      "Jonah",
+      "Acts"
+    ],
+    "exp": "Colossians 3:23 (KJV): “And whatsoever ye do, do it heartily, as to the Lord, and not unto men;”"
+  },
+  {
+    "id": "S|Colossians|3:23|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And whatsoever ye do, do it heartily, as to the Lord, and not unto men;”",
+    "ans": "Colossians 3:23",
+    "opts": [
+      "Colossians 3:23",
+      "Psalms 27:1",
+      "Isaiah 53:5",
+      "Deuteronomy 8:3"
+    ],
+    "exp": "Colossians 3:23 (KJV): “And whatsoever ye do, do it heartily, as to the Lord, and not unto men;”"
+  },
+  {
+    "id": "S|Colossians|3:23|fill",
+    "q": "Complete the KJV wording:\n\n“And whatsoever ye do, do it heartily, as to the …”",
+    "ans": "Lord, and not unto men;",
+    "opts": [
+      "to day, and for ever.",
+      "Lord, and not unto men;",
+      "God meant it unto good.",
+      "an hill cannot be hid."
+    ],
+    "exp": "Colossians 3:23 (KJV): “And whatsoever ye do, do it heartily, as to the Lord, and not unto men;”"
+  },
+  {
+    "id": "S|1 Thessalonians|5:17|book",
+    "q": "“Pray without ceasing.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Thessalonians",
+    "opts": [
+      "1 Thessalonians",
+      "Psalms",
+      "Hebrews",
+      "2 Samuel"
+    ],
+    "exp": "1 Thessalonians 5:17 (KJV): “Pray without ceasing.”"
+  },
+  {
+    "id": "S|1 Thessalonians|5:17|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Pray without ceasing.”",
+    "ans": "1 Thessalonians 5:17",
+    "opts": [
+      "1 Samuel 17:47",
+      "2 Corinthians 5:17",
+      "Habakkuk 2:4",
+      "1 Thessalonians 5:17"
+    ],
+    "exp": "1 Thessalonians 5:17 (KJV): “Pray without ceasing.”"
+  },
+  {
+    "id": "S|1 Thessalonians|5:17|fill",
+    "q": "Complete the KJV wording:\n\n“Pray without …”",
+    "ans": "ceasing.",
+    "opts": [
+      "my God:",
+      "of man.",
+      "ceasing.",
+      "in you?"
+    ],
+    "exp": "1 Thessalonians 5:17 (KJV): “Pray without ceasing.”"
+  },
+  {
+    "id": "S|2 Thessalonians|3:10|book",
+    "q": "“If any would not work, neither should he eat.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Thessalonians",
+    "opts": [
+      "James",
+      "Romans",
+      "2 Thessalonians",
+      "1 John"
+    ],
+    "exp": "2 Thessalonians 3:10 (KJV): “If any would not work, neither should he eat.”"
+  },
+  {
+    "id": "S|2 Thessalonians|3:10|ref",
+    "q": "Which reference matches this KJV passage?\n\n“If any would not work, neither should he eat.”",
+    "ans": "2 Thessalonians 3:10",
+    "opts": [
+      "Acts 16:31",
+      "Lamentations 3:22-23",
+      "Ephesians 2:8",
+      "2 Thessalonians 3:10"
+    ],
+    "exp": "2 Thessalonians 3:10 (KJV): “If any would not work, neither should he eat.”"
+  },
+  {
+    "id": "S|2 Thessalonians|3:10|fill",
+    "q": "Complete the KJV wording:\n\n“If any would not work, neither …”",
+    "ans": "should he eat.",
+    "opts": [
+      "glory of God;",
+      "should he eat.",
+      "upon the earth:",
+      "LORD of hosts."
+    ],
+    "exp": "2 Thessalonians 3:10 (KJV): “If any would not work, neither should he eat.”"
+  },
+  {
+    "id": "S|1 Timothy|4:12|book",
+    "q": "“Let no man despise thy youth; but be thou an example of the believers.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Timothy",
+    "opts": [
+      "Hebrews",
+      "Genesis",
+      "1 Timothy",
+      "2 Kings"
+    ],
+    "exp": "1 Timothy 4:12 (KJV): “Let no man despise thy youth; but be thou an example of the believers.”"
+  },
+  {
+    "id": "S|1 Timothy|4:12|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Let no man despise thy youth; but be thou an example of the believers.”",
+    "ans": "1 Timothy 4:12",
+    "opts": [
+      "Obadiah 1:15",
+      "Ezra 7:10",
+      "Exodus 20:3",
+      "1 Timothy 4:12"
+    ],
+    "exp": "1 Timothy 4:12 (KJV): “Let no man despise thy youth; but be thou an example of the believers.”"
+  },
+  {
+    "id": "S|1 Timothy|4:12|fill",
+    "q": "Complete the KJV wording:\n\n“Let no man despise thy youth; but be thou an …”",
+    "ans": "example of the believers.",
+    "opts": [
+      "day upon the earth:",
+      "Israel statutes and judgments.",
+      "presence of his glory.",
+      "example of the believers."
+    ],
+    "exp": "1 Timothy 4:12 (KJV): “Let no man despise thy youth; but be thou an example of the believers.”"
+  },
+  {
+    "id": "S|2 Timothy|1:7|book",
+    "q": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Timothy",
+    "opts": [
+      "Lamentations",
+      "2 Timothy",
+      "Job",
+      "Nehemiah"
+    ],
+    "exp": "2 Timothy 1:7 (KJV): “For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.”"
+  },
+  {
+    "id": "S|2 Timothy|1:7|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.”",
+    "ans": "2 Timothy 1:7",
+    "opts": [
+      "Colossians 3:23",
+      "Philippians 4:13",
+      "Nahum 1:7",
+      "2 Timothy 1:7"
+    ],
+    "exp": "2 Timothy 1:7 (KJV): “For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.”"
+  },
+  {
+    "id": "S|2 Timothy|1:7|fill",
+    "q": "Complete the KJV wording:\n\n“For God hath not given us the spirit of fear; but of power, and of …”",
+    "ans": "love, and of a sound mind.",
+    "opts": [
+      "knoweth them that trust in him.",
+      "his strength, seek his face continually.",
+      "desperately wicked: who can know it?",
+      "love, and of a sound mind."
+    ],
+    "exp": "2 Timothy 1:7 (KJV): “For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.”"
+  },
+  {
+    "id": "S|2 Timothy|2:15|book",
+    "q": "“Study to shew thyself approved unto God, a workman that needeth not to be ashamed.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Timothy",
+    "opts": [
+      "2 Peter",
+      "Genesis",
+      "Matthew",
+      "2 Timothy"
+    ],
+    "exp": "2 Timothy 2:15 (KJV): “Study to shew thyself approved unto God, a workman that needeth not to be ashamed.”"
+  },
+  {
+    "id": "S|2 Timothy|2:15|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Study to shew thyself approved unto God, a workman that needeth not to be ashamed.”",
+    "ans": "2 Timothy 2:15",
+    "opts": [
+      "2 Timothy 2:15",
+      "Lamentations 3:22-23",
+      "Ezra 7:10",
+      "Jonah 2:9"
+    ],
+    "exp": "2 Timothy 2:15 (KJV): “Study to shew thyself approved unto God, a workman that needeth not to be ashamed.”"
+  },
+  {
+    "id": "S|2 Timothy|2:15|fill",
+    "q": "Complete the KJV wording:\n\n“Study to shew thyself approved unto God, a workman that …”",
+    "ans": "needeth not to be ashamed.",
+    "opts": [
+      "rejoice over thee with joy.",
+      "needeth not to be ashamed.",
+      "near upon all the heathen.",
+      "and your daughters shall prophesy."
+    ],
+    "exp": "2 Timothy 2:15 (KJV): “Study to shew thyself approved unto God, a workman that needeth not to be ashamed.”"
+  },
+  {
+    "id": "S|2 Timothy|3:16|book",
+    "q": "“All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Timothy",
+    "opts": [
+      "2 Timothy",
+      "Deuteronomy",
+      "Romans",
+      "Matthew"
+    ],
+    "exp": "2 Timothy 3:16 (KJV): “All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction.”"
+  },
+  {
+    "id": "S|2 Timothy|3:16|ref",
+    "q": "Which reference matches this KJV passage?\n\n“All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction.”",
+    "ans": "2 Timothy 3:16",
+    "opts": [
+      "James 1:22",
+      "2 Chronicles 7:14",
+      "Hebrews 4:12",
+      "2 Timothy 3:16"
+    ],
+    "exp": "2 Timothy 3:16 (KJV): “All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction.”"
+  },
+  {
+    "id": "S|2 Timothy|3:16|fill",
+    "q": "Complete the KJV wording:\n\n“All scripture is given by inspiration of God, and is profitable for …”",
+    "ans": "doctrine, for reproof, for correction.",
+    "opts": [
+      "doctrine, for reproof, for correction.",
+      "God nothing shall be impossible.",
+      "perish, but have everlasting life.",
+      "giveth to all men liberally."
+    ],
+    "exp": "2 Timothy 3:16 (KJV): “All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction.”"
+  },
+  {
+    "id": "S|Titus|2:11|book",
+    "q": "“For the grace of God that bringeth salvation hath appeared to all men,”\n\nWhich book is this KJV passage from?",
+    "ans": "Titus",
+    "opts": [
+      "Zephaniah",
+      "1 Kings",
+      "Titus",
+      "1 John"
+    ],
+    "exp": "Titus 2:11 (KJV): “For the grace of God that bringeth salvation hath appeared to all men,”"
+  },
+  {
+    "id": "S|Titus|2:11|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For the grace of God that bringeth salvation hath appeared to all men,”",
+    "ans": "Titus 2:11",
+    "opts": [
+      "Jeremiah 33:3",
+      "Proverbs 3:5-6",
+      "Titus 2:11",
+      "Galatians 2:20"
+    ],
+    "exp": "Titus 2:11 (KJV): “For the grace of God that bringeth salvation hath appeared to all men,”"
+  },
+  {
+    "id": "S|Titus|2:11|fill",
+    "q": "Complete the KJV wording:\n\n“For the grace of God that bringeth salvation hath …”",
+    "ans": "appeared to all men,",
+    "opts": [
+      "day, and for ever.",
+      "with wings as eagles.",
+      "appeared to all men,",
+      "that ye are able."
+    ],
+    "exp": "Titus 2:11 (KJV): “For the grace of God that bringeth salvation hath appeared to all men,”"
+  },
+  {
+    "id": "S|Philemon|1:6|book",
+    "q": "“That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.”\n\nWhich book is this KJV passage from?",
+    "ans": "Philemon",
+    "opts": [
+      "2 John",
+      "Psalms",
+      "Philippians",
+      "Philemon"
+    ],
+    "exp": "Philemon 1:6 (KJV): “That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.”"
+  },
+  {
+    "id": "S|Philemon|1:6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.”",
+    "ans": "Philemon 1:6",
+    "opts": [
+      "Philemon 1:6",
+      "2 Kings 6:16",
+      "Ezekiel 36:26",
+      "Lamentations 3:22-23"
+    ],
+    "exp": "Philemon 1:6 (KJV): “That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.”"
+  },
+  {
+    "id": "S|Philemon|1:6|fill",
+    "q": "Complete the KJV wording:\n\n“That the communication of thy faith may become effectual by the acknowledging of every good thing …”",
+    "ans": "which is in you in Christ Jesus.",
+    "opts": [
+      "which is in you in Christ Jesus.",
+      "faultless before the presence of his glory.",
+      "transformed by the renewing of your mind.",
+      "thoughts of peace, and not of evil."
+    ],
+    "exp": "Philemon 1:6 (KJV): “That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.”"
+  },
+  {
+    "id": "S|Hebrews|4:12|book",
+    "q": "“For the word of God is quick, and powerful, and sharper than any twoedged sword.”\n\nWhich book is this KJV passage from?",
+    "ans": "Hebrews",
+    "opts": [
+      "Hebrews",
+      "John",
+      "Romans",
+      "Galatians"
+    ],
+    "exp": "Hebrews 4:12 (KJV): “For the word of God is quick, and powerful, and sharper than any twoedged sword.”"
+  },
+  {
+    "id": "S|Hebrews|4:12|ref",
+    "q": "Which reference matches this KJV passage?\n\n“For the word of God is quick, and powerful, and sharper than any twoedged sword.”",
+    "ans": "Hebrews 4:12",
+    "opts": [
+      "Hebrews 4:12",
+      "James 1:5",
+      "Romans 3:23",
+      "Jude 1:24"
+    ],
+    "exp": "Hebrews 4:12 (KJV): “For the word of God is quick, and powerful, and sharper than any twoedged sword.”"
+  },
+  {
+    "id": "S|Hebrews|4:12|fill",
+    "q": "Complete the KJV wording:\n\n“For the word of God is quick, and powerful, and …”",
+    "ans": "sharper than any twoedged sword.",
+    "opts": [
+      "the Father, but by me.",
+      "our peace was upon him.",
+      "sharper than any twoedged sword.",
+      "will not depart from it."
+    ],
+    "exp": "Hebrews 4:12 (KJV): “For the word of God is quick, and powerful, and sharper than any twoedged sword.”"
+  },
+  {
+    "id": "S|Hebrews|11:1|book",
+    "q": "“Now faith is the substance of things hoped for, the evidence of things not seen.”\n\nWhich book is this KJV passage from?",
+    "ans": "Hebrews",
+    "opts": [
+      "Hebrews",
+      "Zephaniah",
+      "Nahum",
+      "Matthew"
+    ],
+    "exp": "Hebrews 11:1 (KJV): “Now faith is the substance of things hoped for, the evidence of things not seen.”"
+  },
+  {
+    "id": "S|Hebrews|11:1|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Now faith is the substance of things hoped for, the evidence of things not seen.”",
+    "ans": "Hebrews 11:1",
+    "opts": [
+      "Song of Solomon 8:7",
+      "Proverbs 22:6",
+      "Deuteronomy 6:5",
+      "Hebrews 11:1"
+    ],
+    "exp": "Hebrews 11:1 (KJV): “Now faith is the substance of things hoped for, the evidence of things not seen.”"
+  },
+  {
+    "id": "S|Hebrews|11:1|fill",
+    "q": "Complete the KJV wording:\n\n“Now faith is the substance of things hoped for, the …”",
+    "ans": "evidence of things not seen.",
+    "opts": [
+      "which made heaven and earth.",
+      "evidence of things not seen.",
+      "no other gods before me.",
+      "needeth not to be ashamed."
+    ],
+    "exp": "Hebrews 11:1 (KJV): “Now faith is the substance of things hoped for, the evidence of things not seen.”"
+  },
+  {
+    "id": "S|Hebrews|13:8|book",
+    "q": "“Jesus Christ the same yesterday, and to day, and for ever.”\n\nWhich book is this KJV passage from?",
+    "ans": "Hebrews",
+    "opts": [
+      "Titus",
+      "Acts",
+      "Deuteronomy",
+      "Hebrews"
+    ],
+    "exp": "Hebrews 13:8 (KJV): “Jesus Christ the same yesterday, and to day, and for ever.”"
+  },
+  {
+    "id": "S|Hebrews|13:8|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Jesus Christ the same yesterday, and to day, and for ever.”",
+    "ans": "Hebrews 13:8",
+    "opts": [
+      "Psalms 121:1-2",
+      "Hebrews 13:8",
+      "Proverbs 22:6",
+      "Nehemiah 8:10"
+    ],
+    "exp": "Hebrews 13:8 (KJV): “Jesus Christ the same yesterday, and to day, and for ever.”"
+  },
+  {
+    "id": "S|Hebrews|13:8|fill",
+    "q": "Complete the KJV wording:\n\n“Jesus Christ the same yesterday, and to …”",
+    "ans": "day, and for ever.",
+    "opts": [
+      "wiles of the devil.",
+      "them that love God.",
+      "yet shall he live:",
+      "day, and for ever."
+    ],
+    "exp": "Hebrews 13:8 (KJV): “Jesus Christ the same yesterday, and to day, and for ever.”"
+  },
+  {
+    "id": "S|James|1:5|book",
+    "q": "“If any of you lack wisdom, let him ask of God, that giveth to all men liberally.”\n\nWhich book is this KJV passage from?",
+    "ans": "James",
+    "opts": [
+      "2 Peter",
+      "Ezekiel",
+      "James",
+      "Joshua"
+    ],
+    "exp": "James 1:5 (KJV): “If any of you lack wisdom, let him ask of God, that giveth to all men liberally.”"
+  },
+  {
+    "id": "S|James|1:5|ref",
+    "q": "Which reference matches this KJV passage?\n\n“If any of you lack wisdom, let him ask of God, that giveth to all men liberally.”",
+    "ans": "James 1:5",
+    "opts": [
+      "Colossians 3:23",
+      "1 John 1:9",
+      "James 1:5",
+      "Philemon 1:6"
+    ],
+    "exp": "James 1:5 (KJV): “If any of you lack wisdom, let him ask of God, that giveth to all men liberally.”"
+  },
+  {
+    "id": "S|James|1:5|fill",
+    "q": "Complete the KJV wording:\n\n“If any of you lack wisdom, let him ask of God, that …”",
+    "ans": "giveth to all men liberally.",
+    "opts": [
+      "give you into our hands.",
+      "and the Word was God.",
+      "Salvation is of the LORD.",
+      "giveth to all men liberally."
+    ],
+    "exp": "James 1:5 (KJV): “If any of you lack wisdom, let him ask of God, that giveth to all men liberally.”"
+  },
+  {
+    "id": "S|James|1:22|book",
+    "q": "“But be ye doers of the word, and not hearers only, deceiving your own selves.”\n\nWhich book is this KJV passage from?",
+    "ans": "James",
+    "opts": [
+      "1 John",
+      "Nehemiah",
+      "James",
+      "Ezra"
+    ],
+    "exp": "James 1:22 (KJV): “But be ye doers of the word, and not hearers only, deceiving your own selves.”"
+  },
+  {
+    "id": "S|James|1:22|ref",
+    "q": "Which reference matches this KJV passage?\n\n“But be ye doers of the word, and not hearers only, deceiving your own selves.”",
+    "ans": "James 1:22",
+    "opts": [
+      "Psalms 91:1",
+      "Malachi 3:10",
+      "James 1:22",
+      "Isaiah 55:8-9"
+    ],
+    "exp": "James 1:22 (KJV): “But be ye doers of the word, and not hearers only, deceiving your own selves.”"
+  },
+  {
+    "id": "S|James|1:22|fill",
+    "q": "Complete the KJV wording:\n\n“But be ye doers of the word, and not hearers …”",
+    "ans": "only, deceiving your own selves.",
+    "opts": [
+      "doctrine, for reproof, for correction.",
+      "the wiles of the devil.",
+      "and your daughters shall prophesy.",
+      "only, deceiving your own selves."
+    ],
+    "exp": "James 1:22 (KJV): “But be ye doers of the word, and not hearers only, deceiving your own selves.”"
+  },
+  {
+    "id": "S|1 Peter|5:7|book",
+    "q": "“Casting all your care upon him; for he careth for you.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 Peter",
+    "opts": [
+      "Ezekiel",
+      "Ecclesiastes",
+      "Psalms",
+      "1 Peter"
+    ],
+    "exp": "1 Peter 5:7 (KJV): “Casting all your care upon him; for he careth for you.”"
+  },
+  {
+    "id": "S|1 Peter|5:7|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Casting all your care upon him; for he careth for you.”",
+    "ans": "1 Peter 5:7",
+    "opts": [
+      "Job 19:25",
+      "1 Peter 5:7",
+      "Matthew 6:33",
+      "Hosea 4:6"
+    ],
+    "exp": "1 Peter 5:7 (KJV): “Casting all your care upon him; for he careth for you.”"
+  },
+  {
+    "id": "S|1 Peter|5:7|fill",
+    "q": "Complete the KJV wording:\n\n“Casting all your care upon him; for …”",
+    "ans": "he careth for you.",
+    "opts": [
+      "presence of his glory.",
+      "he careth for you.",
+      "live by his faith.",
+      "heaven and the earth."
+    ],
+    "exp": "1 Peter 5:7 (KJV): “Casting all your care upon him; for he careth for you.”"
+  },
+  {
+    "id": "S|2 Peter|3:9|book",
+    "q": "“The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 Peter",
+    "opts": [
+      "Joshua",
+      "Isaiah",
+      "2 Peter",
+      "Habakkuk"
+    ],
+    "exp": "2 Peter 3:9 (KJV): “The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward.”"
+  },
+  {
+    "id": "S|2 Peter|3:9|ref",
+    "q": "Which reference matches this KJV passage?\n\n“The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward.”",
+    "ans": "2 Peter 3:9",
+    "opts": [
+      "Ezekiel 36:26",
+      "Jeremiah 29:11",
+      "2 Peter 3:9",
+      "1 Peter 5:7"
+    ],
+    "exp": "2 Peter 3:9 (KJV): “The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward.”"
+  },
+  {
+    "id": "S|2 Peter|3:9|fill",
+    "q": "Complete the KJV wording:\n\n“The Lord is not slack concerning his promise, as some men count …”",
+    "ans": "slackness; but is longsuffering to us-ward.",
+    "opts": [
+      "are possible to him that believeth.",
+      "slackness; but is longsuffering to us-ward.",
+      "good to them that love God.",
+      "it shall eat the fruit thereof."
+    ],
+    "exp": "2 Peter 3:9 (KJV): “The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward.”"
+  },
+  {
+    "id": "S|1 John|1:9|book",
+    "q": "“If we confess our sins, he is faithful and just to forgive us our sins.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 John",
+    "opts": [
+      "Nehemiah",
+      "1 Timothy",
+      "James",
+      "1 John"
+    ],
+    "exp": "1 John 1:9 (KJV): “If we confess our sins, he is faithful and just to forgive us our sins.”"
+  },
+  {
+    "id": "S|1 John|1:9|ref",
+    "q": "Which reference matches this KJV passage?\n\n“If we confess our sins, he is faithful and just to forgive us our sins.”",
+    "ans": "1 John 1:9",
+    "opts": [
+      "1 John 1:9",
+      "Nehemiah 8:10",
+      "2 Samuel 22:2",
+      "1 Samuel 17:47"
+    ],
+    "exp": "1 John 1:9 (KJV): “If we confess our sins, he is faithful and just to forgive us our sins.”"
+  },
+  {
+    "id": "S|1 John|1:9|fill",
+    "q": "Complete the KJV wording:\n\n“If we confess our sins, he is faithful and just …”",
+    "ans": "to forgive us our sins.",
+    "opts": [
+      "latter day upon the earth:",
+      "can the floods drown it:",
+      "ye also to them likewise.",
+      "to forgive us our sins."
+    ],
+    "exp": "1 John 1:9 (KJV): “If we confess our sins, he is faithful and just to forgive us our sins.”"
+  },
+  {
+    "id": "S|1 John|4:8|book",
+    "q": "“He that loveth not knoweth not God; for God is love.”\n\nWhich book is this KJV passage from?",
+    "ans": "1 John",
+    "opts": [
+      "2 Samuel",
+      "1 John",
+      "Acts",
+      "Micah"
+    ],
+    "exp": "1 John 4:8 (KJV): “He that loveth not knoweth not God; for God is love.”"
+  },
+  {
+    "id": "S|1 John|4:8|ref",
+    "q": "Which reference matches this KJV passage?\n\n“He that loveth not knoweth not God; for God is love.”",
+    "ans": "1 John 4:8",
+    "opts": [
+      "2 Kings 6:16",
+      "1 John 4:8",
+      "Jonah 2:9",
+      "Psalms 119:105"
+    ],
+    "exp": "1 John 4:8 (KJV): “He that loveth not knoweth not God; for God is love.”"
+  },
+  {
+    "id": "S|1 John|4:8|fill",
+    "q": "Complete the KJV wording:\n\n“He that loveth not knoweth not God; …”",
+    "ans": "for God is love.",
+    "opts": [
+      "made heaven and earth.",
+      "for God is love.",
+      "of these is charity.",
+      "shadow of the Almighty."
+    ],
+    "exp": "1 John 4:8 (KJV): “He that loveth not knoweth not God; for God is love.”"
+  },
+  {
+    "id": "S|2 John|1:6|book",
+    "q": "“And this is love, that we walk after his commandments.”\n\nWhich book is this KJV passage from?",
+    "ans": "2 John",
+    "opts": [
+      "Zephaniah",
+      "2 John",
+      "2 Kings",
+      "John"
+    ],
+    "exp": "2 John 1:6 (KJV): “And this is love, that we walk after his commandments.”"
+  },
+  {
+    "id": "S|2 John|1:6|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And this is love, that we walk after his commandments.”",
+    "ans": "2 John 1:6",
+    "opts": [
+      "Esther 4:14",
+      "Matthew 28:19",
+      "John 14:6",
+      "2 John 1:6"
+    ],
+    "exp": "2 John 1:6 (KJV): “And this is love, that we walk after his commandments.”"
+  },
+  {
+    "id": "S|2 John|1:6|fill",
+    "q": "Complete the KJV wording:\n\n“And this is love, that we walk …”",
+    "ans": "after his commandments.",
+    "opts": [
+      "shalt be saved.",
+      "of the LORD.",
+      "duty of man.",
+      "after his commandments."
+    ],
+    "exp": "2 John 1:6 (KJV): “And this is love, that we walk after his commandments.”"
+  },
+  {
+    "id": "S|3 John|1:4|book",
+    "q": "“I have no greater joy than to hear that my children walk in truth.”\n\nWhich book is this KJV passage from?",
+    "ans": "3 John",
+    "opts": [
+      "2 Thessalonians",
+      "Zechariah",
+      "3 John",
+      "Deuteronomy"
+    ],
+    "exp": "3 John 1:4 (KJV): “I have no greater joy than to hear that my children walk in truth.”"
+  },
+  {
+    "id": "S|3 John|1:4|ref",
+    "q": "Which reference matches this KJV passage?\n\n“I have no greater joy than to hear that my children walk in truth.”",
+    "ans": "3 John 1:4",
+    "opts": [
+      "3 John 1:4",
+      "Ephesians 6:11",
+      "Ephesians 2:8",
+      "2 Peter 3:9"
+    ],
+    "exp": "3 John 1:4 (KJV): “I have no greater joy than to hear that my children walk in truth.”"
+  },
+  {
+    "id": "S|3 John|1:4|fill",
+    "q": "Complete the KJV wording:\n\n“I have no greater joy than to hear that my …”",
+    "ans": "children walk in truth.",
+    "opts": [
+      "children walk in truth.",
+      "made known unto God.",
+      "the LORD of hosts.",
+      "with wings as eagles."
+    ],
+    "exp": "3 John 1:4 (KJV): “I have no greater joy than to hear that my children walk in truth.”"
+  },
+  {
+    "id": "S|Jude|1:24|book",
+    "q": "“Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory.”\n\nWhich book is this KJV passage from?",
+    "ans": "Jude",
+    "opts": [
+      "2 Thessalonians",
+      "Deuteronomy",
+      "Jude",
+      "Numbers"
+    ],
+    "exp": "Jude 1:24 (KJV): “Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory.”"
+  },
+  {
+    "id": "S|Jude|1:24|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory.”",
+    "ans": "Jude 1:24",
+    "opts": [
+      "Matthew 5:14",
+      "Psalms 27:1",
+      "Jude 1:24",
+      "Acts 4:12"
+    ],
+    "exp": "Jude 1:24 (KJV): “Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory.”"
+  },
+  {
+    "id": "S|Jude|1:24|fill",
+    "q": "Complete the KJV wording:\n\n“Now unto him that is able to keep you from falling, and to present you …”",
+    "ans": "faultless before the presence of his glory.",
+    "opts": [
+      "for, the evidence of things not seen.",
+      "you, and ye shall hold your peace.",
+      "but the greatest of these is charity.",
+      "faultless before the presence of his glory."
+    ],
+    "exp": "Jude 1:24 (KJV): “Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory.”"
+  },
+  {
+    "id": "S|Revelation|3:20|book",
+    "q": "“Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him.”\n\nWhich book is this KJV passage from?",
+    "ans": "Revelation",
+    "opts": [
+      "Romans",
+      "Titus",
+      "Exodus",
+      "Revelation"
+    ],
+    "exp": "Revelation 3:20 (KJV): “Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him.”"
+  },
+  {
+    "id": "S|Revelation|3:20|ref",
+    "q": "Which reference matches this KJV passage?\n\n“Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him.”",
+    "ans": "Revelation 3:20",
+    "opts": [
+      "Acts 16:31",
+      "Nahum 1:7",
+      "Revelation 3:20",
+      "Matthew 28:19"
+    ],
+    "exp": "Revelation 3:20 (KJV): “Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him.”"
+  },
+  {
+    "id": "S|Revelation|3:20|fill",
+    "q": "Complete the KJV wording:\n\n“Behold, I stand at the door, and knock: if any man hear my voice, and open the …”",
+    "ans": "door, I will come in to him.",
+    "opts": [
+      "the government shall be upon his shoulder.",
+      "he will give you into our hands.",
+      "door, I will come in to him.",
+      "your sons and your daughters shall prophesy."
+    ],
+    "exp": "Revelation 3:20 (KJV): “Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him.”"
+  },
+  {
+    "id": "S|Revelation|21:4|book",
+    "q": "“And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying.”\n\nWhich book is this KJV passage from?",
+    "ans": "Revelation",
+    "opts": [
+      "Mark",
+      "Revelation",
+      "2 Chronicles",
+      "1 John"
+    ],
+    "exp": "Revelation 21:4 (KJV): “And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying.”"
+  },
+  {
+    "id": "S|Revelation|21:4|ref",
+    "q": "Which reference matches this KJV passage?\n\n“And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying.”",
+    "ans": "Revelation 21:4",
+    "opts": [
+      "Job 1:21",
+      "Ephesians 6:11",
+      "Revelation 21:4",
+      "Luke 19:10"
+    ],
+    "exp": "Revelation 21:4 (KJV): “And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying.”"
+  },
+  {
+    "id": "S|Revelation|21:4|fill",
+    "q": "Complete the KJV wording:\n\n“And God shall wipe away all tears from their eyes; and there shall be no …”",
+    "ans": "more death, neither sorrow, nor crying.",
+    "opts": [
+      "more death, neither sorrow, nor crying.",
+      "is near upon all the heathen.",
+      "Salvation is of the LORD.",
+      "salvation hath appeared to all men,"
+    ],
+    "exp": "Revelation 21:4 (KJV): “And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying.”"
+  },
+  {
+    "id": "S|Revelation|22:13|book",
+    "q": "“I am Alpha and Omega, the beginning and the end, the first and the last.”\n\nWhich book is this KJV passage from?",
+    "ans": "Revelation",
+    "opts": [
+      "Revelation",
+      "Ephesians",
+      "2 Corinthians",
+      "Matthew"
+    ],
+    "exp": "Revelation 22:13 (KJV): “I am Alpha and Omega, the beginning and the end, the first and the last.”"
+  },
+  {
+    "id": "S|Revelation|22:13|ref",
+    "q": "Which reference matches this KJV passage?\n\n“I am Alpha and Omega, the beginning and the end, the first and the last.”",
+    "ans": "Revelation 22:13",
+    "opts": [
+      "Revelation 22:13",
+      "1 Corinthians 10:13",
+      "Hebrews 4:12",
+      "Proverbs 3:5-6"
+    ],
+    "exp": "Revelation 22:13 (KJV): “I am Alpha and Omega, the beginning and the end, the first and the last.”"
+  },
+  {
+    "id": "S|Revelation|22:13|fill",
+    "q": "Complete the KJV wording:\n\n“I am Alpha and Omega, the beginning and the end, …”",
+    "ans": "the first and the last.",
+    "opts": [
+      "strength, seek his face continually.",
+      "together, except they be agreed?",
+      "the first and the last.",
+      "near upon all the heathen."
+    ],
+    "exp": "Revelation 22:13 (KJV): “I am Alpha and Omega, the beginning and the end, the first and the last.”"
+  },
+  {
+    "id": "P|The Sower|name",
+    "q": "Which parable is found at Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15?",
+    "ans": "The Sower",
+    "opts": [
+      "The Pearl of Great Price",
+      "The Sower",
+      "The Rich Man and Lazarus",
+      "The Mustard Seed"
+    ],
+    "exp": "The Sower — Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15. Different responses to the word."
+  },
+  {
+    "id": "P|The Sower|ref",
+    "q": "Which reference contains the parable “The Sower”?",
+    "ans": "Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15",
+    "opts": [
+      "Matthew 25:14–30",
+      "Matthew 25:1–13",
+      "Luke 12:16–21",
+      "Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15"
+    ],
+    "exp": "The Sower — Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15. Different responses to the word."
+  },
+  {
+    "id": "P|The Wheat and Tares|name",
+    "q": "Which parable is found at Matthew 13:24–30, 36–43?",
+    "ans": "The Wheat and Tares",
+    "opts": [
+      "The Wicked Husbandmen",
+      "The Good Samaritan",
+      "The Wheat and Tares",
+      "The Sower"
+    ],
+    "exp": "The Wheat and Tares — Matthew 13:24–30, 36–43. Good and evil remain together until judgment."
+  },
+  {
+    "id": "P|The Wheat and Tares|ref",
+    "q": "Which reference contains the parable “The Wheat and Tares”?",
+    "ans": "Matthew 13:24–30, 36–43",
+    "opts": [
+      "Matthew 13:24–30, 36–43",
+      "Matthew 18:23–35",
+      "Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19",
+      "Luke 15:8–10"
+    ],
+    "exp": "The Wheat and Tares — Matthew 13:24–30, 36–43. Good and evil remain together until judgment."
+  },
+  {
+    "id": "P|The Mustard Seed|name",
+    "q": "Which parable is found at Matthew 13:31–32; Mark 4:30–32; Luke 13:18–19?",
+    "ans": "The Mustard Seed",
+    "opts": [
+      "The Labourers in the Vineyard",
+      "The Mustard Seed",
+      "The Wicked Husbandmen",
+      "The Good Samaritan"
+    ],
+    "exp": "The Mustard Seed — Matthew 13:31–32; Mark 4:30–32; Luke 13:18–19. The kingdom grows from a small beginning."
+  },
+  {
+    "id": "P|The Mustard Seed|ref",
+    "q": "Which reference contains the parable “The Mustard Seed”?",
+    "ans": "Matthew 13:31–32; Mark 4:30–32; Luke 13:18–19",
+    "opts": [
+      "Matthew 13:31–32; Mark 4:30–32; Luke 13:18–19",
+      "Matthew 13:33; Luke 13:20–21",
+      "Matthew 20:1–16",
+      "Matthew 13:24–30, 36–43"
+    ],
+    "exp": "The Mustard Seed — Matthew 13:31–32; Mark 4:30–32; Luke 13:18–19. The kingdom grows from a small beginning."
+  },
+  {
+    "id": "P|The Leaven|name",
+    "q": "Which parable is found at Matthew 13:33; Luke 13:20–21?",
+    "ans": "The Leaven",
+    "opts": [
+      "The Wicked Husbandmen",
+      "The Rich Fool",
+      "The Leaven",
+      "The Lost Coin"
+    ],
+    "exp": "The Leaven — Matthew 13:33; Luke 13:20–21. The kingdom's influence spreads."
+  },
+  {
+    "id": "P|The Leaven|ref",
+    "q": "Which reference contains the parable “The Leaven”?",
+    "ans": "Matthew 13:33; Luke 13:20–21",
+    "opts": [
+      "Matthew 13:33; Luke 13:20–21",
+      "Luke 12:16–21",
+      "Matthew 13:44",
+      "Luke 15:8–10"
+    ],
+    "exp": "The Leaven — Matthew 13:33; Luke 13:20–21. The kingdom's influence spreads."
+  },
+  {
+    "id": "P|The Hidden Treasure|name",
+    "q": "Which parable is found at Matthew 13:44?",
+    "ans": "The Hidden Treasure",
+    "opts": [
+      "The Two Sons",
+      "The Lost Coin",
+      "The Hidden Treasure",
+      "The Rich Fool"
+    ],
+    "exp": "The Hidden Treasure — Matthew 13:44. The surpassing value of the kingdom."
+  },
+  {
+    "id": "P|The Hidden Treasure|ref",
+    "q": "Which reference contains the parable “The Hidden Treasure”?",
+    "ans": "Matthew 13:44",
+    "opts": [
+      "Matthew 13:44",
+      "Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15",
+      "Matthew 22:1–14",
+      "Luke 18:9–14"
+    ],
+    "exp": "The Hidden Treasure — Matthew 13:44. The surpassing value of the kingdom."
+  },
+  {
+    "id": "P|The Pearl of Great Price|name",
+    "q": "Which parable is found at Matthew 13:45–46?",
+    "ans": "The Pearl of Great Price",
+    "opts": [
+      "The Mustard Seed",
+      "The Pearl of Great Price",
+      "The Talents",
+      "The Sower"
+    ],
+    "exp": "The Pearl of Great Price — Matthew 13:45–46. The kingdom is worth giving up everything to obtain."
+  },
+  {
+    "id": "P|The Pearl of Great Price|ref",
+    "q": "Which reference contains the parable “The Pearl of Great Price”?",
+    "ans": "Matthew 13:45–46",
+    "opts": [
+      "Matthew 13:33; Luke 13:20–21",
+      "Matthew 13:45–46",
+      "Matthew 13:31–32; Mark 4:30–32; Luke 13:18–19",
+      "Luke 12:16–21"
+    ],
+    "exp": "The Pearl of Great Price — Matthew 13:45–46. The kingdom is worth giving up everything to obtain."
+  },
+  {
+    "id": "P|The Unforgiving Servant|name",
+    "q": "Which parable is found at Matthew 18:23–35?",
+    "ans": "The Unforgiving Servant",
+    "opts": [
+      "The Prodigal Son",
+      "The Lost Sheep",
+      "The Mustard Seed",
+      "The Unforgiving Servant"
+    ],
+    "exp": "The Unforgiving Servant — Matthew 18:23–35. Those forgiven should forgive."
+  },
+  {
+    "id": "P|The Unforgiving Servant|ref",
+    "q": "Which reference contains the parable “The Unforgiving Servant”?",
+    "ans": "Matthew 18:23–35",
+    "opts": [
+      "Matthew 18:23–35",
+      "Matthew 22:1–14",
+      "Matthew 25:1–13",
+      "Matthew 13:44"
+    ],
+    "exp": "The Unforgiving Servant — Matthew 18:23–35. Those forgiven should forgive."
+  },
+  {
+    "id": "P|The Labourers in the Vineyard|name",
+    "q": "Which parable is found at Matthew 20:1–16?",
+    "ans": "The Labourers in the Vineyard",
+    "opts": [
+      "The Labourers in the Vineyard",
+      "The Talents",
+      "The Two Sons",
+      "The Marriage Feast"
+    ],
+    "exp": "The Labourers in the Vineyard — Matthew 20:1–16. God's generosity is not governed by human comparison."
+  },
+  {
+    "id": "P|The Labourers in the Vineyard|ref",
+    "q": "Which reference contains the parable “The Labourers in the Vineyard”?",
+    "ans": "Matthew 20:1–16",
+    "opts": [
+      "Matthew 13:45–46",
+      "Luke 15:11–32",
+      "Matthew 13:33; Luke 13:20–21",
+      "Matthew 20:1–16"
+    ],
+    "exp": "The Labourers in the Vineyard — Matthew 20:1–16. God's generosity is not governed by human comparison."
+  },
+  {
+    "id": "P|The Two Sons|name",
+    "q": "Which parable is found at Matthew 21:28–32?",
+    "ans": "The Two Sons",
+    "opts": [
+      "The Wicked Husbandmen",
+      "The Rich Man and Lazarus",
+      "The Labourers in the Vineyard",
+      "The Two Sons"
+    ],
+    "exp": "The Two Sons — Matthew 21:28–32. Obedience matters more than profession."
+  },
+  {
+    "id": "P|The Two Sons|ref",
+    "q": "Which reference contains the parable “The Two Sons”?",
+    "ans": "Matthew 21:28–32",
+    "opts": [
+      "Matthew 21:28–32",
+      "Matthew 13:45–46",
+      "Matthew 18:23–35",
+      "Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15"
+    ],
+    "exp": "The Two Sons — Matthew 21:28–32. Obedience matters more than profession."
+  },
+  {
+    "id": "P|The Wicked Husbandmen|name",
+    "q": "Which parable is found at Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19?",
+    "ans": "The Wicked Husbandmen",
+    "opts": [
+      "The Lost Sheep",
+      "The Wheat and Tares",
+      "The Prodigal Son",
+      "The Wicked Husbandmen"
+    ],
+    "exp": "The Wicked Husbandmen — Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19. Rejection of God's messengers and Son."
+  },
+  {
+    "id": "P|The Wicked Husbandmen|ref",
+    "q": "Which reference contains the parable “The Wicked Husbandmen”?",
+    "ans": "Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19",
+    "opts": [
+      "Matthew 18:12–14; Luke 15:3–7",
+      "Matthew 18:23–35",
+      "Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19",
+      "Matthew 21:28–32"
+    ],
+    "exp": "The Wicked Husbandmen — Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19. Rejection of God's messengers and Son."
+  },
+  {
+    "id": "P|The Marriage Feast|name",
+    "q": "Which parable is found at Matthew 22:1–14?",
+    "ans": "The Marriage Feast",
+    "opts": [
+      "The Labourers in the Vineyard",
+      "The Rich Fool",
+      "The Marriage Feast",
+      "The Unforgiving Servant"
+    ],
+    "exp": "The Marriage Feast — Matthew 22:1–14. Invitation, response and readiness for the kingdom."
+  },
+  {
+    "id": "P|The Marriage Feast|ref",
+    "q": "Which reference contains the parable “The Marriage Feast”?",
+    "ans": "Matthew 22:1–14",
+    "opts": [
+      "Matthew 13:24–30, 36–43",
+      "Matthew 22:1–14",
+      "Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19",
+      "Luke 16:19–31"
+    ],
+    "exp": "The Marriage Feast — Matthew 22:1–14. Invitation, response and readiness for the kingdom."
+  },
+  {
+    "id": "P|The Ten Virgins|name",
+    "q": "Which parable is found at Matthew 25:1–13?",
+    "ans": "The Ten Virgins",
+    "opts": [
+      "The Sower",
+      "The Pharisee and the Publican",
+      "The Talents",
+      "The Ten Virgins"
+    ],
+    "exp": "The Ten Virgins — Matthew 25:1–13. Be watchful and prepared."
+  },
+  {
+    "id": "P|The Ten Virgins|ref",
+    "q": "Which reference contains the parable “The Ten Virgins”?",
+    "ans": "Matthew 25:1–13",
+    "opts": [
+      "Matthew 25:1–13",
+      "Luke 10:30–37",
+      "Matthew 13:33; Luke 13:20–21",
+      "Luke 15:11–32"
+    ],
+    "exp": "The Ten Virgins — Matthew 25:1–13. Be watchful and prepared."
+  },
+  {
+    "id": "P|The Talents|name",
+    "q": "Which parable is found at Matthew 25:14–30?",
+    "ans": "The Talents",
+    "opts": [
+      "The Unforgiving Servant",
+      "The Two Sons",
+      "The Talents",
+      "The Rich Fool"
+    ],
+    "exp": "The Talents — Matthew 25:14–30. Faithful stewardship of what is entrusted."
+  },
+  {
+    "id": "P|The Talents|ref",
+    "q": "Which reference contains the parable “The Talents”?",
+    "ans": "Matthew 25:14–30",
+    "opts": [
+      "Matthew 18:12–14; Luke 15:3–7",
+      "Matthew 22:1–14",
+      "Luke 15:11–32",
+      "Matthew 25:14–30"
+    ],
+    "exp": "The Talents — Matthew 25:14–30. Faithful stewardship of what is entrusted."
+  },
+  {
+    "id": "P|The Good Samaritan|name",
+    "q": "Which parable is found at Luke 10:30–37?",
+    "ans": "The Good Samaritan",
+    "opts": [
+      "The Rich Man and Lazarus",
+      "The Wicked Husbandmen",
+      "The Pearl of Great Price",
+      "The Good Samaritan"
+    ],
+    "exp": "The Good Samaritan — Luke 10:30–37. Neighbour-love crosses social boundaries."
+  },
+  {
+    "id": "P|The Good Samaritan|ref",
+    "q": "Which reference contains the parable “The Good Samaritan”?",
+    "ans": "Luke 10:30–37",
+    "opts": [
+      "Matthew 13:24–30, 36–43",
+      "Luke 12:16–21",
+      "Luke 10:30–37",
+      "Luke 15:11–32"
+    ],
+    "exp": "The Good Samaritan — Luke 10:30–37. Neighbour-love crosses social boundaries."
+  },
+  {
+    "id": "P|The Rich Fool|name",
+    "q": "Which parable is found at Luke 12:16–21?",
+    "ans": "The Rich Fool",
+    "opts": [
+      "The Rich Man and Lazarus",
+      "The Marriage Feast",
+      "The Rich Fool",
+      "The Pharisee and the Publican"
+    ],
+    "exp": "The Rich Fool — Luke 12:16–21. Earthly wealth cannot secure life before God."
+  },
+  {
+    "id": "P|The Rich Fool|ref",
+    "q": "Which reference contains the parable “The Rich Fool”?",
+    "ans": "Luke 12:16–21",
+    "opts": [
+      "Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15",
+      "Luke 12:16–21",
+      "Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19",
+      "Luke 15:8–10"
+    ],
+    "exp": "The Rich Fool — Luke 12:16–21. Earthly wealth cannot secure life before God."
+  },
+  {
+    "id": "P|The Lost Sheep|name",
+    "q": "Which parable is found at Matthew 18:12–14; Luke 15:3–7?",
+    "ans": "The Lost Sheep",
+    "opts": [
+      "The Prodigal Son",
+      "The Marriage Feast",
+      "The Lost Sheep",
+      "The Mustard Seed"
+    ],
+    "exp": "The Lost Sheep — Matthew 18:12–14; Luke 15:3–7. Joy over recovering the lost."
+  },
+  {
+    "id": "P|The Lost Sheep|ref",
+    "q": "Which reference contains the parable “The Lost Sheep”?",
+    "ans": "Matthew 18:12–14; Luke 15:3–7",
+    "opts": [
+      "Luke 16:19–31",
+      "Luke 15:8–10",
+      "Matthew 25:14–30",
+      "Matthew 18:12–14; Luke 15:3–7"
+    ],
+    "exp": "The Lost Sheep — Matthew 18:12–14; Luke 15:3–7. Joy over recovering the lost."
+  },
+  {
+    "id": "P|The Lost Coin|name",
+    "q": "Which parable is found at Luke 15:8–10?",
+    "ans": "The Lost Coin",
+    "opts": [
+      "The Labourers in the Vineyard",
+      "The Hidden Treasure",
+      "The Lost Coin",
+      "The Leaven"
+    ],
+    "exp": "The Lost Coin — Luke 15:8–10. Joy over one sinner who repents."
+  },
+  {
+    "id": "P|The Lost Coin|ref",
+    "q": "Which reference contains the parable “The Lost Coin”?",
+    "ans": "Luke 15:8–10",
+    "opts": [
+      "Matthew 25:14–30",
+      "Matthew 18:12–14; Luke 15:3–7",
+      "Luke 15:8–10",
+      "Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15"
+    ],
+    "exp": "The Lost Coin — Luke 15:8–10. Joy over one sinner who repents."
+  },
+  {
+    "id": "P|The Prodigal Son|name",
+    "q": "Which parable is found at Luke 15:11–32?",
+    "ans": "The Prodigal Son",
+    "opts": [
+      "The Ten Virgins",
+      "The Talents",
+      "The Pearl of Great Price",
+      "The Prodigal Son"
+    ],
+    "exp": "The Prodigal Son — Luke 15:11–32. Repentance, restoration and the father's welcome."
+  },
+  {
+    "id": "P|The Prodigal Son|ref",
+    "q": "Which reference contains the parable “The Prodigal Son”?",
+    "ans": "Luke 15:11–32",
+    "opts": [
+      "Luke 12:16–21",
+      "Luke 15:11–32",
+      "Matthew 21:33–46; Mark 12:1–12; Luke 20:9–19",
+      "Matthew 18:23–35"
+    ],
+    "exp": "The Prodigal Son — Luke 15:11–32. Repentance, restoration and the father's welcome."
+  },
+  {
+    "id": "P|The Rich Man and Lazarus|name",
+    "q": "Which parable is found at Luke 16:19–31?",
+    "ans": "The Rich Man and Lazarus",
+    "opts": [
+      "The Leaven",
+      "The Wheat and Tares",
+      "The Hidden Treasure",
+      "The Rich Man and Lazarus"
+    ],
+    "exp": "The Rich Man and Lazarus — Luke 16:19–31. A reversal after death and the sufficiency of God's revealed warning."
+  },
+  {
+    "id": "P|The Rich Man and Lazarus|ref",
+    "q": "Which reference contains the parable “The Rich Man and Lazarus”?",
+    "ans": "Luke 16:19–31",
+    "opts": [
+      "Luke 16:19–31",
+      "Matthew 22:1–14",
+      "Luke 15:11–32",
+      "Matthew 21:28–32"
+    ],
+    "exp": "The Rich Man and Lazarus — Luke 16:19–31. A reversal after death and the sufficiency of God's revealed warning."
+  },
+  {
+    "id": "P|The Pharisee and the Publican|name",
+    "q": "Which parable is found at Luke 18:9–14?",
+    "ans": "The Pharisee and the Publican",
+    "opts": [
+      "The Pearl of Great Price",
+      "The Pharisee and the Publican",
+      "The Prodigal Son",
+      "The Ten Virgins"
+    ],
+    "exp": "The Pharisee and the Publican — Luke 18:9–14. Humility and repentance rather than self-righteousness."
+  },
+  {
+    "id": "P|The Pharisee and the Publican|ref",
+    "q": "Which reference contains the parable “The Pharisee and the Publican”?",
+    "ans": "Luke 18:9–14",
+    "opts": [
+      "Matthew 13:3–23; Mark 4:3–20; Luke 8:5–15",
+      "Luke 18:9–14",
+      "Luke 15:11–32",
+      "Matthew 13:45–46"
+    ],
+    "exp": "The Pharisee and the Publican — Luke 18:9–14. Humility and repentance rather than self-righteousness."
+  },
+  {
+    "id": "M|Water into wine|name",
+    "q": "Which miracle is recorded at John 2:1–11?",
+    "ans": "Water into wine",
+    "opts": [
+      "Water into wine",
+      "Healing the high priest's servant's ear",
+      "Withering the fig tree",
+      "Feeding the four thousand"
+    ],
+    "exp": "Water into wine — John 2:1–11."
+  },
+  {
+    "id": "M|Water into wine|ref",
+    "q": "Where is this miracle recorded: Water into wine?",
+    "ans": "John 2:1–11",
+    "opts": [
+      "Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14",
+      "John 9:1–41",
+      "Luke 5:1–11",
+      "John 2:1–11"
+    ],
+    "exp": "Water into wine — John 2:1–11."
+  },
+  {
+    "id": "M|Healing the nobleman's son|name",
+    "q": "Which miracle is recorded at John 4:46–54?",
+    "ans": "Healing the nobleman's son",
+    "opts": [
+      "Healing the deaf man",
+      "Feeding the four thousand",
+      "Healing the nobleman's son",
+      "Withering the fig tree"
+    ],
+    "exp": "Healing the nobleman's son — John 4:46–54."
+  },
+  {
+    "id": "M|Healing the nobleman's son|ref",
+    "q": "Where is this miracle recorded: Healing the nobleman's son?",
+    "ans": "John 4:46–54",
+    "opts": [
+      "Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48",
+      "John 4:46–54",
+      "Mark 5:1–20; Luke 8:26–39",
+      "Mark 10:46–52; Luke 18:35–43"
+    ],
+    "exp": "Healing the nobleman's son — John 4:46–54."
+  },
+  {
+    "id": "M|Miraculous catch of fish|name",
+    "q": "Which miracle is recorded at Luke 5:1–11?",
+    "ans": "Miraculous catch of fish",
+    "opts": [
+      "Miraculous catch of fish",
+      "Healing the man born blind",
+      "Calming the storm",
+      "Feeding the four thousand"
+    ],
+    "exp": "Miraculous catch of fish — Luke 5:1–11."
+  },
+  {
+    "id": "M|Miraculous catch of fish|ref",
+    "q": "Where is this miracle recorded: Miraculous catch of fish?",
+    "ans": "Luke 5:1–11",
+    "opts": [
+      "Matthew 9:18–26; Mark 5:21–43; Luke 8:40–56",
+      "Luke 5:1–11",
+      "John 11:1–44",
+      "Mark 7:31–37"
+    ],
+    "exp": "Miraculous catch of fish — Luke 5:1–11."
+  },
+  {
+    "id": "M|Healing a leper|name",
+    "q": "Which miracle is recorded at Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16?",
+    "ans": "Healing a leper",
+    "opts": [
+      "Healing the nobleman's son",
+      "Water into wine",
+      "Healing a leper",
+      "Healing the high priest's servant's ear"
+    ],
+    "exp": "Healing a leper — Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16."
+  },
+  {
+    "id": "M|Healing a leper|ref",
+    "q": "Where is this miracle recorded: Healing a leper?",
+    "ans": "Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16",
+    "opts": [
+      "Luke 5:1–11",
+      "Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16",
+      "Mark 10:46–52; Luke 18:35–43",
+      "Matthew 9:18–26; Mark 5:21–43; Luke 8:40–56"
+    ],
+    "exp": "Healing a leper — Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16."
+  },
+  {
+    "id": "M|Healing the centurion's servant|name",
+    "q": "Which miracle is recorded at Matthew 8:5–13; Luke 7:1–10?",
+    "ans": "Healing the centurion's servant",
+    "opts": [
+      "Miraculous catch of fish",
+      "Healing ten lepers",
+      "Healing the high priest's servant's ear",
+      "Healing the centurion's servant"
+    ],
+    "exp": "Healing the centurion's servant — Matthew 8:5–13; Luke 7:1–10."
+  },
+  {
+    "id": "M|Healing the centurion's servant|ref",
+    "q": "Where is this miracle recorded: Healing the centurion's servant?",
+    "ans": "Matthew 8:5–13; Luke 7:1–10",
+    "opts": [
+      "Luke 22:50–51",
+      "Matthew 8:5–13; Luke 7:1–10",
+      "Luke 5:1–11",
+      "Luke 17:11–19"
+    ],
+    "exp": "Healing the centurion's servant — Matthew 8:5–13; Luke 7:1–10."
+  },
+  {
+    "id": "M|Healing Peter's mother-in-law|name",
+    "q": "Which miracle is recorded at Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39?",
+    "ans": "Healing Peter's mother-in-law",
+    "opts": [
+      "Calming the storm",
+      "Healing the centurion's servant",
+      "Healing Peter's mother-in-law",
+      "Walking on water"
+    ],
+    "exp": "Healing Peter's mother-in-law — Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39."
+  },
+  {
+    "id": "M|Healing Peter's mother-in-law|ref",
+    "q": "Where is this miracle recorded: Healing Peter's mother-in-law?",
+    "ans": "Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39",
+    "opts": [
+      "Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39",
+      "Matthew 9:18–26; Mark 5:21–43; Luke 8:40–56",
+      "Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25",
+      "Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16"
+    ],
+    "exp": "Healing Peter's mother-in-law — Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39."
+  },
+  {
+    "id": "M|Calming the storm|name",
+    "q": "Which miracle is recorded at Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25?",
+    "ans": "Calming the storm",
+    "opts": [
+      "Delivering the Gerasene/Gadarene demoniac",
+      "Healing the man born blind",
+      "Calming the storm",
+      "Raising Lazarus"
+    ],
+    "exp": "Calming the storm — Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25."
+  },
+  {
+    "id": "M|Calming the storm|ref",
+    "q": "Where is this miracle recorded: Calming the storm?",
+    "ans": "Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25",
+    "opts": [
+      "Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39",
+      "Matthew 14:22–33; Mark 6:45–52; John 6:16–21",
+      "Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25",
+      "Matthew 21:18–22; Mark 11:12–25"
+    ],
+    "exp": "Calming the storm — Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25."
+  },
+  {
+    "id": "M|Delivering the Gerasene/Gadarene demoniac|name",
+    "q": "Which miracle is recorded at Mark 5:1–20; Luke 8:26–39?",
+    "ans": "Delivering the Gerasene/Gadarene demoniac",
+    "opts": [
+      "Miraculous catch of fish",
+      "Withering the fig tree",
+      "Delivering the Gerasene/Gadarene demoniac",
+      "Healing Peter's mother-in-law"
+    ],
+    "exp": "Delivering the Gerasene/Gadarene demoniac — Mark 5:1–20; Luke 8:26–39."
+  },
+  {
+    "id": "M|Delivering the Gerasene/Gadarene demoniac|ref",
+    "q": "Where is this miracle recorded: Delivering the Gerasene/Gadarene demoniac?",
+    "ans": "Mark 5:1–20; Luke 8:26–39",
+    "opts": [
+      "Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48",
+      "Luke 22:50–51",
+      "Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14",
+      "Mark 5:1–20; Luke 8:26–39"
+    ],
+    "exp": "Delivering the Gerasene/Gadarene demoniac — Mark 5:1–20; Luke 8:26–39."
+  },
+  {
+    "id": "M|Healing the woman with the issue of blood|name",
+    "q": "Which miracle is recorded at Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48?",
+    "ans": "Healing the woman with the issue of blood",
+    "opts": [
+      "Water into wine",
+      "Healing the woman with the issue of blood",
+      "Raising Lazarus",
+      "Feeding the four thousand"
+    ],
+    "exp": "Healing the woman with the issue of blood — Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48."
+  },
+  {
+    "id": "M|Healing the woman with the issue of blood|ref",
+    "q": "Where is this miracle recorded: Healing the woman with the issue of blood?",
+    "ans": "Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48",
+    "opts": [
+      "John 2:1–11",
+      "Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39",
+      "Matthew 15:32–39; Mark 8:1–10",
+      "Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48"
+    ],
+    "exp": "Healing the woman with the issue of blood — Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48."
+  },
+  {
+    "id": "M|Raising Jairus's daughter|name",
+    "q": "Which miracle is recorded at Matthew 9:18–26; Mark 5:21–43; Luke 8:40–56?",
+    "ans": "Raising Jairus's daughter",
+    "opts": [
+      "Miraculous catch of fish",
+      "Healing Peter's mother-in-law",
+      "Raising Jairus's daughter",
+      "Healing the deaf man"
+    ],
+    "exp": "Raising Jairus's daughter — Matthew 9:18–26; Mark 5:21–43; Luke 8:40–56."
+  },
+  {
+    "id": "M|Raising Jairus's daughter|ref",
+    "q": "Where is this miracle recorded: Raising Jairus's daughter?",
+    "ans": "Matthew 9:18–26; Mark 5:21–43; Luke 8:40–56",
+    "opts": [
+      "Mark 10:46–52; Luke 18:35–43",
+      "John 4:46–54",
+      "Matthew 9:18–26; Mark 5:21–43; Luke 8:40–56",
+      "Luke 5:1–11"
+    ],
+    "exp": "Raising Jairus's daughter — Matthew 9:18–26; Mark 5:21–43; Luke 8:40–56."
+  },
+  {
+    "id": "M|Feeding the five thousand|name",
+    "q": "Which miracle is recorded at Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14?",
+    "ans": "Feeding the five thousand",
+    "opts": [
+      "Raising Lazarus",
+      "Feeding the four thousand",
+      "Feeding the five thousand",
+      "Delivering the Gerasene/Gadarene demoniac"
+    ],
+    "exp": "Feeding the five thousand — Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14."
+  },
+  {
+    "id": "M|Feeding the five thousand|ref",
+    "q": "Where is this miracle recorded: Feeding the five thousand?",
+    "ans": "Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14",
+    "opts": [
+      "Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14",
+      "Mark 10:46–52; Luke 18:35–43",
+      "Matthew 14:22–33; Mark 6:45–52; John 6:16–21",
+      "Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25"
+    ],
+    "exp": "Feeding the five thousand — Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14."
+  },
+  {
+    "id": "M|Walking on water|name",
+    "q": "Which miracle is recorded at Matthew 14:22–33; Mark 6:45–52; John 6:16–21?",
+    "ans": "Walking on water",
+    "opts": [
+      "Healing blind Bartimaeus",
+      "Walking on water",
+      "Raising Lazarus",
+      "Feeding the five thousand"
+    ],
+    "exp": "Walking on water — Matthew 14:22–33; Mark 6:45–52; John 6:16–21."
+  },
+  {
+    "id": "M|Walking on water|ref",
+    "q": "Where is this miracle recorded: Walking on water?",
+    "ans": "Matthew 14:22–33; Mark 6:45–52; John 6:16–21",
+    "opts": [
+      "John 9:1–41",
+      "John 11:1–44",
+      "Mark 7:31–37",
+      "Matthew 14:22–33; Mark 6:45–52; John 6:16–21"
+    ],
+    "exp": "Walking on water — Matthew 14:22–33; Mark 6:45–52; John 6:16–21."
+  },
+  {
+    "id": "M|Healing the deaf man|name",
+    "q": "Which miracle is recorded at Mark 7:31–37?",
+    "ans": "Healing the deaf man",
+    "opts": [
+      "Withering the fig tree",
+      "Healing the deaf man",
+      "Feeding the five thousand",
+      "Healing the high priest's servant's ear"
+    ],
+    "exp": "Healing the deaf man — Mark 7:31–37."
+  },
+  {
+    "id": "M|Healing the deaf man|ref",
+    "q": "Where is this miracle recorded: Healing the deaf man?",
+    "ans": "Mark 7:31–37",
+    "opts": [
+      "Mark 7:31–37",
+      "Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48",
+      "John 11:1–44",
+      "Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14"
+    ],
+    "exp": "Healing the deaf man — Mark 7:31–37."
+  },
+  {
+    "id": "M|Feeding the four thousand|name",
+    "q": "Which miracle is recorded at Matthew 15:32–39; Mark 8:1–10?",
+    "ans": "Feeding the four thousand",
+    "opts": [
+      "Feeding the four thousand",
+      "Healing the high priest's servant's ear",
+      "Raising Lazarus",
+      "Miraculous catch of fish"
+    ],
+    "exp": "Feeding the four thousand — Matthew 15:32–39; Mark 8:1–10."
+  },
+  {
+    "id": "M|Feeding the four thousand|ref",
+    "q": "Where is this miracle recorded: Feeding the four thousand?",
+    "ans": "Matthew 15:32–39; Mark 8:1–10",
+    "opts": [
+      "John 11:1–44",
+      "Matthew 15:32–39; Mark 8:1–10",
+      "Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25",
+      "John 9:1–41"
+    ],
+    "exp": "Feeding the four thousand — Matthew 15:32–39; Mark 8:1–10."
+  },
+  {
+    "id": "M|Healing the man born blind|name",
+    "q": "Which miracle is recorded at John 9:1–41?",
+    "ans": "Healing the man born blind",
+    "opts": [
+      "Delivering the Gerasene/Gadarene demoniac",
+      "Feeding the five thousand",
+      "Healing the man born blind",
+      "Healing the deaf man"
+    ],
+    "exp": "Healing the man born blind — John 9:1–41."
+  },
+  {
+    "id": "M|Healing the man born blind|ref",
+    "q": "Where is this miracle recorded: Healing the man born blind?",
+    "ans": "John 9:1–41",
+    "opts": [
+      "John 11:1–44",
+      "John 9:1–41",
+      "Luke 17:11–19",
+      "John 2:1–11"
+    ],
+    "exp": "Healing the man born blind — John 9:1–41."
+  },
+  {
+    "id": "M|Healing ten lepers|name",
+    "q": "Which miracle is recorded at Luke 17:11–19?",
+    "ans": "Healing ten lepers",
+    "opts": [
+      "Healing the high priest's servant's ear",
+      "Healing ten lepers",
+      "Healing the centurion's servant",
+      "Water into wine"
+    ],
+    "exp": "Healing ten lepers — Luke 17:11–19."
+  },
+  {
+    "id": "M|Healing ten lepers|ref",
+    "q": "Where is this miracle recorded: Healing ten lepers?",
+    "ans": "Luke 17:11–19",
+    "opts": [
+      "Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14",
+      "Matthew 8:23–27; Mark 4:35–41; Luke 8:22–25",
+      "Matthew 21:18–22; Mark 11:12–25",
+      "Luke 17:11–19"
+    ],
+    "exp": "Healing ten lepers — Luke 17:11–19."
+  },
+  {
+    "id": "M|Raising Lazarus|name",
+    "q": "Which miracle is recorded at John 11:1–44?",
+    "ans": "Raising Lazarus",
+    "opts": [
+      "Raising Lazarus",
+      "Delivering the Gerasene/Gadarene demoniac",
+      "Healing the woman with the issue of blood",
+      "Water into wine"
+    ],
+    "exp": "Raising Lazarus — John 11:1–44."
+  },
+  {
+    "id": "M|Raising Lazarus|ref",
+    "q": "Where is this miracle recorded: Raising Lazarus?",
+    "ans": "John 11:1–44",
+    "opts": [
+      "John 4:46–54",
+      "Luke 22:50–51",
+      "Matthew 8:5–13; Luke 7:1–10",
+      "John 11:1–44"
+    ],
+    "exp": "Raising Lazarus — John 11:1–44."
+  },
+  {
+    "id": "M|Healing blind Bartimaeus|name",
+    "q": "Which miracle is recorded at Mark 10:46–52; Luke 18:35–43?",
+    "ans": "Healing blind Bartimaeus",
+    "opts": [
+      "Healing blind Bartimaeus",
+      "Water into wine",
+      "Feeding the four thousand",
+      "Healing the woman with the issue of blood"
+    ],
+    "exp": "Healing blind Bartimaeus — Mark 10:46–52; Luke 18:35–43."
+  },
+  {
+    "id": "M|Healing blind Bartimaeus|ref",
+    "q": "Where is this miracle recorded: Healing blind Bartimaeus?",
+    "ans": "Mark 10:46–52; Luke 18:35–43",
+    "opts": [
+      "John 9:1–41",
+      "Matthew 21:18–22; Mark 11:12–25",
+      "Mark 10:46–52; Luke 18:35–43",
+      "Mark 5:1–20; Luke 8:26–39"
+    ],
+    "exp": "Healing blind Bartimaeus — Mark 10:46–52; Luke 18:35–43."
+  },
+  {
+    "id": "M|Withering the fig tree|name",
+    "q": "Which miracle is recorded at Matthew 21:18–22; Mark 11:12–25?",
+    "ans": "Withering the fig tree",
+    "opts": [
+      "Healing the nobleman's son",
+      "Withering the fig tree",
+      "Healing blind Bartimaeus",
+      "Feeding the five thousand"
+    ],
+    "exp": "Withering the fig tree — Matthew 21:18–22; Mark 11:12–25."
+  },
+  {
+    "id": "M|Withering the fig tree|ref",
+    "q": "Where is this miracle recorded: Withering the fig tree?",
+    "ans": "Matthew 21:18–22; Mark 11:12–25",
+    "opts": [
+      "Luke 17:11–19",
+      "Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39",
+      "Matthew 21:18–22; Mark 11:12–25",
+      "Matthew 8:5–13; Luke 7:1–10"
+    ],
+    "exp": "Withering the fig tree — Matthew 21:18–22; Mark 11:12–25."
+  },
+  {
+    "id": "M|Healing the high priest's servant's ear|name",
+    "q": "Which miracle is recorded at Luke 22:50–51?",
+    "ans": "Healing the high priest's servant's ear",
+    "opts": [
+      "Healing the high priest's servant's ear",
+      "Healing the man born blind",
+      "Healing the deaf man",
+      "Healing blind Bartimaeus"
+    ],
+    "exp": "Healing the high priest's servant's ear — Luke 22:50–51."
+  },
+  {
+    "id": "M|Healing the high priest's servant's ear|ref",
+    "q": "Where is this miracle recorded: Healing the high priest's servant's ear?",
+    "ans": "Luke 22:50–51",
+    "opts": [
+      "Matthew 8:5–13; Luke 7:1–10",
+      "Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39",
+      "Luke 22:50–51",
+      "Mark 5:1–20; Luke 8:26–39"
+    ],
+    "exp": "Healing the high priest's servant's ear — Luke 22:50–51."
+  }
+]

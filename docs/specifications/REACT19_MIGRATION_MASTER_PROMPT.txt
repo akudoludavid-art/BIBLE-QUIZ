@@ -1,0 +1,933 @@
+# BIBLE MASTERY — ULTIMATE CODEX MIGRATION MASTER PROMPT
+## React 19 + Strict TypeScript + Vite | Full Legacy Parity | Local-First | Future-Ready Architecture
+**Edition:** 12 November 2026  
+**Execution scope:** Migration of the existing Bible Mastery Quiz, **not** simultaneous construction of Bible Mastery Online.  
+**Instruction to Codex:** Read this entire document before touching code. Execute it inside the actual Bible Mastery repository and treat acceptance criteria as binding.
+
+---
+
+# 00 — YOUR ROLE, OPERATING MANDATE AND PRIORITIES
+
+You are Codex acting simultaneously as:
+
+- Senior software migration and reverse-engineering architect.
+- React 19 + strict TypeScript + Vite implementation engineer.
+- Pure, deterministic quiz-engine and state-machine designer.
+- Biblical question-bank integrity and content-provenance auditor.
+- Browser persistence, backup and legacy-data migration specialist.
+- Progressive Web App/offline reliability engineer.
+- Responsive UI preservation, accessibility and interaction engineer.
+- Test automation, security and release engineering lead.
+- Future-facing modular architecture reviewer.
+
+**Absolute mission:** Migrate my **real, latest, functioning** Bible Mastery Quiz from its existing HTML/CSS/vanilla JavaScript implementation to a **complete, runnable, production-buildable React 19 + TypeScript application powered by Vite**, preserving the **entire confirmed existing experience**, its source questions, authoring/generation logic, Scripture Memorisation, data and backups, offline study experience, styling, SVG illustrations, scoring rules, and all functioning controls. Refactor the internal structure into small maintainable modules ready for subsequent features, **without prematurely implementing those features**.
+
+This is NOT a generic quiz starter, fresh product concept, cosmetic redesign, prototype-only assignment, or authorization to rewrite the Bible knowledge bank. You are migrating a working product. Preserve rather than replace. Observe rather than assume. Verify rather than announce.
+
+## Non-negotiable order of priorities
+
+1. **Protect the original source and user data.** No losses, silent deletions, overwritten backups or inaccessible legacy versions.
+2. **Preserve actual feature behavior.** Account for every old user journey, not merely main-screen screenshots.
+3. **Preserve biblical content and answer correctness.** No invented verses, keys, records or hallucinated counts.
+4. **Build testable, maintainable React + TypeScript code.** Extract pure logic before extensive UI translation.
+5. **Prove real offline behavior and legacy backup recovery.** Claims require executed tests.
+6. **Prepare restrained future architectural interfaces.** Do not create a working online platform as part of this migration.
+7. **Polish only after preservation and functional parity have passed.** Avoid redesign drift.
+
+Work in small reversible steps. Use the real repository, source files, version history, and actual command outputs. Maintain durable migration documentation as you work. If the environment lacks a browser, credentials or other tools, complete independently verifiable tasks and mark dependencies `BLOCKED` or `NOT RUN`. Never manufacture test evidence, screenshots or working services.
+
+---
+
+# 01 — SOURCE OF TRUTH, HISTORICAL DOCUMENTS AND CONFLICT RESOLUTION
+
+## 1.1 Discover the true current source
+
+Locate the actual latest functioning project in the repository. Inspect every candidate HTML version, asset, backup/export format, and any migration work already done. Historical examples include:
+
+- `bible_mastery_quiz_v10_illustrated (1).html`;
+- `Bible_Mastery_Quiz_v11_Editable_Scriptures.html`;
+- `Bible_Mastery_Quiz_v12_Continuous_Memorisation.html`;
+- `Bible_Mastery_Quiz_v13_Simplified_Memorisation.html`;
+- any newer file, branch, commit, data asset or working React migration in the current repository.
+
+These are **historical reference landmarks, not proof of the latest working version**. Do not assume v13 is current merely because it has the highest listed number; inspect the actual current repository and compare completeness/working behavior.
+
+Review related instructions if available:
+
+- `BIBLE_MASTERY_REACT19_MIGRATION_ONLY_MASTER_PROMPT.txt`;
+- `CODEX_MIGRATION_PHASE_COMMANDS.txt`;
+- `MIGRATION_ONLY_ACCEPTANCE_CHECKLIST.md`;
+- `BIBLE_MASTERY_ULTRA_CODEX_MASTER_PROMPT_v14.txt`;
+- older React + Supabase multiplayer migration prompts;
+- current Bible Mastery planning and architecture records.
+
+If a file is missing, list it as unavailable; do not claim to have read it.
+
+## 1.2 Requirement precedence
+
+Use this precedence order when materials conflict:
+
+1. Explicitly confirmed **latest user decisions**, so long as they do not authorize unsafe destruction or unapproved deployment.
+2. This **migration-specific scope contract** (it defines what you must implement now).
+3. The **actual latest working source** for baseline feature behavior, data, art, storage and functional parity.
+4. Original migration-only technical requirements.
+5. Previous proposals, older multiplayer instructions and content-expansion design documents as **future references only**.
+
+Do not treat a future-facing architecture diagram as evidence of implementation. Do not treat a historical prompt's “no React” restriction as superseding the user's later explicit React migration decision. The content-quality rules in the historical v14 document remain useful, but its request for massive bank expansion is not part of this work. The 300-screen UI architecture prototype is a **separate later design/product workstream**, not permission to replace the current application's interface while migrating.
+
+If instructions disagree about current app functionality, preserve proven current behavior and document the disagreement in `docs/REQUIREMENT_CONFLICTS.md`. Avoid interrupting the work for routine questions; escalate only a genuinely destructive or irreconcilable issue.
+
+---
+
+# 02 — HARD SCOPE BOUNDARY: IMPLEMENT NOW / PREPARE ONLY / DO NOT BUILD
+
+## A. IMPLEMENT DURING THIS MIGRATION
+
+- Functional React 19.x application, React DOM, Vite, strict TypeScript and a committed reproducible lockfile.
+- Complete existing solo quiz and Scripture-study feature parity.
+- Original biblical questions, generated templates and classification from real source.
+- Refactored, tested quiz engine, review scheduler and local persistence interfaces.
+- Versioned backup/export/import preserving legacy user data and Unicode Scripture text.
+- Reliable production-like offline operation after initial PWA caching on a previously visited device.
+- Existing visual identity, SVG symbols, assets and responsive layouts, with necessary accessibility fixes.
+- Unit, integration, browser, visual-regression and migration tests; truthful acceptance report.
+- Beginner-friendly README, source archive, release and rollback instructions.
+
+## B. PREPARE ONLY AS LIGHTWEIGHT, TESTABLE CONTRACTS OR DOCUMENTED DESIGN
+
+Prepare clean, stable boundaries for future expansion, but do NOT stand up heavy unused systems:
+
+- Question Bank + versioned question identity and metadata.
+- Knowledge Graph concepts: biblical entities, facts, relationships and scriptural evidence.
+- Question Exposure History schema/adapter contract.
+- Adaptive question selection strategy interface; preserve actual current algorithm during migration.
+- Extensible Quiz Type Engine separating question knowledge from interaction form.
+- Content Verification and curation/revision workflow metadata.
+- Domain-level scoring service and possible server-authoritative boundary later.
+- Future Journey RP, competitive skill rating, category mastery medals and awards as *distinct concepts*.
+- Future match/room/realtime integration points with adapters that do not require the new UI to know Supabase details.
+- Clear data security boundary between offline bundles and eventual protected online competition.
+
+Create real minimal types/interfaces **only where they improve current architecture**, with representative compile-time tests or explanatory documentation. Do not construct dozens of empty folders, fake data, dead screens, pseudo APIs or irrelevant abstractions to appear future-ready.
+
+## C. EXPLICITLY OUT OF SCOPE NOW
+
+- Supabase, Firebase or any working backend integration.
+- Registration, authentication, cloud profiles, cloud data sync or compulsory accounts.
+- Real-time rooms, friend lists, social features, private/public chat, leaderboards, leagues, live rankings or matchmaking.
+- Paid lives, hearts, coins, subscriptions, payment integrations, advertisements or sponsorship integrations.
+- New quiz formats, new categories or mass AI question generation merely because future planning mentioned them.
+- The proposed 300-screen UI redesign, new brand theme or unrelated navigation overhaul.
+- Actual RP/rating/medal activation, experience balancing or online competitive matchmaking.
+- Native mobile applications, SSR/Next.js, microservices, CDN-heavy dependencies or unnecessary frameworks.
+- Domain purchase, deployment, publication, paid services or production credential changes without explicit authorization.
+
+Any unimplemented future capability must be labeled **future contract** or **design decision**; no placebo buttons, simulated leaderboards or placeholder competitive modes may appear in the migrated product.
+
+---
+
+# 03 — COMPLETE LEGACY FEATURE PRESERVATION INVENTORY
+
+Treat the following list as a *minimum known inventory*; the actual source audit may reveal more. Preserve **every genuinely existing screen, flow, control and state**, even when not mentioned below.
+
+## 3.1 Quiz and navigation
+
+- Old Testament mode, New Testament mode, Mixed Bible mode and existing **Hard Mode**.
+- Existing mode names, option counts, start/restart/stop/replay behavior and question length.
+- Question prompt, answer options, confirmation, correct/incorrect indications, references, explanations and any post-answer reveal timing.
+- Scoring, streaks if present, countdowns/time bonuses or penalties if present, progress, completion results and return-home flow.
+- Current user ability to navigate, exit, recover, retry or resume when supported.
+- Question shuffling, authored and generated content, rotation, anti-repeat behavior, missed-item review and eventual recirculation of previously seen valid questions.
+- Actual keyboard shortcuts, including number-key selection/Enter **only if verified in the source**.
+- Full touch-screen, mouse and keyboard interaction; prevent duplicate answers, scores or stale timer events.
+- Actual difficulty, category and question-selection rules, not a simplified replacement.
+- No invented **Challenge Mode**; this user previously rejected that addition. Retain existing Hard Mode.
+
+## 3.2 Scripture Session, character material and biblical content
+
+- Original Character Study List, character search/browse and detail/relationship views if implemented.
+- Scripture Session with its actual Old Testament/New Testament/Miracles of Christ/Parables of Christ submodes where present.
+- KJV scripture text, references, passage structures, prompts and answer options as found.
+- Existing question provenance, interpretation notes and biblical naming conventions.
+- Advanced source categories, where actually present: people and genealogy, kinship, rulers/kings, prophecies, conquest, geography/place aliases, dates/timelines, Exodus/law/sacrifices, judges, obscure characters, journeys, events, dreams, wells, deaths and agents responsible.
+- No automatic Bible content rewrite, doctrinal assumptions change or invented content.
+
+## 3.3 Scripture Memorisation
+
+- Existing simplified organization, **My Memorisation / Scripture Library / Progress & Backup**, where current source confirms it.
+- Add/paste/edit/delete personalized Scripture passages with unchanged punctuation and formatting.
+- Multiple simultaneously active scriptures; independent current progress for each passage.
+- Pause/resume or deactivate without erasing underlying passage or history.
+- Long-passage collapsing, chunking, scrolling and resumption without truncating stored text.
+- Scripture typing, matching, blanking, review prompts, wrong-word recognition or any other *existing* study mechanic.
+- Scheduling/review dates, repetition intervals, due/review status and retained performance history.
+- Local preferences, restored passages and prior backup formats.
+
+## 3.4 Visual and interaction identity
+
+- Original navy/dark and gold visual language, gradients, font hierarchy, spacing, text styles, cards and screen layout.
+- SVG illustrations/mascots, symbols, icon sets, backgrounds, confetti and animations as actually implemented.
+- Existing labels, screen hierarchy, loading/empty/error states where real.
+- Small-phone through desktop responsiveness; exact 320px/mobile constraints tested rather than assumed.
+- Motion preference support, readable focus styles, keyboard navigation and screen-reader semantics.
+
+## 3.5 Other verified source functionality
+
+Include settings, backup screens, import buttons, other visual variants, hidden dialogs, keyboard handlers, save operations, data reset confirmations, accessibility state, special modes and admin/editor behaviors **if genuinely present**. Make no omission because the feature appears minor or is buried in JavaScript.
+
+---
+
+# 04 — FORENSIC PRESERVATION PROCEDURE (PHASE 0)
+
+**No React scaffold or source rewriting until this audit has produced evidence.**
+
+1. Inspect repository tree, Git branches, recent commits, package metadata, source files, dependencies and any existing migration work. Reuse/continue verified work; do not delete a partially migrated app simply to start over.
+2. Identify each candidate legacy HTML file, launch where possible, compare screen/feature completeness, note regressions between historical versions and choose the actual latest working baseline.
+3. Make an **immutable byte-for-byte backup** at `legacy/original/` and write SHA-256 digest, original file bytes, source path, Git commit, date and provenance in `legacy/ORIGINAL_SHA256.txt`. Never edit the archived original.
+4. Inventory every HTML screen/section, inline/linked CSS, breakpoint, SVG `<symbol>`/`<use>`, image, asset, font, DOM ID, event listener, global state variable, timer, canvas and animation.
+5. Inspect every `script`, function, class, generator, question pool, option randomizer, shuffle, scoring function, mode selector, memo scheduler, backup/export/import routine and data-init path. Trace actual call graph and state mutations.
+6. Search comprehensively for `localStorage`, `sessionStorage`, IndexedDB, browser storage, window/document globals, file input/output and persistence schema versions. Historical names like `bibleQuizRotation_v2`, `bibleMemo_v1`, `bibleCustomScriptures_v1` are **search clues only**—do not assume these are the real/final key inventory.
+7. Audit every question bank and template: modes, group labels, schema, authored count, generated/template count, actual output semantics, correct-answer references, categories, difficulty, source citations, duplicates, invalid indexes and identity collisions. Do not invent a “total question count” by treating possible generated combinations as pre-existing materialized questions.
+8. Detect duplicate event handlers, functions overridden by later definitions, dead branches, global-state races, unsafe `innerHTML`, stale closures, unintended repeated event registration, timing defects and backup schema inconsistencies.
+9. Capture baseline screenshots and behavior evidence at representative ~320px, 360px, 768px and desktop widths when browser tooling is available; inspect interaction paths, key navigation, long Scripture text and persistence over refresh.
+10. Construct a detailed `docs/FEATURE_PARITY_MATRIX.md`: `Feature ID | Legacy file + source location | Screen | Trigger | Baseline behavior | Data/storage key | React target | Test ID | Evidence | Status`.
+11. Create source-derived deterministic test fixtures for multiple answer types, shuffles, scoring states, generated items, memorisation state and legacy backups. Never substitute manufactured Bible records for parity fixtures.
+12. Separate bugs inherited from legacy code from bugs introduced during conversion. Write `docs/LEGACY_DEFECTS.md` and record any intentional fixes; no silent functional divergence.
+13. Create migration branch/tag safely; do not force-push, erase existing repository history or touch other projects.
+14. If source is missing, partially damaged or impossible to execute, document what is verifiable and mark the affected gate **BLOCKED/PARTIAL** rather than guessing behavior.
+
+**Phase 0 deliverables:** `docs/BASELINE_AUDIT.md`, `docs/FEATURE_PARITY_MATRIX.md`, `docs/STORAGE_INVENTORY.md`, `docs/QUESTION_CONTENT_AUDIT.md`, `docs/MIGRATION_STATUS.md`, `docs/LEGACY_DEFECTS.md`, `docs/REQUIREMENT_CONFLICTS.md` (if needed), `legacy/ORIGINAL_SHA256.txt`, plus baseline fixtures and screenshots when possible.
+
+**GATE 0 PASS:** Original preserved/hash-verified; source inventory comprehensive; content/storage maps grounded; functional baseline evidence available or transparently limited; migration plan tied to source reality.
+
+---
+
+# 05 — TECHNOLOGY STACK AND MODULAR PROJECT STRUCTURE
+
+## Required stack
+
+- React **19.x** + matching React DOM and React type definitions. Verify currently compatible stable releases rather than blindly pinning from an old prompt.
+- **TypeScript in strict mode** (`strict`, preferably additional checks such as `noUncheckedIndexedAccess` when incremental adoption permits). No `any` escapes used to bury type/data errors.
+- **Vite**, version chosen according to real Node/npm compatibility in the workspace. Verify official current Vite/React documentation and Node requirement before scaffolding.
+- npm and committed `package-lock.json`; reproducible `npm ci`.
+- Existing CSS and assets preserved first; extract design tokens cautiously. CSS Modules allowed selectively after verifying identical rendering. Tailwind is NOT mandatory for the migration.
+- Vitest for pure unit/integration logic; React Testing Library for behavior; Playwright for end-to-end/browser evidence and screenshot comparison.
+- Browser storage adapter using current legacy storage or IndexedDB with justified migration, feature-gated as needed; schema validation for external backup input.
+- PWA manifest, caching and Service Worker where necessary to obtain real offline behavior after first load.
+
+## Optional, only when justified
+
+- React Router if actual navigation complexity needs routes; otherwise use a simple typed screen-state/navigation model.
+- shadcn/ui/Radix **only after functional parity** for a specific existing dialog, popover, alert or accessible control; do not install every component or impose a new design system.
+- Lightweight IndexedDB wrapper if it meaningfully improves transaction safety.
+- Minimal state-machine/reducer utilities; avoid Redux, Zustand, XState or other libraries unless the actual code's complexity justifies them.
+
+## Suggested structure; adapt it to actual source
+
+```text
+/legacy/original/                   immutable legacy source & assets
+/legacy/tools/                      optional legacy export bridge (never alter original archive)
+/src/app/                           React entry, navigation, error boundary, providers
+/src/components/                    small reusable accessible UI pieces
+/src/features/home/                 home/modes entry
+/src/features/quiz/                 solo gameplay, answers, timer, results
+/src/features/characters/           Character Study
+/src/features/scripture-session/    KJV Scripture Session
+/src/features/memorisation/         Scripture Library, active studies, review, backup
+/src/domain/bible/                  biblical reference/identity concepts
+/src/domain/questions/              canonical data types, generators, rotations, selectors
+/src/domain/quiz/                   pure scoring, transitions, form contracts
+/src/domain/memorisation/           study text, scheduler, review state
+/src/domain/future-contracts/       only justified lightweight future interfaces
+/src/data/                          verified extracted original bank/content
+/src/lib/persistence/               storage adapter, migrations, validation
+/src/lib/backup/                    import/export, previews, recovery
+/src/lib/offline/                    PWA update/caching integration
+/src/styles/                        legacy tokens/layout/styles
+/public/                            icons, original assets, manifest when appropriate
+/scripts/                           repeatable extraction/audit/checksum utilities
+/tests/fixtures/                   real source-derived fixtures
+/tests/unit/
+/tests/integration/
+/tests/e2e/
+/docs/                             audit, parity, status, decisions, test evidence
+```
+
+Do not create empty modules simply to satisfy the directory tree. If source organization suggests better module locations, retain clear boundaries and document the decision.
+
+## Architectural invariants
+
+1. Pure domain code must **not** import React, the browser DOM, Supabase, localStorage or a live network client.
+2. React renders typed domain/state outputs; no hidden business logic inside visual components.
+3. Screens must use real source-derived data and real actions, never mock records masquerading as migrated gameplay.
+4. Persistence must be replaceable via an adapter; user data is private/local by default.
+5. Question IDs are stable across shuffling, React renders and bank ordering. Answer keys bind to semantic choice IDs, not displayed positions.
+6. Timers and reducers/state machines prevent duplicate submissions, unmounted updates and invalid transitions.
+7. Build must function on a local dev server and through actual `dist/` output; the new compiled React application is **not** a standalone single-file HTML archive.
+8. Avoid runtime dependencies on externally hosted critical JavaScript, fonts or biblical content; bundle what must remain available offline.
+9. Preserve screen/feature behavior first; optional accessible improvements require regression proof.
+
+---
+
+# 06 — QUESTION BANK EXTRACTION AND CONTENT INTEGRITY (PHASE 1)
+
+The Bible knowledge base is a core product asset. Its preservation is as important as rendering the UI.
+
+## 6.1 Extraction
+
+- Write a repeatable, checked extraction/normalization script where needed; do not hand-copy hundreds or thousands of objects from HTML into arbitrary TS files.
+- Preserve **exact content**, including Unicode, KJV quotations, punctuation, whitespace that carries meaning, book names, reference strings, explanatory text and authored distractors.
+- For every source collection, record `source file`, `source location`, `original ID/index`, `record type`, `category`, `mode`, `difficulty`, `generator/template provenance`, `reference`, `legacy answer` and `migration status`.
+- Preserve authored questions and generated templates distinctly; never materialize guessed synthetic counts to inflate totals.
+- Validate all answer relationships, shuffling semantics, correct option identity, explanation association, Scripture citation labels and difficulty information.
+- Identify duplicates but do not silently discard content merely because two prompts look similar. Different references, biblical people, versions or question forms may justify separate records.
+- For ambiguous names (e.g., different people with the same name), explicitly preserve unique identities; no fuzzy merges by string equality.
+- Preserve existing category and difficulty distributions. No content expansion during conversion.
+- Log questionable facts or ambiguous answers for later biblical-content review; do not replace with confidently fabricated alternatives.
+
+## 6.2 Canonical data interfaces (suggestive; reconcile with actual source)
+
+```ts
+type QuestionId = string;
+type QuestionVersion = string;
+type CategoryId = string;
+type KnowledgeUnitId = string;
+type QuizFormId = string;
+
+interface QuestionProvenance {
+  legacySourceFile: string;
+  legacyLocation?: string;
+  originalId?: string;
+  authoredOrGenerated: 'authored' | 'generated';
+  generatorId?: string;
+  contentRevision?: string;
+}
+
+interface AnswerOption {
+  id: string;            // stable semantic option identity
+  text: string;          // preserve original text exactly
+}
+
+interface BaseQuestion {
+  id: QuestionId;
+  version: QuestionVersion;
+  prompt: string;
+  categoryIds: CategoryId[];
+  formId: QuizFormId;
+  difficulty?: string;
+  references: string[];
+  explanation?: string;
+  provenance: QuestionProvenance;
+}
+
+interface SingleChoiceQuestion extends BaseQuestion {
+  formId: 'single-choice';
+  options: AnswerOption[];
+  correctOptionId: string;
+}
+
+// Additional legacy forms must be modeled from real source,
+// preferably with a discriminated union rather than optional junk fields.
+```
+
+These types are **illustrative architecture guidance**, not instructions to blindly transform a multi-form current bank into single-choice records or silently change IDs. Create discriminated unions for **actual** current question forms. If stable IDs must be generated, use a source-anchored scheme, collision tests and a durable legacy-ID mapping; avoid IDs dependent solely on mutable array position or user-facing prompt text.
+
+## 6.3 Preserve functional logic
+
+Extract and test as pure functions/services:
+
+- Source question selection by mode/category/difficulty.
+- Shuffling options and questions using an injected seeded random generator for reproducible tests.
+- Gender-/role-plausible distractors **where actually implemented**, keeping original correct-answer semantics.
+- Template-based/generated question creation and source citations.
+- Review and question rotation, including avoidance of immediate pathological repetition without **permanent exhaustion**.
+- Answer correctness, scoring, timing semantics and feedback.
+- Book/reference recognition and Scripture comparisons where applicable.
+- Memorisation text normalization/chunking/matching, review scheduling and multiple independent active studies.
+
+Do not “improve” original algorithms during the first extraction unless there is a verified correctness/security defect. For every intentional behavior change, capture before/after fixtures and gain evidence.
+
+## 6.4 Invariants and audits
+
+- `source count == target count + explicitly documented exceptions` for each actual authored collection and generator definition.
+- No correct-answer identity changes through option reorder.
+- Every retained question's source reference/explanation relationship matches the legacy record.
+- No silent deletion due to missing optional fields or overly strict parsing.
+- Same seeded conditions yield behaviorally equivalent baseline traces where determinism is feasible.
+- A valid previously encountered question can eventually reappear; the bank must not permanently exhaust itself.
+- Content that is presently uncertain stays flagged for human review, not quietly removed.
+- Every script can be rerun idempotently without multiplying questions.
+
+**GATE 1 PASS:** Pure typed engine and source data extracted, all source-to-target counts reconciled or exceptions documented, original HTML unaffected, deterministic regression tests executed.
+
+---
+
+# 07 — FUTURE-READY KNOWLEDGE GRAPH AND CONTENT VERIFICATION CONTRACTS
+
+Prepare for an ambitious Bible learning platform while minimizing immediate implementation.
+
+## 7.1 Distinguish three axes
+
+Never conflate:
+
+- **Biblical category**: what area the question belongs to (for example Prophets, Kings & Rulers, Life of Christ).
+- **Knowledge dimension**: what kind of knowledge is tested (chronology, identity, quotation context, genealogy, geography, law, event causes, narrative sequence, theological statement strictly grounded in text).
+- **Quiz form**: how the player responds (existing MCQ, plus *future* ordering, matching, fill-in, direct recall, relationship deduction, Scripture completion, etc.).
+
+Migrate **existing** categories and forms only. Preserve existing Scripture categories and legacy IDs.
+
+## 7.2 Future category vocabulary (documentation only)
+
+Our planned online taxonomy includes examples and player-facing titles:
+
+- Conquest of Canaan — **More Than a Conqueror**.
+- Kings & Rulers — **Royalty**.
+- Prophets — **Son of a Prophet**.
+- The Exodus — **Wilderness Survivor**.
+- Life of Christ — **Witness**.
+- Scriptures — **Discipled Scribe**.
+- Exile — **Returned Captive**.
+
+Do not add these as active category screens if absent from the current source. A separate category-content and 300-screen design phase will determine actual hierarchy, modes and all copy.
+
+## 7.3 Minimal concept contracts
+
+Document, and add typed interfaces only where useful:
+
+- `BiblicalEntity`: canonical entity ID, type (person/place/group/event/book), aliases, supporting KJV references; two people with the same display name remain separate.
+- `KnowledgeUnit`: identifiable evidence-backed fact, event or relationship; category/dimension tags and Bible citations.
+- `KnowledgeRelation`: typed from/to relationship, source evidence, caveats/ambiguous chronology.
+- `QuestionRecord`: question ID/version, mapped knowledge units, interaction form, verification status and provenance.
+- `ContentReview`: version, original evidence, reviewer/verification state, issue/disagreement and change note.
+
+Maintain **Bible text as primary evidence** for future content development. No speculative facts, invalid names, blended narratives, unlabeled inference, or third-party facts as substitutes for biblical citations. The user previously preferred KJV as primary English text. Preserve exact existing KJV/legacy content; check permission/licensing before importing an entirely new text database.
+
+**Do not populate a giant knowledge graph during the migration.** Produce a small demonstrative mapping only when source-derived and genuinely helpful to the extracted engine; otherwise document the schema and reserve future implementation.
+
+---
+
+# 08 — QUIZ TYPE ENGINE EXTENSIBILITY WITHOUT NEW GAMEPLAY
+
+Make it possible to add novel quiz interaction types later without rewriting every screen or copying biblical knowledge into multiple banks.
+
+Recommended conceptual separation:
+
+```text
+Bible Evidence / Knowledge Unit
+           ↓
+Versioned Question & Classification
+           ↓
+Question Selection / Session Plan
+           ↓
+Form Adapter (present / validate response / evaluate)
+           ↓
+Pure Scoring + Feedback State
+           ↓
+React Visual Renderer
+```
+
+- Define a narrow registry/interface for **actual existing** forms.
+- Canonical knowledge and question IDs must remain stable independently of the UI renderer.
+- Evaluation must be pure and testable; answer logic must not depend on option order or CSS classes.
+- Every form should identify its response schema, validation, answer checking and accessibility obligations.
+- Preserve current scoring and countdown semantics during this migration.
+- Do not install a form plugin system with dozens of dummy implementations. Do not build matching, ordering, fill-in, audio quiz, duel or other new modes before the separate expansion phase.
+
+**Architecture acceptance:** Existing gameplay operates through clear typed boundaries; a future developer can identify how to add a new form without altering content identity or current form semantics. No new visible modes required.
+
+---
+
+# 09 — QUESTION EXPOSURE HISTORY, ADAPTATION, RANKING AND FAIRNESS (FUTURE CONTRACTS)
+
+This section concerns **future architecture**, not authorization to change current quiz difficulty or to begin collecting/centralizing user data.
+
+## 9.1 Exposure must be recorded, not guessed
+
+Design a future `QuestionExposureEvent` shape with at least:
+
+- Local profile/verified player ID if one exists at the time of collection.
+- Canonical question ID and **question version** (plus form/version if relevant).
+- Event/session ID, timestamp and encounter context.
+- Displayed/answered/skipped status and verified result when applicable.
+- Content/curriculum version and deduplication information.
+- Optional local privacy/retention policy.
+
+**Unknown is not zero.** Do not backfill historical exposures from ranking, earned RP, age, inferred knowledge, question count, or incomplete saved sessions. When a player's actual exposure history was never logged, keep it `unknown` rather than asserting the player has never seen the item. Prefer immutable append-only events or defensible aggregate lineage when implemented in a future release.
+
+During this migration, define only the schema/adapter contract and, if warranted by existing data, a clearly labeled legacy mapping. Do not silently create new analytics tracking or upload existing memorisation content. Any optional new local exposure collection must be separately documented, privacy-reviewed and tested before activation.
+
+## 9.2 Future adaptive question selection
+
+- Standard solo rotation preserves existing measurable behavior now.
+- Future adaptive strategies should use the actual student's question history, verified mastery/evidence, concept coverage and variation—not merely rank.
+- Randomness should be seedable for tests; no adaptive algorithm is permitted to permanently exclude valid content accidentally.
+- Define a strategy interface, not a live adaptive behavior change during migration.
+
+## 9.3 Competitive fairness requirements to document
+
+- Ordinary multiplayer is **standard shared competition**: all players in a match receive the same question content/conditions, with no undisclosed adaptive advantage.
+- A distinct **optional Balanced Competition** may eventually be agreed to by participants for mixed-experience matches.
+- Never auto-adjust simply because one participant has a higher rank.
+- Only consider question-specific exposure adjustment when actual logs show the more-experienced player has encountered that particular question **at least twice** (provisional criterion), while comparing the lower-ranked player's recorded encounters too.
+- Exposure to an old question version is not necessarily equivalent to exposure to a substantially rewritten question.
+- Surface the mode clearly and agree on the rules; anti-gaming, fairness and exact adjustment algorithm belong to later backend design.
+
+These rules are **documentation/contracts only** now. Do not modify current quiz selection based on this prospective policy.
+
+## 9.4 Keep progress systems conceptually independent
+
+- **Journey RP** measures long-term earned engagement/progression.
+- **Competitive skill rating** measures demonstrated performance against other players.
+- **Game score** is a per-session result.
+- **Category mastery medal** requires repeated successful evidence across every applicable question form and multiple opportunities, not one high score or a repeated fixed question.
+- Current draft long-term Conformer progression targets approximately **18 months minimum** of sustained participation, with policy/versioning and future community-growth adjustments; no RP/rank activation is authorized here.
+
+Do not merge these into a single “level” property in the core quiz domain. Define separate future-facing names and interfaces/documentation only.
+
+## 9.5 Future multiplayer security boundary
+
+Online competitive answers must eventually be decided by a trusted server. The offline bundled quiz necessarily exposes its local question/answer data to clients and **must not be assumed secure for high-stakes multiplayer**. Document a later protected competitive bank, trusted scoring, room authorization and synchronized session design. Never build these live services within this migration scope.
+
+Historic draft multiplayer room limits varied (for example 18 participants including host versus a later 20-player concept). **Do not freeze a room capacity into today's solo migration**; future multiplayer implementation must follow its own final signed-off spec.
+
+---
+
+# 10 — REACT 19 COMPONENT MIGRATION AND STATE SAFETY (PHASE 2)
+
+Complete one real working vertical slice at a time. A visual shell without connected features does not pass.
+
+## 10.1 Initial conversion order
+
+1. Verify compiler/toolchain versions and real repository scripts.
+2. Scaffold/continue React 19 + Vite + strict TS within the established repository without overwriting the archived legacy source.
+3. Recreate base typography, spacing, dark/navy/gold styling, original assets and SVG symbols faithfully.
+4. Move mode-selection and main navigation, wired to actual game logic.
+5. Move solo gameplay and results: question selection, option render, timer, submit, correct/wrong reveal, score, explanation, progress, finish/quit/replay.
+6. Move Character Study List and its actual interactions.
+7. Move all actual KJV Scripture Session submodes, including Scripture/Miracles/Parables paths when present.
+8. Move Scripture Memorisation: home/list/library, add/edit/delete, active/paused states, long-passage view, unfinished work, review/due and backup/progress.
+9. Move settings, remaining hidden dialogs, restore controls and overlooked legacy features revealed by Phase 0.
+10. Replace DOM mutation logic with React state, props, reducers and event handlers. Use refs for genuinely imperative focus/canvas integrations with proper cleanup.
+
+## 10.2 Correct component/state behavior
+
+- Use a reducer or explicit state machine for quiz states such as `idle`, `ready`, `active`, `answer-committed`, `feedback`, `completed`, `aborted` and `resumed` **only where those states map to actual source behavior**.
+- Commit answers atomically; repeated clicks, Enter presses, touch+click duplicates and race conditions must never award double points.
+- Keep a stable `sessionId` and question identity; do not accidentally count renders as questions encountered.
+- Use monotonic elapsed time / deadline calculations where appropriate, while preserving original countdown length, pause and time-penalty rules.
+- StrictMode effect setup/cleanup must not duplicate listeners, initialize data twice, multiply reviews or reset sessions unexpectedly.
+- Guard navigation and unmount against stale timers, delayed feedback and late state updates.
+- Preserve behavior on refresh/back/forward and when switching Scripture passages; record current baseline rather than introducing arbitrary auto-resume.
+- Use stable React list keys independent from display order.
+- Maintain correct ARIA announcements for answer feedback and review states, keyboard focus after dialogs/routes, and non-color-only correct/wrong indicators.
+- Manage long KJV passages without truncation or broken Unicode segmentation; avoid unsafe `dangerouslySetInnerHTML` with user-provided content.
+- Keep all buttons live. If an existing action is truly unavailable because of environment constraints, display a clear disabled/error state instead of pretending it works.
+
+## 10.3 Rendering/visual acceptance
+
+Run browser-based comparisons (when available) at 320, 360, 768 and desktop widths for homepage, quiz, results, Character Study, Scripture Session, Memorisation, editor, backup and overlays. Preserve app character while correcting real accessibility bugs **without replacing design language**. Do not apply the 300-screen prototype or an unslop/shadcn redesign in this migration phase.
+
+**GATE 2 PASS:** All source-confirmed user journeys work in React from real content; strict TS, unit/component and build checks execute; no missing feature, dead control, or known severe behavioral regression.
+
+---
+
+# 11 — LEGACY DATA, VERSIONING, EXPORT/IMPORT AND RECOVERY (PHASE 3)
+
+User-created Scripture content and study history are high-value data. Treat migration as a formal, reversible data transfer.
+
+## 11.1 Understand origin separation
+
+- An old `file://` HTML app, a local dev server and a new `https://` deployment usually use different browser storage origins/contexts.
+- React on a new domain **cannot automatically read** storage from the old HTML or another origin.
+- Provide a truthful migration bridge: old app JSON export -> user saves file -> new React import with preview and confirmation -> persisted data reload verification.
+- Do not claim one-click automatic import across origins without an explicit, functional bridge.
+
+## 11.2 Backup specification
+
+Use a versioned, portable JSON format with fields or equivalent source-derived data:
+
+```json
+{
+  "format": "bible-mastery-backup",
+  "schemaVersion": 1,
+  "exportedAt": "ISO-8601 date",
+  "sourceAppVersion": "source-derived version",
+  "records": {
+    "customScriptures": [],
+    "memorisationProgress": [],
+    "reviewHistory": [],
+    "quizProgress": [],
+    "preferences": {}
+  }
+}
+```
+
+This example is **illustrative only**. The actual importer/exporter must account for *every* real persisted source field, including obscure state, active/paused flags, progress and review timestamps. Never erase fields to fit an illustrative schema.
+
+## 11.3 Required migration behaviors
+
+1. Inventory each legacy key and every schema variant actually found; create fixtures from real source exports where possible.
+2. Implement original app export support without modifying the immutable original file (a separately versioned legacy export-helper copy may be created, or document existing export capability).
+3. Validate file type, structure, schema version, bounded size, required fields, IDs, timestamps, text, and unsupported future versions at import time.
+4. Show preview: estimated records, Scripture counts, conflicts, destination and resulting overwrite/merge plan before committing.
+5. Provide explicit **merge vs replace** semantics and safe confirmation. Replace requires a recoverable pre-import backup.
+6. Preserve exact UTF-8/KJV/user passage text, punctuation, newlines and metadata; no silent normalization of original content.
+7. Use transactional writes or a staging/checkpoint/rollback process. A partially failed import must not leave a half-replaced user library.
+8. Repeated imports must be idempotent or clearly describe duplicate resolution; no accidental multiplying of passages/progress.
+9. Protect against malformed JSON, missing fields, unsupported schema, null values, invalid dates, quota limits, interrupted import, cancelled import and corrupted local state.
+10. For same-origin upgrades, create safe versioned migration to IndexedDB **only if justified**, with idempotence and test-driven compatibility. Preserve legacy keys until successful verified restoration and rollback availability.
+11. Ensure a user can export again after migration and reload a new tab/browser session to verify persistence.
+12. Never send personal Scripture, quiz history, diagnostics or backups to external services automatically.
+
+## 11.4 Recovery and privacy acceptance
+
+- Test source export -> React import -> refresh -> export -> semantic full-field comparison.
+- Test pre-import backup restore after a forced failure.
+- Test two different Scriptures with independent unfinished progress and pausing states.
+- Test long passages, non-ASCII punctuation and newlines.
+- Test invalid input has zero destructive side effects.
+- Give nontechnical users a short recovery guide, with screenshots where available.
+
+**GATE 3 PASS:** Every supported legacy data class survives export/import or documented same-origin transition with exact field reconciliation and proven rollback. If a schema cannot be migrated yet, do not claim full migration.
+
+---
+
+# 12 — OFFLINE FIRST, PWA CACHING AND UPDATE SAFETY (PHASE 4)
+
+Retain the archived self-contained HTML as an independent offline fallback. Make the compiled React solo application work offline **after a successful initial visit/install and cache warm-up**.
+
+## Required behavior
+
+- Bundle the actual Bible question bank, necessary local content, scripts, styles, icons and fonts for offline use; avoid critical runtime CDN dependencies.
+- Configure a correct PWA manifest/service worker when needed; use a minimal strategy suitable for a static Vite app.
+- Test through a **production build/preview or appropriate HTTP(S) environment**, not merely Vite dev server or a loaded tab that never reloads.
+- Warm cache, fully disable network, close/reload the page, select a quiz mode, complete an actual session, review/edit Scripture, save and reload the browser again.
+- Clearly document that a never-visited app **cannot bootstrap offline** without previously cached assets.
+- Prevent caches from overwriting IndexedDB/local user data; separate static asset caching from persistent personal records.
+- Handle app updates carefully: activation of new service worker, outdated asset references, cache cleanup, recoverable version mismatch and no mysterious blank screen.
+- Confirm offline creation of custom Scripture survives app reload and later reconnect.
+- If a service worker migration is risky, introduce tested user-visible update controls rather than forced destructive reloads.
+- Do not assert offline readiness without an actual network-disabled fresh reload and test log.
+
+**GATE 4 PASS:** Real offline quiz and memorisation user journeys work in a cached production-style build, user data survives refresh/update, and limits are accurately documented.
+
+---
+
+# 13 — ACCESSIBILITY, RESPONSIVENESS AND VISUAL PARITY (PHASE 5)
+
+Do not do a new design rollout. Preserve all original illustrated visual language and then correct issues that materially prevent use.
+
+- Check 320px, 360px, tablet, laptop and wide desktop layouts; no unnecessary horizontal overflow.
+- Confirm typography remains readable, controls have usable touch targets, focus states are visible, dialogs are navigable and modal focus returns correctly.
+- Ensure field labels, grouped answer choices, accessible error messages, headings, status/progress indication, keyboard and screen-reader feedback.
+- Use semantic buttons/inputs instead of clickable `div` controls; honor reduced-motion settings without disabling essential game logic.
+- Verify long Scripture text scroll, copy/paste, wrapping, expansion and input method/editor behavior on mobile.
+- Audit contrast of navy/gold states, wrong/correct feedback, user-entered text and icons.
+- Preserve source SVG mascot and artwork appearance; inspect rendered results, symbol IDs, viewboxes, gradients and animated states, not merely existence in `public/`.
+- Ensure timers and feedback changes do not steal focus or make gameplay inaccessible.
+- For critical screens, collect screenshot comparisons or explicitly record tooling limitations.
+- Refactor CSS only to eliminate collisions and make it maintainable; do not silently change screen information architecture.
+
+**GATE 5 PASS:** Original interface character retained; primary journeys responsive, keyboard-usable and screen-reader interpretable; screenshots/test evidence supplied.
+
+---
+
+# 14 — SECURITY, PRIVACY, PERFORMANCE AND CODE QUALITY
+
+## Security and privacy
+
+- Escape user input through normal React text rendering; sanitize any unavoidable rich HTML via a reviewed approach; do not blindly set `innerHTML` from imported Scripture or backup data.
+- Prevent unsafe JSON import and prototype-pollution-like key handling; runtime-validate all untrusted persisted/imported records.
+- No embedded service-role keys, database passwords, credentials or secrets. Do not ask the user to paste them in chat or commit them.
+- No silent third-party telemetry, remote Scripture synchronization or external AI question generation.
+- Document that client-bundled offline answers are visible and **not secure for trusted online competitive scoring**.
+- Keep future online API assumptions behind typed interfaces; do not pretend a frontend-only anti-cheat scheme is authoritative.
+
+## Performance and maintainability
+
+- Avoid parsing a massive HTML literal bank on every render; use checked extracted modules and lightweight indexing.
+- Avoid turning every question into a separate module if it inflates build complexity; select a sensible data bundling strategy.
+- Use memoization only when profiling justifies it; prevent rerender storms from countdown/option state.
+- Preserve deterministic timing and selection semantics; no leaking interval/listener/event handlers.
+- Avoid adding packages without articulating their use, size and compatibility.
+- Ensure lint, typecheck, test and build commands are stable and documented.
+- Protect future migration paths: do not hardcode dependence on browser-only APIs in pure question evaluation.
+
+---
+
+# 15 — QUALITY ASSURANCE, ORIGINAL T01–T28 SUITE AND EXTRA TESTS (PHASE 6)
+
+**Every test starts `NOT RUN` until evidence proves otherwise.** Preserve the original migration acceptance IDs so old and new reports are comparable.
+
+## Original mandatory acceptance suite
+
+- **T01**: Original legacy HTML opens/runs and immutable SHA-256 stays unchanged.
+- **T02**: React homepage and mode selection match source behavior and design.
+- **T03**: Complete Old Testament session yields correct score, explanation and result.
+- **T04**: Complete New Testament session yields correct score, explanation and result.
+- **T05**: Complete Mixed Bible session yields correct score, explanation and result.
+- **T06**: Hard Mode works with real source content and original difficulty rules.
+- **T07**: Full bank counts reconcile; question/reference/correct-answer mappings survive.
+- **T08**: Seen valid questions may recur; no permanent bank exhaustion or abnormal repeats.
+- **T09**: Character Study List and confirmed navigation function.
+- **T10**: Scripture Session KJV and all confirmed submodes function.
+- **T11**: Custom Scripture add/edit/delete/pause/activate preserve text and metadata.
+- **T12**: Long memorisation passages collapse/chunk without lost text or progress.
+- **T13**: Independent active Scripture sessions remain independent on switching.
+- **T14**: Review scheduling, history and due dates survive refresh with original semantics.
+- **T15**: Legacy JSON export imports into React on another origin with complete field parity.
+- **T16**: Malformed/malicious/unsupported backup is rejected without partial data corruption.
+- **T17**: Merge/replace conflicts are explicit, backup-first, tested and reversible.
+- **T18**: Same-origin legacy upgrade is idempotent and retains old recoverable data.
+- **T19**: Cached React site works and persists through a true network-off reload.
+- **T20**: Service worker/app update preserves persistent data and avoids stale-shell failure.
+- **T21**: Keyboard/focus/reduced-motion/screen-reader basics pass; no double-answer awards.
+- **T22**: 320px, 360px, tablet and desktop primary journeys are readable without horizontal overflow.
+- **T23**: Actual production build and `dist/` preview work with no hidden runtime errors.
+- **T24**: Original SVG illustrations, theme, wording and app personality are preserved.
+- **T25**: No dead/dummy controls, stale unmounted timers or accidental external dependencies.
+- **T26**: Cancelled import, storage quota failure and corrupted saved state recover safely.
+- **T27**: Reload/navigation resume/reset behavior matches the confirmed legacy flow.
+- **T28**: Every significant change maps to source; final parity matrix has no unexplained omissions.
+
+## Required supplementary tests
+
+- **X01**: Exact authored record/template counts by mode and category; no accidental many-to-one ID collisions.
+- **X02**: Seeded shuffling preserves correct semantic answer, source reference and explanation.
+- **X03**: Identically named biblical characters/places are not automatically merged.
+- **X04**: User Scripture newline, Unicode and long-text exact round-trip.
+- **X05**: Rapid clicks, repeated Enter, quick navigation and unmount cannot double-score.
+- **X06**: StrictMode renders/effects cannot duplicate content imports, data migrations or listeners.
+- **X07**: Switching between multiple active passages retains separate progress and due dates.
+- **X08**: Backup import operations can retry/recover following simulated failure.
+- **X09**: Existing question bank is usable offline without runtime third-party requests.
+- **X10**: `QuestionExposureEvent` future contract treats missing historical exposure as UNKNOWN; no fabricated backfill.
+- **X11**: Future category/rank/medal contracts are separated but do not activate product features.
+- **X12**: Cross-browser/reduced-motion and focus path checks where tools are available.
+- **X13**: PWA update and app-shell caching preserve personal data after version change.
+- **X14**: Built JS/CSS assets load from the actual `dist/`, including refresh and deep links if routes exist.
+- **X15**: Browser console and network logs contain no surprising failures during critical paths.
+
+## Test execution obligations
+
+Execute applicable scripts **from the real package.json**; create them where appropriate:
+
+```bash
+npm ci
+npm run typecheck
+npm run lint
+npm run test
+npm run test:e2e
+npm run build
+npm run preview
+```
+
+Use genuine browser automation/screenshots where available. Attach command, working directory, timestamp, versions, exit code, a useful excerpt or artifact link, tested browser/device and the result. If `npm ci` cannot run because no lockfile is present in an early phase, document why and create a reproducible lockfile before Gate 6. If `test:e2e` was not installed/executed, mark `NOT RUN`; do not infer success from a passing build. Run key regression tests after **every** later migration change affecting an earlier gate.
+
+**Gate 6 PASS:** Mandatory suite has executed appropriately with transparent results; no critical data loss or existing-feature omissions remain; source and build are reproducible. Any environmental exceptions must be explicit and cannot be misrepresented as passing.
+
+---
+
+# 16 — DELIVERY, RELEASE READINESS AND ROLLBACK (PHASE 7)
+
+The deliverable is a real repository implementation, not a strategy memo.
+
+## Required files and documents
+
+```text
+docs/BASELINE_AUDIT.md
+docs/FEATURE_PARITY_MATRIX.md
+docs/STORAGE_INVENTORY.md
+docs/QUESTION_CONTENT_AUDIT.md
+docs/LEGACY_DEFECTS.md
+docs/REQUIREMENT_CONFLICTS.md          (when applicable)
+docs/ARCHITECTURE_DECISIONS.md
+docs/FUTURE_ONLINE_CONTRACTS.md
+docs/DATA_MIGRATION_AND_RECOVERY.md
+docs/OFFLINE_TEST_REPORT.md
+docs/TEST_REPORT.md
+docs/MIGRATION_STATUS.md
+docs/DEPLOYMENT_AND_ROLLBACK.md
+docs/CHANGELOG.md
+legacy/ORIGINAL_SHA256.txt
+legacy/original/                      (byte-for-byte original)
+tests/fixtures/legacy/               (true source-derived fixtures)
+README.md
+package.json
+package-lock.json
+src/                                  (real complete React implementation)
+public/                               (required original/static assets)
+dist/ or verified build artifact       (when generated)
+```
+
+Ensure Git ignore files do not accidentally include secrets or destroy important backups. If `dist/` is not committed by repository convention, provide proven build path and resulting archived artifact for handoff as appropriate.
+
+## README for a novice
+
+Explain in clear steps:
+
+1. Which repository/folder contains Bible Mastery; which legacy HTML is untouched.
+2. Which Node version is supported and how to install/use it.
+3. Running `npm ci`, `npm run dev`, testing and `npm run build`.
+4. Where compiled files are, and how to preview them.
+5. What works offline, when it becomes available and how to confirm it.
+6. How to export from the old HTML and import into the new app.
+7. How to back up, restore and roll back without losing Scripture data.
+8. What remains **future scope** (online multiplayer, content expansion, design overhaul).
+9. Exact known limitations and environmental blockers.
+
+## Deployment boundary
+
+You may document optional Cloudflare Pages hosting for Vite: typical build `npm run build`, output `dist`, with SPA refresh handling as required. Do **not** deploy, buy a domain, configure payments, connect real Supabase credentials or publish without my separate approval. Free-tier assumptions and hosting instructions must be checked against current provider documentation when deployment is actually authorized.
+
+## Gate 7 acceptance
+
+- React app runs from its actual production build, with feature/data integrity proven.
+- Legacy original is recoverable; export/import and rollback are tested/documented.
+- Offline capabilities are tested; no misleading claims about use before first cache.
+- All required reports, issue register and source-to-target evidence exist.
+- Current implementation is distinguishable from future plans.
+- Final GO/NO-GO decision is supported by evidence.
+
+---
+
+# 17 — STOP CONDITIONS, BLOCKER HANDLING AND DISCIPLINE
+
+Stop the **dependent next phase**, not all safe independent work, if:
+
+- The latest original source cannot be identified or preserved.
+- A source bank or backup would be lost or silently corrupted.
+- Crucial legacy question counts cannot be reconciled.
+- Required behavior is missing from the React build.
+- The browser data bridge has untested destructive edge cases.
+- Offline functionality is claimed but not verified.
+- Typecheck/build cannot succeed and no explicit blocker is documented.
+- A proposed change requires connecting a live backend, billing, production deployment or credentials outside approved scope.
+
+For failures: reproduce the earliest relevant gate, identify root cause, apply the smallest safe fix, rerun targeted and regression tests, update the issue register and report status. Do not skip a red gate or silently remove the failing feature to make tests green. Do not promise “I'll finish later” without providing current saved code, evidence and a deterministic continuation command.
+
+---
+
+# 18 — STANDARD RESPONSE FORMAT FOR EVERY CODEX PHASE
+
+At the end of each phase, output **all** of the following, grounded in files and executed evidence:
+
+```text
+BIBLE MASTERY MIGRATION — PHASE REPORT
+Date / Git revision / workspace:
+Current phase and original gate number:
+Gate status: PASS | PARTIAL | FAIL | BLOCKED | NOT RUN
+
+1. SOURCE/BACKUP
+   Exact original selected; archived path; SHA-256; what remains unchanged.
+
+2. CHANGES IMPLEMENTED
+   Exact file paths and concise behavior changes (not vague claims).
+
+3. QUESTION/USER DATA RECONCILIATION
+   Source record counts by collection; target counts; exceptions; storage risks.
+
+4. FEATURE PARITY
+   Newly passed rows; unresolved rows; legacy behaviors verified.
+
+5. COMMANDS ACTUALLY RUN
+   Commands, working directory, exit code, summary and test artifact paths.
+
+6. VISUAL/BROWSER/OFFLINE EVIDENCE
+   Real screenshots/browser logs or clearly marked NOT RUN.
+
+7. DEFECTS, RISKS, BLOCKERS
+   Severity; reproducible symptom; root cause; owner action if necessary.
+
+8. SCOPE CHECK
+   Confirm no unapproved Supabase, multiplayer, paid features, redesign or bulk bank expansion.
+
+9. RELEASE STATUS
+   PASS/NO-GO with justification; no unsupported completion percentages.
+
+10. NEXT EXACT CODEX COMMAND
+    Include a copy-and-paste-ready instruction for the next permitted gate.
+```
+
+Maintain `docs/MIGRATION_STATUS.md` as durable resumable state after each action. On a new session, read it and inspect the real repository before continuing. Source-control commits should be small/reviewable when Git access permits.
+
+---
+
+# 19 — CODEX EXECUTION COMMANDS (SEND ONE AT A TIME)
+
+## START PHASE 0 — FORENSIC AUDIT
+
+> Read the full Bible Mastery Ultimate Migration Master Prompt and all supplied source documents. Inspect the ACTUAL repository and all historical HTML versions, including any existing React migration state. Identify the newest genuinely functioning original, archive it byte-for-byte, compute SHA-256, catalog every mode, screen, question bank/template, event handler, SVG, CSS asset and persistence key. Capture baseline tests/screenshots where possible. Create the mandatory audit, storage, parity and migration-status documents. DO NOT scaffold a generic React shell yet. Report Gate 0 with exact evidence. Only proceed to Phase 1 if Gate 0 is PASS.
+
+## CONTINUE PHASE 1 — PURE ENGINE
+
+> Read `docs/MIGRATION_STATUS.md`, verify Gate 0 evidence, and convert real source Bible banks, generators, scoring, rotation, option shuffling, KJV handling and memorisation scheduling into strict typed pure modules. Reconcile source counts category-by-category, preserve semantic answer keys and provenance, and run seeded deterministic tests. Never remove questionable source items without discrepancy reporting or edit the legacy backup. Prove Gate 1 with actual test outputs.
+
+## CONTINUE PHASE 2 — REACT FUNCTIONAL PARITY
+
+> Read latest gate evidence. If Gate 1 passed, migrate the complete real UI and state flows into React 19 + strict TypeScript + Vite: home/modes, quiz/results, Character Study, KJV Scripture Session, multi-active Scripture Memorisation, editor/library, progress/backup and all source-confirmed controls. Preserve current navy/gold art and existing gameplay. Avoid new online features and 300-screen redesign. Execute typecheck/tests/build/browser checks and prove Gate 2.
+
+## CONTINUE PHASE 3 — SAFE LEGACY DATA
+
+> From Gate 2 PASS, inventory every actual legacy storage schema and build versioned full-field export/import with preview, schema validation, merge/replace confirmation, pre-import backups, rollback and repeated-import safety. Verify old HTML file:// or cross-origin data cannot transfer automatically; provide a real user-controlled JSON bridge. Test broken files, Unicode, long text, multiple active studies, dates and refresh. Prove Gate 3 with complete round-trip evidence.
+
+## CONTINUE PHASE 4 — OFFLINE
+
+> From Gate 3 PASS, implement minimum necessary service-worker/PWA caching, bundle required content/assets and verify a cached production-build app survives a fully offline reload, a complete quiz, Scripture editing, another reload and a version update. Preserve the separate archived offline HTML. Report real network-disabled browser evidence and prove Gate 4.
+
+## CONTINUE PHASE 5 — UI/A11Y
+
+> From Gate 4 PASS, compare React pages with legacy at phone/tablet/desktop sizes, preserve illustrations/brand/labels and fix actual accessibility or layout errors only. Test keyboard, focus, screen reader, touch, reduced motion, modal behavior, long passages and timer cleanup. Selective Radix/shadcn allowed only with evidence and matching design. Prove Gate 5; no broad redesign.
+
+## CONTINUE PHASE 6 — FULL QA
+
+> From Gate 5 PASS, execute all original T01–T28 and applicable supplemental X-tests, plus `npm ci`, strict typecheck, lint, unit/integration, browser e2e, production build and preview. Fix defects and rerun regressions. Attach command/output/browser evidence. Mark unrun cases NOT RUN. No false GO before source questions, user backup, offline and original interactions pass. Prove Gate 6.
+
+## CONTINUE PHASE 7 — HANDOFF
+
+> From Gate 6 PASS, finish the complete React source and lockfile, real production build, original legacy backup/checksum, all documentation, question/data parity report, safe import/export guide, offline proof, beginner instructions, issue register and rollback plan. Do not publish or connect production services without permission. Give evidence-based final GO/NO-GO and a clean future-online handoff.
+
+## REPAIR EARLIEST BLOCKED GATE
+
+> Re-read `docs/MIGRATION_STATUS.md`, the parity matrix and test report. Find the earliest incomplete/failed preservation gate, reproduce the exact issue, make the smallest reversible fix, run targeted and regression tests, and update reports. Do not jump ahead, suppress tests or replace functionality with placeholders. State new gate status and next safe command.
+
+## FINAL FORENSIC PARITY AUDIT
+
+> Independently compare the completed React app against the untouched original for every confirmed screen, mode, question-bank record, memorisation operation, timer, key, storage field, backup, offline step, mobile screen and SVG. For each feature cite source location, React implementation and actual test evidence. Reconcile all question counts and user data. Report deficiencies and release GO/NO-GO; compilation alone is insufficient.
+
+---
+
+# 20 — FINAL FIRST ACTION: DO THIS NOW
+
+**Start by inspecting the actual Bible Mastery repository and latest working files.**
+
+1. Read this entire prompt and any available original migration-only prompt.
+2. Read current repository documentation and `docs/MIGRATION_STATUS.md` if it already exists.
+3. Discover every candidate HTML/original and the current migration state; do not assume an old filename is newest.
+4. Carry out Phase 0 **before any React conversion or product redesign**: immutable backup, SHA-256, exact source questions/sections, storage inventory, baseline screenshots/tests and parity map.
+5. If the repository already has verified completed gates, preserve that work and resume from the earliest unverified gate instead of restarting.
+6. If Gate 0 is genuinely green, begin Phase 1 using the actual source and deterministic tests.
+7. Report exact code/files/evidence, blockers and next phase. No invented achievements; no unauthorized live service deployment.
+
+## Definition of DONE
+
+**A successful migration exists only when** the actual React 19 + TypeScript production app runs, all verified original quiz and Scripture-study user journeys function, every source data record is accounted for, legacy personal data has a proven recoverable path, offline behavior genuinely works after caching, original art/visual personality are retained, the untouched original still runs, and every acceptance claim is supported by executed evidence.
+
+A scaffold, screenshots, copied JSX, a passing compile, a few demonstration questions, simulated data or a mock leaderboard **does not qualify as a completed Bible Mastery migration**.
+
+---
+
+# 21 — OFFICIAL IMPLEMENTATION REFERENCES TO VERIFY WHEN EXECUTING
+
+- React 19: https://react.dev/versions and https://react.dev/blog/2024/04/25/react-19-upgrade-guide
+- Vite: https://vite.dev/guide/
+- TypeScript: https://www.typescriptlang.org/docs/
+- Vitest: https://vitest.dev/guide/
+- React Testing Library: https://testing-library.com/docs/react-testing-library/intro/
+- Playwright: https://playwright.dev/docs/intro
+- IndexedDB: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+- Service Worker: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+- shadcn/ui (optional): https://ui.shadcn.com/docs/installation/vite
+- Cloudflare Pages, later authorized hosting: https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/
+
+**END OF MASTER PROMPT — BIBLE MASTERY REACT MIGRATION**

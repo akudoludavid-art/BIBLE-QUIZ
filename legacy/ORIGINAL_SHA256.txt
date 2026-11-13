@@ -1,0 +1,20 @@
+[
+  {
+    "archive": "legacy/original/Bible_Mastery_Quiz_v14_Ultra.html",
+    "source": "Bible_Mastery_Quiz_v14_Ultra.html",
+    "sha256": "61903e3bdcdd89bca784fe9fcb327d16fc5068811d63fbce0bb11e41ab60e05a",
+    "bytes": 696719,
+    "commit": "2b28404fcb361e73e03882d172f9435fb2a53fc4",
+    "preservedAt": "2026-11-13T10:24:49.208470+00:00",
+    "provenance": "Repository original; uploaded v14 independently matches repository checksum"
+  },
+  {
+    "archive": "legacy/original/Bible_Mastery_Quiz_v13_Simplified_Memorisation.html",
+    "source": "original/Bible_Mastery_Quiz_v13_Simplified_Memorisation.html",
+    "sha256": "d11a66a5c5980dbaff0a8279e7b6337895783e4d6189ee12c75dcdf8e913deff",
+    "bytes": 170476,
+    "commit": "2b28404fcb361e73e03882d172f9435fb2a53fc4",
+    "preservedAt": "2026-11-13T10:24:49.215594+00:00",
+    "provenance": "Available historical v13 source"
+  }
+]
